@@ -407,10 +407,13 @@ Project: Grupo Testop Finanças Legacy System Analysis
 
 ### For Questions About The System
 
-**Grupo Testop IT Department**
+**Tes-Top (Point of Contact)**  
+Younus Mohammed  
+Tel: (+258) 843030477
 
-- Nunes Pedro: it.nunes@q99.co.mz
-- Edson Paporo: it.paporo@testop.co.mz
+**IT Department - Technical Support**  
+Onésimo Metro  
+Tel: (+258) 848938851
 
 **Company Contact**
 

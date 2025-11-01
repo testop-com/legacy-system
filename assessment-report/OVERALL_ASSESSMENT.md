@@ -491,10 +491,13 @@ Organization: TECMOZA
 
 **For Technical Support**:
 
-Grupo Testop IT Department
+**Tes-Top (Point of Contact)**  
+Younus Mohammed  
+Tel: (+258) 843030477
 
-- it.nunes@q99.co.mz
-- it.paporo@testop.co.mz
+**IT Department - Technical Support**  
+Onésimo Metro  
+Tel: (+258) 848938851
 
 ---
 

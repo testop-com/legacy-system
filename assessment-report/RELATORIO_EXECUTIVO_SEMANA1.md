@@ -1373,10 +1373,13 @@ Telefone: [A fornecer]
 
 **Para Questões Técnicas (Equipa Interna)**:
 
-Departamento de TI do Grupo Testop
+**Tes-Top (Ponto Focal)**  
+Younus Mohammed  
+Tel: (+258) 843030477
 
-- Nunes Pedro: it.nunes@q99.co.mz
-- Edson Paporo: it.paporo@testop.co.mz
+**Departamento de Informática - Suporte Técnico**  
+Onésimo Metro  
+Tel: (+258) 848938851
 
 **Para Questões de Negócio**:
 

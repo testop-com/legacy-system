@@ -258,8 +258,11 @@ Organization: TECMOZA
 
 **For Technical Support**:
 
-Grupo Testop IT Department  
-Email: it.nunes@q99.co.mz, it.paporo@testop.co.mz
+**Tes-Top (Point of Contact)**  
+Younus Mohammed - Tel: (+258) 843030477
+
+**IT Department - Technical Support**  
+Onésimo Metro - Tel: (+258) 848938851
 
 **For Business Inquiries**:
 

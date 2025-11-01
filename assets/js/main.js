@@ -25,13 +25,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         e.preventDefault();
         const target = document.querySelector(this.getAttribute('href'));
         if (target) {
-            const navbar = document.getElementById('navbar');
-            const navbarHeight = navbar ? navbar.offsetHeight : 0;
-            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
-            
-            window.scrollTo({
-                top: targetPosition,
-                behavior: 'smooth'
+            // Use native scrollIntoView with scroll-margin-top from CSS
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
             });
         }
     });
@@ -133,7 +130,7 @@ document.querySelectorAll('.doc-card, .schema-card, .guide-item, .role-card, .sy
 
 // Track downloads (for analytics if needed)
 document.querySelectorAll('a[download]').forEach(link => {
-    link.addEventListener('click', function() {
+    link.addEventListener('click', function () {
         const fileName = this.getAttribute('href');
         console.log('Download:', fileName);
         // Here you could send analytics data if needed
@@ -142,7 +139,7 @@ document.querySelectorAll('a[download]').forEach(link => {
 
 // Track external links
 document.querySelectorAll('a[target="_blank"]').forEach(link => {
-    link.addEventListener('click', function() {
+    link.addEventListener('click', function () {
         const linkUrl = this.getAttribute('href');
         console.log('External link:', linkUrl);
         // Here you could send analytics data if needed
@@ -167,7 +164,7 @@ window.addEventListener('load', () => {
     console.log('✅ Página carregada com sucesso!');
     console.log('📊 Documentação completa: Base de Dados + Código-Fonte');
     console.log('🔧 Navegação: Use o menu superior para navegar entre secções');
-    
+
     // Set initial active section
     updateActiveSection();
 });

@@ -1,7 +1,7 @@
-# 🔧 Correção da Barra de Navegação Fixa
+# 🔧 Correção da Barra de Navegação Fixa - v2
 
 **Data:** 01 de Novembro de 2025  
-**Status:** ✅ **CORRIGIDO**
+**Status:** ✅ **CORRIGIDO (v2 - Final)**
 
 ---
 
@@ -52,16 +52,72 @@ header[id],
 
 ---
 
-### 3. Adicionado Scroll-Margin ao Header
+### 3. Aumentado Scroll-Margin ao Header
+
+**v2 (FINAL):**
 
 ```css
 .header {
   /* ... outras propriedades ... */
-  scroll-margin-top: 90px;
+  scroll-margin-top: 120px;
 }
 ```
 
-**Motivo:** O header (#home) também precisa do scroll-margin para aparecer corretamente quando o usuário clica em "Início".
+**Motivo:** O header (#home) também precisa do scroll-margin aumentado para aparecer corretamente quando o usuário clica em "Início".
+
+---
+
+### 4. Otimizado Layout do nav-logo
+
+**Adicionado:**
+
+```css
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-logo h2 {
+  line-height: 1.2;
+}
+
+.nav-subtitle {
+  line-height: 1;
+}
+```
+
+**Motivo:** Melhor alinhamento do logo com o texto, reduzindo altura desnecessária.
+
+---
+
+### 5. Simplificado JavaScript de Scroll
+
+**Antes (v1):**
+
+```javascript
+const navbar = document.getElementById("navbar");
+const navbarHeight = navbar ? navbar.offsetHeight : 0;
+const targetPosition =
+  target.getBoundingClientRect().top + window.pageYOffset - navbarHeight;
+
+window.scrollTo({
+  top: targetPosition,
+  behavior: "smooth",
+});
+```
+
+**Depois (v2 - FINAL):**
+
+```javascript
+// Use native scrollIntoView with scroll-margin-top from CSS
+target.scrollIntoView({
+  behavior: "smooth",
+  block: "start",
+});
+```
+
+**Motivo:** Deixar o CSS `scroll-margin-top` fazer o trabalho (solução moderna e mais confiável). O JavaScript não precisa calcular manualmente a altura da navbar.
 
 ---
 
@@ -299,6 +355,29 @@ header[id],
 ---
 
 **Data:** 01 de Novembro de 2025  
-**Versão:** 1.1.2  
+**Versão:** 1.1.2 (v2 - Final)  
 **Por:** TECMOZA  
 **Status:** ✅ Produção Ready
+
+---
+
+## 📝 CHANGELOG
+
+### v2 (Final) - 01/11/2025
+
+- 🔧 Aumentado padding-top: 90px → 120px
+- 🔧 Aumentado scroll-margin-top: 90px → 120px
+- ⚡ JavaScript simplificado (usa scrollIntoView nativo)
+- 🎨 Layout nav-logo otimizado
+- ✅ **Problema completamente resolvido com logo visível**
+
+### v1.5 - 01/11/2025
+
+- 🔧 Aumentado padding-top: 80px → 90px
+- 🔧 Adicionado scroll-margin-top: 90px
+- ⚠️ **Parcial** - Não considerava altura do logo
+
+### v1 (Inicial) - 01/11/2025
+
+- 🔧 Padding-top: 80px
+- ⚠️ **Insuficiente** - Navbar ainda cobria conteúdo

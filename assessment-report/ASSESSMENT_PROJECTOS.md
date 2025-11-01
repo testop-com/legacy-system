@@ -771,7 +771,11 @@ The Projectos system is **well-positioned for enhancement** and should be priori
 
 **For Technical Questions**:
 
-- IT Department: it.nunes@q99.co.mz, it.paporo@testop.co.mz
+**Tes-Top (Point of Contact)**  
+Younus Mohammed - Tel: (+258) 843030477
+
+**IT Department - Technical Support**  
+Onésimo Metro - Tel: (+258) 848938851
 
 **For Business Questions**:
 
