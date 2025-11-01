@@ -1,0 +1,15 @@
+{
+  "name": "legacy-system",
+  "version": "1.0.0",
+  "description": "**Project**: Grupo Testop Legacy Systems Assessment  \r **Assessment Date**: October 16-17, 2025  \r **Assessor**: Evariste Musekwa Iguna (musekwa@tecmoza.com)  \r **Organization**: TECMOZA  \r **Status**: ✅ **Complete**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pandoc": "^0.2.0"
+  }
+}

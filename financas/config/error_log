@@ -1,0 +1,88 @@
+[01-Jan-2024 14:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[01-Jan-2024 14:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[04-Jan-2024 17:49:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[04-Jan-2024 17:49:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[05-Jan-2024 05:10:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[10-Jan-2024 05:14:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[10-Jan-2024 22:47:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[11-Jan-2024 11:47:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[13-Jan-2024 09:38:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[13-Jan-2024 19:54:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[14-Jan-2024 00:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[14-Jan-2024 03:43:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[18-Jan-2024 12:25:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[18-Jan-2024 12:25:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[11-Feb-2024 01:12:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[11-Feb-2024 01:16:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/app.php on line 16
+[11-Feb-2024 01:22:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[11-Feb-2024 01:29:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/app.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/app.php on line 16
+[29-Aug-2024 14:15:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/cache.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/cache.php on line 16
+[29-Aug-2024 14:15:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/queue.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/queue.php on line 18
+[29-Aug-2024 14:15:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function storage_path() in /home/grupotestop/financas.grupotestop.com/config/filesystems.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/filesystems.php on line 48
+[19-Feb-2025 05:42:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/grupotestop/financas.grupotestop.com/config/database.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/grupotestop/financas.grupotestop.com/config/database.php on line 29

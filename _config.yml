@@ -1,0 +1,44 @@
+# GitHub Pages Configuration
+# Documentação Técnica das Bases de Dados - Grupo Testop
+
+title: "Documentação Técnica - Bases de Dados"
+description: "Documentação completa das bases de dados do sistema legacy Grupo Testop"
+author: "TECMOZA"
+email: "musekwa@tecmoza.com"
+
+# Build settings
+theme: null
+plugins: []
+
+# Exclude from processing
+exclude:
+  - README.md
+  - financas/
+  - projectos/
+  - projectos-banco-mundial/
+  - node_modules/
+  - vendor/
+  - assessment-report/
+  - .git/
+  - .gitignore
+
+# Include files
+include:
+  - _config.yml
+  - index.html
+  - DOCUMENTACAO_TECNICA_BASES_DADOS.docx
+  - database_analysis.json
+  - LEIA-ME_DOCUMENTACAO.md
+  - RESUMO_ENTREGA.md
+  - database_schemas/
+
+# Set the base URL (will be set by GitHub Pages automatically)
+baseurl: ""
+url: ""
+
+# Language
+lang: pt
+
+# Timezone
+timezone: Africa/Maputo
+

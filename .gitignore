@@ -1,0 +1,118 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vendor directories
+vendor/
+financas/vendor/
+projectos/vendor/
+projectos-banco-mundial/vendor/
+
+# Framework cache
+financas/bootstrap/cache/*
+projectos/bootstrap/cache/*
+projectos-banco-mundial/bootstrap/cache/*
+financas/storage/framework/cache/*
+projectos/storage/framework/cache/*
+
+# Logs
+*.log
+financas/storage/logs/*
+projectos/storage/logs/*
+projectos-banco-mundial/storage/logs/*
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+financas/.env
+projectos/.env
+projectos-banco-mundial/.env
+
+# Compiled assets
+*.min.css
+*.min.js
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large application directories (exclude from GitHub Pages)
+# Keep only documentation files
+financas/app/
+financas/public/
+financas/resources/views/
+financas/routes/
+financas/tests/
+financas/storage/app/
+financas/storage/framework/
+financas/storage/logs/
+
+projectos/app/
+projectos/public/
+projectos/resources/views/
+projectos/routes/
+projectos/tests/
+projectos/storage/
+
+projectos-banco-mundial/app/
+projectos-banco-mundial/public/
+projectos-banco-mundial/resources/
+projectos-banco-mundial/routes/
+projectos-banco-mundial/storage/
+
+# Keep documentation files (DO NOT IGNORE)
+!DOCUMENTACAO_TECNICA_BASES_DADOS.docx
+!database_analysis.json
+!LEIA-ME_DOCUMENTACAO.md
+!RESUMO_ENTREGA.md
+!GITHUB_PAGES_SETUP.md
+!index.html
+!_config.yml
+!assets/
+!database_schemas/
+
+# Assessment reports (keep for reference but can be excluded from Pages)
+# assessment-report/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Python cache (from our generation scripts - already deleted)
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Composer
+composer.phar
+composer.lock
+
+# Laravel specific
+financas/.phpunit.result.cache
+projectos/.phpunit.result.cache
+

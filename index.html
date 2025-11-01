@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Documentação Técnica das Bases de Dados - Grupo Testop Legacy Systems"
+    />
+    <meta name="author" content="TECMOZA" />
+    <title>Documentação Técnica - Bases de Dados | Grupo Testop</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo">
+            <h1>📊 Grupo Testop</h1>
+            <p>Documentação Técnica das Bases de Dados</p>
+          </div>
+          <div class="header-meta">
+            <span class="badge">11 Bases de Dados</span>
+            <span class="badge">539 Tabelas</span>
+            <span class="badge">~180 MB</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <h2>Documentação Completa em Português 🇵🇹</h2>
+        <p class="hero-subtitle">
+          Análise técnica detalhada de todas as bases de dados do sistema legacy
+          Grupo Testop
+        </p>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-number">11</div>
+            <div class="stat-label">Bases de Dados</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">539</div>
+            <div class="stat-label">Tabelas</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number">180 MB</div>
+            <div class="stat-label">Estrutura SQL</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Navigation -->
+    <section class="main-docs">
+      <div class="container">
+        <h2 class="section-title">📄 Documentação Principal</h2>
+
+        <div class="doc-grid">
+          <!-- Word Document -->
+          <div class="doc-card primary">
+            <div class="doc-icon">📄</div>
+            <h3>Documento Word Completo</h3>
+            <p>
+              Documentação técnica principal com todos os detalhes das 539
+              tabelas
+            </p>
+            <div class="doc-meta">
+              <span>63 KB</span>
+              <span>50+ páginas</span>
+            </div>
+            <a
+              href="DOCUMENTACAO_TECNICA_BASES_DADOS.docx"
+              class="btn btn-primary"
+              download
+            >
+              ⬇️ Download DOCX
+            </a>
+          </div>
+
+          <!-- PDF Summary -->
+          <div class="doc-card">
+            <div class="doc-icon">📊</div>
+            <h3>Resumo Visual (PDF)</h3>
+            <p>
+              Visão consolidada de todas as bases de dados com estatísticas e
+              prioridades
+            </p>
+            <div class="doc-meta">
+              <span>36 KB</span>
+              <span>PDF</span>
+            </div>
+            <a
+              href="database_schemas/RESUMO_BASES_DADOS.pdf"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download PDF
+            </a>
+          </div>
+
+          <!-- JSON Data -->
+          <div class="doc-card">
+            <div class="doc-icon">💾</div>
+            <h3>Dados Técnicos (JSON)</h3>
+            <p>
+              Análise estrutural completa em formato JSON para processamento
+              automatizado
+            </p>
+            <div class="doc-meta">
+              <span>1.09 MB</span>
+              <span>JSON</span>
+            </div>
+            <a href="database_analysis.json" class="btn btn-secondary" download>
+              ⬇️ Download JSON
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guide Documents -->
+    <section class="guides">
+      <div class="container">
+        <h2 class="section-title">📚 Guias de Utilização</h2>
+
+        <div class="guide-list">
+          <a href="LEIA-ME_DOCUMENTACAO.md" class="guide-item" target="_blank">
+            <div class="guide-icon">📖</div>
+            <div class="guide-content">
+              <h3>Guia de Utilização</h3>
+              <p>Instruções completas sobre como usar a documentação</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a href="RESUMO_ENTREGA.md" class="guide-item" target="_blank">
+            <div class="guide-icon">📋</div>
+            <div class="guide-content">
+              <h3>Resumo da Entrega</h3>
+              <p>
+                Checklist e resumo completo de todos os documentos entregues
+              </p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Database Schemas -->
+    <section class="schemas">
+      <div class="container">
+        <h2 class="section-title">🗄️ Esquemas das Bases de Dados (PDF)</h2>
+        <p class="section-description">
+          Diagramas visuais detalhados de cada base de dados
+        </p>
+
+        <div class="schema-grid">
+          <!-- Critical Priority -->
+          <div class="schema-card priority-critical">
+            <div class="schema-header">
+              <span class="priority-badge critical">CRÍTICA</span>
+              <h3>grupotestop_stock</h3>
+            </div>
+            <div class="schema-info">
+              <span>89 tabelas</span>
+              <span>94.70 MB</span>
+            </div>
+            <p>Sistema de Gestão de Stock</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_stock.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-critical">
+            <div class="schema-header">
+              <span class="priority-badge critical">CRÍTICA</span>
+              <h3>grupotestop_salarios</h3>
+            </div>
+            <div class="schema-info">
+              <span>71 tabelas</span>
+              <span>3.40 MB</span>
+            </div>
+            <p>Sistema de Salários e RH</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_salarios.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <!-- High Priority -->
+          <div class="schema-card priority-high">
+            <div class="schema-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>grupotestop_financas</h3>
+            </div>
+            <div class="schema-info">
+              <span>125 tabelas</span>
+              <span>62.53 MB</span>
+            </div>
+            <p>Sistema de Gestão Financeira</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_financas.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-high">
+            <div class="schema-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>grupotestop_attendance</h3>
+            </div>
+            <div class="schema-info">
+              <span>71 tabelas</span>
+              <span>3.87 MB</span>
+            </div>
+            <p>Sistema de Controlo de Presenças</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_attendance.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-high">
+            <div class="schema-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>grupotestop_banco_mundial_stock</h3>
+            </div>
+            <div class="schema-info">
+              <span>60 tabelas</span>
+              <span>15.11 MB</span>
+            </div>
+            <p>Stock do Banco Mundial</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_banco_mundial_stock.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <!-- Medium Priority -->
+          <div class="schema-card priority-medium">
+            <div class="schema-header">
+              <span class="priority-badge medium">MÉDIA</span>
+              <h3>grupotestop_baixadas</h3>
+            </div>
+            <div class="schema-info">
+              <span>36 tabelas</span>
+              <span>0.46 MB</span>
+            </div>
+            <p>Instalações Elétricas</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_baixadas.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-medium">
+            <div class="schema-header">
+              <span class="priority-badge medium">MÉDIA</span>
+              <h3>autobas2_testop_db</h3>
+            </div>
+            <div class="schema-info">
+              <span>36 tabelas</span>
+              <span>~0.30 MB</span>
+            </div>
+            <p>Sistema de Projectos</p>
+            <a
+              href="database_schemas/ESQUEMA_autobas2_testop_db.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <!-- Low Priority -->
+          <div class="schema-card priority-low">
+            <div class="schema-header">
+              <span class="priority-badge low">BAIXA</span>
+              <h3>grupotestop_helpdesk</h3>
+            </div>
+            <div class="schema-info">
+              <span>34 tabelas</span>
+              <span>0.17 MB</span>
+            </div>
+            <p>Sistema de Suporte Técnico</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_helpdesk.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-low">
+            <div class="schema-header">
+              <span class="priority-badge low">BAIXA</span>
+              <h3>grupotestop_meeting</h3>
+            </div>
+            <div class="schema-info">
+              <span>9 tabelas</span>
+              <span>0.14 MB</span>
+            </div>
+            <p>Gestão de Reuniões</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_meeting.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-low">
+            <div class="schema-header">
+              <span class="priority-badge low">BAIXA</span>
+              <h3>grupotestop_archives</h3>
+            </div>
+            <div class="schema-info">
+              <span>5 tabelas</span>
+              <span>0.03 MB</span>
+            </div>
+            <p>Sistema de Arquivo</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_archives.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+
+          <div class="schema-card priority-low">
+            <div class="schema-header">
+              <span class="priority-badge low">BAIXA</span>
+              <h3>grupotestop_ticket</h3>
+            </div>
+            <div class="schema-info">
+              <span>3 tabelas</span>
+              <span>0.02 MB</span>
+            </div>
+            <p>Sistema de Tickets</p>
+            <a
+              href="database_schemas/ESQUEMA_grupotestop_ticket.pdf"
+              class="btn btn-sm"
+              download
+              >Download PDF</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Critical Alert -->
+    <section class="alert-section">
+      <div class="container">
+        <div class="alert alert-critical">
+          <div class="alert-icon">⚠️</div>
+          <div class="alert-content">
+            <h3>Descoberta Crítica</h3>
+            <p>
+              <strong>NENHUMA</strong> das 11 bases de dados possui chaves
+              estrangeiras (FOREIGN KEY) implementadas. Isto representa um risco
+              significativo para a integridade dos dados.
+            </p>
+            <p class="alert-recommendation">
+              Recomendação: Implementação urgente de chaves estrangeiras nas
+              tabelas relacionadas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Start Guide -->
+    <section class="quick-start">
+      <div class="container">
+        <h2 class="section-title">🚀 Início Rápido</h2>
+
+        <div class="role-grid">
+          <div class="role-card">
+            <h3>👔 Executivos</h3>
+            <ol>
+              <li>Baixe o <strong>Documento Word</strong></li>
+              <li>Leia o Resumo Executivo</li>
+              <li>Reveja as Observações Críticas</li>
+            </ol>
+          </div>
+
+          <div class="role-card">
+            <h3>💼 Gestores de TI</h3>
+            <ol>
+              <li>Reveja o <strong>Resumo Visual (PDF)</strong></li>
+              <li>Analise as prioridades</li>
+              <li>Consulte esquemas específicos</li>
+            </ol>
+          </div>
+
+          <div class="role-card">
+            <h3>👨‍💻 Desenvolvedores</h3>
+            <ol>
+              <li>Use o <strong>Documento Word</strong> para estruturas</li>
+              <li>Consulte os <strong>PDFs</strong> para visualização</li>
+              <li>Use o <strong>JSON</strong> para análise programática</li>
+            </ol>
+          </div>
+
+          <div class="role-card">
+            <h3>🔧 DBAs</h3>
+            <ol>
+              <li>Foque nos esquemas detalhados</li>
+              <li>Reveja índices documentados</li>
+              <li>Implemente chaves estrangeiras</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Sobre</h3>
+            <p>Documentação técnica preparada por TECMOZA para Grupo Testop</p>
+            <p class="footer-meta">Data: 01 de Novembro de 2025 | Versão 1.0</p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <p><strong>TECMOZA</strong></p>
+            <p>Email: musekwa@tecmoza.com</p>
+          </div>
+
+          <div class="footer-section">
+            <h3>Grupo Testop</h3>
+            <p>Email: rh@testop.co.mz</p>
+            <p>Tel: +258 21328056</p>
+            <p>AV. KARL MARX, Nº1877 R/C-MAPUTO</p>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            &copy; 2025 Grupo Testop. Documentação confidencial e proprietária.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

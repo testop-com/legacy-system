@@ -1,0 +1,17 @@
+/vendor/*
+/toUp
+/vendor
+/uploads
+/node_modules
+/storage/framework/views/*
+/storage/framework/sessions/*
+/storage/framework/cache/*
+/storage/logs/*
+Homestead.yaml
+Homestead.json
+.env
+dest.zip
+vendor.zip
+
+testo_despesas_financas.zip
+/public/document_uploads/
