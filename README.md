@@ -866,23 +866,43 @@ These systems and documentation are proprietary to **Grupo Testop** and its affi
 
 ---
 
-## 🌐 Acesso à Documentação Online
+## 🌐 Portal de Documentação Online
 
-**A documentação técnica completa das bases de dados está disponível via GitHub Pages:**
+**📍 Sistema Interno de Gestão Empresarial - Tes-Top**
 
-👉 **[Acesse a Documentação Interativa](https://github.com/SEU_USUARIO/legacy-system)** (substituir com URL real)
+👉 **[Acesse a Documentação Interativa](https://github.com/SEU_USUARIO/legacy-system)** (substituir com URL real após deploy)
 
-### Conteúdo Disponível Online
+### 🎯 Navegação por Menus
 
-- 📄 **Documento Word completo** - Download direto
-- 📊 **12 Esquemas PDF** - Diagramas visuais de todas as bases de dados
-- 💾 **Dados JSON** - Análise estrutural para processamento
-- 📚 **Guias de utilização** - Instruções detalhadas
-- 🎨 **Interface moderna** - Navegação intuitiva e responsiva
+O portal possui **barra de navegação fixa** com 2 secções principais:
 
-### Como Configurar GitHub Pages
+#### 📊 Base de Dados
+- 11 Bases de dados documentadas
+- 539 Tabelas analisadas
+- Esquemas PDF com defeitos identificados
+- Downloads: Word (63 KB), JSON (1.09 MB), PDFs (553 KB)
 
-Consulte o guia completo: **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)**
+#### 💻 Código-Fonte
+- 17 Sistemas do ecossistema
+- 2 Sistemas completamente avaliados (FINANCAS, PROJECTOS)
+- 6 Relatórios de avaliação disponíveis
+- Estatísticas e stack tecnológico
+
+### ✨ Funcionalidades
+
+- 🎨 **Interface moderna e responsiva** - Funciona em qualquer dispositivo
+- 🧭 **Navegação fixa** - Menu sempre visível no topo
+- 📱 **Mobile-friendly** - Menu hambúrguer para smartphones
+- ⚡ **Downloads diretos** - Todos documentos acessíveis com 1 clique
+- 🎯 **Smooth scroll** - Navegação suave entre secções
+- ↑ **Back to top** - Botão flutuante para voltar ao topo
+
+### 📚 Guias Disponíveis
+
+- **[INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md)** - Deploy em 5 passos
+- **[GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)** - Configuração detalhada
+- **[SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md)** - Como usar a navegação
+- **[PREVIEW_ESTRUTURA.md](PREVIEW_ESTRUTURA.md)** - Visualização da estrutura
 
 ---
 

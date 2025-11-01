@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Documentação Técnica das Bases de Dados - Grupo Testop Legacy Systems"
+      content="Documentação Completa do Sistema Interno de Gestão Empresarial - Tes-Top"
     />
     <meta name="author" content="TECMOZA" />
-    <title>Documentação Técnica - Bases de Dados | Grupo Testop</title>
+    <title>Sistema Interno de Gestão Empresarial | Tes-Top</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -18,18 +18,41 @@
     />
   </head>
   <body>
+    <!-- Fixed Navigation Bar -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <h2>🏢 Tes-Top</h2>
+            <span class="nav-subtitle">Sistema de Gestão Empresarial</span>
+          </div>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Início</a></li>
+            <li><a href="#database" class="nav-link">📊 Base de Dados</a></li>
+            <li><a href="#code" class="nav-link">💻 Código-Fonte</a></li>
+            <li><a href="#contact" class="nav-link">📞 Contacto</a></li>
+          </ul>
+          <button class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
     <!-- Header -->
-    <header class="header">
+    <header class="header" id="home">
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <h1>📊 Grupo Testop</h1>
-            <p>Documentação Técnica das Bases de Dados</p>
+            <h1>🏢 Sistema Interno de Gestão Empresarial</h1>
+            <p>Documentação Técnica Completa - Tes-Top</p>
           </div>
           <div class="header-meta">
             <span class="badge">11 Bases de Dados</span>
             <span class="badge">539 Tabelas</span>
-            <span class="badge">~180 MB</span>
+            <span class="badge">~180 MB SQL</span>
           </div>
         </div>
       </div>
@@ -40,25 +63,43 @@
       <div class="container">
         <h2>Documentação Completa em Português 🇵🇹</h2>
         <p class="hero-subtitle">
-          Análise técnica detalhada de todas as bases de dados do sistema legacy
-          Grupo Testop
+          Análise técnica detalhada do ecossistema completo: Base de Dados e Código-Fonte
         </p>
         <div class="hero-stats">
+          <div class="stat-card">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Componentes</div>
+          </div>
           <div class="stat-card">
             <div class="stat-number">11</div>
             <div class="stat-label">Bases de Dados</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number">539</div>
-            <div class="stat-label">Tabelas</div>
+            <div class="stat-number">17</div>
+            <div class="stat-label">Sistemas</div>
           </div>
-          <div class="stat-card">
-            <div class="stat-number">180 MB</div>
-            <div class="stat-label">Estrutura SQL</div>
-          </div>
+        </div>
+        <div class="hero-nav-buttons">
+          <a href="#database" class="hero-btn btn-primary-hero">
+            📊 Ver Base de Dados
+          </a>
+          <a href="#code" class="hero-btn btn-secondary-hero">
+            💻 Ver Código-Fonte
+          </a>
         </div>
       </div>
     </section>
+
+    <!-- Section Divider: Database -->
+    <div class="section-divider" id="database">
+      <div class="container">
+        <div class="divider-content">
+          <span class="divider-icon">📊</span>
+          <h2>Base de Dados</h2>
+          <p>Documentação Técnica das Bases de Dados</p>
+        </div>
+      </div>
+    </div>
 
     <!-- Main Navigation -->
     <section class="main-docs">
@@ -377,7 +418,7 @@
         <div class="alert alert-critical">
           <div class="alert-icon">⚠️</div>
           <div class="alert-content">
-            <h3>Descoberta Crítica</h3>
+            <h3>Descoberta Crítica - Base de Dados</h3>
             <p>
               <strong>NENHUMA</strong> das 11 bases de dados possui chaves
               estrangeiras (FOREIGN KEY) implementadas. Isto representa um risco
@@ -387,6 +428,325 @@
               Recomendação: Implementação urgente de chaves estrangeiras nas
               tabelas relacionadas.
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Divider: Code -->
+    <div class="section-divider" id="code">
+      <div class="container">
+        <div class="divider-content">
+          <span class="divider-icon">💻</span>
+          <h2>Código-Fonte</h2>
+          <p>Documentação Técnica dos Sistemas e Aplicações</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Code Documentation Section -->
+    <section class="code-docs">
+      <div class="container">
+        <h2 class="section-title">💻 Sistemas e Aplicações</h2>
+        <p class="section-description">
+          Análise técnica completa de ~17 sistemas que compõem o ecossistema Tes-Top
+        </p>
+
+        <!-- Systems Overview -->
+        <div class="systems-grid">
+          <!-- System 1: FINANCAS -->
+          <div class="system-card priority-high">
+            <div class="system-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>FINANCAS</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Laravel 5.x-8.x</span>
+              <span>📄 550+ Views</span>
+            </div>
+            <p>Sistema de Gestão Financeira Multi-Empresa</p>
+            <div class="system-stats">
+              <span>• 119+ Controllers</span>
+              <span>• 125+ Models</span>
+              <span>• Base: grupotestop_financas</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">Fleet Management</span>
+              <span class="feature-tag">Procurement</span>
+              <span class="feature-tag">Insurance</span>
+            </div>
+            <a href="assessment-report/ASSESSMENT_FINANCAS.md" class="btn btn-sm" target="_blank">
+              Ver Documentação
+            </a>
+          </div>
+
+          <!-- System 2: STOCK -->
+          <div class="system-card priority-critical">
+            <div class="system-header">
+              <span class="priority-badge critical">CRÍTICA</span>
+              <h3>STOCK</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Sistema</span>
+              <span>📊 94.70 MB</span>
+            </div>
+            <p>Sistema de Gestão de Stock (Maior Base)</p>
+            <div class="system-stats">
+              <span>• 89 Tabelas</span>
+              <span>• Base: grupotestop_stock</span>
+              <span>• Status: Não Avaliado</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">Inventory</span>
+              <span class="feature-tag">Warehouse</span>
+            </div>
+            <span class="btn btn-sm btn-disabled">Documentação Pendente</span>
+          </div>
+
+          <!-- System 3: PROJECTOS -->
+          <div class="system-card priority-medium">
+            <div class="system-header">
+              <span class="priority-badge medium">MÉDIA</span>
+              <h3>PROJECTOS</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Laravel 8.x/9.x</span>
+              <span>📄 147 Views</span>
+            </div>
+            <p>Sistema de Projectos e Gestão de Inventário</p>
+            <div class="system-stats">
+              <span>• 40+ Controllers</span>
+              <span>• 35+ Models</span>
+              <span>• Base: autobas2_testop_db</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">Multi-level Stock</span>
+              <span class="feature-tag">Installations</span>
+            </div>
+            <a href="assessment-report/ASSESSMENT_PROJECTOS.md" class="btn btn-sm" target="_blank">
+              Ver Documentação
+            </a>
+          </div>
+
+          <!-- System 4: SALÁRIOS -->
+          <div class="system-card priority-critical">
+            <div class="system-header">
+              <span class="priority-badge critical">CRÍTICA</span>
+              <h3>SALÁRIOS</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Sistema RH</span>
+              <span>📊 3.40 MB</span>
+            </div>
+            <p>Sistema de Salários e Recursos Humanos</p>
+            <div class="system-stats">
+              <span>• 71 Tabelas</span>
+              <span>• Base: grupotestop_salarios</span>
+              <span>• Status: Não Avaliado</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">Payroll</span>
+              <span class="feature-tag">HR Management</span>
+            </div>
+            <span class="btn btn-sm btn-disabled">Documentação Pendente</span>
+          </div>
+
+          <!-- System 5: ATTENDANCE -->
+          <div class="system-card priority-high">
+            <div class="system-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>ATTENDANCE</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Sistema</span>
+              <span>📊 3.87 MB</span>
+            </div>
+            <p>Sistema de Controlo de Presenças</p>
+            <div class="system-stats">
+              <span>• 71 Tabelas</span>
+              <span>• Base: grupotestop_attendance</span>
+              <span>• Status: Não Avaliado</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">Time Tracking</span>
+              <span class="feature-tag">Shifts</span>
+            </div>
+            <span class="btn btn-sm btn-disabled">Documentação Pendente</span>
+          </div>
+
+          <!-- System 6: BANCO MUNDIAL -->
+          <div class="system-card priority-high">
+            <div class="system-header">
+              <span class="priority-badge high">ALTA</span>
+              <h3>BANCO MUNDIAL</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Laravel 8.x/9.x</span>
+              <span>📄 144 Views</span>
+            </div>
+            <p>Sistema de Stock - Projectos Banco Mundial</p>
+            <div class="system-stats">
+              <span>• 60 Tabelas</span>
+              <span>• Base: grupotestop_banco_mundial_stock</span>
+              <span>• Partilha código com PROJECTOS</span>
+            </div>
+            <div class="system-features">
+              <span class="feature-tag">World Bank</span>
+              <span class="feature-tag">Stock Control</span>
+            </div>
+            <span class="btn btn-sm btn-disabled">Documentação Pendente</span>
+          </div>
+
+          <!-- Additional Systems Card -->
+          <div class="system-card priority-low">
+            <div class="system-header">
+              <span class="priority-badge low">BAIXA</span>
+              <h3>OUTROS SISTEMAS</h3>
+            </div>
+            <div class="system-meta">
+              <span>📂 Múltiplos</span>
+              <span>📊 ~1 MB</span>
+            </div>
+            <p>Sistemas de Suporte</p>
+            <div class="system-stats">
+              <span>• HELPDESK (34 tabelas)</span>
+              <span>• MEETING (9 tabelas)</span>
+              <span>• BAIXADAS (36 tabelas)</span>
+              <span>• ARCHIVES (5 tabelas)</span>
+              <span>• TICKET (3 tabelas)</span>
+            </div>
+            <span class="btn btn-sm btn-disabled">Documentação Pendente</span>
+          </div>
+        </div>
+
+        <!-- Assessment Reports -->
+        <div class="assessment-section">
+          <h3 class="subsection-title">📋 Relatórios de Avaliação Disponíveis</h3>
+          
+          <div class="assessment-grid">
+            <a href="assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">🔴</div>
+              <div class="assessment-content">
+                <h4>Análise Completa do Ecossistema</h4>
+                <p>Visão geral de todos os ~17 sistemas descobertos</p>
+                <span class="assessment-tag critical">CRÍTICO - LER PRIMEIRO</span>
+              </div>
+            </a>
+
+            <a href="assessment-report/OVERALL_ASSESSMENT.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">📊</div>
+              <div class="assessment-content">
+                <h4>Avaliação Geral</h4>
+                <p>Análise combinada de FINANCAS e PROJECTOS</p>
+                <span class="assessment-tag">Executivos & IT Leaders</span>
+              </div>
+            </a>
+
+            <a href="assessment-report/ASSESSMENT_FINANCAS.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">💰</div>
+              <div class="assessment-content">
+                <h4>Avaliação FINANCAS</h4>
+                <p>1,497 linhas - Análise detalhada do sistema financeiro</p>
+                <span class="assessment-tag">Rating: ⭐⭐⭐ (3/5)</span>
+              </div>
+            </a>
+
+            <a href="assessment-report/ASSESSMENT_PROJECTOS.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">📦</div>
+              <div class="assessment-content">
+                <h4>Avaliação PROJECTOS</h4>
+                <p>791 linhas - Análise detalhada do sistema de projectos</p>
+                <span class="assessment-tag">Rating: ⭐⭐⭐⭐ (4/5)</span>
+              </div>
+            </a>
+
+            <a href="assessment-report/OVERALL_PROJECT_SUMMARY.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">📝</div>
+              <div class="assessment-content">
+                <h4>Resumo Executivo</h4>
+                <p>351 linhas - Sumário para todos os stakeholders</p>
+                <span class="assessment-tag">Quick Overview</span>
+              </div>
+            </a>
+
+            <a href="assessment-report/EXECUTIVE_BRIEF.md" class="assessment-card" target="_blank">
+              <div class="assessment-icon">👔</div>
+              <div class="assessment-content">
+                <h4>Executive Brief</h4>
+                <p>Resumo para decisores e executivos</p>
+                <span class="assessment-tag">Decision Makers</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Code Statistics -->
+        <div class="code-stats-section">
+          <h3 class="subsection-title">📊 Estatísticas do Código-Fonte</h3>
+          
+          <div class="stats-grid">
+            <div class="stat-box">
+              <div class="stat-value">~17</div>
+              <div class="stat-label">Sistemas</div>
+              <div class="stat-detail">Descobertos no ecossistema</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">2</div>
+              <div class="stat-label">Avaliados</div>
+              <div class="stat-detail">FINANCAS & PROJECTOS (12%)</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">697+</div>
+              <div class="stat-label">Views</div>
+              <div class="stat-detail">Blade templates totais</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">159+</div>
+              <div class="stat-label">Controllers</div>
+              <div class="stat-detail">Nos sistemas avaliados</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">160+</div>
+              <div class="stat-label">Models</div>
+              <div class="stat-detail">Eloquent Models</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-value">3,837</div>
+              <div class="stat-label">Linhas Doc</div>
+              <div class="stat-detail">Documentação técnica</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="tech-stack-section">
+          <h3 class="subsection-title">🛠️ Stack Tecnológico</h3>
+          
+          <div class="tech-grid">
+            <div class="tech-card">
+              <h4>Backend</h4>
+              <div class="tech-items">
+                <span class="tech-badge">PHP 8.0-8.4</span>
+                <span class="tech-badge">Laravel 5.x-9.x</span>
+                <span class="tech-badge">Eloquent ORM</span>
+              </div>
+            </div>
+            <div class="tech-card">
+              <h4>Database</h4>
+              <div class="tech-items">
+                <span class="tech-badge">MariaDB 10.4+</span>
+                <span class="tech-badge">MySQL Compatible</span>
+              </div>
+            </div>
+            <div class="tech-card">
+              <h4>Frontend</h4>
+              <div class="tech-items">
+                <span class="tech-badge">Blade Templates</span>
+                <span class="tech-badge">jQuery</span>
+                <span class="tech-badge">Bootstrap</span>
+                <span class="tech-badge">UIKit</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -438,13 +798,14 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" id="contact">
       <div class="container">
         <div class="footer-content">
           <div class="footer-section">
             <h3>Sobre</h3>
-            <p>Documentação técnica preparada por TECMOZA para Grupo Testop</p>
-            <p class="footer-meta">Data: 01 de Novembro de 2025 | Versão 1.0</p>
+            <p>Sistema Interno de Gestão Empresarial - Tes-Top</p>
+            <p>Documentação técnica preparada por TECMOZA</p>
+            <p class="footer-meta">Data: 01 de Novembro de 2025 | Versão 1.1</p>
           </div>
 
           <div class="footer-section">
@@ -467,11 +828,22 @@
 
         <div class="footer-bottom">
           <p>
-            &copy; 2025 Grupo Testop. Documentação confidencial e proprietária.
+            &copy; 2025 Tes-Top - Grupo Testop. Documentação confidencial e proprietária.
+          </p>
+          <p class="footer-navigation">
+            <a href="#home">Início</a> | 
+            <a href="#database">Base de Dados</a> | 
+            <a href="#code">Código-Fonte</a> | 
+            <a href="#contact">Contacto</a>
           </p>
         </div>
       </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+      ↑
+    </button>
 
     <script src="assets/js/main.js"></script>
   </body>
