@@ -682,6 +682,18 @@ section {
   box-shadow: var(--shadow-lg);
 }
 
+.assessment-card-static {
+  display: flex;
+  gap: 1rem;
+  background: var(--bg-white);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  color: var(--text-color);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border: 2px solid transparent;
+}
+
 .assessment-icon {
   font-size: 2rem;
   flex-shrink: 0;
@@ -710,7 +722,7 @@ section {
 }
 
 .assessment-tag.critical {
-  background: #FFF5F5;
+  background: #fff5f5;
   color: var(--critical-color);
 }
 

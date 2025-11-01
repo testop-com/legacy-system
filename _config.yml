@@ -26,11 +26,14 @@ exclude:
 include:
   - _config.yml
   - index.html
+  - codigo-fonte.html
   - DOCUMENTACAO_TECNICA_BASES_DADOS.docx
   - database_analysis.json
   - LEIA-ME_DOCUMENTACAO.md
   - RESUMO_ENTREGA.md
+  - ACESSO_RAPIDO.md
   - database_schemas/
+  - assessment-report/
 
 # Set the base URL (will be set by GitHub Pages automatically)
 baseurl: ""
@@ -41,4 +44,3 @@ lang: pt
 
 # Timezone
 timezone: Africa/Maputo
-

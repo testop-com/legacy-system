@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Código-Fonte - Documentação | Tes-Top</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .markdown-content {
+        background: white;
+        padding: 3rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        max-width: 900px;
+        margin: 2rem auto;
+        line-height: 1.8;
+      }
+      .markdown-content h1 {
+        color: #2e86ab;
+        border-bottom: 3px solid #2e86ab;
+        padding-bottom: 1rem;
+        margin-bottom: 2rem;
+      }
+      .markdown-content h2 {
+        color: #667eea;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+      }
+      .markdown-content p {
+        color: #2d3748;
+        margin-bottom: 1rem;
+      }
+      .markdown-content ul,
+      .markdown-content ol {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+      }
+      .back-link {
+        display: inline-block;
+        margin: 2rem;
+        padding: 0.75rem 1.5rem;
+        background: #2e86ab;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+      }
+      .back-link:hover {
+        background: #1a5674;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Fixed Navigation Bar -->
+    <nav class="navbar" id="navbar">
+      <div class="container">
+        <div class="nav-content">
+          <div class="nav-logo">
+            <h2>🏢 Tes-Top</h2>
+            <span class="nav-subtitle">Sistema de Gestão Empresarial</span>
+          </div>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li>
+              <a href="index.html#database" class="nav-link"
+                >📊 Base de Dados</a
+              >
+            </li>
+            <li>
+              <a href="codigo-fonte.html" class="nav-link active"
+                >💻 Código-Fonte</a
+              >
+            </li>
+            <li>
+              <a href="index.html#contact" class="nav-link">📞 Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 100px">
+      <a href="index.html#code" class="back-link">← Voltar ao Portal</a>
+
+      <div class="markdown-content">
+        <h1>💻 Documentação do Código-Fonte</h1>
+
+        <p>
+          <strong
+            >Esta página centraliza toda a documentação dos sistemas e
+            aplicações do ecossistema Tes-Top.</strong
+          >
+        </p>
+
+        <h2>📋 Relatórios de Avaliação Disponíveis</h2>
+
+        <div class="doc-grid" style="margin-top: 2rem">
+          <div class="doc-card">
+            <h3>🔴 Análise Completa do Ecossistema</h3>
+            <p>
+              Visão geral de todos os ~17 sistemas descobertos.
+              <strong>CRÍTICO - Ler primeiro!</strong>
+            </p>
+            <a
+              href="assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md"
+              class="btn btn-primary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>📊 Avaliação Geral</h3>
+            <p>
+              Análise combinada de FINANCAS e PROJECTOS. Para executivos e IT
+              leaders.
+            </p>
+            <p><em>489 linhas de análise técnica</em></p>
+            <a
+              href="assessment-report/OVERALL_ASSESSMENT.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>💰 Avaliação FINANCAS</h3>
+            <p>Análise técnica detalhada do sistema FINANCAS (1,497 linhas).</p>
+            <p><strong>Rating:</strong> ⭐⭐⭐ (3/5)</p>
+            <p><strong>Investimento:</strong> $180K-280K</p>
+            <a
+              href="assessment-report/ASSESSMENT_FINANCAS.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>📦 Avaliação PROJECTOS</h3>
+            <p>Análise técnica detalhada do sistema PROJECTOS (791 linhas).</p>
+            <p><strong>Rating:</strong> ⭐⭐⭐⭐ (4/5)</p>
+            <p><strong>Investimento:</strong> $95K-145K</p>
+            <a
+              href="assessment-report/ASSESSMENT_PROJECTOS.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>📝 Resumo Executivo</h3>
+            <p>Sumário geral para todos os stakeholders (351 linhas).</p>
+            <p><em>Quick overview do projeto completo</em></p>
+            <a
+              href="assessment-report/OVERALL_PROJECT_SUMMARY.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>👔 Executive Brief</h3>
+            <p>Brief condensado para decisores e executivos.</p>
+            <p><em>Foco em decisões estratégicas</em></p>
+            <a
+              href="assessment-report/EXECUTIVE_BRIEF.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>📊 Resumo FINANCAS</h3>
+            <p>Quick reference do sistema FINANCAS (449 linhas).</p>
+            <p><em>Para stakeholders do FINANCAS</em></p>
+            <a
+              href="assessment-report/PROJECT_SUMMARY_FINANCAS.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+
+          <div class="doc-card">
+            <h3>📖 Navegação dos Reports</h3>
+            <p>Guia de navegação de todos os relatórios (260 linhas).</p>
+            <p><em>Índice dos assessment reports</em></p>
+            <a
+              href="assessment-report/README.md"
+              class="btn btn-secondary"
+              download
+            >
+              ⬇️ Download Markdown
+            </a>
+          </div>
+        </div>
+
+        <h2>ℹ️ Como Usar os Arquivos Markdown</h2>
+
+        <p>
+          Os relatórios estão em formato Markdown (.md). Para visualizá-los:
+        </p>
+
+        <ol>
+          <li>
+            <strong>Opção 1:</strong> Baixe o arquivo e abra num editor que
+            suporte Markdown (VS Code, Typora, etc.)
+          </li>
+          <li>
+            <strong>Opção 2:</strong> Clone o repositório e visualize localmente
+          </li>
+          <li>
+            <strong>Opção 3:</strong> Acesse diretamente no GitHub (após fazer
+            push)
+          </li>
+        </ol>
+
+        <h2>📊 Estatísticas do Código</h2>
+
+        <div class="stats-grid" style="margin-top: 2rem">
+          <div class="stat-box">
+            <div class="stat-value">~17</div>
+            <div class="stat-label">Sistemas</div>
+            <div class="stat-detail">Descobertos</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">2</div>
+            <div class="stat-label">Avaliados</div>
+            <div class="stat-detail">12% completo</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">697+</div>
+            <div class="stat-label">Views</div>
+            <div class="stat-detail">Blade templates</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">159+</div>
+            <div class="stat-label">Controllers</div>
+            <div class="stat-detail">Nos avaliados</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">160+</div>
+            <div class="stat-label">Models</div>
+            <div class="stat-detail">Eloquent</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-value">3,837</div>
+            <div class="stat-label">Linhas Doc</div>
+            <div class="stat-detail">Documentação</div>
+          </div>
+        </div>
+
+        <h2>🛠️ Stack Tecnológico</h2>
+
+        <div class="tech-grid" style="margin-top: 2rem">
+          <div class="tech-card">
+            <h4>Backend</h4>
+            <div class="tech-items">
+              <span class="tech-badge">PHP 8.0-8.4</span>
+              <span class="tech-badge">Laravel 5.x-9.x</span>
+              <span class="tech-badge">Eloquent ORM</span>
+            </div>
+          </div>
+          <div class="tech-card">
+            <h4>Database</h4>
+            <div class="tech-items">
+              <span class="tech-badge">MariaDB 10.4+</span>
+              <span class="tech-badge">MySQL Compatible</span>
+            </div>
+          </div>
+          <div class="tech-card">
+            <h4>Frontend</h4>
+            <div class="tech-items">
+              <span class="tech-badge">Blade Templates</span>
+              <span class="tech-badge">jQuery</span>
+              <span class="tech-badge">Bootstrap</span>
+              <span class="tech-badge">UIKit</span>
+            </div>
+          </div>
+        </div>
+
+        <h2>📞 Suporte</h2>
+        <p><strong>Para questões técnicas:</strong></p>
+        <ul>
+          <li>
+            TECMOZA: Evariste Musekwa - musekwa@tecmoza.com | (+258) 860140080
+          </li>
+          <li>Suporte Técnico: Onésimo Metro - (+258) 848938851</li>
+        </ul>
+      </div>
+
+      <div style="text-align: center; margin: 3rem 0">
+        <a href="index.html" class="back-link">← Voltar ao Portal Principal</a>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Sobre</h3>
+            <p>Sistema Interno de Gestão Empresarial - Tes-Top</p>
+            <p>Documentação técnica preparada por TECMOZA</p>
+          </div>
+          <div class="footer-section">
+            <h3>Contacto</h3>
+            <p><strong>TECMOZA</strong></p>
+            <p>Evariste Musekwa Iguna</p>
+            <p>Email: musekwa@tecmoza.com</p>
+            <p>Tel: (+258) 860140080</p>
+          </div>
+          <div class="footer-section">
+            <h3>Grupo Testop</h3>
+            <p>Email: rh@testop.co.mz</p>
+            <p>Tel: +258 21328056</p>
+            <p><strong>Suporte Técnico:</strong></p>
+            <p>Onésimo Metro: (+258) 848938851</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
