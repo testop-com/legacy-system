@@ -825,14 +825,14 @@ Track these KPIs throughout modernization:
 **Assessor**:  
 Evariste Musekwa Iguna  
 Email: musekwa@tecmoza.com  
+Tel: (+258) 860140080  
 Organization: TECMOZA
 
 ### For Technical Support
 
-**Grupo Testop IT Department**:
-
-- Nunes Pedro: it.nunes@q99.co.mz
-- Edson Paporo: it.paporo@testop.co.mz
+**Grupo Testop IT Department**:  
+Onésimo Metro  
+Tel: (+258) 848938851
 
 ### For Business Questions
 

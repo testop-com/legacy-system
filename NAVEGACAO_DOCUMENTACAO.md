@@ -343,7 +343,11 @@ cat database_analysis.json | jq '.[] | select(.name == "grupotestop_financas")'
 
 ### Problemas Técnicos
 - **Email**: musekwa@tecmoza.com
+- **Tel**: (+258) 860140080
 - **GitHub**: Abra uma issue no repositório
+
+### Suporte Técnico
+- **Onésimo Metro**: (+258) 848938851
 
 ### Conteúdo
 - Consulte: `LEIA-ME_DOCUMENTACAO.md`

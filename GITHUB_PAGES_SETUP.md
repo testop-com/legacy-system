@@ -233,8 +233,9 @@ Se quiser que a documentação seja privada:
 Para questões sobre:
 
 - **GitHub Pages**: https://docs.github.com/pages
-- **Esta documentação**: musekwa@tecmoza.com
+- **Esta documentação**: musekwa@tecmoza.com | (+258) 860140080
 - **Conteúdo técnico**: Consulte LEIA-ME_DOCUMENTACAO.md
+- **Suporte Técnico**: Onésimo Metro - (+258) 848938851
 
 ---
 

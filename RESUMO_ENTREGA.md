@@ -257,6 +257,7 @@ A documentação foi gerada através de:
 **TECMOZA**  
 Evariste Musekwa Iguna  
 📧 Email: musekwa@tecmoza.com  
+📱 Tel: (+258) 860140080  
 📅 Data de Entrega: 01/11/2025
 
 ### Grupo Testop - Contactos
@@ -269,10 +270,9 @@ Moçambique
 📧 Email geral: rh@testop.co.mz  
 ☎️ Telefone: +258 21328056
 
-**Departamento de TI:**
-
-- Nunes Pedro: it.nunes@q99.co.mz
-- Edson Paporo: it.paporo@testop.co.mz
+**Suporte Técnico - Departamento de TI:**  
+Onésimo Metro  
+📱 Tel: (+258) 848938851
 
 ---
 

@@ -355,6 +355,8 @@ Antes de considerar o deploy completo, confirme:
 ---
 
 **Preparado por**: TECMOZA  
+**Contacto**: Evariste Musekwa Iguna | musekwa@tecmoza.com | (+258) 860140080  
+**Suporte Técnico**: Onésimo Metro | (+258) 848938851  
 **Data**: 01 de Novembro de 2025  
 **Última atualização**: [preencher após updates]
 

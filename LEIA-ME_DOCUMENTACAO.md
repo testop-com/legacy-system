@@ -352,7 +352,8 @@ Estes scripts podem ser reutilizados para atualizações futuras da documentaç�
 
 **TECMOZA**  
 Evariste Musekwa Iguna  
-Email: musekwa@tecmoza.com
+Email: musekwa@tecmoza.com  
+Tel: (+258) 860140080
 
 ### Para Questões de Negócio
 
@@ -361,12 +362,11 @@ Email: rh@testop.co.mz
 Telefone: +258 21328056  
 Endereço: AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
 
-### Contactos Técnicos
+### Suporte Técnico
 
-**Departamento de TI - Grupo Testop**
-
-- Nunes Pedro: it.nunes@q99.co.mz
-- Edson Paporo: it.paporo@testop.co.mz
+**Departamento de TI - Grupo Testop**  
+Onésimo Metro  
+Tel: (+258) 848938851
 
 ---
 
