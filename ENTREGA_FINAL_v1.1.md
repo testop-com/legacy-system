@@ -18,6 +18,7 @@
 **Arquivo principal:** `index.html` (31 KB)
 
 #### Funcionalidades:
+
 1. ✅ **Barra de navegação fixa** sempre visível
 2. ✅ **4 Opções de menu**: Início | 📊 Base de Dados | 💻 Código-Fonte | 📞 Contacto
 3. ✅ **2 Secções principais** com conteúdo completo
@@ -34,13 +35,16 @@
 ### Conteúdo Disponível
 
 #### 📄 Documentação Principal (3 formatos)
+
 1. **Word Document** - `DOCUMENTACAO_TECNICA_BASES_DADOS.docx` (63 KB)
+
    - 50+ páginas
    - Esquemas detalhados de 539 tabelas
    - Análise completa
    - Recomendações técnicas
 
 2. **PDF Resumo** - `database_schemas/RESUMO_BASES_DADOS.pdf` (36 KB)
+
    - Visão consolidada
    - Estatísticas visuais
    - Tabela comparativa
@@ -53,6 +57,7 @@
 #### 🗄️ Esquemas Individuais (11 PDFs)
 
 Cada PDF agora inclui:
+
 - ⚠️ **PÁGINA INICIAL DE DEFEITOS** (NOVO!)
   - Lista de defeitos identificados
   - Impacto técnico
@@ -62,6 +67,7 @@ Cada PDF agora inclui:
 - 📱 Contactos atualizados no rodapé
 
 **Lista de PDFs:**
+
 1. `ESQUEMA_grupotestop_financas.pdf` - 125 tabelas (ALTA)
 2. `ESQUEMA_grupotestop_stock.pdf` - 89 tabelas (CRÍTICA)
 3. `ESQUEMA_grupotestop_salarios.pdf` - 71 tabelas (CRÍTICA)
@@ -75,6 +81,7 @@ Cada PDF agora inclui:
 11. `ESQUEMA_autobas2_testop_db.pdf` - 36 tabelas (MÉDIA)
 
 #### 📚 Guias
+
 - `LEIA-ME_DOCUMENTACAO.md` - Instruções de uso
 - `RESUMO_ENTREGA.md` - Checklist completa
 
@@ -87,7 +94,9 @@ Cada PDF agora inclui:
 #### 🏢 Sistemas Documentados (7 cards)
 
 **Sistemas Avaliados (✅):**
+
 1. **FINANCAS** - Laravel 5.x-8.x, 550+ Views
+
    - Rating: ⭐⭐⭐ (3/5)
    - Investimento: $180K-280K
    - Doc: `assessment-report/ASSESSMENT_FINANCAS.md`
@@ -97,35 +106,25 @@ Cada PDF agora inclui:
    - Investimento: $95K-145K
    - Doc: `assessment-report/ASSESSMENT_PROJECTOS.md`
 
-**Sistemas Identificados (⏳ Pendentes):**
-3. STOCK - 89 tabelas, 94.70 MB (CRÍTICA)
-4. SALÁRIOS - 71 tabelas (CRÍTICA)
-5. ATTENDANCE - 71 tabelas (ALTA)
-6. BANCO MUNDIAL - 60 tabelas (ALTA)
-7. OUTROS - HELPDESK, MEETING, BAIXADAS, etc. (BAIXA)
+**Sistemas Identificados (⏳ Pendentes):** 3. STOCK - 89 tabelas, 94.70 MB (CRÍTICA) 4. SALÁRIOS - 71 tabelas (CRÍTICA) 5. ATTENDANCE - 71 tabelas (ALTA) 6. BANCO MUNDIAL - 60 tabelas (ALTA) 7. OUTROS - HELPDESK, MEETING, BAIXADAS, etc. (BAIXA)
 
 #### 📋 Relatórios de Avaliação (6 documentos)
 
 1. **`COMPLETE_ECOSYSTEM_ANALYSIS.md`** 🔴 CRÍTICO
    - Análise completa dos ~17 sistemas
    - Descoberta crítica do ecossistema real
-   
 2. **`OVERALL_ASSESSMENT.md`**
    - Análise combinada FINANCAS + PROJECTOS
    - Para executivos e IT leaders
-   
 3. **`ASSESSMENT_FINANCAS.md`** (1,497 linhas)
    - Análise técnica detalhada
    - 125 tabelas documentadas
-   
 4. **`ASSESSMENT_PROJECTOS.md`** (791 linhas)
    - Análise técnica detalhada
    - 36 tabelas documentadas
-   
 5. **`OVERALL_PROJECT_SUMMARY.md`** (351 linhas)
    - Resumo executivo
    - Para todos stakeholders
-   
 6. **`EXECUTIVE_BRIEF.md`**
    - Resumo para decisores
    - Visão estratégica
@@ -142,15 +141,18 @@ Cada PDF agora inclui:
 #### 🛠️ Stack Tecnológico
 
 **Backend:**
+
 - PHP 8.0-8.4
 - Laravel 5.x-9.x
 - Eloquent ORM
 
 **Database:**
+
 - MariaDB 10.4+
 - MySQL Compatible
 
 **Frontend:**
+
 - Blade Templates
 - jQuery
 - Bootstrap
@@ -255,36 +257,39 @@ Tela < 992px:
 
 ## 📊 Estatísticas Finais
 
-| Métrica | Valor |
-|---------|-------|
-| **Páginas Web** | 1 (index.html) |
-| **Bases de Dados** | 11 |
-| **Tabelas Documentadas** | 539 |
-| **Sistemas Identificados** | ~17 |
-| **Sistemas Avaliados** | 2 (12%) |
-| **Documentos Word** | 1 (63 KB) |
-| **Esquemas PDF** | 12 (553 KB) |
-| **Dados JSON** | 1 (1.09 MB) |
-| **Relatórios Markdown** | 8 |
-| **Guias** | 11 |
-| **Total Arquivos Documentação** | 44+ |
+| Métrica                         | Valor          |
+| ------------------------------- | -------------- |
+| **Páginas Web**                 | 1 (index.html) |
+| **Bases de Dados**              | 11             |
+| **Tabelas Documentadas**        | 539            |
+| **Sistemas Identificados**      | ~17            |
+| **Sistemas Avaliados**          | 2 (12%)        |
+| **Documentos Word**             | 1 (63 KB)      |
+| **Esquemas PDF**                | 12 (553 KB)    |
+| **Dados JSON**                  | 1 (1.09 MB)    |
+| **Relatórios Markdown**         | 8              |
+| **Guias**                       | 11             |
+| **Total Arquivos Documentação** | 44+            |
 
 ---
 
 ## 🎨 Design e UX
 
 ### Cores
+
 - **Primária**: Azul #2E86AB (navbar, links, botões)
 - **Hero/Divisores**: Gradiente roxo (#667eea → #764ba2)
 - **Prioridades**: Vermelho, Laranja, Amarelo, Verde
 - **Fundo**: Cinza claro #F7FAFC
 
 ### Tipografia
+
 - **Font**: Inter (Google Fonts)
 - **Tamanhos**: 0.75rem - 2.5rem
 - **Pesos**: 400, 500, 600, 700
 
 ### Espaçamento
+
 - **Padding secções**: 4rem
 - **Gap cards**: 2rem
 - **Border radius**: 12px
@@ -295,12 +300,14 @@ Tela < 992px:
 ## 🔧 Tecnologias Utilizadas
 
 ### Frontend
+
 - HTML5 semântico
 - CSS3 (Grid, Flexbox, Animations)
 - JavaScript ES6+
 - Google Fonts (Inter)
 
 ### Ferramentas de Geração
+
 - Python 3.11
 - python-docx (Word generation)
 - matplotlib (PDF diagrams)
@@ -310,21 +317,23 @@ Tela < 992px:
 
 ## 📞 Contactos Atualizados
 
+### 🏢 Tes-Top (Ponto Focal)
+
+Younus Mohammed  
+Tel: (+258) 843030477 ← **NOVO**
+
+### 🔧 Suporte Técnico (Depto. Informática)
+
+**Tes-Top**  
+Onésimo Metro  
+Tel: (+258) 848938851
+
 ### 📧 Documentação Técnica
+
 **TECMOZA**  
 Evariste Musekwa Iguna  
 Email: musekwa@tecmoza.com  
-Tel: (+258) 860140080  ← **ATUALIZADO**
-
-### 🔧 Suporte Técnico
-**Departamento de TI - Grupo Testop**  
-Onésimo Metro  ← **NOVO**  
-Tel: (+258) 848938851  ← **NOVO**
-
-### 🏢 Tes-Top (Geral)
-Email: rh@testop.co.mz  
-Tel: +258 21328056  
-Local: AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
+Tel: (+258) 860140080
 
 ---
 
@@ -335,6 +344,7 @@ Local: AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
 Cada um dos 11 esquemas PDF agora inclui página inicial com:
 
 #### Defeitos Comuns em Todas as BDs:
+
 1. ❌ **Ausência total de FOREIGN KEY** (CRÍTICO)
 2. ⚠️ Falta de constraints de integridade
 3. ⚠️ Índices insuficientes
@@ -343,14 +353,17 @@ Cada um dos 11 esquemas PDF agora inclui página inicial com:
 #### Defeitos Específicos:
 
 **grupotestop_salarios (CRÍTICA):**
+
 - ❌ Dados sensíveis sem encriptação documentada
 - ⚠️ Sem audit trail para alterações salariais
 
 **grupotestop_stock (CRÍTICA):**
+
 - ❌ Base mais volumosa (94.70 MB) sem otimização
 - ⚠️ Possível redundância não normalizada
 
 **autobas2_testop_db:**
+
 - ⚠️ BD partilhada por 2 sistemas
 - ⚠️ Export desatualizado (Junho 2022)
 
@@ -361,17 +374,20 @@ Cada um dos 11 esquemas PDF agora inclui página inicial com:
 ## 📋 Guias Disponíveis (11 documentos)
 
 ### Setup e Deploy
+
 1. **INICIO_RAPIDO_GITHUB_PAGES.md** - Deploy em 5 passos
 2. **GITHUB_PAGES_SETUP.md** - Configuração detalhada
 3. **DEPLOY_CHECKLIST.md** - Checklist completo
 
 ### Navegação e Uso
+
 4. **SOBRE_NAVEGACAO.md** - Sistema de navegação v1.1
 5. **NAVEGACAO_DOCUMENTACAO.md** - Como navegar
 6. **PREVIEW_ESTRUTURA.md** - Visualização da estrutura
 7. **LEIA-ME_DOCUMENTACAO.md** - Guia de utilização
 
 ### Sumários
+
 8. **RESUMO_ENTREGA.md** - Resumo da entrega
 9. **CHANGELOG_v1.1.md** - Alterações versão 1.1
 10. **ENTREGA_FINAL_v1.1.md** - Este arquivo
@@ -382,35 +398,42 @@ Cada um dos 11 esquemas PDF agora inclui página inicial com:
 ## ✅ Checklist de Validação Final
 
 ### Arquivos Core
+
 - [x] index.html (31 KB) - Página principal
-- [x] _config.yml (0.9 KB) - Config GitHub Pages
+- [x] \_config.yml (0.9 KB) - Config GitHub Pages
 - [x] .gitignore - Controle de versão
 - [x] assets/css/style.css (27 KB) - Estilos completos
 - [x] assets/js/main.js (5 KB) - JavaScript funcional
 
 ### Documentação Base de Dados
+
 - [x] DOCUMENTACAO_TECNICA_BASES_DADOS.docx (63 KB)
 - [x] database_analysis.json (1.09 MB)
 - [x] 12 PDFs em database_schemas/ (553 KB total)
 - [x] Cada PDF tem página de defeitos
 
 ### Documentação Código-Fonte
+
 - [x] 8 documentos em assessment-report/
 - [x] Relatórios linkados no portal
 - [x] Estatísticas exibidas
 
 ### Guias
+
 - [x] 11 guias markdown criados
 - [x] Todos com contactos atualizados
 - [x] Instruções completas
 
 ### Contactos
-- [x] Evariste: Tel (+258) 860140080 adicionado
-- [x] Onésimo Metro: (+258) 848938851 adicionado
+
+- [x] Younus Mohammed (Ponto Focal): Tel (+258) 843030477 adicionado
+- [x] Onésimo Metro (Suporte): Tel (+258) 848938851 adicionado
+- [x] Evariste Musekwa (Documentação): Tel (+258) 860140080 adicionado
 - [x] Contactos antigos removidos
-- [x] Atualizados em todos os 20 arquivos
+- [x] Atualizados em todos os 20+ arquivos
 
 ### Funcionalidades
+
 - [x] Barra de navegação fixa funciona
 - [x] Menu mobile responsivo
 - [x] Smooth scroll implementado
@@ -448,6 +471,7 @@ git push origin main
 Após deploy, medir:
 
 ### Técnicos
+
 - [ ] Tempo de carregamento < 3 segundos
 - [ ] Todos links funcionam (0 erros 404)
 - [ ] Responsivo em 3+ dispositivos
@@ -455,6 +479,7 @@ Após deploy, medir:
 - [ ] Downloads completam com sucesso
 
 ### Negócio
+
 - [ ] Stakeholders conseguem navegar facilmente
 - [ ] Documentação é encontrada rapidamente
 - [ ] Contactos estão visíveis e corretos
@@ -465,6 +490,7 @@ Após deploy, medir:
 ## 📖 Como Usar o Portal
 
 ### Para Executivos
+
 1. Acessar URL
 2. Ler Hero section (estatísticas)
 3. Clicar "💻 Ver Código-Fonte"
@@ -472,13 +498,17 @@ Após deploy, medir:
 5. Contactar TECMOZA se dúvidas
 
 ### Para Gestores de TI
+
 1. Acessar URL
 2. Navegar entre BD e Código usando menu superior
 3. Revisar prioridades (código de cores)
 4. Baixar documentos relevantes
-5. Contactar Onésimo Metro para suporte
+5. Contactar suporte se necessário:
+   - Ponto Focal: Younus Mohammed (+258) 843030477
+   - Suporte Técnico: Onésimo Metro (+258) 848938851
 
 ### Para Desenvolvedores
+
 1. Acessar URL
 2. Ir para "💻 Código-Fonte"
 3. Escolher sistema (FINANCAS ou PROJECTOS)
@@ -486,6 +516,7 @@ Após deploy, medir:
 5. Baixar JSON para análise programática
 
 ### Para DBAs
+
 1. Acessar URL
 2. Ir para "📊 Base de Dados"
 3. Baixar esquemas das bases CRÍTICAS
@@ -499,30 +530,35 @@ Após deploy, medir:
 ### O que o cliente recebe:
 
 #### 1. Portal Web Profissional
+
 - Interface moderna e responsiva
 - Navegação intuitiva com 2 menus principais
 - Acessível via GitHub Pages (gratuito)
 - Mobile-friendly
 
 #### 2. Documentação Base de Dados
+
 - 11 Bases documentadas (100%)
 - 539 Tabelas analisadas (100%)
 - Esquemas PDF com defeitos identificados
 - Formato Word, PDF e JSON
 
 #### 3. Documentação Código-Fonte
+
 - 17 Sistemas identificados
 - 2 Sistemas completamente avaliados
 - 6 Relatórios técnicos detalhados
 - Estatísticas e tech stack
 
 #### 4. Guias Completos
+
 - 11 Guias de utilização
 - Instruções de deploy
 - Troubleshooting
 - Previews visuais
 
 #### 5. Contactos Atualizados
+
 - TECMOZA com telefone
 - Suporte técnico atualizado
 - Informações em todos documentos
@@ -532,12 +568,14 @@ Após deploy, medir:
 ## 💯 Qualidade da Entrega
 
 ### Cobertura
+
 - ✅ **100%** das bases de dados documentadas
 - ✅ **100%** das tabelas analisadas
 - ✅ **100%** dos documentos em Português
 - ✅ **2/17** sistemas completamente avaliados (12%)
 
 ### Formatos
+
 - ✅ Web (HTML/CSS/JS)
 - ✅ Word (.docx)
 - ✅ PDF (visual)
@@ -545,6 +583,7 @@ Após deploy, medir:
 - ✅ Markdown (guias)
 
 ### Acessibilidade
+
 - ✅ GitHub Pages (grátis, sempre disponível)
 - ✅ Downloads diretos
 - ✅ Links externos para reports
@@ -556,50 +595,53 @@ Após deploy, medir:
 
 ### Total: 44+ Arquivos
 
-**Categoria** | **Quantidade** | **Tamanho**
----|---|---
-Web (HTML/CSS/JS) | 4 | ~63 KB
-Word Documents | 1 | 63 KB
-PDF Schemas | 12 | 553 KB
-JSON Data | 1 | 1.09 MB
-Assessment Reports | 8 | ~300 KB
-Guias Markdown | 11 | ~100 KB
-Config Files | 2 | ~1 KB
-SQL Databases | 11 | ~180 MB
-**TOTAL** | **50+** | **~182 MB**
+| **Categoria**      | **Quantidade** | **Tamanho** |
+| ------------------ | -------------- | ----------- |
+| Web (HTML/CSS/JS)  | 4              | ~63 KB      |
+| Word Documents     | 1              | 63 KB       |
+| PDF Schemas        | 12             | 553 KB      |
+| JSON Data          | 1              | 1.09 MB     |
+| Assessment Reports | 8              | ~300 KB     |
+| Guias Markdown     | 11             | ~100 KB     |
+| Config Files       | 2              | ~1 KB       |
+| SQL Databases      | 11             | ~180 MB     |
+| **TOTAL**          | **50+**        | **~182 MB** |
 
 ---
 
 ## 📅 Timeline de Entrega
 
-| Data | Milestone | Status |
-|------|-----------|--------|
-| 01/11/2025 | Análise de todas bases de dados | ✅ |
-| 01/11/2025 | Geração de esquemas PDF | ✅ |
-| 01/11/2025 | Criação de documento Word | ✅ |
-| 01/11/2025 | Estrutura GitHub Pages | ✅ |
-| 01/11/2025 | Navegação com 2 menus | ✅ |
-| 01/11/2025 | Atualização de contactos | ✅ |
-| 01/11/2025 | Defeitos nos PDFs | ✅ |
-| 01/11/2025 | **ENTREGA FINAL v1.1** | ✅ |
+| Data       | Milestone                       | Status |
+| ---------- | ------------------------------- | ------ |
+| 01/11/2025 | Análise de todas bases de dados | ✅     |
+| 01/11/2025 | Geração de esquemas PDF         | ✅     |
+| 01/11/2025 | Criação de documento Word       | ✅     |
+| 01/11/2025 | Estrutura GitHub Pages          | ✅     |
+| 01/11/2025 | Navegação com 2 menus           | ✅     |
+| 01/11/2025 | Atualização de contactos        | ✅     |
+| 01/11/2025 | Defeitos nos PDFs               | ✅     |
+| 01/11/2025 | **ENTREGA FINAL v1.1**          | ✅     |
 
 ---
 
 ## 🎯 Valor Entregue
 
 ### Para o Negócio
+
 - ✅ Visibilidade completa do ecossistema técnico
 - ✅ Base para decisões estratégicas
 - ✅ Identificação de riscos críticos
 - ✅ Priorização clara de ações
 
 ### Para TI
+
 - ✅ Documentação técnica completa
 - ✅ Estruturas de BD detalhadas
 - ✅ Assessment de código
 - ✅ Roadmap de modernização
 
 ### Para Desenvolvimento
+
 - ✅ Acesso fácil a documentação
 - ✅ Esquemas visuais
 - ✅ Dados em JSON para automação
@@ -610,6 +652,7 @@ SQL Databases | 11 | ~180 MB
 ## 🎓 Metodologia
 
 ### Análise
+
 1. ✅ Parsing de 11 arquivos SQL
 2. ✅ Extração de 539 tabelas
 3. ✅ Identificação de colunas, tipos, constraints
@@ -617,6 +660,7 @@ SQL Databases | 11 | ~180 MB
 5. ✅ Detecção de defeitos
 
 ### Documentação
+
 1. ✅ Geração automatizada Word
 2. ✅ Criação de diagramas PDF
 3. ✅ Export JSON estruturado
@@ -624,6 +668,7 @@ SQL Databases | 11 | ~180 MB
 5. ✅ Criação de portal web
 
 ### Validação
+
 1. ✅ Verificação de completude
 2. ✅ Validação de formatos
 3. ✅ Testes de navegação
@@ -646,6 +691,7 @@ SQL Databases | 11 | ~180 MB
 ### Durante 30 dias após entrega:
 
 **Suporte incluído para:**
+
 - ✅ Questões sobre a documentação
 - ✅ Ajuda com GitHub Pages
 - ✅ Correções de bugs
@@ -675,12 +721,14 @@ Evariste Musekwa Iguna
 ## 🚀 Roadmap Futuro (Sugestões)
 
 ### Fase 2 (Opcional)
+
 - [ ] Avaliar 15 sistemas restantes
 - [ ] Criar documentação para cada sistema
 - [ ] Diagramas ER interativos
 - [ ] Busca integrada no portal
 
 ### Fase 3 (Opcional)
+
 - [ ] Dashboard interativo
 - [ ] API de consulta
 - [ ] Versionamento automático
@@ -691,6 +739,7 @@ Evariste Musekwa Iguna
 ## ✅ CONFIRMAÇÃO FINAL
 
 ### Tudo Pronto Para:
+
 - ✅ Publicação no GitHub Pages
 - ✅ Apresentação para stakeholders
 - ✅ Uso pela equipa técnica
@@ -698,6 +747,7 @@ Evariste Musekwa Iguna
 - ✅ Distribuição interna
 
 ### Próximo Passo:
+
 **Fazer git push e ativar GitHub Pages!** 🚀
 
 ---
@@ -737,4 +787,3 @@ Esperamos que seja útil para a gestão e modernização do ecossistema Tes-Top.
 _Sistema Interno de Gestão Empresarial - Tes-Top_  
 _Documentação v1.1 - Novembro 2025_  
 _Preparado por TECMOZA_
-

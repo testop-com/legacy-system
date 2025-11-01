@@ -7,6 +7,7 @@ Use este checklist para garantir que tudo está pronto para publicar no GitHub P
 ## 📋 PRÉ-DEPLOY
 
 ### 1. Arquivos Principais
+
 - [x] `index.html` - Página principal criada
 - [x] `_config.yml` - Configuração GitHub Pages
 - [x] `.gitignore` - Configurado corretamente
@@ -14,12 +15,14 @@ Use este checklist para garantir que tudo está pronto para publicar no GitHub P
 - [x] `assets/js/main.js` - JavaScript funcional
 
 ### 2. Documentação
+
 - [x] `DOCUMENTACAO_TECNICA_BASES_DADOS.docx` (63 KB)
 - [x] `database_analysis.json` (1.09 MB)
 - [x] `LEIA-ME_DOCUMENTACAO.md` (11 KB)
 - [x] `RESUMO_ENTREGA.md` (13 KB)
 
 ### 3. Esquemas PDF
+
 - [x] `database_schemas/RESUMO_BASES_DADOS.pdf`
 - [x] `database_schemas/ESQUEMA_grupotestop_financas.pdf`
 - [x] `database_schemas/ESQUEMA_grupotestop_stock.pdf`
@@ -36,6 +39,7 @@ Use este checklist para garantir que tudo está pronto para publicar no GitHub P
 **Total**: 12 PDFs ✅
 
 ### 4. Guias
+
 - [x] `GITHUB_PAGES_SETUP.md` - Instruções de configuração
 - [x] `NAVEGACAO_DOCUMENTACAO.md` - Guia de navegação
 - [x] `DEPLOY_CHECKLIST.md` - Este arquivo
@@ -113,6 +117,7 @@ git push origin main
 ```
 
 ### 3. Verificações Git
+
 - [ ] Repositório criado no GitHub
 - [ ] Branch `main` existe
 - [ ] Todos os arquivos foram pushed
@@ -212,6 +217,7 @@ Enviar email com:
 **Assunto**: Nova Documentação Interativa - Bases de Dados Grupo Testop
 
 **Corpo**:
+
 ```
 Prezados,
 
@@ -312,13 +318,16 @@ TECMOZA
 ## 📝 NOTAS
 
 ### Limitações GitHub Pages:
+
 - Tamanho máximo do repo: 1 GB
 - Bandwidth mensal: 100 GB
 - Sem backend/PHP/MySQL
 - Apenas conteúdo estático
 
 ### Nosso Status:
+
 ✅ Bem dentro dos limites
+
 - Arquivos totais: ~2 MB
 - Todos estáticos (HTML/CSS/JS/PDF)
 - Sem necessidade de backend
@@ -355,8 +364,8 @@ Antes de considerar o deploy completo, confirme:
 ---
 
 **Preparado por**: TECMOZA  
-**Contacto**: Evariste Musekwa Iguna | musekwa@tecmoza.com | (+258) 860140080  
-**Suporte Técnico**: Onésimo Metro | (+258) 848938851  
+**Tes-Top (Ponto Focal)**: Younus Mohammed | (+258) 843030477  
+**Suporte Técnico (Depto. Informática)**: Onésimo Metro | (+258) 848938851  
+**Documentação (TECMOZA)**: Evariste Musekwa Iguna | musekwa@tecmoza.com | (+258) 860140080  
 **Data**: 01 de Novembro de 2025  
 **Última atualização**: [preencher após updates]
-

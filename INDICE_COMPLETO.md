@@ -20,15 +20,16 @@
 
 ### 🌐 Portal Web (GitHub Pages)
 
-| Arquivo | Descrição | Tamanho |
-|---------|-----------|---------|
-| **[index.html](index.html)** | **Página principal do portal** | 31 KB |
-| [_config.yml](_config.yml) | Configuração GitHub Pages | 0.9 KB |
-| [.gitignore](.gitignore) | Controle de versão Git | - |
-| [assets/css/style.css](assets/css/style.css) | Estilos completos do portal | 27 KB |
-| [assets/js/main.js](assets/js/main.js) | JavaScript e interatividade | 5 KB |
+| Arquivo                                      | Descrição                      | Tamanho |
+| -------------------------------------------- | ------------------------------ | ------- |
+| **[index.html](index.html)**                 | **Página principal do portal** | 31 KB   |
+| [\_config.yml](_config.yml)                  | Configuração GitHub Pages      | 0.9 KB  |
+| [.gitignore](.gitignore)                     | Controle de versão Git         | -       |
+| [assets/css/style.css](assets/css/style.css) | Estilos completos do portal    | 27 KB   |
+| [assets/js/main.js](assets/js/main.js)       | JavaScript e interatividade    | 5 KB    |
 
 **Características:**
+
 - ✅ Barra de navegação fixa
 - ✅ 2 Menus: Base de Dados + Código-Fonte
 - ✅ Responsivo (desktop, tablet, mobile)
@@ -38,13 +39,14 @@
 
 ### 📊 Base de Dados - Documentação Principal
 
-| Arquivo | Descrição | Tamanho |
-|---------|-----------|---------|
-| **[DOCUMENTACAO_TECNICA_BASES_DADOS.docx](DOCUMENTACAO_TECNICA_BASES_DADOS.docx)** | **Documento Word principal** | 63 KB |
-| [database_analysis.json](database_analysis.json) | Dados técnicos completos | 1.09 MB |
-| [database_schemas/RESUMO_BASES_DADOS.pdf](database_schemas/RESUMO_BASES_DADOS.pdf) | Resumo visual de todas BDs | 36 KB |
+| Arquivo                                                                            | Descrição                    | Tamanho |
+| ---------------------------------------------------------------------------------- | ---------------------------- | ------- |
+| **[DOCUMENTACAO_TECNICA_BASES_DADOS.docx](DOCUMENTACAO_TECNICA_BASES_DADOS.docx)** | **Documento Word principal** | 63 KB   |
+| [database_analysis.json](database_analysis.json)                                   | Dados técnicos completos     | 1.09 MB |
+| [database_schemas/RESUMO_BASES_DADOS.pdf](database_schemas/RESUMO_BASES_DADOS.pdf) | Resumo visual de todas BDs   | 36 KB   |
 
 **Conteúdo Word:**
+
 - Resumo executivo
 - 11 Bases de dados detalhadas
 - 539 Tabelas com esquemas completos
@@ -58,21 +60,22 @@
 
 **Diretório:** `database_schemas/`
 
-| PDF | Tabelas | Tamanho | Prioridade |
-|-----|---------|---------|------------|
-| [ESQUEMA_grupotestop_financas.pdf](database_schemas/ESQUEMA_grupotestop_financas.pdf) | 125 | 72 KB | ALTA |
-| [ESQUEMA_grupotestop_stock.pdf](database_schemas/ESQUEMA_grupotestop_stock.pdf) | 89 | 62 KB | **CRÍTICA** |
-| [ESQUEMA_grupotestop_salarios.pdf](database_schemas/ESQUEMA_grupotestop_salarios.pdf) | 71 | 54 KB | **CRÍTICA** |
-| [ESQUEMA_grupotestop_attendance.pdf](database_schemas/ESQUEMA_grupotestop_attendance.pdf) | 71 | 54 KB | ALTA |
-| [ESQUEMA_grupotestop_banco_mundial_stock.pdf](database_schemas/ESQUEMA_grupotestop_banco_mundial_stock.pdf) | 60 | 52 KB | ALTA |
-| [ESQUEMA_grupotestop_baixadas.pdf](database_schemas/ESQUEMA_grupotestop_baixadas.pdf) | 36 | 43 KB | MÉDIA |
-| [ESQUEMA_grupotestop_helpdesk.pdf](database_schemas/ESQUEMA_grupotestop_helpdesk.pdf) | 34 | 43 KB | BAIXA |
-| [ESQUEMA_autobas2_testop_db.pdf](database_schemas/ESQUEMA_autobas2_testop_db.pdf) | 36 | 45 KB | MÉDIA |
-| [ESQUEMA_grupotestop_meeting.pdf](database_schemas/ESQUEMA_grupotestop_meeting.pdf) | 9 | 32 KB | BAIXA |
-| [ESQUEMA_grupotestop_archives.pdf](database_schemas/ESQUEMA_grupotestop_archives.pdf) | 5 | 31 KB | BAIXA |
-| [ESQUEMA_grupotestop_ticket.pdf](database_schemas/ESQUEMA_grupotestop_ticket.pdf) | 3 | 30 KB | BAIXA |
+| PDF                                                                                                         | Tabelas | Tamanho | Prioridade  |
+| ----------------------------------------------------------------------------------------------------------- | ------- | ------- | ----------- |
+| [ESQUEMA_grupotestop_financas.pdf](database_schemas/ESQUEMA_grupotestop_financas.pdf)                       | 125     | 72 KB   | ALTA        |
+| [ESQUEMA_grupotestop_stock.pdf](database_schemas/ESQUEMA_grupotestop_stock.pdf)                             | 89      | 62 KB   | **CRÍTICA** |
+| [ESQUEMA_grupotestop_salarios.pdf](database_schemas/ESQUEMA_grupotestop_salarios.pdf)                       | 71      | 54 KB   | **CRÍTICA** |
+| [ESQUEMA_grupotestop_attendance.pdf](database_schemas/ESQUEMA_grupotestop_attendance.pdf)                   | 71      | 54 KB   | ALTA        |
+| [ESQUEMA_grupotestop_banco_mundial_stock.pdf](database_schemas/ESQUEMA_grupotestop_banco_mundial_stock.pdf) | 60      | 52 KB   | ALTA        |
+| [ESQUEMA_grupotestop_baixadas.pdf](database_schemas/ESQUEMA_grupotestop_baixadas.pdf)                       | 36      | 43 KB   | MÉDIA       |
+| [ESQUEMA_grupotestop_helpdesk.pdf](database_schemas/ESQUEMA_grupotestop_helpdesk.pdf)                       | 34      | 43 KB   | BAIXA       |
+| [ESQUEMA_autobas2_testop_db.pdf](database_schemas/ESQUEMA_autobas2_testop_db.pdf)                           | 36      | 45 KB   | MÉDIA       |
+| [ESQUEMA_grupotestop_meeting.pdf](database_schemas/ESQUEMA_grupotestop_meeting.pdf)                         | 9       | 32 KB   | BAIXA       |
+| [ESQUEMA_grupotestop_archives.pdf](database_schemas/ESQUEMA_grupotestop_archives.pdf)                       | 5       | 31 KB   | BAIXA       |
+| [ESQUEMA_grupotestop_ticket.pdf](database_schemas/ESQUEMA_grupotestop_ticket.pdf)                           | 3       | 30 KB   | BAIXA       |
 
 **Cada PDF contém:**
+
 - ⚠️ **Página inicial de defeitos** (NOVO em v1.1)
 - Diagramas visuais das tabelas
 - Indicação de chaves primárias
@@ -84,16 +87,16 @@
 
 **Diretório:** `assessment-report/`
 
-| Documento | Linhas | Descrição | Audiência |
-|-----------|--------|-----------|-----------|
-| **[COMPLETE_ECOSYSTEM_ANALYSIS.md](assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md)** 🔴 | - | **Análise completa do ecossistema** | **Crítico - Ler primeiro** |
-| [OVERALL_ASSESSMENT.md](assessment-report/OVERALL_ASSESSMENT.md) | 489 | Avaliação geral combinada | Executivos, IT Leaders |
-| [ASSESSMENT_FINANCAS.md](assessment-report/ASSESSMENT_FINANCAS.md) | 1,497 | Análise detalhada FINANCAS | Técnicos |
-| [ASSESSMENT_PROJECTOS.md](assessment-report/ASSESSMENT_PROJECTOS.md) | 791 | Análise detalhada PROJECTOS | Técnicos |
-| [OVERALL_PROJECT_SUMMARY.md](assessment-report/OVERALL_PROJECT_SUMMARY.md) | 351 | Resumo executivo | Todos |
-| [EXECUTIVE_BRIEF.md](assessment-report/EXECUTIVE_BRIEF.md) | - | Brief para decisores | Executivos |
-| [PROJECT_SUMMARY_FINANCAS.md](assessment-report/PROJECT_SUMMARY_FINANCAS.md) | 449 | Resumo FINANCAS | Stakeholders |
-| [README.md](assessment-report/README.md) | 260 | Navegação dos reports | Todos |
+| Documento                                                                                 | Linhas | Descrição                           | Audiência                  |
+| ----------------------------------------------------------------------------------------- | ------ | ----------------------------------- | -------------------------- |
+| **[COMPLETE_ECOSYSTEM_ANALYSIS.md](assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md)** 🔴 | -      | **Análise completa do ecossistema** | **Crítico - Ler primeiro** |
+| [OVERALL_ASSESSMENT.md](assessment-report/OVERALL_ASSESSMENT.md)                          | 489    | Avaliação geral combinada           | Executivos, IT Leaders     |
+| [ASSESSMENT_FINANCAS.md](assessment-report/ASSESSMENT_FINANCAS.md)                        | 1,497  | Análise detalhada FINANCAS          | Técnicos                   |
+| [ASSESSMENT_PROJECTOS.md](assessment-report/ASSESSMENT_PROJECTOS.md)                      | 791    | Análise detalhada PROJECTOS         | Técnicos                   |
+| [OVERALL_PROJECT_SUMMARY.md](assessment-report/OVERALL_PROJECT_SUMMARY.md)                | 351    | Resumo executivo                    | Todos                      |
+| [EXECUTIVE_BRIEF.md](assessment-report/EXECUTIVE_BRIEF.md)                                | -      | Brief para decisores                | Executivos                 |
+| [PROJECT_SUMMARY_FINANCAS.md](assessment-report/PROJECT_SUMMARY_FINANCAS.md)              | 449    | Resumo FINANCAS                     | Stakeholders               |
+| [README.md](assessment-report/README.md)                                                  | 260    | Navegação dos reports               | Todos                      |
 
 **Total:** 3,837+ linhas de documentação técnica
 
@@ -102,27 +105,30 @@
 ### 📚 Guias de Utilização (11 documentos)
 
 #### Setup e Deploy
-| Guia | Propósito | Para Quem |
-|------|-----------|-----------|
+
+| Guia                                                               | Propósito              | Para Quem        |
+| ------------------------------------------------------------------ | ---------------------- | ---------------- |
 | **[INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md)** | **Deploy em 5 passos** | **Começar aqui** |
-| [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) | Configuração detalhada | Administradores |
-| [DEPLOY_CHECKLIST.md](DEPLOY_CHECKLIST.md) | Checklist de deploy | DevOps |
+| [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)                     | Configuração detalhada | Administradores  |
+| [DEPLOY_CHECKLIST.md](DEPLOY_CHECKLIST.md)                         | Checklist de deploy    | DevOps           |
 
 #### Navegação e Uso
-| Guia | Propósito | Para Quem |
-|------|-----------|-----------|
-| [SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md) | Sistema de navegação v1.1 | Todos |
-| [NAVEGACAO_DOCUMENTACAO.md](NAVEGACAO_DOCUMENTACAO.md) | Como navegar o portal | Usuários finais |
-| [PREVIEW_ESTRUTURA.md](PREVIEW_ESTRUTURA.md) | Visualização da estrutura | Gestores |
-| [LEIA-ME_DOCUMENTACAO.md](LEIA-ME_DOCUMENTACAO.md) | Guia completo de uso | Todos |
+
+| Guia                                                   | Propósito                 | Para Quem       |
+| ------------------------------------------------------ | ------------------------- | --------------- |
+| [SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md)               | Sistema de navegação v1.1 | Todos           |
+| [NAVEGACAO_DOCUMENTACAO.md](NAVEGACAO_DOCUMENTACAO.md) | Como navegar o portal     | Usuários finais |
+| [PREVIEW_ESTRUTURA.md](PREVIEW_ESTRUTURA.md)           | Visualização da estrutura | Gestores        |
+| [LEIA-ME_DOCUMENTACAO.md](LEIA-ME_DOCUMENTACAO.md)     | Guia completo de uso      | Todos           |
 
 #### Resumos e Changelogs
-| Guia | Propósito | Para Quem |
-|------|-----------|-----------|
-| [RESUMO_ENTREGA.md](RESUMO_ENTREGA.md) | Resumo da entrega | Stakeholders |
-| [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md) | Entrega final v1.1 | Gestão |
-| [CHANGELOG_v1.1.md](CHANGELOG_v1.1.md) | Alterações v1.1 | Técnicos |
-| **[INDICE_COMPLETO.md](INDICE_COMPLETO.md)** | **Este arquivo** | **Navegação** |
+
+| Guia                                           | Propósito          | Para Quem     |
+| ---------------------------------------------- | ------------------ | ------------- |
+| [RESUMO_ENTREGA.md](RESUMO_ENTREGA.md)         | Resumo da entrega  | Stakeholders  |
+| [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md) | Entrega final v1.1 | Gestão        |
+| [CHANGELOG_v1.1.md](CHANGELOG_v1.1.md)         | Alterações v1.1    | Técnicos      |
+| **[INDICE_COMPLETO.md](INDICE_COMPLETO.md)**   | **Este arquivo**   | **Navegação** |
 
 ---
 
@@ -131,6 +137,7 @@
 ### 👔 Executivos / Decisores
 
 **Leia nesta ordem:**
+
 1. [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md) - O que foi entregue
 2. Acesse o portal online (após deploy)
 3. Vá para "💻 Código-Fonte" → Baixe "Executive Brief"
@@ -141,6 +148,7 @@
 ### 💼 Gestores de TI
 
 **Leia nesta ordem:**
+
 1. [SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md) - Entender estrutura
 2. Acesse o portal online
 3. Explore ambas secções (BD + Código)
@@ -152,6 +160,7 @@
 ### 👨‍💻 Desenvolvedores
 
 **Leia nesta ordem:**
+
 1. Acesse portal → "💻 Código-Fonte"
 2. Escolha sistema (FINANCAS ou PROJECTOS)
 3. Leia assessment report completo
@@ -163,6 +172,7 @@
 ### 🔧 DBAs / Administradores de BD
 
 **Leia nesta ordem:**
+
 1. Acesse portal → "📊 Base de Dados"
 2. Baixe Documento Word principal
 3. Baixe PDFs das bases CRÍTICAS
@@ -174,6 +184,7 @@
 ### 🚀 DevOps / Deploy
 
 **Leia nesta ordem:**
+
 1. [INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md) - Deploy
 2. [DEPLOY_CHECKLIST.md](DEPLOY_CHECKLIST.md) - Validação
 3. [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) - Config completa
@@ -256,62 +267,62 @@
 
 ### 1️⃣ Deploy e Configuração
 
-| Documento | O que contém |
-|-----------|--------------|
+| Documento                                                      | O que contém                             |
+| -------------------------------------------------------------- | ---------------------------------------- |
 | [INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md) | ⭐ Deploy em 5 passos - **Começar aqui** |
-| [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md) | Configuração detalhada passo a passo |
-| [DEPLOY_CHECKLIST.md](DEPLOY_CHECKLIST.md) | Checklist completo pré e pós deploy |
-| [_config.yml](_config.yml) | Configuração técnica GitHub Pages |
-| [.gitignore](.gitignore) | Arquivos a ignorar no Git |
+| [GITHUB_PAGES_SETUP.md](GITHUB_PAGES_SETUP.md)                 | Configuração detalhada passo a passo     |
+| [DEPLOY_CHECKLIST.md](DEPLOY_CHECKLIST.md)                     | Checklist completo pré e pós deploy      |
+| [\_config.yml](_config.yml)                                    | Configuração técnica GitHub Pages        |
+| [.gitignore](.gitignore)                                       | Arquivos a ignorar no Git                |
 
 ### 2️⃣ Navegação e Estrutura
 
-| Documento | O que contém |
-|-----------|--------------|
-| [SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md) | ⭐ Sistema de navegação completo v1.1 |
-| [NAVEGACAO_DOCUMENTACAO.md](NAVEGACAO_DOCUMENTACAO.md) | Como usar o portal e navegar |
-| [PREVIEW_ESTRUTURA.md](PREVIEW_ESTRUTURA.md) | Visualização da estrutura da página |
-| [index.html](index.html) | Código-fonte do portal |
+| Documento                                              | O que contém                          |
+| ------------------------------------------------------ | ------------------------------------- |
+| [SOBRE_NAVEGACAO.md](SOBRE_NAVEGACAO.md)               | ⭐ Sistema de navegação completo v1.1 |
+| [NAVEGACAO_DOCUMENTACAO.md](NAVEGACAO_DOCUMENTACAO.md) | Como usar o portal e navegar          |
+| [PREVIEW_ESTRUTURA.md](PREVIEW_ESTRUTURA.md)           | Visualização da estrutura da página   |
+| [index.html](index.html)                               | Código-fonte do portal                |
 
 ### 3️⃣ Base de Dados
 
-| Documento | O que contém |
-|-----------|--------------|
-| [DOCUMENTACAO_TECNICA_BASES_DADOS.docx](DOCUMENTACAO_TECNICA_BASES_DADOS.docx) | ⭐ **Documento principal** - 50+ páginas |
-| [database_analysis.json](database_analysis.json) | Dados técnicos de 539 tabelas |
-| [database_schemas/RESUMO_BASES_DADOS.pdf](database_schemas/RESUMO_BASES_DADOS.pdf) | Resumo visual consolidado |
-| [database_schemas/ESQUEMA_*.pdf](database_schemas/) | 11 esquemas individuais c/ defeitos |
+| Documento                                                                          | O que contém                             |
+| ---------------------------------------------------------------------------------- | ---------------------------------------- |
+| [DOCUMENTACAO_TECNICA_BASES_DADOS.docx](DOCUMENTACAO_TECNICA_BASES_DADOS.docx)     | ⭐ **Documento principal** - 50+ páginas |
+| [database_analysis.json](database_analysis.json)                                   | Dados técnicos de 539 tabelas            |
+| [database_schemas/RESUMO_BASES_DADOS.pdf](database_schemas/RESUMO_BASES_DADOS.pdf) | Resumo visual consolidado                |
+| [database*schemas/ESQUEMA*\*.pdf](database_schemas/)                               | 11 esquemas individuais c/ defeitos      |
 
 ### 4️⃣ Código-Fonte e Assessment
 
-| Documento | O que contém |
-|-----------|--------------|
+| Documento                                                                                            | O que contém                          |
+| ---------------------------------------------------------------------------------------------------- | ------------------------------------- |
 | [assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md](assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md) | ⭐ **CRÍTICO** - Ecossistema completo |
-| [assessment-report/OVERALL_ASSESSMENT.md](assessment-report/OVERALL_ASSESSMENT.md) | Avaliação geral (489 linhas) |
-| [assessment-report/ASSESSMENT_FINANCAS.md](assessment-report/ASSESSMENT_FINANCAS.md) | FINANCAS detalhado (1,497 linhas) |
-| [assessment-report/ASSESSMENT_PROJECTOS.md](assessment-report/ASSESSMENT_PROJECTOS.md) | PROJECTOS detalhado (791 linhas) |
-| [assessment-report/OVERALL_PROJECT_SUMMARY.md](assessment-report/OVERALL_PROJECT_SUMMARY.md) | Resumo executivo (351 linhas) |
-| [assessment-report/EXECUTIVE_BRIEF.md](assessment-report/EXECUTIVE_BRIEF.md) | Brief para executivos |
+| [assessment-report/OVERALL_ASSESSMENT.md](assessment-report/OVERALL_ASSESSMENT.md)                   | Avaliação geral (489 linhas)          |
+| [assessment-report/ASSESSMENT_FINANCAS.md](assessment-report/ASSESSMENT_FINANCAS.md)                 | FINANCAS detalhado (1,497 linhas)     |
+| [assessment-report/ASSESSMENT_PROJECTOS.md](assessment-report/ASSESSMENT_PROJECTOS.md)               | PROJECTOS detalhado (791 linhas)      |
+| [assessment-report/OVERALL_PROJECT_SUMMARY.md](assessment-report/OVERALL_PROJECT_SUMMARY.md)         | Resumo executivo (351 linhas)         |
+| [assessment-report/EXECUTIVE_BRIEF.md](assessment-report/EXECUTIVE_BRIEF.md)                         | Brief para executivos                 |
 
 ### 5️⃣ Guias de Uso
 
-| Documento | O que contém |
-|-----------|--------------|
+| Documento                                          | O que contém                   |
+| -------------------------------------------------- | ------------------------------ |
 | [LEIA-ME_DOCUMENTACAO.md](LEIA-ME_DOCUMENTACAO.md) | ⭐ Guia completo de utilização |
-| [RESUMO_ENTREGA.md](RESUMO_ENTREGA.md) | Resumo e checklist de entrega |
-| [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md) | Documento de entrega final |
+| [RESUMO_ENTREGA.md](RESUMO_ENTREGA.md)             | Resumo e checklist de entrega  |
+| [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md)     | Documento de entrega final     |
 
 ### 6️⃣ Changelog e Versioning
 
-| Documento | O que contém |
-|-----------|--------------|
-| [CHANGELOG_v1.1.md](CHANGELOG_v1.1.md) | Todas alterações versão 1.1 |
+| Documento                                | O que contém                     |
+| ---------------------------------------- | -------------------------------- |
+| [CHANGELOG_v1.1.md](CHANGELOG_v1.1.md)   | Todas alterações versão 1.1      |
 | [INDICE_COMPLETO.md](INDICE_COMPLETO.md) | ⭐ Este arquivo - Índice de tudo |
 
 ### 7️⃣ Documento Principal do Projeto
 
-| Documento | O que contém |
-|-----------|--------------|
+| Documento              | O que contém                         |
+| ---------------------- | ------------------------------------ |
 | [README.md](README.md) | ⭐ Documentação principal do projeto |
 
 ---
@@ -319,29 +330,34 @@
 ## 🎯 CENÁRIOS DE USO
 
 ### Cenário 1: "Preciso fazer deploy urgente"
+
 1. Leia: [INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md)
 2. Execute os 5 passos
 3. Pronto em 10 minutos
 
 ### Cenário 2: "Preciso entender uma base de dados"
+
 1. Acesse portal → "📊 Base de Dados"
 2. Baixe PDF da base específica
 3. Leia página de defeitos
 4. Consulte Word para detalhes de tabelas
 
 ### Cenário 3: "Preciso avaliar um sistema"
+
 1. Acesse portal → "💻 Código-Fonte"
 2. Clique no card do sistema
 3. Leia assessment report
 4. Implemente recomendações
 
 ### Cenário 4: "Sou novo no projeto"
+
 1. Leia: [README.md](README.md) principal
 2. Leia: [ENTREGA_FINAL_v1.1.md](ENTREGA_FINAL_v1.1.md)
 3. Acesse portal online
 4. Explore as duas secções
 
 ### Cenário 5: "Preciso de um documento específico"
+
 1. Use este índice (INDICE_COMPLETO.md)
 2. Encontre o documento na tabela
 3. Clique no link
@@ -353,41 +369,41 @@
 
 ### Documentação Criada
 
-| Tipo | Quantidade | Tamanho Total |
-|------|------------|---------------|
-| **Páginas Web** | 1 | 31 KB |
-| **Estilos CSS** | 1 | 27 KB |
-| **JavaScript** | 1 | 5 KB |
-| **Word Documents** | 1 | 63 KB |
-| **PDF Schemas** | 12 | 553 KB |
-| **JSON Data** | 1 | 1.09 MB |
-| **Assessment Reports** | 8 | ~300 KB |
-| **Guias Markdown** | 11 | ~100 KB |
-| **Config Files** | 2 | ~1 KB |
-| **TOTAL** | **38** | **~2.16 MB** |
+| Tipo                   | Quantidade | Tamanho Total |
+| ---------------------- | ---------- | ------------- |
+| **Páginas Web**        | 1          | 31 KB         |
+| **Estilos CSS**        | 1          | 27 KB         |
+| **JavaScript**         | 1          | 5 KB          |
+| **Word Documents**     | 1          | 63 KB         |
+| **PDF Schemas**        | 12         | 553 KB        |
+| **JSON Data**          | 1          | 1.09 MB       |
+| **Assessment Reports** | 8          | ~300 KB       |
+| **Guias Markdown**     | 11         | ~100 KB       |
+| **Config Files**       | 2          | ~1 KB         |
+| **TOTAL**              | **38**     | **~2.16 MB**  |
 
-*Nota: Não inclui arquivos SQL originais (~180 MB)*
+_Nota: Não inclui arquivos SQL originais (~180 MB)_
 
 ### Bases de Dados
 
-| Métrica | Valor |
-|---------|-------|
-| Bases documentadas | 11 (100%) |
-| Tabelas analisadas | 539 (100%) |
-| Tamanho SQL total | ~180 MB |
-| Chaves estrangeiras | 0 (⚠️ CRÍTICO) |
-| Defeitos documentados | ~70+ |
+| Métrica               | Valor          |
+| --------------------- | -------------- |
+| Bases documentadas    | 11 (100%)      |
+| Tabelas analisadas    | 539 (100%)     |
+| Tamanho SQL total     | ~180 MB        |
+| Chaves estrangeiras   | 0 (⚠️ CRÍTICO) |
+| Defeitos documentados | ~70+           |
 
 ### Código-Fonte
 
-| Métrica | Valor |
-|---------|-------|
-| Sistemas identificados | ~17 |
-| Sistemas avaliados | 2 (12%) |
-| Linhas de documentação | 3,837+ |
-| Views documentadas | 697+ |
-| Controllers | 159+ |
-| Models | 160+ |
+| Métrica                | Valor   |
+| ---------------------- | ------- |
+| Sistemas identificados | ~17     |
+| Sistemas avaliados     | 2 (12%) |
+| Linhas de documentação | 3,837+  |
+| Views documentadas     | 697+    |
+| Controllers            | 159+    |
+| Models                 | 160+    |
 
 ---
 
@@ -423,19 +439,21 @@
 
 ## 📞 Contactos (v1.1)
 
+### Tes-Top (Ponto Focal)
+
+- **Nome**: Younus Mohammed
+- **Tel**: (+258) 843030477
+
+### Tes-Top (Suporte Técnico - Depto. Informática)
+
+- **Nome**: Onésimo Metro
+- **Tel**: (+258) 848938851
+
 ### TECMOZA (Documentação)
+
 - **Nome**: Evariste Musekwa Iguna
 - **Email**: musekwa@tecmoza.com
-- **Tel**: (+258) 860140080 ← NOVO
-
-### Tes-Top (Suporte Técnico)
-- **Nome**: Onésimo Metro ← NOVO
-- **Tel**: (+258) 848938851 ← NOVO
-
-### Tes-Top (Geral)
-- **Email**: rh@testop.co.mz
-- **Tel**: +258 21328056
-- **Local**: AV. KARL MARX, Nº1877 R/C-MAPUTO
+- **Tel**: (+258) 860140080
 
 ---
 
@@ -444,24 +462,29 @@
 Use este checklist para confirmar que tem tudo:
 
 ### Arquivos Core
+
 - [ ] index.html
-- [ ] _config.yml
+- [ ] \_config.yml
 - [ ] .gitignore
 - [ ] assets/css/style.css
 - [ ] assets/js/main.js
 
 ### Documentação BD
+
 - [ ] DOCUMENTACAO_TECNICA_BASES_DADOS.docx
 - [ ] database_analysis.json
 - [ ] 12 PDFs em database_schemas/
 
 ### Assessment Reports
+
 - [ ] 8 documentos em assessment-report/
 
 ### Guias
+
 - [ ] 11 guias markdown
 
 ### Testes
+
 - [ ] Portal funciona localmente
 - [ ] Navegação suave
 - [ ] Downloads funcionam
@@ -472,18 +495,21 @@ Use este checklist para confirmar que tem tudo:
 ## 🎓 Próximos Passos
 
 ### Imediato (Hoje)
+
 1. ✅ Revisar este índice
 2. ✅ Fazer git push
 3. ✅ Ativar GitHub Pages
 4. ✅ Testar URL gerada
 
 ### Curto Prazo (1 semana)
+
 1. ✅ Compartilhar com stakeholders
 2. ✅ Coletar feedback
 3. ✅ Corrigir bugs se houver
 4. ✅ Adicionar analytics (opcional)
 
 ### Médio Prazo (1 mês)
+
 1. ✅ Avaliar mais sistemas
 2. ✅ Atualizar documentação
 3. ✅ Implementar correções de BD
@@ -496,21 +522,25 @@ Use este checklist para confirmar que tem tudo:
 ### Componentes
 
 1. ✅ **Portal Web Profissional**
+
    - Interface moderna
    - Navegação avançada
    - Totalmente responsivo
 
 2. ✅ **Documentação Completa BD**
+
    - 11 Bases documentadas
    - 539 Tabelas analisadas
    - 3 Formatos (Word, PDF, JSON)
 
 3. ✅ **Documentação Código-Fonte**
+
    - 17 Sistemas identificados
    - 2 Avaliações completas
    - 6 Relatórios técnicos
 
 4. ✅ **Guias Extensos**
+
    - 11 Guias detalhados
    - Instruções passo a passo
    - Troubleshooting
@@ -528,10 +558,10 @@ Use este checklist para confirmar que tem tudo:
 
 ## 📅 Histórico de Versões
 
-| Versão | Data | Principais Mudanças |
-|--------|------|---------------------|
-| 1.0 | 01/11/2025 | Documentação inicial BD + Assessment Reports |
-| 1.1 | 01/11/2025 | + Portal web, navegação fixa, defeitos PDFs, contactos atualizados |
+| Versão | Data       | Principais Mudanças                                                |
+| ------ | ---------- | ------------------------------------------------------------------ |
+| 1.0    | 01/11/2025 | Documentação inicial BD + Assessment Reports                       |
+| 1.1    | 01/11/2025 | + Portal web, navegação fixa, defeitos PDFs, contactos atualizados |
 
 ---
 
@@ -542,6 +572,7 @@ Use este checklist para confirmar que tem tudo:
 Este índice serve como ponto central de navegação de toda a documentação criada. Use-o como referência rápida para encontrar qualquer documento necessário.
 
 **Para começar:**
+
 1. Leia [INICIO_RAPIDO_GITHUB_PAGES.md](INICIO_RAPIDO_GITHUB_PAGES.md)
 2. Faça deploy
 3. Compartilhe com a equipa!
@@ -560,4 +591,3 @@ Este índice serve como ponto central de navegação de toda a documentação cr
 _Sistema Interno de Gestão Empresarial - Tes-Top_  
 _Documentação Técnica Completa_  
 _© 2025 Tes-Top - Grupo Testop. Confidencial._
-

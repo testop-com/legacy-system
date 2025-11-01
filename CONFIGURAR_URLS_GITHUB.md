@@ -249,9 +249,9 @@ Após substituir, confirme:
 
 **Precisa de ajuda para configurar?**
 
-- **Email:** musekwa@tecmoza.com
-- **Tel:** (+258) 860140080
-- **Suporte:** Onésimo Metro - (+258) 848938851
+- **Tes-Top (Ponto Focal):** Younus Mohammed - (+258) 843030477
+- **Suporte Técnico (Depto. Informática):** Onésimo Metro - (+258) 848938851
+- **Documentação (TECMOZA):** Evariste Musekwa Iguna - musekwa@tecmoza.com - (+258) 860140080
 
 ---
 

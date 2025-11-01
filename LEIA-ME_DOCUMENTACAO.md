@@ -357,16 +357,16 @@ Tel: (+258) 860140080
 
 ### Para Questões de Negócio
 
-**Grupo Testop**  
-Email: rh@testop.co.mz  
-Telefone: +258 21328056  
-Endereço: AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
+**Tes-Top**  
+**Ponto Focal:** Younus Mohammed - Tel: (+258) 843030477  
+**Suporte Técnico (Depto. Informática):** Onésimo Metro - Tel: (+258) 848938851
 
-### Suporte Técnico
+### Documentação
 
-**Departamento de TI - Grupo Testop**  
-Onésimo Metro  
-Tel: (+258) 848938851
+**TECMOZA**  
+Evariste Musekwa Iguna  
+Email: musekwa@tecmoza.com  
+Tel: (+258) 860140080
 
 ---
 

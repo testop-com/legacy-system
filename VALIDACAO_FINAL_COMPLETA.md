@@ -177,17 +177,17 @@
 - Tel: (+258) 860140080
 - **Aparece em:** 22 arquivos
 
-### ✅ Suporte Técnico
+### ✅ Tes-Top (Ponto Focal)
+
+- Nome: Younus Mohammed
+- Tel: (+258) 843030477
+- **Aparece em:** 22 arquivos
+
+### ✅ Suporte Técnico (Depto. Informática)
 
 - Nome: Onésimo Metro
 - Tel: (+258) 848938851
 - **Aparece em:** 22 arquivos
-
-### ✅ Tes-Top (Geral)
-
-- Email: rh@testop.co.mz
-- Tel: +258 21328056
-- Local: AV. KARL MARX, Nº1877 R/C-MAPUTO
 - **Aparece em:** 22 arquivos
 
 ---
@@ -445,8 +445,9 @@ _Sem contar SQL databases (~180 MB)_
 
 ### Durante Implementação
 
-- **TECMOZA:** Evariste Musekwa | (+258) 860140080
-- **Suporte:** Onésimo Metro | (+258) 848938851
+- **Tes-Top (Ponto Focal):** Younus Mohammed | (+258) 843030477
+- **Suporte Técnico:** Onésimo Metro | (+258) 848938851
+- **Documentação (TECMOZA):** Evariste Musekwa | (+258) 860140080
 
 ### Após Deploy
 

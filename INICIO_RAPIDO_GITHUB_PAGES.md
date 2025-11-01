@@ -32,6 +32,7 @@ git push origin main
 ### 3️⃣ Aguardar (2-5 minutos)
 
 GitHub irá:
+
 - ✅ Processar os arquivos
 - ✅ Gerar o site estático
 - ✅ Publicar automaticamente
@@ -39,6 +40,7 @@ GitHub irá:
 ### 4️⃣ Acessar URL
 
 URL será algo como:
+
 ```
 https://SEU_USUARIO.github.io/legacy-system/
 ```
@@ -59,6 +61,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 **Página Principal:** `index.html`
 
 **Estrutura:**
+
 ```
 ┌──────────────────────────────────────┐
 │  BARRA DE NAVEGAÇÃO FIXA (Sempre visível)  │
@@ -95,20 +98,24 @@ https://SEU_USUARIO.github.io/legacy-system/
 ## 📁 Arquivos Necessários
 
 ### Core (Obrigatórios)
+
 ✅ `index.html` - Página principal (31 KB)  
 ✅ `_config.yml` - Config GitHub Pages (0.9 KB)  
 ✅ `.gitignore` - Controle de versão
 
 ### Assets (Obrigatórios)
+
 ✅ `assets/css/style.css` - Estilos completos  
 ✅ `assets/js/main.js` - JavaScript funcional
 
 ### Documentação (Incluir)
+
 ✅ `DOCUMENTACAO_TECNICA_BASES_DADOS.docx` (63 KB)  
 ✅ `database_analysis.json` (1.09 MB)  
 ✅ `database_schemas/*.pdf` (12 PDFs)
 
 ### Guias (Recomendados)
+
 ✅ `LEIA-ME_DOCUMENTACAO.md`  
 ✅ `RESUMO_ENTREGA.md`  
 ✅ `SOBRE_NAVEGACAO.md`  
@@ -116,6 +123,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ✅ `PREVIEW_ESTRUTURA.md`
 
 ### Assessment Reports (Incluir)
+
 ✅ `assessment-report/*.md` (8 documentos)
 
 ---
@@ -123,6 +131,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ## 🎨 Funcionalidades Principais
 
 ### 1. Navegação Fixa
+
 ```
 ✓ Barra sempre visível no topo
 ✓ 4 opções de menu
@@ -134,6 +143,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ### 2. Duas Secções Principais
 
 #### 📊 Base de Dados
+
 ```
 • 11 Bases de dados documentadas
 • 539 Tabelas analisadas
@@ -143,6 +153,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ```
 
 #### 💻 Código-Fonte
+
 ```
 • 7 Sistemas principais listados
 • 2 Sistemas avaliados (✅ FINANCAS, PROJECTOS)
@@ -152,6 +163,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ```
 
 ### 3. Downloads Diretos
+
 ```
 ✓ Documento Word → 1 clique
 ✓ PDFs individuais → 1 clique
@@ -160,6 +172,7 @@ https://SEU_USUARIO.github.io/legacy-system/
 ```
 
 ### 4. Responsividade
+
 ```
 ✓ Desktop: Layout grid completo
 ✓ Tablet: Layout adaptado
@@ -171,29 +184,31 @@ https://SEU_USUARIO.github.io/legacy-system/
 
 ## 📞 Contactos (ATUALIZADOS v1.1)
 
+### 🏢 Tes-Top (Ponto Focal)
+
+```
+Nome: Younus Mohammed
+Tel: (+258) 843030477
+```
+
+### 🔧 Suporte Técnico (Depto. Informática - Tes-Top)
+
+```
+Nome: Onésimo Metro
+Tel: (+258) 848938851
+```
+
 ### 📧 TECMOZA (Documentação)
+
 ```
 Nome: Evariste Musekwa Iguna
 Email: musekwa@tecmoza.com
-Tel: (+258) 860140080  ← NOVO
-```
-
-### 🔧 Suporte Técnico (Tes-Top)
-```
-Nome: Onésimo Metro  ← ATUALIZADO
-Tel: (+258) 848938851  ← NOVO
-```
-
-### 🏢 Tes-Top (Geral)
-```
-Email: rh@testop.co.mz
-Tel: +258 21328056
-Local: AV. KARL MARX, Nº1877 R/C-MAPUTO
+Tel: (+258) 860140080
 ```
 
 ---
 
-## ⚙️ Configuração _config.yml
+## ⚙️ Configuração \_config.yml
 
 ```yaml
 title: "Documentação Técnica - Bases de Dados"
@@ -216,6 +231,7 @@ exclude:
 ## 🧪 Testar Localmente
 
 ### Opção 1: Abrir direto
+
 ```bash
 # Windows
 start index.html
@@ -224,6 +240,7 @@ start index.html
 ```
 
 ### Opção 2: Servidor local (Recomendado)
+
 ```bash
 # Python 3
 python -m http.server 8000
@@ -232,6 +249,7 @@ python -m http.server 8000
 ```
 
 ### Opção 3: Node.js
+
 ```bash
 # Instalar http-server
 npm install -g http-server
@@ -247,23 +265,27 @@ http-server -p 8000
 ## ✅ Checklist Pré-Deploy
 
 ### Arquivos Core
+
 - [x] index.html existe e está atualizado
-- [x] _config.yml configurado
+- [x] \_config.yml configurado
 - [x] assets/css/style.css completo
 - [x] assets/js/main.js funcional
 - [x] .gitignore configurado
 
 ### Documentação
+
 - [x] DOCUMENTACAO_TECNICA_BASES_DADOS.docx
 - [x] database_analysis.json
 - [x] 12 PDFs em database_schemas/
 - [x] Guias markdown
 
 ### Assessment Reports
+
 - [x] assessment-report/ com 8 documentos
 - [x] Links funcionam no HTML
 
 ### Testes
+
 - [x] Página abre localmente
 - [x] Menu funciona
 - [x] Downloads funcionam
@@ -284,12 +306,13 @@ http-server -p 8000
 ### Compartilhar
 
 **Email para stakeholders:**
+
 ```
 Assunto: Sistema de Documentação Tes-Top Online
 
 Prezados,
 
-O Sistema Interno de Gestão Empresarial da Tes-Top agora tem um 
+O Sistema Interno de Gestão Empresarial da Tes-Top agora tem um
 portal de documentação completo online:
 
 🌐 URL: https://SEU_USUARIO.github.io/legacy-system/
@@ -346,21 +369,25 @@ Após deploy, monitorar:
 ## 🆘 Ajuda Rápida
 
 ### Página não carrega
+
 → Aguarde 5-10 minutos após ativar Pages  
 → Limpe cache: Ctrl+Shift+R  
 → Verifique Settings → Pages
 
 ### Menu não funciona
+
 → Verifique se JavaScript está ativado  
 → Limpe cache do navegador  
 → Teste em navegador diferente
 
 ### Downloads falham
+
 → Verifique se arquivos foram pushed  
 → Confirme caminhos relativos corretos  
 → Veja console (F12) para erros
 
 ### Mobile quebrado
+
 → Teste em modo portrait  
 → Recarregue página  
 → Limpe cache mobile
@@ -370,18 +397,21 @@ Após deploy, monitorar:
 ## 🎯 Próximos Passos
 
 ### Imediato
+
 1. ✅ Push para GitHub
 2. ✅ Ativar Pages
 3. ✅ Testar URL
 4. ✅ Compartilhar com equipa
 
 ### Curto Prazo (1 semana)
+
 1. Coletar feedback
 2. Corrigir bugs reportados
 3. Adicionar analytics (opcional)
 4. Documentar mais sistemas
 
 ### Médio Prazo (1 mês)
+
 1. Avaliar sistemas restantes
 2. Atualizar documentação
 3. Melhorar navegação se necessário
@@ -433,4 +463,3 @@ Sua documentação está completa e pronta para GitHub Pages com:
 **Data:** 01 de Novembro de 2025  
 **Preparado por:** TECMOZA  
 **Contacto:** musekwa@tecmoza.com | (+258) 860140080
-

@@ -203,22 +203,21 @@ testop-com/legacy-system/
 
 ## 📞 CONTACTOS
 
-### TECMOZA (Documentação)
+### Tes-Top (Ponto Focal)
 
-**Evariste Musekwa Iguna**  
-📧 Email: musekwa@tecmoza.com  
-📱 Tel: (+258) 860140080
+**Younus Mohammed**  
+📱 Tel: (+258) 843030477
 
-### Tes-Top (Suporte Técnico)
+### Tes-Top (Suporte Técnico - Depto. Informática)
 
 **Onésimo Metro**  
 📱 Tel: (+258) 848938851
 
-### Tes-Top (Geral)
+### TECMOZA (Documentação)
 
-📧 Email: rh@testop.co.mz  
-☎️ Tel: +258 21328056  
-📍 AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
+**Evariste Musekwa Iguna**  
+📧 Email: musekwa@tecmoza.com  
+📱 Tel: (+258) 860140080, Moçambique
 
 ---
 
@@ -282,9 +281,10 @@ um portal de documentação completo online:
 Use o menu superior para alternar entre "Base de Dados" e "Código-Fonte".
 Funciona em desktop, tablet e smartphone.
 
-📞 Suporte:
-• TECMOZA: Evariste Musekwa - (+258) 860140080
-• Tes-Top IT: Onésimo Metro - (+258) 848938851
+📞 Contactos:
+• Tes-Top: Younus Mohammed - (+258) 843030477
+• Suporte Técnico: Onésimo Metro - (+258) 848938851
+• Documentação: Evariste Musekwa - (+258) 860140080
 
 Atenciosamente,
 [Seu Nome]

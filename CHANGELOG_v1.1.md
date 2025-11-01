@@ -10,14 +10,16 @@
 ### 1. Atualização de Contactos
 
 #### 📧 TECMOZA - Evariste Musekwa Iguna
+
 - ✅ **Adicionado**: Telefone (+258) 860140080
 - ✅ Email mantido: musekwa@tecmoza.com
 
 #### 🔧 Suporte Técnico - Grupo Testop
-- ❌ **Removidos**: 
+
+- ❌ **Removidos**:
   - Nunes Pedro (it.nunes@q99.co.mz)
   - Edson Paporo (it.paporo@testop.co.mz)
-- ✅ **Adicionado**: 
+- ✅ **Adicionado**:
   - Onésimo Metro
   - Tel: (+258) 848938851
 
@@ -26,31 +28,38 @@
 ## 📄 Documentos Atualizados
 
 ### Arquivos HTML/Web
+
 1. **`index.html`**
    - Contactos atualizados no footer
    - Informações de suporte técnico
    - Layout mantido
 
 ### Arquivos Markdown
+
 2. **`LEIA-ME_DOCUMENTACAO.md`**
+
    - Secção de contactos atualizada
    - Telefones adicionados
    - Suporte técnico atualizado
 
 3. **`RESUMO_ENTREGA.md`**
+
    - Contactos atualizados
    - Telefones adicionados
    - Suporte técnico novo
 
 4. **`GITHUB_PAGES_SETUP.md`**
+
    - Secção de suporte atualizada
    - Telefones incluídos
 
 5. **`NAVEGACAO_DOCUMENTACAO.md`**
+
    - Contactos técnicos atualizados
    - Novo suporte técnico
 
 6. **`README.md`**
+
    - Secção "Contact & Support" atualizada
    - Departamento de TI atualizado
 
@@ -71,6 +80,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 2. **Base de dados**: Nome da base de dados analisada
 3. **Alerta crítico**: Box vermelho destacando vulnerabilidades
 4. **Lista de defeitos** detectados:
+
    - Ausência de chaves estrangeiras (FOREIGN KEY)
    - Falta de constraints de integridade
    - Índices insuficientes
@@ -80,6 +90,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
    - Outros defeitos específicos por BD
 
 5. **Impacto**: Consequências dos defeitos
+
    - Risco de inconsistência
    - Impossibilidade de garantir integridade
    - Performance sub-ótima
@@ -96,6 +107,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 #### 📝 Defeitos por Base de Dados
 
 ##### grupotestop_financas (125 tabelas)
+
 - ❌ Ausência total de FOREIGN KEY
 - ❌ Sem constraints de integridade referencial
 - ⚠️ Índices insuficientes
@@ -105,6 +117,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - ❌ Sem backup documentado
 
 ##### grupotestop_stock (89 tabelas - MAIOR)
+
 - ❌ Ausência total de FOREIGN KEY
 - ❌ Base mais volumosa (94.70 MB) sem otimização
 - ⚠️ Falta de índices em colunas frequentes
@@ -113,6 +126,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - ❌ Sem controlo de concorrência
 
 ##### grupotestop_salarios (71 tabelas - CRÍTICA)
+
 - ❌ CRÍTICO: Sem FOREIGN KEY
 - ❌ CRÍTICO: Dados sensíveis sem encriptação
 - ⚠️ Sem audit trail para alterações salariais
@@ -121,6 +135,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - ❌ Backup não documentado
 
 ##### grupotestop_attendance (71 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sem validação de horários ao nível da BD
 - ⚠️ Sem constraints anti-duplicação
@@ -128,6 +143,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - ⚠️ Nomenclatura inconsistente
 
 ##### grupotestop_banco_mundial_stock (60 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Separação pouco clara com stock geral
 - ⚠️ Índices insuficientes
@@ -135,33 +151,39 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - ⚠️ Sem constraints
 
 ##### grupotestop_baixadas (36 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sem validação de coordenadas GPS
 - ⚠️ Sem constraints para materiais
 - ⚠️ Índices ausentes
 
 ##### grupotestop_helpdesk (34 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sem validação de workflow states
 - ⚠️ Sem audit trail
 - ⚠️ Índices insuficientes
 
 ##### grupotestop_meeting (9 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sistema pequeno mas sem constraints
 - ⚠️ Sem validação de conflitos de horário
 
 ##### grupotestop_archives (5 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sistema mínimo sem estrutura adequada
 - ⚠️ Falta de metadados
 
 ##### grupotestop_ticket (3 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ Sistema mais pequeno mas crítico
 - ⚠️ Estrutura muito simplificada
 
 ##### autobas2_testop_db (36 tabelas)
+
 - ❌ Ausência de FOREIGN KEY
 - ⚠️ BD partilhada por 2 sistemas
 - ⚠️ Export desatualizado (Jun 2022)
@@ -173,17 +195,20 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 ## 🎯 Benefícios das Alterações
 
 ### Para Utilizadores
+
 - ✅ Contactos atualizados e corretos
 - ✅ Telefones adicionados para contacto rápido
 - ✅ Suporte técnico claramente identificado
 
 ### Para Técnicos
+
 - ✅ Defeitos documentados em cada PDF
 - ✅ Prioridades claramente estabelecidas
 - ✅ Impacto e recomendações incluídas
 - ✅ Facilita planejamento de correções
 
 ### Para Gestão
+
 - ✅ Visibilidade clara dos problemas
 - ✅ Priorização para tomada de decisão
 - ✅ Contactos corretos para follow-up
@@ -195,6 +220,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 ### Total de Arquivos Modificados: 18
 
 #### Documentação (7 arquivos)
+
 - `index.html`
 - `LEIA-ME_DOCUMENTACAO.md`
 - `RESUMO_ENTREGA.md`
@@ -204,6 +230,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 - `DEPLOY_CHECKLIST.md`
 
 #### Esquemas PDF (11 arquivos)
+
 - `database_schemas/ESQUEMA_grupotestop_financas.pdf`
 - `database_schemas/ESQUEMA_grupotestop_stock.pdf`
 - `database_schemas/ESQUEMA_grupotestop_salarios.pdf`
@@ -221,6 +248,7 @@ Todos os **11 esquemas PDF** foram regenerados com uma **página inicial de defe
 ## 🚀 Próximos Passos
 
 ### Para Deploy
+
 ```bash
 git add .
 git commit -m "v1.1: Atualizar contactos e adicionar defeitos aos PDFs"
@@ -228,6 +256,7 @@ git push origin main
 ```
 
 ### Após Deploy
+
 1. ✅ Verificar GitHub Pages atualizado
 2. ✅ Testar downloads dos PDFs
 3. ✅ Confirmar contactos visíveis
@@ -238,21 +267,23 @@ git push origin main
 
 ## 📞 Contactos (Atualizados)
 
+### Tes-Top (Ponto Focal)
+
+Younus Mohammed  
+📱 Tel: (+258) 843030477
+
+### Suporte Técnico (Depto. Informática)
+
+**Tes-Top**  
+Onésimo Metro  
+📱 Tel: (+258) 848938851
+
 ### Documentação Técnica
+
 **TECMOZA**  
 Evariste Musekwa Iguna  
 📧 Email: musekwa@tecmoza.com  
 📱 Tel: (+258) 860140080
-
-### Suporte Técnico
-**Grupo Testop - Departamento de TI**  
-Onésimo Metro  
-📱 Tel: (+258) 848938851
-
-### Grupo Testop (Geral)
-📧 Email: rh@testop.co.mz  
-☎️ Tel: +258 21328056  
-📍 AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
 
 ---
 
@@ -274,14 +305,14 @@ Onésimo Metro
 
 ## 📊 Estatísticas
 
-| Métrica | Valor |
-|---------|-------|
-| **Versão** | 1.1 |
-| **Arquivos Modificados** | 18 |
-| **PDFs Regenerados** | 11 |
-| **Contactos Atualizados** | 7 documentos |
-| **Páginas de Defeitos Adicionadas** | 11 |
-| **Total de Defeitos Documentados** | ~70 |
+| Métrica                             | Valor        |
+| ----------------------------------- | ------------ |
+| **Versão**                          | 1.1          |
+| **Arquivos Modificados**            | 18           |
+| **PDFs Regenerados**                | 11           |
+| **Contactos Atualizados**           | 7 documentos |
+| **Páginas de Defeitos Adicionadas** | 11           |
+| **Total de Defeitos Documentados**  | ~70          |
 
 ---
 
@@ -295,4 +326,3 @@ Esta documentação e todas as alterações são **confidenciais e proprietária
 **Data:** 01 de Novembro de 2025  
 **Status:** ✅ **COMPLETO**  
 **Preparado por:** TECMOZA
-

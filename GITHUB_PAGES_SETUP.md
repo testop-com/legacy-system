@@ -122,15 +122,16 @@ Edite `assets/css/style.css`:
 
 ```css
 :root {
-    --primary-color: #2E86AB;    /* Cor principal */
-    --secondary-color: #A23B72;  /* Cor secundária */
-    --accent-color: #F18F01;     /* Cor de destaque */
+  --primary-color: #2e86ab; /* Cor principal */
+  --secondary-color: #a23b72; /* Cor secundária */
+  --accent-color: #f18f01; /* Cor de destaque */
 }
 ```
 
 ### Alterar Conteúdo
 
 Edite `index.html` diretamente para:
+
 - Mudar textos
 - Adicionar seções
 - Modificar links
@@ -204,6 +205,7 @@ Se quiser que a documentação seja privada:
 **Problema**: Página não carrega, mostra 404
 
 **Solução**:
+
 1. Verifique se `index.html` está na raiz
 2. Confirme que GitHub Pages está ativado
 3. Aguarde 5-10 minutos após ativar
@@ -213,6 +215,7 @@ Se quiser que a documentação seja privada:
 **Problema**: Página carrega mas sem formatação
 
 **Solução**:
+
 1. Verifique se `assets/css/style.css` existe
 2. Verifique o caminho no `index.html`
 3. Limpe cache do navegador (Ctrl+Shift+R)
@@ -222,6 +225,7 @@ Se quiser que a documentação seja privada:
 **Problema**: Links de download não funcionam
 
 **Solução**:
+
 1. Verifique se arquivos estão commitados
 2. Confirme caminhos relativos corretos
 3. Certifique-se que arquivos não excedem 100 MB
@@ -235,7 +239,9 @@ Para questões sobre:
 - **GitHub Pages**: https://docs.github.com/pages
 - **Esta documentação**: musekwa@tecmoza.com | (+258) 860140080
 - **Conteúdo técnico**: Consulte LEIA-ME_DOCUMENTACAO.md
-- **Suporte Técnico**: Onésimo Metro - (+258) 848938851
+- **Tes-Top (Ponto Focal)**: Younus Mohammed - (+258) 843030477
+- **Suporte Técnico (Depto. Informática)**: Onésimo Metro - (+258) 848938851
+- **Documentação (TECMOZA)**: Evariste Musekwa Iguna - (+258) 860140080
 
 ---
 
@@ -257,11 +263,13 @@ Antes de fazer deploy, confirme:
 ## 🎉 Após Deploy
 
 Compartilhe a URL com:
+
 - ✉️ Email: Envie para equipa técnica
 - 📋 README: Adicione ao README.md principal
 - 📄 Documentos: Referencie em relatórios
 
 **URL de Exemplo**:
+
 ```
 https://grupotestop.github.io/legacy-system/
 ```
@@ -271,4 +279,3 @@ https://grupotestop.github.io/legacy-system/
 **Data**: 01 de Novembro de 2025  
 **Versão**: 1.0  
 **Preparado por**: TECMOZA
-

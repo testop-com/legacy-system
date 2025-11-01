@@ -260,19 +260,20 @@ Evariste Musekwa Iguna
 📱 Tel: (+258) 860140080  
 📅 Data de Entrega: 01/11/2025
 
-### Grupo Testop - Contactos
+### Tes-Top - Contactos
 
-**Sede:**  
-AV. KARL MARX, Nº1877 R/C-MAPUTO  
-Moçambique
+**Ponto Focal:**  
+Younus Mohammed  
+📱 Tel: (+258) 843030477
 
-**Contactos:**  
-📧 Email geral: rh@testop.co.mz  
-☎️ Telefone: +258 21328056
-
-**Suporte Técnico - Departamento de TI:**  
+**Suporte Técnico - Departamento de Informática:**  
 Onésimo Metro  
 📱 Tel: (+258) 848938851
+
+**Documentação - TECMOZA:**  
+Evariste Musekwa Iguna  
+📧 Email: musekwa@tecmoza.com  
+📱 Tel: (+258) 860140080
 
 ---
 

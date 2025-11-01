@@ -284,12 +284,13 @@ git push origin main
 
 ---
 
-## 📞 Suporte
+## 📞 Contactos
 
 **Dúvidas sobre acesso aos relatórios?**
 
-- **TECMOZA:** Evariste Musekwa - (+258) 860140080
-- **Suporte:** Onésimo Metro - (+258) 848938851
+- **Tes-Top (Ponto Focal):** Younus Mohammed - (+258) 843030477
+- **Suporte Técnico (Depto. Informática):** Onésimo Metro - (+258) 848938851
+- **Documentação (TECMOZA):** Evariste Musekwa Iguna - (+258) 860140080
 
 ---
 
