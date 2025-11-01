@@ -32,7 +32,7 @@ body {
   color: var(--text-color);
   background-color: var(--bg-color);
   line-height: 1.6;
-  padding-top: 80px; /* Space for fixed navbar */
+  padding-top: 90px; /* Space for fixed navbar - increased */
 }
 
 .container {
@@ -43,6 +43,13 @@ body {
 
 html {
   scroll-behavior: smooth;
+}
+
+/* Add scroll margin to all sections to account for fixed navbar */
+section[id],
+header[id],
+.section-divider[id] {
+  scroll-margin-top: 90px;
 }
 
 /* ===================================
@@ -138,6 +145,7 @@ html {
   padding: 2rem 0;
   box-shadow: var(--shadow);
   margin-top: 0;
+  scroll-margin-top: 90px;
 }
 
 .header-content {
