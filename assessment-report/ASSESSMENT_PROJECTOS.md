@@ -10,7 +10,6 @@
 
 ---
 
-
 ---
 
 ## 💰 Cost Information
@@ -18,11 +17,13 @@
 **This is a technical assessment document.**
 
 For cost estimates, budgets, and ROI analysis, please refer to:
+
 - **Folder**: [`../cost-analysis/`](../cost-analysis/)
 - **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
 - **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
 
 This document focuses solely on **technical analysis**:
+
 - Architecture
 - Code quality
 - Security (OWASP)
@@ -71,6 +72,41 @@ This document provides a comprehensive technical assessment of the Grupo Testop 
 8. [Improvement Recommendations](#improvement-recommendations)
 9. [Modernization Roadmap](#modernization-roadmap)
 10. [Conclusion](#conclusion)
+
+---
+
+## 🏗️ System Architecture
+
+### Technology Stack
+
+**Application Layer:**
+
+- **Framework**: Laravel 8.x/9.x (Modern)
+- **Architecture**: MVC (Model-View-Controller)
+- **Template Engine**: Blade (server-side rendering)
+- **Language**: PHP 8.0+
+
+**Data Layer:**
+
+- **Database**: MySQL/MariaDB (`autobas2_testop_db`)
+- **ORM**: Eloquent (Laravel's built-in ORM)
+- **Tables**: 36 tables (shared with PROJECTOS-BANCO-MUNDIAL)
+- **Size**: ~0.30 MB
+
+**Frontend:**
+
+- **Templates**: 147 Blade views (.blade.php)
+- **CSS**: Bootstrap
+- **JavaScript**: jQuery, Vue.js components
+
+**🔴 CRITICAL Architectural Issue**:
+
+- **Isolated Silo**: No API layer for inter-system communication
+- **Shared Database**: Database shared with PROJECTOS-BANCO-MUNDIAL system (coupling)
+- **No Integration**: Cannot communicate with FINANCAS, STOCK, or other systems
+- **Data Duplication**: Users and projects may exist in other systems without synchronization
+
+**Recommendation**: Implement REST API and consider database separation from PROJECTOS-BANCO-MUNDIAL for independent scaling.
 
 ---
 
@@ -480,7 +516,7 @@ Tracks customer electrical connections with detailed information:
 - Identify any migrations not in version control
 
 **Effort**: 8 hours  
-**Impact**: Critical - accurate documentation  
+**Impact**: Critical - accurate documentation
 
 #### 1.2 Database Integrity
 
@@ -506,7 +542,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 ```
 
 **Effort**: 24 hours  
-**Impact**: Critical - prevents data corruption  
+**Impact**: Critical - prevents data corruption
 
 #### 1.3 Clean Up Duplicate Files
 
@@ -515,7 +551,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Update routes if necessary
 
 **Effort**: 8 hours  
-**Impact**: High - reduces confusion  
+**Impact**: High - reduces confusion
 
 ### Priority 2: High-Impact Improvements (1-3 Months)
 
@@ -526,7 +562,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Set up CI/CD pipeline
 
 **Effort**: 80 hours  
-**Impact**: High - reliability  
+**Impact**: High - reliability
 
 #### 2.2 API Development
 
@@ -536,7 +572,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Version management (v1/)
 
 **Effort**: 120 hours  
-**Impact**: High - enables mobile/integrations  
+**Impact**: High - enables mobile/integrations
 
 #### 2.3 Performance Optimization
 
@@ -546,7 +582,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Add Redis for sessions
 
 **Effort**: 60 hours  
-**Impact**: High - user experience  
+**Impact**: High - user experience
 
 ### Priority 3: Strategic Improvements (3-6 Months)
 
@@ -558,7 +594,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Installation photo capture
 
 **Effort**: 320 hours  
-**Impact**: High - field productivity  
+**Impact**: High - field productivity
 
 #### 3.2 Integration with Financas
 
@@ -567,7 +603,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Unified reporting
 
 **Effort**: 200 hours  
-**Impact**: High - data consistency  
+**Impact**: High - data consistency
 
 #### 3.3 Advanced Features
 
@@ -577,7 +613,7 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 - Automated reorder points
 
 **Effort**: 160 hours  
-**Impact**: Medium - operational efficiency  
+**Impact**: Medium - operational efficiency
 
 ---
 
@@ -631,12 +667,12 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 ### Total Investment Summary
 
-| Phase     | Duration     | Budget                                  | Team Size    | Risk Level  |
-| --------- | ------------ | --------------------------------------- | ------------ | ----------- |
-| Phase 1   | 2 months     | See cost-analysis/| 1.5 people   | Low         |
-| Phase 2   | 3 months     | See cost-analysis/ / See cost-analysis/ ⭐      | 2.5 people   | Medium      |
-| Phase 3   | 4 months     | See cost-analysis/ / See cost-analysis/ ⭐      | 3-4 people   | Medium      |
-| **TOTAL** | **9 months** | **$95K-145K (Intl) / $48K-73K (MZ)** ⭐ | **Variable** | **Managed** |
+| Phase     | Duration     | Budget                                     | Team Size    | Risk Level  |
+| --------- | ------------ | ------------------------------------------ | ------------ | ----------- |
+| Phase 1   | 2 months     | See cost-analysis/                         | 1.5 people   | Low         |
+| Phase 2   | 3 months     | See cost-analysis/ / See cost-analysis/ ⭐ | 2.5 people   | Medium      |
+| Phase 3   | 4 months     | See cost-analysis/ / See cost-analysis/ ⭐ | 3-4 people   | Medium      |
+| **TOTAL** | **9 months** | **$95K-145K (Intl) / $48K-73K (MZ)** ⭐    | **Variable** | **Managed** |
 
 ---
 

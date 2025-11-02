@@ -9,7 +9,6 @@
 
 ---
 
-
 ---
 
 ## 💰 Cost Information
@@ -17,11 +16,13 @@
 **This is a technical assessment document.**
 
 For cost estimates, budgets, and ROI analysis, please refer to:
+
 - **Folder**: [`../cost-analysis/`](../cost-analysis/)
 - **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
 - **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
 
 This document focuses solely on **technical analysis**:
+
 - Architecture
 - Code quality
 - Security (OWASP)
@@ -68,6 +69,53 @@ This document focuses solely on **technical analysis**:
 - ⚠️ Missing database constraints (foreign keys)
 - ⚠️ No automated testing
 - ⚠️ Limited API documentation
+
+---
+
+## 🏗️ System Architecture Overview
+
+### Technology Stack
+
+**Application Layer:**
+
+- **Framework**: Laravel 8.x (Modern)
+- **Architecture**: MVC (Model-View-Controller)
+- **Template Engine**: Blade (server-side rendering)
+- **Language**: PHP 7.3 - 8.0+
+- **Authentication**: Laravel Sanctum + Breeze
+
+**Data Layer:**
+
+- **Database**: MySQL/MariaDB (`autobas2_testop_db`)
+- **ORM**: Eloquent (Laravel's built-in ORM)
+- **Tables**: 36 tables (shared with PROJECTOS system)
+- **Size**: ~0.30 MB
+
+**Frontend:**
+
+- **Templates**: 143 Blade views (.blade.php)
+- **CSS**: Bootstrap 4.6.0
+- **JavaScript**: Vue.js, jQuery, Chart.js
+- **Notifications**: Toastr
+
+**Session & Cache:**
+
+- **Sessions**: Database-backed
+- **Cache**: File/Database
+- **Queue**: Database
+
+**🔴 CRITICAL Architectural Issues**:
+
+- **Shared Database**: Shares `autobas2_testop_db` with PROJECTOS system (tight coupling)
+- **Isolated Silo**: No API layer for communication with FINANCAS, STOCK, or other systems
+- **No Integration**: Cannot share data with other business systems
+- **Data Duplication**: Users, projects, suppliers may exist in FINANCAS without sync
+
+**Recommendation**:
+
+- Consider database separation for independent scaling
+- Implement REST API layer for inter-system communication
+- Create shared authentication service (SSO) across all systems
 
 ---
 
@@ -1098,7 +1146,7 @@ reporting-service (analytics)
 6. ✅ Extract service layer for critical logic
 
 **Team**: 1 senior dev + 1 DBA  
-**Risk**: Low  
+**Risk**: Low
 
 ---
 
@@ -1117,7 +1165,7 @@ reporting-service (analytics)
 7. ✅ Increase test coverage to 70%
 
 **Team**: 2 developers + 1 UI/UX  
-**Risk**: Medium  
+**Risk**: Medium
 
 ---
 
@@ -1136,7 +1184,7 @@ reporting-service (analytics)
 7. ✅ Automated donor reporting
 
 **Team**: 3-4 developers + DevOps + PM  
-**Risk**: Medium-High  
+**Risk**: Medium-High
 
 ---
 
@@ -1216,7 +1264,7 @@ ALTER TABLE usuario_projecto ADD CONSTRAINT fk_up_user
 - Catches bugs early
 - Donor audit compliance
 
-**Effort**: 2-3 days  
+**Effort**: 2-3 days
 
 ---
 
@@ -1237,7 +1285,7 @@ ALTER TABLE usuario_projecto ADD CONSTRAINT fk_up_user
 - Donor requirements
 - Disaster recovery
 
-**Effort**: 1 day  
+**Effort**: 1 day
 
 ---
 
@@ -1260,7 +1308,7 @@ CREATE INDEX idx_site_removido ON site(removido);
 - Will degrade as data grows
 - Reports timeout
 
-**Effort**: 1 day  
+**Effort**: 1 day
 
 ---
 
@@ -1288,7 +1336,7 @@ test('stock_projectado_calculations')
 - Safe refactoring impossible
 - Bug introduction likely
 
-**Effort**: 3-4 weeks  
+**Effort**: 3-4 weeks
 
 ---
 
@@ -1311,7 +1359,7 @@ test('stock_projectado_calculations')
 - Single codebase to maintain
 - Save 30% maintenance costs
 
-**Effort**: 2 weeks (study)  
+**Effort**: 2 weeks (study)
 
 ---
 
@@ -1464,7 +1512,6 @@ if ($user->can('approve_requisition')) {
 ### 13.2 Recommended Approach
 
 **Total Investment**: $108,000 - $163,000 (3 phases over 24 months) _(Enhancement of existing system)_
-
 
 - Prevent data loss: $25K+ (avoided crisis)
 - Efficiency gains: 20-30% faster operations
@@ -1916,7 +1963,7 @@ CREATE TABLE site (
 - Donor audits may fail
 
 **Fix Priority**: 🔴 **P0 - CRITICAL**  
-**Effort**: 2-3 days  
+**Effort**: 2-3 days
 
 ---
 
@@ -1943,7 +1990,7 @@ CREATE INDEX idx_users_email ON users(email);
 - Scales poorly
 
 **Fix Priority**: 🟠 **P1 - HIGH**  
-**Effort**: 1 day  
+**Effort**: 1 day
 
 ---
 

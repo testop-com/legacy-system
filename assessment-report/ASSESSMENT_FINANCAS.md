@@ -10,7 +10,6 @@
 
 ---
 
-
 ---
 
 ## 💰 Cost Information
@@ -18,11 +17,13 @@
 **This is a technical assessment document.**
 
 For cost estimates, budgets, and ROI analysis, please refer to:
+
 - **Folder**: [`../cost-analysis/`](../cost-analysis/)
 - **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
 - **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
 
 This document focuses solely on **technical analysis**:
+
 - ✅ Architecture
 - ✅ Code quality
 - ✅ Security (OWASP)
@@ -38,11 +39,13 @@ This document focuses solely on **technical analysis**:
 **This is a technical assessment document.**
 
 For cost estimates, budgets, and ROI analysis, please refer to:
+
 - **Folder**: [`../cost-analysis/`](../cost-analysis/)
 - **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
 - **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
 
 This document focuses solely on **technical analysis**:
+
 - Architecture
 - Code quality
 - Security (OWASP)
@@ -91,6 +94,41 @@ This document provides a comprehensive technical assessment of the Grupo Testop 
 9. [Improvement Recommendations](#improvement-recommendations)
 10. [Modernization Roadmap](#modernization-roadmap)
 11. [Conclusion](#conclusion)
+
+---
+
+## 🏗️ System Architecture
+
+### Technology Stack
+
+**Application Layer:**
+
+- **Framework**: Laravel (mixed versions 5.x to 8.x)
+- **Architecture**: MVC (Model-View-Controller)
+- **Template Engine**: Blade (server-side rendering)
+- **Language**: PHP 7.x - 8.x
+
+**Data Layer:**
+
+- **Database**: MySQL/MariaDB (`grupotestop_financas`)
+- **ORM**: Eloquent (Laravel's built-in ORM)
+- **Tables**: 125 tables
+- **Size**: 62.5 MB
+
+**Frontend:**
+
+- **Templates**: 550+ Blade views (.blade.php)
+- **CSS**: Bootstrap, custom styles
+- **JavaScript**: jQuery, some Vue.js components
+
+**🔴 CRITICAL Architectural Issue**:
+
+- **Isolated Silo**: No API layer, cannot communicate with other systems (PROJECTOS, STOCK, etc.)
+- **No Integration**: Each system operates independently
+- **Data Duplication**: Users, companies, projects exist in multiple systems
+- **Multiple Logins**: Users must login separately to each system
+
+**Recommendation**: Add REST API layer and implement service-oriented architecture for inter-system communication.
 
 ---
 
@@ -1062,7 +1100,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 ```
 
 **Effort**: 40 hours  
-**Impact**: Critical - prevents data corruption  
+**Impact**: Critical - prevents data corruption
 
 #### 1.2 Backup Strategy
 
@@ -1072,7 +1110,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Backup testing monthly
 
 **Effort**: 20 hours  
-**Impact**: Critical - business continuity  
+**Impact**: Critical - business continuity
 
 #### 1.3 Security Hardening
 
@@ -1082,7 +1120,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Audit file uploads
 
 **Effort**: 40 hours  
-**Impact**: Critical - protect data  
+**Impact**: Critical - protect data
 
 ### Priority 2: High-Impact Improvements (1-3 Months)
 
@@ -1094,7 +1132,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Database query logging and analysis
 
 **Effort**: 120 hours  
-**Impact**: High - user experience  
+**Impact**: High - user experience
 
 #### 2.2 Code Quality
 
@@ -1104,7 +1142,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Extract business logic to services
 
 **Effort**: 160 hours  
-**Impact**: High - maintainability  
+**Impact**: High - maintainability
 
 #### 2.3 Testing Framework
 
@@ -1114,7 +1152,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Implement CI/CD pipeline
 
 **Effort**: 200 hours  
-**Impact**: High - reliability  
+**Impact**: High - reliability
 
 ### Priority 3: Strategic Improvements (3-6 Months)
 
@@ -1126,7 +1164,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Version management
 
 **Effort**: 240 hours  
-**Impact**: High - extensibility  
+**Impact**: High - extensibility
 
 #### 3.2 Frontend Modernization
 
@@ -1136,7 +1174,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Optimize asset pipeline
 
 **Effort**: 320 hours  
-**Impact**: Medium - UX  
+**Impact**: Medium - UX
 
 #### 3.3 Microservices Extraction
 
@@ -1146,7 +1184,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Implement message queue (RabbitMQ)
 
 **Effort**: 480 hours  
-**Impact**: Medium - scalability  
+**Impact**: Medium - scalability
 
 ### Priority 4: Long-term Vision (6-12 Months)
 
@@ -1158,7 +1196,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Add event sourcing for audit
 
 **Effort**: 800 hours  
-**Impact**: High - future-proofing  
+**Impact**: High - future-proofing
 
 #### 4.2 Mobile Application
 
@@ -1168,7 +1206,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - GPS tracking for vehicles
 
 **Effort**: 960 hours  
-**Impact**: High - field operations  
+**Impact**: High - field operations
 
 #### 4.3 Advanced Analytics
 
@@ -1178,7 +1216,7 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 - Cost optimization algorithms
 
 **Effort**: 640 hours  
-**Impact**: Medium - insights  
+**Impact**: Medium - insights
 
 ---
 
@@ -1234,12 +1272,12 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 ### Total Investment Summary
 
-| Phase     | Duration      | Budget                                    | Team Size    | Risk Level  |
-| --------- | ------------- | ----------------------------------------- | ------------ | ----------- |
-| Phase 1   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐        | 3 people     | Low         |
-| Phase 2   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐        | 4 people     | Medium      |
-| Phase 3   | 6 months      | See cost-analysis/ / See cost-analysis/ ⭐      | 6 people     | High        |
-| **Total** | **12 months** | **$180K-280K (Intl) / $90K-140K (MZ)** ⭐ | **Variable** | **Managed** |
+| Phase     | Duration      | Budget                                     | Team Size    | Risk Level  |
+| --------- | ------------- | ------------------------------------------ | ------------ | ----------- |
+| Phase 1   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐ | 3 people     | Low         |
+| Phase 2   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐ | 4 people     | Medium      |
+| Phase 3   | 6 months      | See cost-analysis/ / See cost-analysis/ ⭐ | 6 people     | High        |
+| **Total** | **12 months** | **$180K-280K (Intl) / $90K-140K (MZ)** ⭐  | **Variable** | **Managed** |
 
 ---
 
