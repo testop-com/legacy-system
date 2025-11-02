@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>4 Estratégias de Modernização - Tes-Top</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 2rem;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+      }
+
+      .header {
+        text-align: center;
+        color: white;
+        margin-bottom: 3rem;
+      }
+
+      .header h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+      }
+
+      .header p {
+        font-size: 1.2rem;
+        opacity: 0.95;
+      }
+
+      .strategies-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-bottom: 3rem;
+      }
+
+      .strategy-card {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .strategy-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+      }
+
+      .strategy-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 6px;
+      }
+
+      /* Strategy 1: Blue */
+      .strategy-1::before {
+        background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+      }
+
+      .strategy-1 .badge {
+        background: linear-gradient(90deg, #4facfe 0%, #00f2fe 100%);
+      }
+
+      /* Strategy 2: Purple */
+      .strategy-2::before {
+        background: linear-gradient(90deg, #a8c0ff 0%, #3f2b96 100%);
+      }
+
+      .strategy-2 .badge {
+        background: linear-gradient(90deg, #a8c0ff 0%, #3f2b96 100%);
+      }
+
+      /* Strategy 3: Green - RECOMMENDED */
+      .strategy-3::before {
+        background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+      }
+
+      .strategy-3 .badge {
+        background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+      }
+
+      .strategy-3 {
+        border: 3px solid #11998e;
+      }
+
+      /* Strategy 4: Orange */
+      .strategy-4::before {
+        background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
+      }
+
+      .strategy-4 .badge {
+        background: linear-gradient(90deg, #fa709a 0%, #fee140 100%);
+      }
+
+      .strategy-number {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #f0f0f0;
+        color: #333;
+        text-align: center;
+        line-height: 40px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      .strategy-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #2d3748;
+        margin-bottom: 0.5rem;
+      }
+
+      .strategy-subtitle {
+        color: #718096;
+        font-size: 0.9rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .cost-box {
+        background: #f7fafc;
+        padding: 1.5rem;
+        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        border-left: 4px solid #e2e8f0;
+      }
+
+      .cost-amount {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #2d3748;
+        margin-bottom: 0.5rem;
+      }
+
+      .cost-details {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+        color: #4a5568;
+      }
+
+      .cost-details strong {
+        color: #2d3748;
+      }
+
+      .roi-section {
+        background: #edf2f7;
+        padding: 1rem;
+        border-radius: 6px;
+        margin-bottom: 1.5rem;
+      }
+
+      .roi-value {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #11998e;
+        margin-bottom: 0.3rem;
+      }
+
+      .roi-label {
+        font-size: 0.85rem;
+        color: #4a5568;
+      }
+
+      .features-list {
+        list-style: none;
+        margin-bottom: 1.5rem;
+      }
+
+      .features-list li {
+        padding: 0.5rem 0;
+        color: #4a5568;
+        border-bottom: 1px solid #e2e8f0;
+      }
+
+      .features-list li:last-child {
+        border-bottom: none;
+      }
+
+      .features-list li::before {
+        content: "✅";
+        margin-right: 0.5rem;
+      }
+
+      .badge {
+        display: inline-block;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 0.85rem;
+        margin-bottom: 1rem;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+      }
+
+      .recommended-banner {
+        background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+        color: white;
+        text-align: center;
+        padding: 0.75rem;
+        border-radius: 6px;
+        font-weight: bold;
+        margin-top: 1rem;
+      }
+
+      .comparison-table {
+        background: white;
+        border-radius: 12px;
+        padding: 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        margin-top: 2rem;
+        overflow-x: auto;
+      }
+
+      .comparison-table h2 {
+        color: #2d3748;
+        margin-bottom: 1.5rem;
+        text-align: center;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+
+      th {
+        background: #f7fafc;
+        padding: 1rem;
+        text-align: left;
+        font-weight: 600;
+        color: #2d3748;
+        border-bottom: 2px solid #e2e8f0;
+      }
+
+      td {
+        padding: 1rem;
+        border-bottom: 1px solid #e2e8f0;
+        color: #4a5568;
+      }
+
+      tr:hover {
+        background: #f7fafc;
+      }
+
+      .best-value {
+        background: #c6f6d5;
+        font-weight: bold;
+        color: #22543d;
+      }
+
+      .footer {
+        text-align: center;
+        color: white;
+        margin-top: 3rem;
+        padding: 2rem;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+      }
+
+      @media (max-width: 768px) {
+        .strategies-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .header h1 {
+          font-size: 1.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>💰 4 Estratégias de Modernização</h1>
+        <p>Sistema de Gestão Empresarial - Tes-Top | Moçambique</p>
+      </div>
+
+      <div class="strategies-grid">
+        <!-- Strategy 1 -->
+        <div class="strategy-card strategy-1">
+          <div class="strategy-number">1</div>
+          <span class="badge">⚡ RÁPIDA</span>
+          <h2 class="strategy-title">Consolidar (Externa)</h2>
+          <p class="strategy-subtitle">Equipa Externa - Consolidação</p>
+
+          <div class="cost-box">
+            <div class="cost-amount">$324,000</div>
+            <div class="cost-details">
+              <div><strong>Timeline:</strong> 18 meses</div>
+              <div><strong>Equipa:</strong> 9 externos</div>
+              <div><strong>ROI:</strong> 131%</div>
+              <div><strong>Break-even:</strong> 2.2 anos</div>
+            </div>
+          </div>
+
+          <ul class="features-list">
+            <li>Consolidação rápida</li>
+            <li>Expertise externa garantida</li>
+            <li>API layer + SSO</li>
+            <li>Sistemas existentes melhorados</li>
+          </ul>
+
+          <div class="roi-section">
+            <div class="roi-value">131%</div>
+            <div class="roi-label">ROI em 5 anos</div>
+          </div>
+        </div>
+
+        <!-- Strategy 2 -->
+        <div class="strategy-card strategy-2">
+          <div class="strategy-number">2</div>
+          <span class="badge">🧠 CONHECIMENTO</span>
+          <h2 class="strategy-title">Consolidar (Interna)</h2>
+          <p class="strategy-subtitle">Equipa Interna - Consolidação</p>
+
+          <div class="cost-box">
+            <div class="cost-amount">$385,000</div>
+            <div class="cost-details">
+              <div><strong>Timeline:</strong> 27 meses</div>
+              <div><strong>Equipa:</strong> 8 internos</div>
+              <div><strong>ROI:</strong> 95%</div>
+              <div><strong>Break-even:</strong> 2.6 anos</div>
+            </div>
+          </div>
+
+          <ul class="features-list">
+            <li>100% conhecimento interno</li>
+            <li>Desenvolve equipa (4+ seniors)</li>
+            <li>Formação técnica incluída</li>
+            <li>Consultoria externa de apoio</li>
+          </ul>
+
+          <div class="roi-section">
+            <div class="roi-value">95%</div>
+            <div class="roi-label">ROI em 5 anos</div>
+          </div>
+        </div>
+
+        <!-- Strategy 3 - RECOMMENDED -->
+        <div class="strategy-card strategy-3">
+          <div class="strategy-number">3</div>
+          <span class="badge">⭐⭐⭐ MELHOR</span>
+          <h2 class="strategy-title">Rebuild (Externa - Modular)</h2>
+          <p class="strategy-subtitle">Sistema Novo - Equipa Externa</p>
+
+          <div class="cost-box">
+            <div class="cost-amount" style="color: #11998e">$255,000</div>
+            <div class="cost-details">
+              <div><strong>Timeline:</strong> 18 meses</div>
+              <div><strong>Equipa:</strong> 8 ext/módulo</div>
+              <div><strong>ROI:</strong> 253% 🎯</div>
+              <div><strong>Break-even:</strong> 1.4 anos</div>
+            </div>
+          </div>
+
+          <ul class="features-list">
+            <li>💰 MAIS BARATA ($255K)</li>
+            <li>⚡ MAIS RÁPIDA (18 meses)</li>
+            <li>📈 MELHOR ROI (253%)</li>
+            <li>📦 Modular (3m/módulo)</li>
+            <li>✨ Sistema novo (zero dívida técnica)</li>
+          </ul>
+
+          <div class="roi-section" style="background: #c6f6d5">
+            <div class="roi-value" style="color: #22543d">253% 🎯</div>
+            <div class="roi-label" style="color: #22543d">
+              ROI em 5 anos - MELHOR!
+            </div>
+          </div>
+
+          <div class="recommended-banner">⭐ RECOMENDADA - IMBATÍVEL!</div>
+        </div>
+
+        <!-- Strategy 4 -->
+        <div class="strategy-card strategy-4">
+          <div class="strategy-number">4</div>
+          <span class="badge">✅ VIÁVEL</span>
+          <h2 class="strategy-title">Rebuild (Interna - Modular)</h2>
+          <p class="strategy-subtitle">Sistema Novo - Equipa Interna</p>
+
+          <div class="cost-box">
+            <div class="cost-amount">$325,000</div>
+            <div class="cost-details">
+              <div><strong>Timeline:</strong> 32 meses</div>
+              <div><strong>Equipa:</strong> 7 internos</div>
+              <div><strong>ROI:</strong> 177%</div>
+              <div><strong>Break-even:</strong> 1.8 anos</div>
+            </div>
+          </div>
+
+          <ul class="features-list">
+            <li>100% conhecimento interno</li>
+            <li>Modular (5-6m/módulo)</li>
+            <li>Equipa reduzida (3+ seniors)</li>
+            <li>Sistema novo do zero</li>
+            <li>ROI positivo (177%)</li>
+          </ul>
+
+          <div class="roi-section">
+            <div class="roi-value">177%</div>
+            <div class="roi-label">ROI em 5 anos</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comparison Table -->
+      <div class="comparison-table">
+        <h2>📊 Tabela Comparativa das 4 Estratégias</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Estratégia</th>
+              <th>Custo</th>
+              <th>Timeline</th>
+              <th>ROI 5y</th>
+              <th>Break-even</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Consolidar (Externa)</td>
+              <td>$324,000</td>
+              <td>18 meses</td>
+              <td>131%</td>
+              <td>2.2 anos</td>
+              <td>⚡ RÁPIDA</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Consolidar (Interna)</td>
+              <td>$385,000</td>
+              <td>27 meses</td>
+              <td>95%</td>
+              <td>2.6 anos</td>
+              <td>🧠 CONHECIMENTO</td>
+            </tr>
+            <tr class="best-value">
+              <td>3</td>
+              <td>Rebuild (Externa - Modular) ⭐</td>
+              <td><strong>$255,000</strong></td>
+              <td><strong>18 meses</strong></td>
+              <td><strong>253% 🎯</strong></td>
+              <td><strong>1.4 anos</strong></td>
+              <td><strong>⭐⭐⭐ MELHOR</strong></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Rebuild (Interna - Modular)</td>
+              <td>$325,000</td>
+              <td>32 meses</td>
+              <td>177%</td>
+              <td>1.8 anos</td>
+              <td>✅ VIÁVEL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Info Section -->
+      <div class="comparison-table">
+        <h2>📋 Parâmetros de Custo</h2>
+        <p style="color: #4a5568; line-height: 1.8; margin-bottom: 1rem">
+          <strong>Salários (Mercado Moçambique):</strong> Desenvolvedores
+          $1,000-1,600/mês | DBA $1,200-1,700/mês | Tech Lead $1,800-2,200/mês
+        </p>
+        <p style="color: #4a5568; line-height: 1.8; margin-bottom: 1rem">
+          <strong>Overhead:</strong> $7,500/módulo = (Diferença $50K-$35K) / 2
+        </p>
+        <p style="color: #4a5568; line-height: 1.8; margin-bottom: 1rem">
+          <strong>Complexidade:</strong> Todos os módulos são classificados como
+          <strong>MÉDIA</strong> ($35,000-50,000)
+        </p>
+        <p style="color: #11998e; font-weight: bold; font-size: 1.1rem">
+          ⭐ TODAS as 4 estratégias têm ROI POSITIVO (95-253%)!
+        </p>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <h3 style="margin-bottom: 1rem">📞 Contactos</h3>
+        <p style="margin-bottom: 0.5rem">
+          <strong>Tes-Top - Ponto Focal:</strong> Younus Mohammed | (+258)
+          843030477
+        </p>
+        <p style="margin-bottom: 0.5rem">
+          <strong>IT Support:</strong> Onésimo Metro | (+258) 848938851
+        </p>
+        <p>
+          <strong>TECMOZA:</strong> Evariste Musekwa Iguna | musekwa@tecmoza.com
+          | (+258) 860140080
+        </p>
+        <hr style="margin: 1.5rem 0; border-color: rgba(255, 255, 255, 0.3)" />
+        <p style="font-size: 0.9rem; opacity: 0.9">
+          Data: 02 de Novembro de 2025 | Versão: Final
+        </p>
+        <p style="font-size: 0.85rem; margin-top: 0.5rem">
+          <a
+            href="../index.html"
+            style="color: white; text-decoration: underline"
+            >← Voltar ao Portal Principal</a
+          >
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
