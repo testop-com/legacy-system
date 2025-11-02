@@ -324,12 +324,6 @@ Tela < 992px:
 Younus Mohammed  
 Tel: (+258) 843030477 ← **NOVO**
 
-### 🔧 Suporte Técnico (Depto. Informática)
-
-**Tes-Top**  
-Onésimo Metro  
-Tel: (+258) 848938851
-
 ### 📧 Documentação Técnica
 
 **TECMOZA**  
@@ -429,7 +423,6 @@ Cada um dos 11 esquemas PDF agora inclui página inicial com:
 ### Contactos
 
 - [x] Younus Mohammed (Ponto Focal): Tel (+258) 843030477 adicionado
-- [x] Onésimo Metro (Suporte): Tel (+258) 848938851 adicionado
 - [x] Evariste Musekwa (Documentação): Tel (+258) 860140080 adicionado
 - [x] Contactos antigos removidos
 - [x] Atualizados em todos os 20+ arquivos
@@ -507,7 +500,6 @@ Após deploy, medir:
 4. Baixar documentos relevantes
 5. Contactar suporte se necessário:
    - Ponto Focal: Younus Mohammed (+258) 843030477
-   - Suporte Técnico: Onésimo Metro (+258) 848938851
 
 ### Para Desenvolvedores
 

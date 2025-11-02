@@ -37,10 +37,6 @@
 **Younus Mohammed**  
 Tel: (+258) 843030477
 
-#### IT Department - Suporte Técnico
-
-**Onésimo Metro**  
-Tel: (+258) 848938851
 
 #### TECMOZA - Documentação
 
@@ -79,7 +75,7 @@ Tel: (+258) 860140080
 - [ ] Abrir `DOCUMENTACAO_TECNICA_BASES_DADOS.docx`
 - [ ] Remover/limpar Apêndice A
 - [ ] Procurar e substituir contactos antigos
-- [ ] Adicionar contactos novos (Younus, Onésimo, Evariste)
+- [ ] Adicionar contactos novos (Younus, Evariste)
 - [ ] Atualizar quaisquer referências a custos
 - [ ] Verificar capa do documento
 - [ ] Verificar rodapé

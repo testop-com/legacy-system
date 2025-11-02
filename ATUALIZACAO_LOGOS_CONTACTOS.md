@@ -38,12 +38,7 @@
 - Tel: (+258) 843030477
 - Função: Contacto principal da empresa
 
-**2. Onésimo Metro - Suporte Técnico**
-
-- Tel: (+258) 848938851
-- Função: Departamento de Informática
-
-**3. Evariste Musekwa Iguna - Documentação**
+**2. Evariste Musekwa Iguna - Documentação**
 
 - Email: musekwa@tecmoza.com
 - Tel: (+258) 860140080
@@ -124,13 +119,6 @@ O documento Word requer atualização manual dos contactos:
    Tel: (+258) 843030477
    ```
 
-   **Suporte Técnico (Departamento de Informática)**
-
-   ```
-   Onésimo Metro
-   Tel: (+258) 848938851
-   ```
-
    **Documentação (TECMOZA)**
 
    ```
@@ -152,9 +140,7 @@ FOOTER
 ├── Contacto (Tes-Top)
 │   ├── Logo Tes-Top
 │   ├── Ponto Focal: Younus Mohammed
-│   │   └── Tel: (+258) 843030477
-│   └── Suporte Técnico - Depto. Informática: Onésimo Metro
-│       └── Tel: (+258) 848938851
+│       └── Tel: (+258) 843030477
 │
 └── Documentação (TECMOZA)
     ├── Logo TECMOZA
@@ -172,9 +158,6 @@ FOOTER
 Younus Mohammed
 Tel: (+258) 843030477
 
-### Suporte Técnico (Depto. Informática)
-Onésimo Metro
-Tel: (+258) 848938851
 
 ### Documentação (TECMOZA)
 Evariste Musekwa Iguna
@@ -245,7 +228,6 @@ git commit -m "feat: Adicionar logos e atualizar contactos
 
 - Inseridos logos Tes-Top e TECMOZA em navegação e footers
 - Atualizado contacto principal: Younus Mohammed (Ponto Focal)
-- Mantido suporte técnico: Onésimo Metro
 - Mantido documentação: Evariste Musekwa Iguna
 - Removidos contactos antigos da empresa
 - Atualizados 20+ arquivos (HTML + MD)
@@ -281,7 +263,6 @@ Verificar:
 **Questões sobre esta atualização:**
 
 - **Tes-Top (Ponto Focal):** Younus Mohammed - (+258) 843030477
-- **Suporte Técnico:** Onésimo Metro - (+258) 848938851
 - **Documentação:** Evariste Musekwa Iguna - musekwa@tecmoza.com - (+258) 860140080
 
 ---

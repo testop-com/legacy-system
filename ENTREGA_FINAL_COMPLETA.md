@@ -282,11 +282,6 @@ Usuário vê:
 - **Nome:** Younus Mohammed
 - **Tel:** (+258) 843030477
 
-### Tes-Top (Suporte Técnico - Depto. Informática)
-
-- **Nome:** Onésimo Metro
-- **Tel:** (+258) 848938851
-
 ### TECMOZA (Documentação)
 
 - **Nome:** Evariste Musekwa Iguna
@@ -372,7 +367,6 @@ git push origin main
 ### Contactos
 
 - [x] Evariste: Email + Tel
-- [x] Onésimo: Tel
 - [x] Atualizados em 22 arquivos
 - [x] Visíveis em todas páginas
 

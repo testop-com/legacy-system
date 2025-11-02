@@ -61,8 +61,8 @@ Tel: (+258) 843030477
 
 **Suporte Técnico - IT**
 ```
-Onésimo Metro
-Tel: (+258) 848938851
+
+Tel: 
 ```
 
 **Documentação - TECMOZA**
@@ -94,7 +94,7 @@ Após a atualização, verifique:
 - [ ] Email `it.nunes@q99.co.mz` não aparece em nenhum lugar
 - [ ] Email `it.paporo@testop.co.mz` não aparece em nenhum lugar
 - [ ] Younus Mohammed adicionado como **Ponto Focal**
-- [ ] Onésimo Metro adicionado como **Suporte Técnico**
+- [ ]  adicionado como **Suporte Técnico**
 - [ ] Evariste mantido/adicionado para **Documentação**
 - [ ] Verificado rodapé (se houver)
 - [ ] Verificada capa (se houver)

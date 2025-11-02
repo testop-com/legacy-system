@@ -159,7 +159,6 @@ legacy-system/
 ## 📞 CONTACTOS
 
 **Younus Mohammed**: (+258) 843030477  
-**Onésimo Metro**: (+258) 848938851  
 **Evariste Musekwa Iguna**: musekwa@tecmoza.com, (+258) 860140080
 
 ---

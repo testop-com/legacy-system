@@ -272,7 +272,7 @@ This document focuses solely on **technical analysis**:
 1. Remover Appendix A (informação técnica desatualizada)
 2. Atualizar contactos:
    - Younus Mohammed (+258) 843030477
-   - Onésimo Metro (+258) 848938851
+   -  
    - Evariste Musekwa Iguna (+258) 860140080
 
 **Ver**: `INSTRUCOES_ATUALIZACAO_WORD.md` para detalhes
@@ -309,7 +309,7 @@ This document focuses solely on **technical analysis**:
 Younus Mohammed - Tel: (+258) 843030477
 
 **Suporte Técnico de TI**  
-Onésimo Metro - Tel: (+258) 848938851
+ - Tel: 
 
 **Assessoria Técnica**  
 Evariste Musekwa Iguna  

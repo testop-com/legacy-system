@@ -181,8 +181,8 @@ git push origin main
 Tel: (+258) 843030477
 
 ### Para Implementação Técnica
-**Onésimo Metro** (IT Department - Suporte Técnico)  
-Tel: (+258) 848938851
+**** (IT Department - Suporte Técnico)  
+Tel: 
 
 ### Para Questões sobre Assessment
 **Evariste Musekwa Iguna** (TECMOZA - Documentação)  

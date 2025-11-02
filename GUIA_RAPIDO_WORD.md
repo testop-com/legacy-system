@@ -52,13 +52,6 @@ Tel: (+258) 843030477
 
 ───────────────────────────────────────────────────────────
 
-SUPORTE TÉCNICO - DEPARTAMENTO DE INFORMÁTICA
-
-Onésimo Metro
-Tel: (+258) 848938851
-
-───────────────────────────────────────────────────────────
-
 DOCUMENTAÇÃO TÉCNICA
 
 Evariste Musekwa Iguna
@@ -78,7 +71,6 @@ Organização: TECMOZA
 - [ ] Apêndice A removido?
 - [ ] Contactos antigos (it.nunes, it.paporo) removidos?
 - [ ] Younus Mohammed adicionado como Ponto Focal?
-- [ ] Onésimo Metro adicionado como Suporte Técnico?
 - [ ] Evariste Musekwa Iguna mantido em Documentação?
 - [ ] Documento revisado?
 
@@ -104,11 +96,6 @@ Sistema: Sistema Interno de Gestão Empresarial
 Ponto Focal da Empresa:
   Nome: Younus Mohammed
   Telefone: (+258) 843030477
-  
-Suporte Técnico de TI:
-  Nome: Onésimo Metro
-  Telefone: (+258) 848938851
-  Departamento: Informática - Tes-Top
 
 Documentação e Assessoria Técnica:
   Nome: Evariste Musekwa Iguna

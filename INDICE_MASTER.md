@@ -130,7 +130,7 @@
 
 **Tarefas**:
 1. Remover Apêndice A (Informações Técnicas)
-2. Atualizar contactos (Younus, Onésimo, Evariste)
+2. Atualizar contactos (Younus, Evariste)
 
 **Instruções**: [`INSTRUCOES_ATUALIZACAO_WORD.md`](INSTRUCOES_ATUALIZACAO_WORD.md)
 
@@ -142,9 +142,6 @@
 **Younus Mohammed**  
 Tel: (+258) 843030477
 
-### IT Department - Suporte Técnico
-**Onésimo Metro**  
-Tel: (+258) 848938851
 
 ### TECMOZA - Assessment e Documentação
 **Evariste Musekwa Iguna**  

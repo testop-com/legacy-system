@@ -464,7 +464,6 @@ Lê análise técnica completa do sistema FINANCAS
 │  ↓
 ├─ Vê contactos:
 │  • Evariste: (+258) 860140080
-│  • Onésimo: (+258) 848938851
 │  ↓
 └─ Liga ou envia email para agendar
 ```

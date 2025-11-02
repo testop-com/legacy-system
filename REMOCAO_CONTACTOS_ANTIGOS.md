@@ -27,8 +27,8 @@ Estes contactos **não fazem mais parte da empresa** e foram completamente remov
 - Tel: (+258) 843030477
 - Função: Contacto principal da empresa
 
-**2. Onésimo Metro - Suporte Técnico**
-- Tel: (+258) 848938851
+**2.  - Suporte Técnico**
+- Tel: 
 - Função: Departamento de Informática
 
 **3. Evariste Musekwa Iguna - Documentação**
@@ -45,32 +45,32 @@ Estes contactos **não fazem mais parte da empresa** e foram completamente remov
 1. ✅ **assessment-report/README.md**
    - Secção: "For Technical Support"
    - Removidos: it.nunes, it.paporo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 2. ✅ **assessment-report/OVERALL_ASSESSMENT.md**
    - Secção: "For Technical Support"
    - Removidos: it.nunes, it.paporo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 3. ✅ **assessment-report/RELATORIO_EXECUTIVO_SEMANA1.md**
    - Secção: "Para Questões Técnicas"
    - Removidos: Nunes Pedro, Edson Paporo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 4. ✅ **assessment-report/ASSESSMENT_PROJECTOS.md**
    - Secção: "For Technical Questions"
    - Removidos: IT Department antigo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 5. ✅ **assessment-report/PROJECT_SUMMARY_FINANCAS.md**
    - Secção: "For Questions About The System"
    - Removidos: Grupo Testop IT Department antigo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 6. ✅ **assessment-report/ASSESSMENT_FINANCAS.md**
    - Secção: "For Technical Questions"
    - Removidos: IT Department antigo
-   - Adicionados: Younus Mohammed, Onésimo Metro
+   - Adicionados: Younus Mohammed, 
 
 ---
 
@@ -87,8 +87,8 @@ Este arquivo **já documenta** a remoção dos contactos antigos:
   - Nunes Pedro (it.nunes@q99.co.mz)
   - Edson Paporo (it.paporo@testop.co.mz)
 - ✅ **Adicionado**:
-  - Onésimo Metro
-  - Tel: (+258) 848938851
+  - 
+  - Tel: 
 ```
 
 **Status:** ✅ Correto e atualizado
@@ -139,7 +139,7 @@ grep -r "it.nunes@q99.co.mz\|it.paporo@testop.co.mz" *.md
 | Item | Quantidade |
 |------|------------|
 | **Contactos removidos** | 2 (Nunes Pedro, Edson Paporo) |
-| **Contactos adicionados** | 2 (Younus Mohammed, Onésimo Metro) |
+| **Contactos adicionados** | 2 (Younus Mohammed, ) |
 | **Arquivos MD atualizados** | 6 |
 | **Assessment reports corrigidos** | 6 |
 | **Arquivos SQL (não modificados)** | 6 |
@@ -168,8 +168,8 @@ grep -r "it.nunes@q99.co.mz\|it.paporo@testop.co.mz" *.md
 - Tel: (+258) 843030477
 
 **Suporte Técnico - Departamento de Informática:**
-- Onésimo Metro
-- Tel: (+258) 848938851
+- 
+- Tel: 
 
 ### TECMOZA (Documentação)
 
@@ -188,7 +188,7 @@ git add .
 git commit -m "docs: Remover contactos antigos do IT Department
 
 - Removidos: Nunes Pedro, Edson Paporo
-- Adicionados: Younus Mohammed (Ponto Focal), Onésimo Metro (Suporte)
+- Adicionados: Younus Mohammed (Ponto Focal),  (Suporte)
 - Atualizados 6 assessment reports
 - Arquivos SQL preservados (dados históricos)
 "
@@ -226,7 +226,7 @@ Tes-Top (Point of Contact)
 Younus Mohammed - Tel: (+258) 843030477
 
 IT Department - Technical Support
-Onésimo Metro - Tel: (+258) 848938851
+ - Tel: 
 ```
 
 ---

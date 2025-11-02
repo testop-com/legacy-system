@@ -210,8 +210,8 @@ testop-com/legacy-system/
 
 ### Tes-Top (Suporte Técnico - Depto. Informática)
 
-**Onésimo Metro**  
-📱 Tel: (+258) 848938851
+****  
+📱 Tel: 
 
 ### TECMOZA (Documentação)
 
@@ -283,7 +283,7 @@ Funciona em desktop, tablet e smartphone.
 
 📞 Contactos:
 • Tes-Top: Younus Mohammed - (+258) 843030477
-• Suporte Técnico: Onésimo Metro - (+258) 848938851
+• Suporte Técnico:  - 
 • Documentação: Evariste Musekwa - (+258) 860140080
 
 Atenciosamente,

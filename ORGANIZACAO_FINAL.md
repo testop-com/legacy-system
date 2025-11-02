@@ -118,8 +118,6 @@
 ### Tes-Top
 **Younus Mohammed**: (+258) 843030477
 
-### IT Department
-**Onésimo Metro**: (+258) 848938851
 
 ### TECMOZA
 **Evariste Musekwa Iguna**  

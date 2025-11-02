@@ -396,7 +396,6 @@ cat database_analysis.json | jq '.[] | select(.name == "grupotestop_financas")'
 ### Contactos
 
 - **Tes-Top (Ponto Focal)**: Younus Mohammed - (+258) 843030477
-- **Suporte Técnico (Depto. Informática)**: Onésimo Metro - (+258) 848938851
 - **Documentação (TECMOZA)**: Evariste Musekwa Iguna - (+258) 860140080
 
 ### Conteúdo

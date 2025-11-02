@@ -240,7 +240,6 @@ Para questões sobre:
 - **Esta documentação**: musekwa@tecmoza.com | (+258) 860140080
 - **Conteúdo técnico**: Consulte LEIA-ME_DOCUMENTACAO.md
 - **Tes-Top (Ponto Focal)**: Younus Mohammed - (+258) 843030477
-- **Suporte Técnico (Depto. Informática)**: Onésimo Metro - (+258) 848938851
 - **Documentação (TECMOZA)**: Evariste Musekwa Iguna - (+258) 860140080
 
 ---

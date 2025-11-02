@@ -365,7 +365,6 @@ Antes de considerar o deploy completo, confirme:
 
 **Preparado por**: TECMOZA  
 **Tes-Top (Ponto Focal)**: Younus Mohammed | (+258) 843030477  
-**Suporte Técnico (Depto. Informática)**: Onésimo Metro | (+258) 848938851  
 **Documentação (TECMOZA)**: Evariste Musekwa Iguna | musekwa@tecmoza.com | (+258) 860140080  
 **Data**: 01 de Novembro de 2025  
 **Última atualização**: [preencher após updates]

@@ -418,8 +418,8 @@ Younus Mohammed
 Tel: (+258) 843030477
 
 **IT Department - Technical Support**  
-Onésimo Metro  
-Tel: (+258) 848938851
+  
+Tel: 
 
 **Company Contact**
 

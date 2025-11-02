@@ -339,9 +339,6 @@ legacy-system/
 **Tes-Top (Ponto Focal)**  
 Younus Mohammed - Tel: (+258) 843030477
 
-**Suporte Técnico IT**  
-Onésimo Metro - Tel: (+258) 848938851
-
 **Documentação e Assessoria**  
 Evariste Musekwa Iguna  
 Email: musekwa@tecmoza.com  

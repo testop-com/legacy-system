@@ -257,8 +257,7 @@
 │
 └─ 📞 CONTACTO (Footer)
    ├─ TECMOZA: Evariste (+258 860140080)
-   ├─ Suporte: Onésimo (+258 848938851)
-   └─ Tes-Top: Geral
+
 ```
 
 ---
@@ -444,10 +443,6 @@ _Nota: Não inclui arquivos SQL originais (~180 MB)_
 - **Nome**: Younus Mohammed
 - **Tel**: (+258) 843030477
 
-### Tes-Top (Suporte Técnico - Depto. Informática)
-
-- **Nome**: Onésimo Metro
-- **Tel**: (+258) 848938851
 
 ### TECMOZA (Documentação)
 

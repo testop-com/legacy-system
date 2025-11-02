@@ -1395,8 +1395,8 @@ Younus Mohammed
 Tel: (+258) 843030477
 
 **Departamento de Informática - Suporte Técnico**  
-Onésimo Metro  
-Tel: (+258) 848938851
+  
+Tel: 
 
 **Para Questões de Negócio**:
 

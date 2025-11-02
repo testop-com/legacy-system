@@ -19,9 +19,6 @@
 - ❌ **Removidos**:
   - Nunes Pedro (it.nunes@q99.co.mz)
   - Edson Paporo (it.paporo@testop.co.mz)
-- ✅ **Adicionado**:
-  - Onésimo Metro
-  - Tel: (+258) 848938851
 
 ---
 
@@ -272,11 +269,6 @@ git push origin main
 Younus Mohammed  
 📱 Tel: (+258) 843030477
 
-### Suporte Técnico (Depto. Informática)
-
-**Tes-Top**  
-Onésimo Metro  
-📱 Tel: (+258) 848938851
 
 ### Documentação Técnica
 

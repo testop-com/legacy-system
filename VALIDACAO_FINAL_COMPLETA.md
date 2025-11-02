@@ -185,8 +185,8 @@
 
 ### ✅ Suporte Técnico (Depto. Informática)
 
-- Nome: Onésimo Metro
-- Tel: (+258) 848938851
+- Nome: 
+- Tel: 
 - **Aparece em:** 22 arquivos
 - **Aparece em:** 22 arquivos
 
@@ -290,7 +290,7 @@ legacy-system/
 ### Contactos
 
 - [x] Evariste: (+258) 860140080
-- [x] Onésimo: (+258) 848938851
+- [x] Onésimo: 
 - [x] Atualizados em 22 arquivos
 - [x] Visíveis em todas páginas
 
@@ -446,7 +446,7 @@ _Sem contar SQL databases (~180 MB)_
 ### Durante Implementação
 
 - **Tes-Top (Ponto Focal):** Younus Mohammed | (+258) 843030477
-- **Suporte Técnico:** Onésimo Metro | (+258) 848938851
+- **Suporte Técnico:**  | 
 - **Documentação (TECMOZA):** Evariste Musekwa | (+258) 860140080
 
 ### Após Deploy
