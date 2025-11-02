@@ -66,7 +66,8 @@
 - 125 database tables documented
 - 10 critical issues identified
 - 3-phase modernization roadmap
-- Budget: $180K-280K over 12 months
+- Budget (Nacional - MZ): $90K-140K ⭐ over 12 months
+- Budget (International): $180K-280K over 12 months
 - **Best for**: Technical teams working on Financas
 
 **[PROJECT_SUMMARY_FINANCAS.md](PROJECT_SUMMARY_FINANCAS.md)** (449 lines)

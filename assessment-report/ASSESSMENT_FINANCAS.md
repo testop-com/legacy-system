@@ -10,6 +10,17 @@
 
 ---
 
+## 💰 Cost Structure Note
+
+**All cost estimates** in this assessment are presented as:
+
+- **International Cost** (Global Market - USA/Europe): $80-150/hour
+- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+
+These are **enhancement costs for the existing working system**, not building from scratch.
+
+---
+
 ## Executive Summary
 
 This document provides a comprehensive technical assessment of the Grupo Testop Finanças legacy system, a multi-tenant Enterprise Resource Planning (ERP) application that has been in production for several years. The system manages financial operations, fleet management, procurement, and insurance operations for a conglomerate of companies in Mozambique.
@@ -1168,7 +1179,8 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 5. ✅ Code quality tools
 6. ✅ Basic testing coverage
 
-**Budget**: $30,000 - $50,000  
+**Budget (International)**: $30,000 - $50,000  
+**Budget (National - MZ)**: $15,000 - $25,000 ⭐  
 **Team**: 2 developers + 1 DBA  
 **Risk**: Low
 
@@ -1208,12 +1220,12 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 ### Total Investment Summary
 
-| Phase     | Duration      | Budget         | Team Size    | Risk Level  |
-| --------- | ------------- | -------------- | ------------ | ----------- |
-| Phase 1   | 3 months      | $30K-50K       | 3 people     | Low         |
-| Phase 2   | 3 months      | $50K-80K       | 4 people     | Medium      |
-| Phase 3   | 6 months      | $100K-150K     | 6 people     | High        |
-| **Total** | **12 months** | **$180K-280K** | **Variable** | **Managed** |
+| Phase     | Duration      | Budget                                    | Team Size    | Risk Level  |
+| --------- | ------------- | ----------------------------------------- | ------------ | ----------- |
+| Phase 1   | 3 months      | $30K-50K (Intl) / $15K-25K (MZ) ⭐        | 3 people     | Low         |
+| Phase 2   | 3 months      | $50K-80K (Intl) / $25K-40K (MZ) ⭐        | 4 people     | Medium      |
+| Phase 3   | 6 months      | $100K-150K (Intl) / $50K-75K (MZ) ⭐      | 6 people     | High        |
+| **Total** | **12 months** | **$180K-280K (Intl) / $90K-140K (MZ)** ⭐ | **Variable** | **Managed** |
 
 ---
 
@@ -1446,7 +1458,8 @@ This comprehensive assessment covered:
 
 **Strategic Recommendation**: **Option A - Gradual Modernization**
 
-- **Budget**: $180K-280K over 12 months
+- **Budget (International)**: $180,000-280,000 over 12 months
+- **Budget (National - MZ)**: $90,000-140,000 ⭐ over 12 months
 - **Risk**: Managed through phased approach
 - **ROI**: 3-5 years
 - **Confidence**: High

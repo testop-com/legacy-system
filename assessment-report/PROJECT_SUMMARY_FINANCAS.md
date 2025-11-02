@@ -383,7 +383,7 @@ Track these KPIs throughout modernization:
 **Justification**:
 
 1. **Proven Approach**: Minimizes risk through incremental changes
-2. **Budget Friendly**: $180K-280K spread over 12 months vs. $400K-600K rewrite
+2. **Budget Friendly** (Nacional - MZ): $90K-140K ⭐ spread over 12 months vs. $200K-300K rewrite (International: $180K-280K vs. $400K-600K)
 3. **Business Continuity**: No disruption to ongoing operations
 4. **Value Delivery**: Continuous improvements every phase
 5. **Team Growth**: Skills development through hands-on work
@@ -437,7 +437,7 @@ This legacy system documentation project successfully analyzed and documented a 
 
 **The system is viable** and worth investing in modernization rather than replacement. With proper execution of the recommended 3-phase roadmap, this can become a modern, scalable, and maintainable platform that serves Grupo Testop for another 5-10 years.
 
-**Total investment of $180K-280K over 12 months is expected to deliver ROI within 3-5 years** through improved efficiency, reduced technical debt, and new capabilities enabling business growth.
+**Total investment** (Nacional - MZ: $90K-140K ⭐ | International: $180K-280K) **over 12 months is expected to deliver ROI within 3-5 years** through improved efficiency, reduced technical debt, and new capabilities enabling business growth.
 
 ---
 

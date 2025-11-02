@@ -10,6 +10,17 @@
 
 ---
 
+## 💰 Cost Structure Note
+
+**All cost estimates** in this assessment are presented as:
+
+- **International Cost** (Global Market - USA/Europe): $80-150/hour
+- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+
+These are **enhancement costs for the existing working system**, not building from scratch.
+
+---
+
 ## Executive Summary
 
 This document provides a comprehensive technical assessment of the Grupo Testop Projectos system, a project and inventory management application focused on electrical materials, warehouse operations, and project-based stock control for electrical infrastructure projects.
@@ -622,12 +633,12 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 ### Total Investment Summary
 
-| Phase     | Duration     | Budget        | Team Size    | Risk Level  |
-| --------- | ------------ | ------------- | ------------ | ----------- |
-| Phase 1   | 2 months     | $15K-25K      | 1.5 people   | Low         |
-| Phase 2   | 3 months     | $30K-45K      | 2.5 people   | Medium      |
-| Phase 3   | 4 months     | $50K-75K      | 3-4 people   | Medium      |
-| **TOTAL** | **9 months** | **$95K-145K** | **Variable** | **Managed** |
+| Phase     | Duration     | Budget                                  | Team Size    | Risk Level  |
+| --------- | ------------ | --------------------------------------- | ------------ | ----------- |
+| Phase 1   | 2 months     | $15K-25K                                | 1.5 people   | Low         |
+| Phase 2   | 3 months     | $30K-45K (Intl) / $15K-23K (MZ) ⭐      | 2.5 people   | Medium      |
+| Phase 3   | 4 months     | $50K-75K (Intl) / $25K-38K (MZ) ⭐      | 3-4 people   | Medium      |
+| **TOTAL** | **9 months** | **$95K-145K (Intl) / $48K-73K (MZ)** ⭐ | **Variable** | **Managed** |
 
 ---
 
@@ -711,7 +722,10 @@ However, it requires:
 
 ### Strategic Recommendation
 
-**Recommend: Moderate Modernization (9 months, $95K-145K)**
+**Recommend: Moderate Modernization**
+
+- International: $95,000-145,000 (9 months)
+- National (MZ): $48,000-73,000 ⭐ (9 months)
 
 **Rationale**:
 

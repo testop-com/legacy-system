@@ -93,8 +93,8 @@ Cada PDF inclui:
 
 **Avaliados (2):**
 
-- ✅ FINANCAS - Rating ⭐⭐⭐ (3/5), $180K-280K
-- ✅ PROJECTOS - Rating ⭐⭐⭐⭐ (4/5), $95K-145K
+- ✅ FINANCAS - Rating ⭐⭐⭐ (3/5), Nacional MZ: $90K-140K ⭐ (Intl: $180K-280K)
+- ✅ PROJECTOS - Rating ⭐⭐⭐⭐ (4/5), Nacional MZ: $48K-73K ⭐ (Intl: $95K-145K)
 
 **Pendentes (15):**
 

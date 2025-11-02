@@ -7,6 +7,17 @@
 
 ---
 
+## 💰 Cost Structure Note
+
+**All cost estimates** in this document are presented as:
+
+- **International Cost** (Global Market): Based on USA/Europe rates ($80-150/hour)
+- **National Cost (Mozambique)**: Based on local qualified labor ($40-75/hour) = **50% of international**
+
+These are **enhancement costs for existing systems**, not building from scratch.
+
+---
+
 ## Critical Discovery
 
 Complete analysis reveals **Grupo Testop operates a complex ecosystem of approximately 17 application systems sharing 10 databases**:
@@ -47,7 +58,8 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 - **Users**: 200+
 - **Status**: ✅ **Fully Assessed**
 - **Rating**: ⭐⭐⭐ (3/5)
-- **Investment**: $180K-280K
+- **Investment (International)**: $180,000-280,000
+- **Investment (National - MZ)**: $90,000-140,000 ⭐
 
 **2. STOCK** (grupotestop_stock) 🔴 **LARGEST SYSTEM**
 
@@ -62,7 +74,8 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 - **Purpose**: Electrical projects & materials
 - **Status**: ✅ **Fully Assessed**
 - **Rating**: ⭐⭐⭐⭐ (4/5)
-- **Investment**: $95K-145K
+- **Investment (International)**: $95,000-145,000
+- **Investment (National - MZ)**: $48,000-73,000 ⭐
 
 **4. BANCO MUNDIAL STOCK** (grupotestop_banco_mundial_stock)
 
@@ -146,8 +159,10 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Revised Assessment
 
-**Realistic Estimate** (~17 systems, 10 databases): $1.0M-1.5M over 36-48 months  
-**Realistic Estimate** (10+ systems): **$1.5M - $2.5M over 36-48 months**
+**Realistic Estimate** (~17 systems, 10 databases):
+
+- International: $1.0M-1.5M (36-48 months)
+- National (MZ): $500K-750K ⭐ (36-48 months)
 
 ---
 
@@ -225,27 +240,34 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 - Merge: Financas + Stock + Banco Mundial Stock
 - Result: Single business management platform
-- Investment: $500K-750K (18-24 months)
+- Investment (International): $500,000-750,000 (18-24 months)
+- Investment (National - MZ): $250,000-375,000 ⭐ (18-24 months)
 
 **Platform 2: HR Suite**
 
 - Merge: Salarios + Attendance
 - Result: Unified HR/Payroll system
-- Investment: $150K-250K (12 months)
+- Investment (International): $150,000-250,000 (12 months)
+- Investment (National - MZ): $75,000-125,000 ⭐ (12 months)
 
 **Platform 3: Project Management**
 
 - Merge: Projectos + Baixadas
 - Result: Unified project & installation system
-- Investment: $120K-180K (9 months)
+- Investment (International): $120,000-180,000 (9 months)
+- Investment (National - MZ): $60,000-90,000 ⭐ (9 months)
 
 **Platform 4: Support Systems**
 
 - Merge: Helpdesk + Ticket + Meeting
 - Alternative: Buy commercial tools (Zendesk, Jira, Google Calendar)
-- Investment: $50K-100K or $20K/year licensing
+- Investment (International): $50,000-100,000 or $20K/year licensing
+- Investment (National - MZ): $25,000-50,000 ⭐ or $20K/year licensing
 
-**Total Consolidation**: $820K-1.28M over 24-30 months
+**Total Consolidation**:
+
+- International: $820,000-1,280,000 (24-30 months)
+- National (MZ): $410,000-640,000 ⭐ (24-30 months)
 
 ### Option B: Strategic Abandonment
 
@@ -259,13 +281,15 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 - Critical systems only (Financas, Stock, Salarios)
 - Let others naturally phase out
-- Lower investment: $600K-900K
+- International: $600,000-900,000
+- National (MZ): $300,000-450,000 ⭐
 
 ### Option C: Status Quo + Minimal Fixes
 
 **Do NOT Recommend**: Technical debt will compound
 
-**Cost**: $200K-300K for band-aids  
+**Cost (International)**: $200,000-300,000/year for band-aids  
+**Cost (National - MZ)**: $100,000-150,000/year for band-aids  
 **Result**: Problems persist and worsen  
 **Risk**: System failures inevitable
 
@@ -275,11 +299,11 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Complete Modernization (All Systems)
 
-| Approach                      | Timeline     | Budget          | Result             |
-| ----------------------------- | ------------ | --------------- | ------------------ |
-| **Option A: Consolidation**   | 24-30 months | $820K-1.28M     | 4 modern platforms |
-| **Option B: Strategic Focus** | 18-24 months | $600K-900K      | 3 critical systems |
-| **Option C: Status Quo**      | Ongoing      | $200K-300K/year | Maintenance hell   |
+| Approach                      | Timeline     | **International** | **National (MZ)** ⭐ | Result             |
+| ----------------------------- | ------------ | ----------------- | -------------------- | ------------------ |
+| **Option A: Consolidation**   | 24-30 months | $820K-1.28M       | **$410K-640K**       | 4 modern platforms |
+| **Option B: Strategic Focus** | 18-24 months | $600K-900K        | **$300K-450K**       | 3 critical systems |
+| **Option C: Status Quo**      | Ongoing      | $200K-300K/year   | **$100K-150K/year**  | Maintenance hell   |
 
 ---
 
@@ -445,7 +469,8 @@ Tickets
 
 #### Scenario 1: Modernize All Systems Individually
 
-**Cost**: $2.0M - $3.0M  
+**Cost (International)**: $2,000,000 - $3,000,000  
+**Cost (National - MZ)**: $1,000,000 - $1,500,000 ⭐  
 **Timeline**: 48-60 months  
 **Risk**: Very High  
 **NOT RECOMMENDED**: Too expensive, too long
@@ -457,23 +482,29 @@ Tickets
 - Complete assessment of all 10 systems
 - Identify consolidation opportunities
 - Data migration planning
-- Budget: $50K-75K
+- Budget (International): $50,000-75,000
+- Budget (National - MZ): $25,000-38,000 ⭐
 
 **Phase 2: Tier 1 Consolidation (18 months)**
 
 - Merge: Financas + Stock + Banco Mundial → Unified ERP
 - Merge: Salarios + Attendance → HR Platform
 - Keep: Projectos (already good)
-- Budget: $750K-1.1M
+- Budget (International): $750,000-1,100,000
+- Budget (National - MZ): $375,000-550,000 ⭐
 
 **Phase 3: Tier 2 Optimization (12 months)**
 
 - Evaluate: Baixadas (merge with Projectos or deprecate)
 - Replace: Helpdesk, Meeting, Ticket with commercial tools
 - Archive: Archives → cloud storage
-- Budget: $100K-150K
+- Budget (International): $100,000-150,000
+- Budget (National - MZ): $50,000-75,000 ⭐
 
-**Total Investment**: $1.0M-1.5M over 36-48 months (3-4 years)
+**Total Investment**:
+
+- International: $1,000,000-1,500,000 (36-48 months)
+- National (MZ): $500,000-750,000 ⭐ (36-48 months)
 
 #### Scenario 3: Strategic Focus (Alternative)
 
@@ -487,7 +518,8 @@ Tickets
 
 - 7 smaller systems
 
-**Budget**: $600K-900K over 24 months  
+**Budget (International)**: $600,000-900,000 (24 months)  
+**Budget (National - MZ)**: $300,000-450,000 ⭐ (24 months)  
 **Risk**: Medium  
 **Trade-off**: Lose some functionality
 
@@ -558,7 +590,8 @@ Tickets
 4. ✅ Consolidation opportunities identified
 5. ✅ Revised budget and timeline
 
-**Budget**: $50,000 - $75,000  
+**Budget (International)**: $50,000 - $75,000  
+**Budget (National - MZ)**: $25,000 - $38,000 ⭐  
 **Team**: 1-2 analysts + 1 architect  
 **Outcome**: Informed decision-making
 
@@ -566,8 +599,12 @@ Tickets
 
 **Choose Strategy**:
 
-- **Option A**: Full Consolidation ($1.0M-1.5M, 36-48 months)
-- **Option B**: Strategic Focus ($600K-900K, 24 months)
+- **Option A**: Full Consolidation
+  - International: $1.0M-1.5M (36-48 months)
+  - National (MZ): $500K-750K ⭐ (36-48 months)
+- **Option B**: Strategic Focus
+  - International: $600K-900K (24 months)
+  - National (MZ): $300K-450K ⭐ (24 months)
 - **Option C**: Status Quo (NOT recommended)
 
 ### Phase 1-3: Execute Chosen Strategy
@@ -634,11 +671,17 @@ The IT landscape is **significantly more complex** than initially identified. We
 - **Estimated 40-60% data duplication**
 - **10+ codebases to maintain**
 
-**Realistic Budget**: **$1.0M-1.5M for ecosystem consolidation** (~17 systems, 10 databases)
+**Realistic Budget** (~17 systems, 10 databases):
+
+- **International**: $1,000,000-1,500,000
+- **National (MZ)**: $500,000-750,000 ⭐
 
 **RECOMMENDATION**:
 
-✅ **Invest $50K-75K in Phase 0 (Complete Discovery)** first
+✅ **Invest in Phase 0 (Complete Discovery)** first
+
+- International: $50,000-75,000
+- National (MZ): $25,000-38,000 ⭐
 
 **DO NOT proceed** with full modernization until we:
 

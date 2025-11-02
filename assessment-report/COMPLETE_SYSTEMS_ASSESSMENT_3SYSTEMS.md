@@ -8,6 +8,17 @@
 
 ---
 
+## 💰 Cost Structure Note
+
+**All cost estimates** in this assessment are presented as:
+
+- **International Cost** (Global Market - USA/Europe): $80-150/hour
+- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+
+These are **enhancement costs for existing working systems**, not building from scratch.
+
+---
+
 ## 🎯 Executive Summary
 
 ### Assessment Scope
@@ -20,15 +31,16 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 ### Overall Status
 
-| Metric                 | Value                                         |
-| ---------------------- | --------------------------------------------- |
-| **Systems Assessed**   | 3 of ~17 (18%)                                |
-| **Databases Analyzed** | 2 (grupotestop_financas + autobas2_testop_db) |
-| **Total Tables**       | 161 (125 + 36)                                |
-| **Lines of Code**      | ~65,000+ (PHP + Blade)                        |
-| **Overall Rating**     | ⭐⭐⭐ (3.3/5)                                |
-| **Investment Needed**  | $370K-520K (3 systems)                        |
-| **Timeline**           | 24-36 months                                  |
+| Metric                         | Value                                         |
+| ------------------------------ | --------------------------------------------- |
+| **Systems Assessed**           | 3 of ~17 (18%)                                |
+| **Databases Analyzed**         | 2 (grupotestop_financas + autobas2_testop_db) |
+| **Total Tables**               | 161 (125 + 36)                                |
+| **Lines of Code**              | ~65,000+ (PHP + Blade)                        |
+| **Overall Rating**             | ⭐⭐⭐ (3.3/5)                                |
+| **Investment (International)** | $370,000-520,000 (3 systems)                  |
+| **Investment (National - MZ)** | $185,000-260,000 ⭐ (3 systems)               |
+| **Timeline**                   | 24-36 months                                  |
 
 ---
 
@@ -134,7 +146,8 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🔴 **HIGH PRIORITY** - Modernize urgently
 
-**Investment**: $180,000 - $280,000  
+**Investment (International)**: $180,000 - $280,000  
+**Investment (National - MZ)**: $90,000 - $140,000 ⭐  
 **Timeline**: 12-18 months  
 **Risk**: HIGH (business-critical, high complexity)
 
@@ -171,7 +184,8 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🟡 **MEDIUM PRIORITY** - Stabilize and maintain
 
-**Investment**: $95,000 - $145,000  
+**Investment (International)**: $95,000 - $145,000  
+**Investment (National - MZ)**: $48,000 - $73,000 ⭐  
 **Timeline**: 6-12 months  
 **Risk**: MEDIUM (well-structured, smaller scope)
 
@@ -209,7 +223,8 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🟡 **MEDIUM PRIORITY** - Consider consolidation with PROJECTOS
 
-**Investment**: $95,000 - $145,000 (standalone) OR $80K-120K (consolidated)  
+**Investment (International)**: $95,000 - $145,000 (standalone) OR $80,000-120,000 (consolidated)  
+**Investment (National - MZ)**: $48,000 - $73,000 ⭐ (standalone) OR $40,000-60,000 ⭐ (consolidated)  
 **Timeline**: 6-12 months  
 **Risk**: MEDIUM (nearly identical to PROJECTOS)
 
@@ -373,15 +388,17 @@ if ($project->type === 'world_bank') {
 
 ### Investment Summary
 
-| System                   | Current Rating | Investment Range | Timeline     | Priority    |
-| ------------------------ | -------------- | ---------------- | ------------ | ----------- |
-| **FINANCAS**             | ⭐⭐⭐ (3/5)   | $180K-280K       | 12-18 months | 🔴 CRITICAL |
-| **PROJECTOS**            | ⭐⭐⭐⭐ (4/5) | $95K-145K        | 6-12 months  | 🟡 MEDIUM   |
-| **PROJECTOS-BM**         | ⭐⭐⭐⭐ (4/5) | $95K-145K        | 6-12 months  | 🟡 MEDIUM   |
-| **TOTAL (Separate)**     | -              | **$370K-570K**   | 24-36 months | -           |
-| **TOTAL (Consolidated)** | -              | **$330K-480K**   | 18-30 months | -           |
+| System                           | Current Rating | Investment Range | Timeline     | Priority    |
+| -------------------------------- | -------------- | ---------------- | ------------ | ----------- |
+| **FINANCAS**                     | ⭐⭐⭐ (3/5)   | $180K-280K       | 12-18 months | 🔴 CRITICAL |
+| **PROJECTOS**                    | ⭐⭐⭐⭐ (4/5) | $95K-145K        | 6-12 months  | 🟡 MEDIUM   |
+| **PROJECTOS-BM**                 | ⭐⭐⭐⭐ (4/5) | $95K-145K        | 6-12 months  | 🟡 MEDIUM   |
+| **TOTAL (Separate) - Intl**      | -              | **$370K-570K**   | 24-36 months | -           |
+| **TOTAL (Separate) - MZ** ⭐     | -              | **$185K-285K**   | 24-36 months | -           |
+| **TOTAL (Consolidated) - Intl**  | -              | **$330K-480K**   | 18-30 months | -           |
+| **TOTAL (Consolidated) - MZ** ⭐ | -              | **$165K-240K**   | 18-30 months | -           |
 
-**Savings from Consolidation**: $40,000 - $90,000
+**Savings from Consolidation**: $20,000 - $45,000 (both markets)
 
 ---
 
@@ -403,15 +420,16 @@ if ($project->type === 'world_bank') {
 - Performance degradation: Users frustrated
 - Donor audit failure: Contract loss
 
-**Total 5-Year Cost**: $450K-700K + catastrophic risks
+**Total 5-Year Cost (National - MZ)**: $225K-350K + catastrophic risks
 
 ---
 
 #### Option B: Recommended Approach (Phased Modernization)
 
-**Investment**: $370K-520K over 3 years
+**Investment (International)**: $370,000-520,000 over 3 years  
+**Investment (National - MZ)**: $185,000-260,000 ⭐ over 3 years
 
-**Returns**:
+**Returns** (based on national cost):
 
 - Prevent data loss: $100K-500K (avoided disaster)
 - Efficiency gains: 30% faster operations = $50K/year
@@ -436,13 +454,13 @@ if ($project->type === 'world_bank') {
 
 **Tasks**:
 
-| Task              | Systems | Effort  | Cost     |
-| ----------------- | ------- | ------- | -------- |
-| Add foreign keys  | All 3   | 5 days  | $8K-12K  |
-| Add indexes       | All 3   | 2 days  | $3K-5K   |
-| Automated backups | All 3   | 1 day   | $2K-3K   |
-| Security audit    | All 3   | 1 week  | $10K-15K |
-| Basic testing     | All 3   | 3 weeks | $20K-30K |
+| Task              | Systems | Effort  | Intl Cost | National (MZ) ⭐ |
+| ----------------- | ------- | ------- | --------- | ---------------- |
+| Add foreign keys  | All 3   | 5 days  | $8K-12K   | $4K-6K           |
+| Add indexes       | All 3   | 2 days  | $3K-5K    | $1.5K-2.5K       |
+| Automated backups | All 3   | 1 day   | $2K-3K    | $1K-1.5K         |
+| Security audit    | All 3   | 1 week  | $10K-15K  | $5K-8K           |
+| Basic testing     | All 3   | 3 weeks | $20K-30K  | $10K-15K         |
 
 **Deliverables**:
 
@@ -813,8 +831,8 @@ Week 10-12: Security
 
 **Decisions Needed**:
 
-1. ✅ Approve Phase 0 ($45K-65K) - URGENT
-2. ✅ Approve overall budget ($370K-520K)
+1. ✅ Approve Phase 0 (International: $45K-65K / National MZ: $23K-33K ⭐) - URGENT
+2. ✅ Approve overall budget (International: $370K-520K / National MZ: $185K-260K ⭐)
 3. ✅ Prioritize FINANCAS (business-critical)
 4. ⏳ Decide on PROJECTOS consolidation
 
@@ -840,7 +858,7 @@ Week 10-12: Security
 
 **Actions**:
 
-1. ✅ Allocate budget ($45K-65K Phase 0)
+1. ✅ Allocate budget (International: $45K-65K / National MZ: $23K-33K ⭐ Phase 0)
 2. ✅ Plan for multi-year investment
 3. ⏳ Review and approve quotes
 

@@ -7,21 +7,33 @@
 
 ---
 
+## 💰 Estrutura de Custos
+
+**Todos os custos** apresentam-se em dois níveis:
+
+- **Custo Internacional** (Mercado Global - EUA/Europa): $80-150/hora
+- **Custo Nacional (Moçambique)**: $40-75/hora = **50% do custo internacional**
+
+Custos referem-se a **APRIMORAMENTO dos sistemas EXISTENTES**, não construção do zero.
+
+---
+
 ## 📊 RESUMO EXECUTIVO
 
 ### Sistemas Analisados
 
 Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 
-| #   | Sistema                     | Rating         | Investimento | Prioridade | Status       |
-| --- | --------------------------- | -------------- | ------------ | ---------- | ------------ |
-| 1   | **FINANCAS**                | ⭐⭐⭐ (3/5)   | $180K-280K   | 🔴 CRÍTICA | ✅ Analisado |
-| 2   | **PROJECTOS**               | ⭐⭐⭐⭐ (4/5) | $95K-145K    | 🟡 MÉDIA   | ✅ Analisado |
-| 3   | **PROJECTOS-BANCO-MUNDIAL** | ⭐⭐⭐⭐ (4/5) | $95K-145K    | 🟡 MÉDIA   | ✅ Analisado |
+| #   | Sistema                     | Rating         | Investimento      | Prioridade | Status       |
+| --- | --------------------------- | -------------- | ----------------- | ---------- | ------------ |
+| 1   | **FINANCAS**                | ⭐⭐⭐ (3/5)   | $90K-140K (MZ) ⭐ | 🔴 CRÍTICA | ✅ Analisado |
+| 2   | **PROJECTOS**               | ⭐⭐⭐⭐ (4/5) | $48K-73K (MZ) ⭐  | 🟡 MÉDIA   | ✅ Analisado |
+| 3   | **PROJECTOS-BANCO-MUNDIAL** | ⭐⭐⭐⭐ (4/5) | $48K-73K (MZ) ⭐  | 🟡 MÉDIA   | ✅ Analisado |
 
 **Rating Médio**: ⭐⭐⭐⭐ (3.7/5)
 
-**Investimento Total**: $370,000 - $520,000 (3 sistemas)
+**Investimento Total (Nacional - MZ)**: $185,000 - $260,000 ⭐  
+**Investimento Total (Internacional)**: $370,000 - $520,000
 
 ---
 
@@ -198,27 +210,27 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 
 #### Cenário 1: Sistemas Separados
 
-| Fase       | Descrição                  | Investimento   | Prazo        |
-| ---------- | -------------------------- | -------------- | ------------ |
-| **Fase 0** | Estabilização (3 sistemas) | $45K-65K       | 3 meses      |
-| **Fase 1** | FINANCAS                   | $180K-280K     | 12 meses     |
-| **Fase 2** | PROJECTOS (separado)       | $95K-145K      | 9 meses      |
-| **Fase 3** | PROJECTOS-BM (separado)    | $95K-145K      | 9 meses      |
-| **TOTAL**  | -                          | **$415K-635K** | **33 meses** |
+| Fase       | Descrição                  | Internacional  | **Nacional (MZ)** ⭐ | Prazo        |
+| ---------- | -------------------------- | -------------- | -------------------- | ------------ |
+| **Fase 0** | Estabilização (3 sistemas) | $45K-65K       | **$23K-33K**         | 3 meses      |
+| **Fase 1** | FINANCAS                   | $180K-280K     | **$90K-140K**        | 12 meses     |
+| **Fase 2** | PROJECTOS (separado)       | $95K-145K      | **$48K-73K**         | 9 meses      |
+| **Fase 3** | PROJECTOS-BM (separado)    | $95K-145K      | **$48K-73K**         | 9 meses      |
+| **TOTAL**  | -                          | **$415K-635K** | **$208K-318K** ⭐    | **33 meses** |
 
 ---
 
 #### Cenário 2: Consolidação PROJECTOS (RECOMENDADO)
 
-| Fase       | Descrição                  | Investimento   | Prazo        |
-| ---------- | -------------------------- | -------------- | ------------ |
-| **Fase 0** | Estabilização (3 sistemas) | $45K-65K       | 3 meses      |
-| **Fase 1** | FINANCAS                   | $180K-280K     | 12 meses     |
-| **Fase 2** | PROJECTOS Consolidado      | $150K-220K     | 9 meses      |
-| **TOTAL**  | -                          | **$375K-565K** | **24 meses** |
+| Fase       | Descrição                  | Internacional  | **Nacional (MZ)** ⭐ | Prazo        |
+| ---------- | -------------------------- | -------------- | -------------------- | ------------ |
+| **Fase 0** | Estabilização (3 sistemas) | $45K-65K       | **$23K-33K**         | 3 meses      |
+| **Fase 1** | FINANCAS                   | $180K-280K     | **$90K-140K**        | 12 meses     |
+| **Fase 2** | PROJECTOS Consolidado      | $150K-220K     | **$75K-110K**        | 9 meses      |
+| **TOTAL**  | -                          | **$375K-565K** | **$188K-283K** ⭐    | **24 meses** |
 
-**Economia**: $40,000 - $70,000  
-**Benefícios Adicionais**: Código único, manutenção mais fácil
+**Vantagem Nacional**: $187,000 - $282,000 (50% inferior ao internacional)  
+**Benefícios Adicionais**: Código único, manutenção mais fácil, vantagem competitiva de custo
 
 ---
 
@@ -226,38 +238,39 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 
 #### Cenário: Não Fazer Nada
 
-**Custos Anuais** (manutenção reativa):
+**Custos Anuais** (manutenção reativa - Nacional):
 
-- Correções de bugs: $30K-50K
-- Manutenção emergencial: $20K-30K
-- Oportunidades perdidas: $40K-60K
-- **Total**: ~$90K-140K/ano
+- Correções de bugs: $15K-25K
+- Manutenção emergencial: $10K-15K
+- Oportunidades perdidas: $20K-30K
+- **Total**: ~$45K-70K/ano (Nacional MZ)
 
 **Riscos Catastróficos**:
 
-- Perda de dados: $100K-500K (evento único)
-- Falha de segurança: $50K-200K
+- Perda de dados: $50K-250K (evento único - custo nacional)
+- Falha de segurança: $25K-100K
 - Falha em auditoria de doador: Perda de contrato
 
-**Custo 5 anos**: $450K-700K + riscos
+**Custo 5 anos (Nacional - MZ)**: $225K-350K + riscos
 
 ---
 
 #### Cenário: Investir (Recomendado)
 
-**Investimento**: $375,000 - $565,000 (24 meses)
+**Investimento (Internacional)**: $375,000 - $565,000 (24 meses)  
+**Investimento (Nacional - MZ)**: $188,000 - $283,000 ⭐ (24 meses)
 
-**Retornos**:
+**Retornos** (baseado em custo nacional):
 
-- Prevenir perda de dados: $100K-500K (risco evitado)
-- Ganhos de eficiência: 30% = $50K/ano
-- Economia de manutenção: $30K/ano
+- Prevenir perda de dados: $50K-250K (risco evitado)
+- Ganhos de eficiência: 30% = $25K/ano
+- Economia de manutenção: $15K/ano
 - Novas capacidades: Crescimento do negócio
 
-**Valor 5 anos**: $600K-800K
+**Valor 5 anos**: $300K-400K
 
-**Break-even**: 24-30 meses  
-**ROI**: 160-220%
+**Break-even**: 18-24 meses  
+**ROI**: 220-350%
 
 ---
 
@@ -275,7 +288,8 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 4. ✅ Auditoria de segurança
 5. ✅ Testes básicos (20% cobertura)
 
-**Investimento**: $45,000 - $65,000  
+**Investimento (Internacional)**: $45,000 - $65,000  
+**Investimento (Nacional - MZ)**: $23,000 - $33,000 ⭐  
 **Equipa**: 2 developers + 1 DBA
 
 **Entregas**:
@@ -300,7 +314,8 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 5. ✅ Otimização de performance
 6. ✅ UI/UX melhorias
 
-**Investimento**: $180,000 - $280,000  
+**Investimento (Internacional)**: $180,000 - $280,000  
+**Investimento (Nacional - MZ)**: $90,000 - $140,000 ⭐  
 **Equipa**: 2-3 developers + 1 UI/UX
 
 ---
@@ -318,10 +333,11 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 5. ✅ Formação de utilizadores
 6. ✅ Rollout faseado
 
-**Investimento**: $150,000 - $220,000  
+**Investimento (Internacional)**: $150,000 - $220,000  
+**Investimento (Nacional - MZ)**: $75,000 - $110,000 ⭐  
 **Equipa**: 2 developers + 1 PM
 
-**Economia vs. Separado**: $40K-70K
+**Vantagem Nacional**: $75,000 - $110,000 (50% inferior ao internacional)
 
 ---
 
@@ -338,7 +354,8 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 5. ✅ Analytics avançado
 6. ✅ Integrações de sistemas
 
-**Investimento**: $120,000 - $200,000  
+**Investimento (Internacional)**: $120,000 - $200,000  
+**Investimento (Nacional - MZ)**: $60,000 - $100,000 ⭐  
 **Equipa**: 3-4 developers + DevOps
 
 ---
@@ -351,20 +368,23 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 
    - Sistema ERP multi-empresa
    - Rating: ⭐⭐⭐ (3/5)
-   - Investimento: $180K-280K
+   - Investimento: $90K-140K (Nacional MZ) ⭐
+   - Internacional: $180K-280K
    - Prioridade: CRÍTICA
 
 2. **[ASSESSMENT_PROJECTOS.md](assessment-report/ASSESSMENT_PROJECTOS.md)** - 791 linhas
 
    - Gestão de projectos eléctricos
    - Rating: ⭐⭐⭐⭐ (4/5)
-   - Investimento: $95K-145K
+   - Investimento: $48K-73K (Nacional MZ) ⭐
+   - Internacional: $95K-145K
    - Prioridade: MÉDIA
 
 3. **[ASSESSMENT_PROJECTOS_BANCO_MUNDIAL.md](assessment-report/ASSESSMENT_PROJECTOS_BANCO_MUNDIAL.md)** - 1,534 linhas ⭐ **NOVO!**
    - Projectos financiados pelo Banco Mundial
    - Rating: ⭐⭐⭐⭐ (4/5)
-   - Investimento: $95K-145K
+   - Investimento: $48K-73K (Nacional MZ) ⭐
+   - Internacional: $95K-145K
    - Prioridade: MÉDIA
    - Destaque: Donor compliance, stock projection
 
@@ -376,13 +396,15 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
 
    - Análise comparativa dos 3 sistemas
    - Roadmap unificado de 3 fases
-   - Investimento total: $370K-520K
+   - Investimento total (Nacional MZ): $185K-260K ⭐
+   - Internacional: $370K-520K
    - Priorização estratégica
 
 5. **[COMPLETE_ECOSYSTEM_ANALYSIS.md](assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md)**
    - Descoberta dos ~17 sistemas no ecossistema
    - Análise estratégica completa
-   - Investimento total: $1.0M-1.5M (todos os sistemas)
+   - Investimento total (Nacional MZ): $500K-750K ⭐ (todos os sistemas)
+   - Internacional: $1.0M-1.5M
 
 ---
 
@@ -422,7 +444,8 @@ Foram analisados **3 dos ~17 sistemas** do ecossistema Tes-Top (18% completo):
   - Link para GitHub
 - ✅ Card "Análise Consolidada (3 Sistemas)" (borda roxa)
   - 742 linhas
-  - Investimento total: $370K-520K
+  - Investimento total (Nacional MZ): $185K-260K ⭐
+  - Internacional: $370K-520K
   - Priorização de 3 fases
   - Link para GitHub
 
@@ -660,7 +683,7 @@ Para PROJECTOS-BANCO-MUNDIAL:
 
 **Acções**:
 
-1. ✅ Alocar orçamento Fase 0 ($45K-65K)
+1. ✅ Alocar orçamento Fase 0 (Internacional: $45K-65K / Nacional MZ: $23K-33K ⭐)
 2. ✅ Planear investimento multi-ano
 3. ⏳ Rever e aprovar propostas
 
@@ -782,21 +805,22 @@ Tel: (+258) 860140080
 
 ### Investimento Recomendado
 
-**Cenário Recomendado** (Consolidação):
+**Cenário Recomendado** (Consolidação - Custos Nacionais MZ):
 
-- **Fase 0**: $45K-65K (3 meses) - Estabilização
-- **Fase 1**: $180K-280K (12 meses) - FINANCAS
-- **Fase 2**: $150K-220K (9 meses) - PROJECTOS consolidado
-- **TOTAL**: **$375K-565K** (24 meses)
+- **Fase 0**: $23K-33K ⭐ (3 meses) - Estabilização
+- **Fase 1**: $90K-140K ⭐ (12 meses) - FINANCAS
+- **Fase 2**: $75K-110K ⭐ (9 meses) - PROJECTOS consolidado
+- **TOTAL**: **$188K-283K** ⭐ (24 meses)
 
-**ROI Esperado**: 160-220% em 5 anos
+**Custo Internacional**: $375K-565K (referência global)  
+**ROI Esperado**: 220-350% em 5 anos
 
 ---
 
 ### Próximos Passos
 
-1. 🔴 **URGENTE**: Aprovar e implementar Fase 0 (backups + constraints)
-2. 🟠 **IMPORTANTE**: Aprovar orçamento total
+1. 🔴 **URGENTE**: Aprovar e implementar Fase 0 ($23K-33K Nacional MZ ⭐)
+2. 🟠 **IMPORTANTE**: Aprovar orçamento total ($188K-283K Nacional MZ ⭐)
 3. 🟡 **PLANEAMENTO**: Criar cronograma detalhado
 4. 🟢 **COMUNICAÇÃO**: Partilhar com stakeholders
 

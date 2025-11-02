@@ -98,12 +98,14 @@ Cada PDF agora inclui:
 1. **FINANCAS** - Laravel 5.x-8.x, 550+ Views
 
    - Rating: ⭐⭐⭐ (3/5)
-   - Investimento: $180K-280K
+   - Investimento (Nacional - MZ): $90K-140K ⭐
+   - Internacional: $180K-280K
    - Doc: `assessment-report/ASSESSMENT_FINANCAS.md`
 
 2. **PROJECTOS** - Laravel 8.x/9.x, 147 Views
    - Rating: ⭐⭐⭐⭐ (4/5)
-   - Investimento: $95K-145K
+   - Investimento (Nacional - MZ): $48K-73K ⭐
+   - Internacional: $95K-145K
    - Doc: `assessment-report/ASSESSMENT_PROJECTOS.md`
 
 **Sistemas Identificados (⏳ Pendentes):** 3. STOCK - 89 tabelas, 94.70 MB (CRÍTICA) 4. SALÁRIOS - 71 tabelas (CRÍTICA) 5. ATTENDANCE - 71 tabelas (ALTA) 6. BANCO MUNDIAL - 60 tabelas (ALTA) 7. OUTROS - HELPDESK, MEETING, BAIXADAS, etc. (BAIXA)

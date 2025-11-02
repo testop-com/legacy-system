@@ -240,7 +240,8 @@ Comprehensive multi-company ERP system managing:
 ### Assessment Rating: ⭐⭐⭐ (3/5)
 
 **Status**: Functional but needs significant modernization  
-**Investment**: $180K-280K over 12 months  
+**Investment (International)**: $180,000-280,000 over 12 months  
+**Investment (Nacional - MZ)**: $90,000-140,000 ⭐ over 12 months  
 **Priority**: HIGH (business-critical)
 
 **Critical Issues**:
@@ -322,7 +323,8 @@ Specialized inventory and project management system for:
 ### Assessment Rating: ⭐⭐⭐⭐ (4/5)
 
 **Status**: Well-structured, modern foundation  
-**Investment**: $95K-145K over 9 months  
+**Investment (International)**: $95,000-145,000 over 9 months  
+**Investment (National - MZ)**: $48,000-73,000 ⭐ over 9 months  
 **Priority**: MEDIUM (can serve as architectural model)
 
 **Critical Issues**:
@@ -339,18 +341,19 @@ Specialized inventory and project management system for:
 
 ### Side-by-Side Analysis
 
-| Aspect                  | FINANCAS            | PROJECTOS           |
-| ----------------------- | ------------------- | ------------------- |
-| **Database Complexity** | 125 tables          | 36 tables           |
-| **Database Size**       | 62.5 MB             | ~5-10 MB            |
-| **Application Size**    | 550+ views          | 147 views           |
-| **Laravel Version**     | 5.x-8.x (older)     | 8.x/9.x (newer)     |
-| **Code Organization**   | ⭐⭐ (2/5)          | ⭐⭐⭐⭐ (4/5)      |
-| **Domain Scope**        | Broad (all finance) | Focused (inventory) |
-| **Maintainability**     | Difficult           | Good                |
-| **Overall Rating**      | ⭐⭐⭐ (3/5)        | ⭐⭐⭐⭐ (4/5)      |
-| **Modernization Cost**  | $180K-280K          | $95K-145K           |
-| **Timeline**            | 12 months           | 9 months            |
+| Aspect                    | FINANCAS            | PROJECTOS           |
+| ------------------------- | ------------------- | ------------------- |
+| **Database Complexity**   | 125 tables          | 36 tables           |
+| **Database Size**         | 62.5 MB             | ~5-10 MB            |
+| **Application Size**      | 550+ views          | 147 views           |
+| **Laravel Version**       | 5.x-8.x (older)     | 8.x/9.x (newer)     |
+| **Code Organization**     | ⭐⭐ (2/5)          | ⭐⭐⭐⭐ (4/5)      |
+| **Domain Scope**          | Broad (all finance) | Focused (inventory) |
+| **Maintainability**       | Difficult           | Good                |
+| **Overall Rating**        | ⭐⭐⭐ (3/5)        | ⭐⭐⭐⭐ (4/5)      |
+| **Modernization (Intl)**  | $180K-280K          | $95K-145K           |
+| **Modernization (MZ)** ⭐ | $90K-140K           | $48K-73K            |
+| **Timeline**              | 12 months           | 9 months            |
 
 ### Key Insight
 

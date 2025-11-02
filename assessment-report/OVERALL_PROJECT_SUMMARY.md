@@ -13,12 +13,12 @@
 
 Grupo Testop operates **two monolithic legacy systems**:
 
-| System          | Purpose                     | Tables | Views | Rating         | Investment     |
-| --------------- | --------------------------- | ------ | ----- | -------------- | -------------- |
-| **FINANCAS**    | Finance, fleet, procurement | 125    | 550+  | ⭐⭐⭐ (3/5)   | $180K-280K     |
-| **PROJECTOS**   | Inventory & projects        | 36     | 147   | ⭐⭐⭐⭐ (4/5) | $95K-145K      |
-| **Integration** | Cross-system data sharing   | -      | -     | N/A            | $40K-60K       |
-| **COMBINED**    | Complete ecosystem          | 161    | 697+  | ⭐⭐⭐ (3/5)   | **$315K-485K** |
+| System          | Purpose                     | Tables | Views | Rating         | Investment             |
+| --------------- | --------------------------- | ------ | ----- | -------------- | ---------------------- |
+| **FINANCAS**    | Finance, fleet, procurement | 125    | 550+  | ⭐⭐⭐ (3/5)   | $90K-140K (MZ) ⭐      |
+| **PROJECTOS**   | Inventory & projects        | 36     | 147   | ⭐⭐⭐⭐ (4/5) | $48K-73K (MZ) ⭐       |
+| **Integration** | Cross-system data sharing   | -      | -     | N/A            | $20K-30K (MZ) ⭐       |
+| **COMBINED**    | Complete ecosystem          | 161    | 697+  | ⭐⭐⭐ (3/5)   | **$158K-243K (MZ)** ⭐ |
 
 ---
 
@@ -76,12 +76,12 @@ Grupo Testop operates **two monolithic legacy systems**:
 
 ### By System
 
-| System      | Phase 1      | Phase 2        | Phase 3        | Total          |
-| ----------- | ------------ | -------------- | -------------- | -------------- |
-| FINANCAS    | $30K-50K     | $70K-110K      | $80K-120K      | $180K-280K     |
-| PROJECTOS   | $15K-25K     | $30K-45K       | $50K-75K       | $95K-145K      |
-| Integration | -            | $20K-25K       | $20K-35K       | $40K-60K       |
-| **TOTAL**   | **$45K-75K** | **$120K-180K** | **$150K-230K** | **$315K-485K** |
+| System              | Phase 1      | Phase 2      | Phase 3       | Total          |
+| ------------------- | ------------ | ------------ | ------------- | -------------- |
+| FINANCAS (MZ) ⭐    | $15K-25K     | $35K-55K     | $40K-60K      | $90K-140K      |
+| PROJECTOS (MZ) ⭐   | $8K-13K      | $15K-23K     | $25K-38K      | $48K-73K       |
+| Integration (MZ) ⭐ | -            | $10K-13K     | $10K-18K      | $20K-30K       |
+| **TOTAL (MZ)** ⭐   | **$23K-38K** | **$60K-90K** | **$75K-115K** | **$158K-243K** |
 
 ### By Category
 
