@@ -159,45 +159,67 @@
 
 ---
 
-## 🎯 PRÓXIMOS PASSOS
+## 🎯 DECISÃO RÁPIDA
 
-### Aprovação Imediata
+### Se você tem:
 
-**1. Aprovar Fase 0** - $16,000 (3 meses)
+**$255K** e quer o melhor:
+→ **Estratégia 3** ⭐⭐⭐
 
-- Backups + Constraints + Índices
-- Protege dados imediatamente
-- URGENTE!
+- Mais barata
+- Mais rápida (18m)
+- Melhor ROI (253%)
+- Modular
+- Sistema novo
 
-**2. Aprovar orçamento total** - $90,000 (24 meses)
+**$324K** e quer consolidar rápido:
+→ **Estratégia 1**
 
-- Fases 0, 1 e 2
-- Modernização essencial
+- 18 meses
+- ROI 131%
+- Equipa externa
 
-### Opcional (Avaliar depois)
+**$385K** e quer conhecimento interno:
+→ **Estratégia 2**
 
-**3. Fase 3** - $35,000 (12 meses)
+- 27 meses
+- ROI 95%
+- Equipa interna (4+ seniors)
 
-- Cloud e features avançadas
-- Decidir após Fase 2
+**$325K** e quer rebuild interno:
+→ **Estratégia 4** ✅
+
+- 32 meses
+- ROI 177%
+- Equipa interna (3+ seniors)
+
+---
+
+## ⚠️ AÇÕES IMEDIATAS (Obrigatórias)
+
+**ANTES de qualquer estratégia, executar (3-4 semanas)**:
+
+| Semana | Ação                                   | Criticidade |
+| ------ | -------------------------------------- | ----------- |
+| 1      | Backup TODAS as 10 bases de dados      | 🔴 CRÍTICO  |
+| 1-2    | Identificar sistemas ativos vs. legacy | 🔴 CRÍTICO  |
+| 2-3    | Limpeza de bases de dados              | 🟠 ALTO     |
+| 3-4    | Preparação de migração                 | 🟠 ALTO     |
+
+**Custo**: Incluído em cada estratégia  
+**Obrigatório**: Independente da estratégia escolhida
 
 ---
 
 ## ✅ GARANTIAS
 
-### Todos os sistemas dentro do limite
+### Custos Otimizados
 
-- ✅ FINANCAS: $38,000 (< $40,000)
-- ✅ PROJECTOS: $19,000 (< $40,000)
-- ✅ PROJECTOS-BM: $19,000 (< $40,000)
-- ✅ Consolidação: $36,000 (< $40,000)
-
-### Custos realistas
-
-- ✅ Baseado em $1,600/mês/dev (mercado real)
-- ✅ Sem margem excessiva
-- ✅ Executável com equipa local
-- ✅ Prazos realistas
+- ✅ Baseado em salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
+- ✅ Overhead simplificado: $7,500/módulo
+- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ TODAS as estratégias com ROI positivo (95-253%)
+- ✅ Timelines realistas (18-32 meses)
 
 ---
 
@@ -221,27 +243,46 @@ Tel: (+258) 860140080
 
 ---
 
-## 📝 PRÓXIMA ACÇÃO
+## 📝 PRÓXIMA AÇÃO
 
-**URGENTE** - Aprovar Fase 0: **$16,000** (3 meses)
+### Passo 1: Escolher Estratégia
 
-**Acções imediatas** (primeiras 2 semanas):
+**Recomendação**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
 
-1. Implementar backups (CRÍTICO!)
-2. Adicionar foreign keys
-3. Adicionar índices
-4. Auditoria de segurança básica
+**Alternativas**: E1, E2 ou E4 (todas viáveis com ROI positivo)
 
-**Investimento**: Apenas $16,000 para proteger TODOS os 3 sistemas!
+### Passo 2: Executar Ações Imediatas (3-4 semanas)
+
+**Antes de começar a estratégia escolhida**:
+
+1. ✅ Backup de todas as 10 bases de dados
+2. ✅ Identificar sistemas ativos vs. legacy
+3. ✅ Limpeza de bases de dados
+4. ✅ Preparação de migração
+
+### Passo 3: Iniciar Implementação
+
+Seguir o plano da estratégia escolhida
 
 ---
 
 **Data**: 02 de Novembro de 2025  
-**Versão**: Final (Custos Moçambique)  
-**Status**: ✅ Aprovado para apresentação
+**Versão**: 2.0 (Custos Ajustados - Final)  
+**Status**: ✅ Pronto para Decisão Executiva
 
 ---
 
-_Custos baseados em mercado de Moçambique ($1,600/mês/desenvolvedor). Todos os sistemas dentro do limite de $40,000. Total recomendado: $90,000 (24 meses) para modernização essencial._
+## 🎯 CONCLUSÃO
 
-✅ **PRONTO PARA APROVAÇÃO E EXECUÇÃO!**
+**4 estratégias viáveis** disponíveis, todas com ROI positivo (95-253%):
+
+- **E1**: $324K, 18m - Consolidar com externos (rápida)
+- **E2**: $385K, 27m - Consolidar com internos (conhecimento)
+- **E3**: $255K, 18m - Rebuild modular com externos ⭐ **MELHOR**
+- **E4**: $325K, 32m - Rebuild modular com internos (viável)
+
+**Overhead**: $7,500/módulo (fórmula simplificada)  
+**Salários**: Mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)  
+**Módulos**: Todos complexidade MÉDIA ($35K-50K)
+
+✅ **ESTRATÉGIA 3 É A MELHOR OPÇÃO EM TODOS OS ASPECTOS!**
