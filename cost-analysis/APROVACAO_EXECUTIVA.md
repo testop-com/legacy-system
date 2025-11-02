@@ -30,15 +30,143 @@
 
 ---
 
-## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 1
-(Consolidar, com Equipa Externa)
-## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 2
-(Consolidar, com Equipa Interna)
-## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 3
-(Reconstruir , com Equipa Externa)
-## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 4
-(Reconstruir, com Equipa Interna)
+## ✅ O QUE SERÁ FEITO POR ESTRATÉGIA
 
+**Escolha 1 das 4 opções abaixo:**
+
+---
+
+### 📊 ESTRATÉGIA 1: Consolidar Existente (Equipa Externa)
+
+**💰 Custo Total**: $424,430  
+**⏰ Timeline**: 18 meses  
+**👥 Equipa**: 12 profissionais externos  
+**📈 ROI**: 77% em 5 anos | Break-even: 2.8 anos
+
+**O que será feito**:
+
+#### Mês 1-6: Foundation ($141,477)
+
+- ✅ Construir API layer para comunicação inter-sistemas
+- ✅ Implementar SSO (Single Sign-On) para todos os sistemas
+- ✅ Criar gestão unificada de utilizadores
+- ✅ Setup CI/CD pipelines (deploy automatizado)
+- ✅ Framework de testes automatizados
+- ✅ Backups e constraints de BD
+
+#### Mês 6-15: Consolidation ($212,215)
+
+- ✅ Consolidar FINANCAS + STOCK (sistemas principais)
+- ✅ Merge sistemas HR (SALARIOS + ATTENDANCE)
+- ✅ Consolidar PROJECTOS + PROJECTOS-BM
+- ✅ Migração e consolidação de dados
+- ✅ Modernização de módulos críticos
+
+#### Mês 15-18: Handover ($70,738)
+
+- ✅ Testes finais de integração
+- ✅ Formação completa de utilizadores
+- ✅ Documentação técnica e user manuals
+- ✅ Handover para equipa interna
+
+**✅ Vantagens**: ⚡ Mais rápido | Expertise externa  
+**👍 Ideal para**: Empresa que precisa resultados rápidos
+
+---
+
+### 📊 ESTRATÉGIA 2: Consolidar Existente (Equipa Interna)
+
+**💰 Custo Total**: $451,920  
+**⏰ Timeline**: 24-30 meses (27m)  
+**👥 Equipa**: 8 internos (4+ seniors)  
+**📈 ROI**: 66% em 5 anos | Break-even: 3.0 anos
+
+**O que será feito**:
+
+#### Mês 1-3: Preparação ($50,213)
+
+- ✅ Avaliação de skills da equipa
+- ✅ Formação técnica (Laravel, APIs)
+- ✅ Design de arquitetura
+
+#### Mês 3-9: Foundation ($100,427)
+
+- ✅ Construir API layer
+- ✅ Implementar SSO
+- ✅ Testes automatizados
+- ✅ Backups e BD
+
+#### Mês 9-24: Consolidation ($250,640)
+
+- ✅ Consolidar FINANCAS + STOCK (M9-15)
+- ✅ Merge HR systems (M15-21)
+- ✅ Consolidar PROJECTOS (M21-24)
+
+#### Mês 24-30: Estabilização ($50,213)
+
+- ✅ Testes finais
+- ✅ Documentação
+- ✅ Suporte
+
+**✅ Vantagens**: 🧠 Conhecimento interno  
+**👍 Ideal para**: 4+ seniors, reter conhecimento
+
+---
+
+### 📊 ESTRATÉGIA 3: Reconstruir (Externa - Modular)
+
+**💰 Custo Total**: $517,850  
+**⏰ Timeline**: 27 meses (modular)  
+**👥 Equipa**: 8 externos/módulo  
+**📈 ROI**: 74% | Break-even: 2.9 anos
+
+**6 Módulos** (todos complexidade MÉDIA: $35K-50K):
+
+1. **Finance** (M1-M6): $50K dev + $36K overhead = $86,308
+2. **Stock** (M7-M12): $50K dev + $36K overhead = $86,308
+3. **Projects** (M13-M17): $45K dev + $33K overhead = $77,642
+4. **HR** (M18-M21): $40K dev + $29K overhead = $68,975
+5. **Transport** (M22-M24): $35K dev + $25K overhead = $60,308
+6. **Properties** (M25-M27): $35K dev + $25K overhead = $60,308
+
+**✅ Vantagens**: 📦 Modular | Sistema novo  
+**👍 Ideal para**: Transformação com flexibilidade
+
+---
+
+### 📊 ESTRATÉGIA 4: Reconstruir (Interna - Modular)
+
+**💰 Custo Total**: $1,494,640 ⚠️  
+**⏰ Timeline**: 54 meses (4.5 anos)  
+**👥 Equipa**: 10 internos  
+**📈 ROI**: -40% ❌ | Break-even: 8.3 anos
+
+**6 Módulos** (cada com equipa interna):
+
+1. **Finance** (M1-M12): $50K + salários = $249,107
+2. **Stock** (M13-M24): $50K + salários = $249,107
+3. **Projects** (M25-M34): $45K + salários = $224,196
+4. **HR** (M35-M42): $40K + salários = $199,285
+5. **Transport** (M43-M48): $35K + salários = $174,375
+6. **Properties** (M49-M54): $35K + salários = $174,375
+
+**❌ Desvantagens**: Custo 3x mais | Timeline muito longo | ROI negativo  
+**⚠️ Status**: **NÃO RECOMENDADA**
+
+---
+
+## 📋 COMPARAÇÃO RÁPIDA
+
+| #   | Estratégia       | Custo   | Timeline | ROI  | Status          |
+| --- | ---------------- | ------- | -------- | ---- | --------------- |
+| 1   | Consolidar (Ext) | $424K   | 18m      | 77%  | ⭐ RÁPIDA       |
+| 2   | Consolidar (Int) | $452K   | 27m      | 66%  | ⭐ CONHECIMENTO |
+| 3   | Rebuild (Ext)    | $518K   | 27m      | 74%  | ⭐ MODULAR      |
+| 4   | Rebuild (Int)    | $1,495K | 54m      | -40% | ❌ NÃO          |
+
+**→ Recomendação**: Escolha Estratégia 1, 2 ou 3 (todas viáveis)
+
+---
 
 ### Fase 0: Estabilização - $12,600 (3 meses)
 
@@ -53,7 +181,6 @@
 - ✅ Testes básicos
 
 **Benefício**: TODOS os sistemas activos protegidos!
-
 
 ---
 
