@@ -129,10 +129,11 @@
 5. **Transport** (M22-M24): $35K dev + $25K overhead\* = $60,308
 6. **Properties** (M25-M27): $35K dev + $25K overhead\* = $60,308
 
-**\*Overhead** = Infraestrutura (cloud) + Ferramentas + Gestão + Migração de dados + Formação + Contingência (15%)
+**\*Overhead** = $7,500/módulo (metade da diferença $50K-$35K)  
+**\*Gerais** = Infraestrutura, ferramentas, gestão, migração, formação, contingência (rateados)
 
-**✅ Vantagens**: 📦 Modular | Sistema novo  
-**👍 Ideal para**: Transformação com flexibilidade
+**✅ Vantagens**: 💰 MAIS BARATA | 📈 MELHOR ROI (154%) | 📦 Modular | ✨ Sistema novo  
+**👍 Ideal para**: Qualquer empresa - **MELHOR CUSTO-BENEFÍCIO GERAL**
 
 ---
 
@@ -178,10 +179,11 @@
 ### Exemplo Prático (Módulo Finance - Estratégia 3):
 
 ```
-Desenvolvimento (desenvolvedores):  $50,000
-+ Overhead (custos de suporte):     $36,308
+Desenvolvimento (dev médio):        $42,500
++ Overhead:                          $7,500
++ Custos Gerais do Projeto:         $16,500
 ─────────────────────────────────────────────
-= Custo Total do Módulo:            $86,308
+= Custo Total do Módulo:            $66,500
 ```
 
 ### O Que Está Incluído no Overhead:
