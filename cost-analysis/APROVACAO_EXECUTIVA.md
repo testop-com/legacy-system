@@ -113,12 +113,12 @@
 
 ---
 
-### 📊 ESTRATÉGIA 3: Reconstruir (Externa - Modular)
+### 📊 ESTRATÉGIA 3: Reconstruir (Externa - Modular) ⭐ **RECOMENDADA**
 
-**💰 Custo Total**: $517,850  
+**💰 Custo Total**: $354,000 ⭐ **MAIS BARATA**  
 **⏰ Timeline**: 27 meses (modular)  
 **👥 Equipa**: 8 externos/módulo  
-**📈 ROI**: 74% | Break-even: 2.9 anos
+**📈 ROI**: 154% 🎯 **MELHOR ROI** | Break-even: 2.0 anos
 
 **6 Módulos** (todos complexidade MÉDIA: $35K-50K):
 
@@ -145,26 +145,26 @@
 
 **6 Módulos** (cada com equipa interna):
 
-1. **Finance** (M1-M12): $50K + salários = $249,107
-2. **Stock** (M13-M24): $50K + salários = $249,107
-3. **Projects** (M25-M34): $45K + salários = $224,196
-4. **HR** (M35-M42): $40K + salários = $199,285
-5. **Transport** (M43-M48): $35K + salários = $174,375
-6. **Properties** (M49-M54): $35K + salários = $174,375
+1. **Finance** (M1-M12): $50K + salários = $213.6K
+2. **Stock** (M13-M24): $50K + salários = $213.6K
+3. **Projects** (M25-M34): $45K + salários = $192.2K
+4. **HR** (M35-M42): $40K + salários = $170.9K
+5. **Transport** (M43-M48): $35K + salários = $149.5K
+6. **Properties** (M49-M54): $35K + salários = $149.5K
 
-**❌ Desvantagens**: Custo 3x mais | Timeline muito longo | ROI negativo  
-**⚠️ Status**: **NÃO RECOMENDADA**
+**❌ Desvantagens**: Custo 3x mais ($1.16M) | Timeline 54m | ROI -22%  
+**⚠️ Status**: **NÃO RECOMENDADA** - Escolha Estratégia 3 (melhor custo e ROI)
 
 ---
 
 ## 📋 COMPARAÇÃO RÁPIDA
 
-| #   | Estratégia       | Custo   | Timeline | ROI     | Status                    |
-| --- | ---------------- | ------- | -------- | ------- | ------------------------- |
-| 1   | Consolidar (Ext) | $424K   | 18m      | 77%     | ⚡ RÁPIDA                 |
-| 2   | Consolidar (Int) | $452K   | 27m      | 66%     | 🧠 CONHECIMENTO           |
+| #   | Estratégia       | Custo   | Timeline | ROI     | Status                     |
+| --- | ---------------- | ------- | -------- | ------- | -------------------------- |
+| 1   | Consolidar (Ext) | $424K   | 18m      | 77%     | ⚡ RÁPIDA                  |
+| 2   | Consolidar (Int) | $452K   | 27m      | 66%     | 🧠 CONHECIMENTO            |
 | 3   | Rebuild (Ext)    | $354K   | 27m      | 154% 🎯 | ⭐⭐⭐ MELHOR (barata+ROI) |
-| 4   | Rebuild (Int)    | $1,160K | 54m      | -22%    | ❌ NÃO                    |
+| 4   | Rebuild (Int)    | $1,160K | 54m      | -22%    | ❌ NÃO                     |
 
 **→ Recomendação #1**: ⭐ **Estratégia 3** (mais barata, melhor ROI, modular)  
 **→ Alternativas**: Estratégia 1 (se precisa 18m) ou 2 (se quer conhecimento interno)
