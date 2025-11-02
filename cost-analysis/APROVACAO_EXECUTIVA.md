@@ -11,30 +11,33 @@
 ```
 ┌──────────────────────────────────────────────────┐
 │                                                  │
-│       INVESTIMENTO TOTAL: $90,000                │
+│       INVESTIMENTO TOTAL: $80,400                │
 │       PRAZO: 24 meses (2 anos)                   │
 │                                                  │
 │  ┌────────────────────────────────────────────┐  │
-│  │  Fase 0:  $16,000  (3 meses)  🔴 URGENTE  │  │
-│  │  Fase 1:  $38,000  (12 meses) 🟠 CRÍTICO  │  │
-│  │  Fase 2:  $36,000  (9 meses)  🟡 IMPORTANTE│  │
+│  │  Fase 0:  $12,600  (3 meses)  🔴 URGENTE  │  │
+│  │  Fase 1:  $33,600  (12 meses) 🟠 CRÍTICO  │  │
+│  │  Fase 2:  $34,200  (9 meses)  🟡 IMPORTANTE│  │
 │  └────────────────────────────────────────────┘  │
 │                                                  │
-│  Base: $1,600/mês por desenvolvedor              │
-│  Limite: $40,000/sistema ✅                      │
+│  Salários Moçambique: $1,000-1,600/mês (senior) │
+│  Módulos (média): $3,500-50,000 ✅               │
 │                                                  │
 └──────────────────────────────────────────────────┘
 ```
+
+**Nota**: Custos baseados em salários de mercado em Moçambique para desenvolvedores nacionais.
 
 ---
 
 ## ✅ O QUE SERÁ FEITO
 
-### Fase 0: Estabilização - $16,000 (3 meses)
+### Fase 0: Estabilização - $12,600 (3 meses)
 
-**Equipa**: 2 developers + 1 DBA
+**Equipa**: 2 developers ($1,400/mês cada) + 1 DBA ($1,400/mês)
 
 **Resultados**:
+
 - ✅ Backups automatizados (protege contra perda de dados)
 - ✅ Constraints de BD (161 tabelas - integridade garantida)
 - ✅ Índices (~50) - performance 5-10x melhor
@@ -45,11 +48,12 @@
 
 ---
 
-### Fase 1: FINANCAS - $38,000 (12 meses)
+### Fase 1: FINANCAS - $33,600 (12 meses)
 
-**Equipa**: 2 developers
+**Equipa**: 2 developers ($1,400/mês cada)
 
 **Resultados**:
+
 - ✅ Sistema modernizado (Laravel 11)
 - ✅ Arquitetura refatorada
 - ✅ Performance otimizada
@@ -60,11 +64,12 @@
 
 ---
 
-### Fase 2: Consolidação - $36,000 (9 meses)
+### Fase 2: Consolidação - $34,200 (9 meses)
 
-**Equipa**: 2 developers + 1 PM
+**Equipa**: 2 developers ($1,400/mês cada) + 1 PM ($1,000/mês)
 
 **Resultados**:
+
 - ✅ PROJECTOS + PROJECTOS-BM unificados
 - ✅ Código duplicado eliminado
 - ✅ Manutenção simplificada
@@ -76,21 +81,24 @@
 
 ## 📈 RETORNO DO INVESTIMENTO (ROI)
 
-**Investimento**: $90,000
+**Investimento**: $80,400
 
 **Retornos em 5 anos**:
+
 ```
 Prevenir perda de dados:     $ 25,000 -  50,000
 Ganhos de eficiência (30%):  $ 45,000
 Economia de manutenção:      $ 25,000
-Evitar reconstrução total:   $200,000 - 400,000
+Evitar reconstrução total:   $150,000 - 300,000
                              ──────────────────
-VALOR TOTAL:                 $295,000 - 520,000
+VALOR TOTAL:                 $245,000 - 420,000
 ```
 
-**ROI**: **230% a 480%** em 5 anos  
-**Break-even**: **18-22 meses** (menos de 2 anos!)  
-**Payback**: Investimento recuperado em menos de 2 anos
+**ROI**: **205% a 422%** em 5 anos  
+**Break-even**: **15-20 meses** (menos de 2 anos!)  
+**Payback**: Investimento recuperado em 15-20 meses
+
+**Nota**: Com custos de mercado de Moçambique, ROI permanece excelente!
 
 ---
 
@@ -99,6 +107,7 @@ VALOR TOTAL:                 $295,000 - 520,000
 ### Situação Atual (SEM Fase 0)
 
 **Riscos**:
+
 - ❌ SEM backups automatizados → Risco de perda permanente de dados
 - ❌ SEM constraints de BD → Dados inconsistentes/corrompidos
 - ❌ SEM índices → Performance lenta e degradando
@@ -106,33 +115,37 @@ VALOR TOTAL:                 $295,000 - 520,000
 
 **Impacto Potencial de Desastre**: $50,000 - $200,000
 
-### Após Fase 0 ($16,000)
+### Após Fase 0 ($12,600)
 
 **Proteção**:
+
 - ✅ Backups diários → Dados protegidos
 - ✅ Constraints → Integridade garantida
 - ✅ Índices → Performance 5-10x melhor
 - ✅ Segurança auditada
 
-**Investimento**: Apenas $16,000 protege TODOS os 3 sistemas!
+**Investimento**: Apenas $12,600 protege TODOS os 3 sistemas!
 
 ---
 
 ## ✅ GARANTIAS
 
 ### Custos Realistas
+
 - ✅ Baseado em $1,600/mês/dev (mercado real Moçambique)
 - ✅ Sem margem excessiva
 - ✅ Prazos executáveis
 - ✅ Equipa local disponível
 
 ### Dentro dos Limites
+
 - ✅ FINANCAS: $38,000 (< $40,000)
 - ✅ PROJECTOS: $19,000 (< $40,000)
 - ✅ PROJECTOS-BM: $19,000 (< $40,000)
 - ✅ Consolidação: $36,000 (< $40,000)
 
 ### Sistema JÁ Funcional
+
 - ✅ NÃO é construção do zero
 - ✅ Core features JÁ implementadas
 - ✅ 200+ utilizadores JÁ treinados
@@ -147,12 +160,15 @@ VALOR TOTAL:                 $295,000 - 520,000
 **Faseamento**:
 
 #### Imediato (Esta Semana)
+
 ✅ **Aprovar Fase 0**: **$16,000** (3 meses)
 
 #### Curto Prazo (Mês 3)
+
 ✅ **Aprovar Fase 1**: **$38,000** (12 meses)
 
 #### Médio Prazo (Mês 15)
+
 ✅ **Aprovar Fase 2**: **$36,000** (9 meses)
 
 ---
@@ -161,12 +177,12 @@ VALOR TOTAL:                 $295,000 - 520,000
 
 ### Assinar Aprovação
 
-**Aprovar investimento de $90,000 para modernização do Sistema de Gestão Empresarial**
+**Aprovar investimento de $80,400 para modernização do Sistema de Gestão Empresarial**
 
-**Nome**: _______________________________  
-**Cargo**: _______________________________  
-**Data**: _____ / _____ / 2025  
-**Assinatura**: _______________________________
+**Nome**: **\*\***\*\***\*\***\_\_\_**\*\***\*\***\*\***  
+**Cargo**: **\*\***\*\***\*\***\_\_\_**\*\***\*\***\*\***  
+**Data**: **\_** / **\_** / 2025  
+**Assinatura**: **\*\***\*\***\*\***\_\_\_**\*\***\*\***\*\***
 
 ---
 
@@ -200,8 +216,8 @@ musekwa@tecmoza.com | (+258) 860140080
 
 **Data**: 02 de Novembro de 2025  
 **Status**: ✅ Pronto para aprovação  
-**Investimento**: $90,000 (24 meses)  
-**ROI**: 230-480% (5 anos)
+**Investimento**: $80,400 (24 meses)  
+**ROI**: 205-422% (5 anos)  
+**Base Salarial**: Mercado de Moçambique ($1,000-1,600/mês para seniors)
 
 🎯 **RECOMENDAÇÃO: APROVAR**
-
