@@ -160,12 +160,12 @@
 
 ## 📋 COMPARAÇÃO RÁPIDA
 
-| #   | Estratégia       | Custo   | Timeline | ROI     | Status                     |
-| --- | ---------------- | ------- | -------- | ------- | -------------------------- |
-| 1   | Consolidar (Ext) | $324K | 18m | 131%    | ⚡ RÁPIDA                     |
-| 2   | Consolidar (Int) | $385K | 27m | 95%     | 🧠 CONHECIMENTO               |
-| 3   | Rebuild (Ext)    | $255K | 18m | 253% 🎯 | ⭐⭐⭐ MELHOR (todos aspectos) |
-| 4   | Rebuild (Int)    | $325K | 32m | 177%    | ✅ VIÁVEL                     |
+| #   | Estratégia       | Custo | Timeline | ROI     | Status                         |
+| --- | ---------------- | ----- | -------- | ------- | ------------------------------ |
+| 1   | Consolidar (Ext) | $324K | 18m      | 131%    | ⚡ RÁPIDA                      |
+| 2   | Consolidar (Int) | $385K | 27m      | 95%     | 🧠 CONHECIMENTO                |
+| 3   | Rebuild (Ext)    | $255K | 18m      | 253% 🎯 | ⭐⭐⭐ MELHOR (todos aspectos) |
+| 4   | Rebuild (Int)    | $325K | 32m      | 177%    | ✅ VIÁVEL                      |
 
 **→ Recomendação #1**: ⭐ **Estratégia 3** (mais barata, mais rápida, melhor ROI, modular)  
 **→ Alternativas**: E1 (consolidar em 18m), E2 (conhecimento interno), E4 (rebuild interno - agora viável!)
