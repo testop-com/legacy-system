@@ -384,40 +384,38 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 ```
 Custo Total
     │
-$1.2M ┤                                                      ● (E4)
+$400K ┤
     │
-$1.0M ┤
+$385K ┤            ● (E2)
     │
-$800K ┤
+$325K ┤  ● (E1)                                  ● (E4)
     │
-$600K ┤
+$255K ┤                            ● (E3) ⭐ MAIS BARATA
     │
-$452K ┤            ● (E2)
-$424K ┤  ● (E1)
-$354K ┤                            ● (E3)
+$200K ┤
     │
     └─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────
-         18m   27m         36m         45m         54m
-                                Timeline
+         18m   27m   32m         
+                    Timeline
 
-E1 = Estratégia 1 (Consolidar Externo) - $424K
-E2 = Estratégia 2 (Consolidar Interno) - $452K
-E3 = Estratégia 3 (Rebuild Externo) - $354K ⭐ MAIS BARATA
-E4 = Estratégia 4 (Rebuild Interno) - $1,160K
+E1 = Estratégia 1 (Consolidar Externo) - $324K (18m)
+E2 = Estratégia 2 (Consolidar Interno) - $385K (27m)
+E3 = Estratégia 3 (Rebuild Externo) - $255K (18m) ⭐ MAIS BARATA + MAIS RÁPIDA
+E4 = Estratégia 4 (Rebuild Interno) - $325K (32m) ✅ AGORA VIÁVEL
 
-⭐ Estratégia 3 agora é a MAIS BARATA ($354K) com overhead simplificado!
-✅ Estratégias 1 e 2 similares (~$424K-452K)
-⚠️ Estratégia 4 ainda custa 3x mais ($1,160K) devido ao timeline de 54 meses
+⭐ Estratégia 3 é IMBATÍVEL: mais barata + mais rápida + melhor ROI!
+✅ TODAS as 4 estratégias agora têm ROI POSITIVO (95-253%)
+🎯 Timelines reduzidos: 18-32 meses (vs. 18-54 meses anteriormente)
 ```
 
 ### ROI Comparativo (5 anos)
 
 | Estratégia   | Investimento | Savings/Year | 5-Year ROI | Break-Even |
 | ------------ | ------------ | ------------ | ---------- | ---------- |
-| Estratégia 1 | $424K        | $150K        | 77%        | 2.8 anos   |
-| Estratégia 2 | $452K        | $150K        | 66%        | 3.0 anos   |
-| Estratégia 3 | $354K ⭐     | $180K        | 154% 🎯    | 2.0 anos   |
-| Estratégia 4 | $1,160K      | $180K        | -22%       | 6.4 anos   |
+| Estratégia 1 | $324K        | $150K        | 131%       | 2.2 anos   |
+| Estratégia 2 | $385K        | $150K        | 95%        | 2.6 anos   |
+| Estratégia 3 | $255K ⭐     | $180K        | 253% 🎯    | 1.4 anos   |
+| Estratégia 4 | $325K        | $180K        | 177%       | 1.8 anos   |
 
 **Savings**: Redução de custos de manutenção (~$100K-150K/ano), menor downtime, produtividade aumentada (~$30K-50K/ano)
 
@@ -426,42 +424,44 @@ E4 = Estratégia 4 (Rebuild Interno) - $1,160K
 - Custos ajustados para mercado de Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
 - **Overhead**: $7,500/módulo = (Diferença $50K-$35K) / 2
 - Módulos complexidade MÉDIA ($35K-50K)
-- ⭐ **Estratégia 3 agora tem MELHOR ROI**: 154% (foi 74%)
-- ⭐ **Estratégia 3 agora é a MAIS BARATA**: $354K (foi $518K)
-- Estratégias 1 e 2 têm ROI excelente (66-77%)
-- Estratégia 4 tem ROI negativo (-22%) devido ao timeline longo
+- ⭐ **TODAS as estratégias agora têm ROI POSITIVO!**
+- ⭐ **Estratégia 3**: MAIS BARATA ($255K) + MELHOR ROI (253%) + MAIS RÁPIDA (18m)
+- Estratégias 1, 2 e 4 também têm ROI excelente (95-177%)
+- **Estratégia 4 agora é VIÁVEL** (ROI 177%, break-even 1.8 anos)
 
 ---
 
 ## 🎯 Recomendações Finais
 
-### ⭐ MELHOR OPÇÃO: **ESTRATÉGIA 3** (Rebuild Externo - Modular)
+### ⭐⭐⭐ MELHOR OPÇÃO: **ESTRATÉGIA 3** (Rebuild Externo - Modular)
 
 **Por quê:**
 
-- 💰 **MAIS BARATA**: $354K (menos que E1 e E2!)
-- 📈 **MELHOR ROI**: 154% em 5 anos 🎯
-- ⏱️ **Break-even MAIS RÁPIDO**: 2.0 anos
-- 📦 Entrega modular (valor a cada 3-6 meses)
+- 💰 **MAIS BARATA**: $255K (menos que todas as outras!)
+- 📈 **MELHOR ROI**: 253% em 5 anos 🎯
+- ⏱️ **Break-even MAIS RÁPIDO**: 1.4 anos
+- ⚡ **MAIS RÁPIDA**: 18 meses (empatada com E1)
+- 📦 Entrega modular (valor a cada 3 meses)
 - ✨ Sistema novo (zero dívida técnica)
 - 🔄 Pode pausar entre módulos
-- 🎯 Overhead simplificado: $7,500/módulo
+- 🎯 Overhead: $7,500/módulo
 
-**Ideal para:** Qualquer empresa - melhor custo, melhor ROI, modular e flexível
+**Ideal para:** Qualquer empresa - IMBATÍVEL em todos os aspectos!
 
 ---
 
-### ✅ Mais Rápido: **ESTRATÉGIA 1** (Consolidar Externo)
+### ✅ Mais Rápida (Empate): **ESTRATÉGIA 1** (Consolidar Externo)
 
 **Por quê:**
 
-- ⚡ Timeline mais curto (18 meses vs 27m)
-- 💰 Custo razoável ($424K)
+- ⚡ Timeline: 18 meses (empatada com E3)
+- 💰 Custo: $324K (razoável)
 - 🎯 Expertise externa garantida
-- 📈 ROI 77% em 5 anos
-- ⏱️ Break-even: 2.8 anos
+- 📈 ROI excelente: 131% em 5 anos
+- ⏱️ Break-even: 2.2 anos
+- 🔧 Consolida sistemas existentes
 
-**Ideal para:** Empresa que precisa resultados em menos de 2 anos
+**Ideal para:** Empresa que quer consolidar (não rebuild) em 18 meses
 
 ---
 
@@ -470,28 +470,31 @@ E4 = Estratégia 4 (Rebuild Interno) - $1,160K
 **Por quê:**
 
 - 🧠 100% conhecimento interno
-- 💰 Custo razoável ($452K)
-- ⏰ Timeline 27 meses (aceitável)
-- 📈 ROI 66% em 5 anos
+- 💰 Custo: $385K
+- ⏰ Timeline 27 meses
+- 📈 ROI excelente: 95% em 5 anos
+- ⏱️ Break-even: 2.6 anos
 - 👥 Desenvolve equipa interna
 
-**Ideal para:** Empresa com equipa de TI competente (4+ seniors) e quer reter conhecimento
+**Ideal para:** Empresa com 4+ seniors e quer reter conhecimento
 
 ---
 
-### ⚠️ Menos Recomendada: **ESTRATÉGIA 4** (Rebuild Interno)
+### ✅ AGORA VIÁVEL: **ESTRATÉGIA 4** (Rebuild Interno - Modular)
 
 **Por quê:**
 
-- 💰 Custo muito alto ($1,160K - 3x mais que Estratégia 3)
-- ⏰ Timeline muito longo (54 meses = 4.5 anos)
-- 📉 ROI negativo (-22%) em 5 anos
-- ⚠️ Break-even: 6.4 anos
-- 😰 Alto risco de burnout da equipa
+- 💰 Custo otimizado: $325K
+- ⏰ Timeline reduzido: 32 meses (vs. 54m anteriormente)
+- 📈 **ROI POSITIVO**: 177% em 5 anos ✅
+- ⏱️ Break-even: 1.8 anos
+- 🧠 100% conhecimento interno
+- 📦 Modular
+- 👥 Equipa reduzida (7 pessoas vs. 10 anteriormente)
 
-**Ideal para:** Empresa com paciência (4+ anos), orçamento muito largo ($1.2M), e compromisso de longo prazo
+**Ideal para:** Empresa com 3+ seniors, quer rebuild interno e tem timeline de 2.5 anos
 
-**Recomendação**: ⭐ **Escolha Estratégia 3** (melhor custo e ROI) ou Estratégias 1/2
+**Nota**: Estratégia 4 agora é **VIÁVEL** (ROI positivo), mas Estratégia 3 continua sendo MELHOR opção
 
 ---
 
