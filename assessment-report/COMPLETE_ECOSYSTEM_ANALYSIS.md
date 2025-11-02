@@ -336,58 +336,63 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Strategy 1: Consolidate Existing Ecosystem (External Team)
 
-**Approach**: Hire external development team to consolidate and modernize existing systems
+**Approach**: Contract external development team to consolidate and modernize existing systems
+
+**Timeline**: **Up to 18 months** (if resources properly allocated)
+
+**Prerequisites**:
+
+- External team secured and ready
+- Adequate resources allocated
+- Clear project governance
 
 **Proceedings**:
 
-1. **Vendor Selection** (Month 1)
+1. **Knowledge Transfer & Planning** (Month 1-2)
 
-   - Issue RFP (Request for Proposal)
-   - Evaluate 3-5 qualified vendors
-   - Check references and past projects
-   - Select vendor based on: expertise, cost, timeline
-
-2. **Knowledge Transfer** (Month 1-2)
-
-   - Provide vendor with all assessment reports
+   - Provide all assessment reports to external team
    - Grant access to cleaned databases and code
    - Conduct technical handover sessions
-   - Establish communication protocols
-
-3. **Consolidation Planning** (Month 2-3)
-
-   - Vendor creates detailed consolidation plan
+   - Create detailed consolidation plan
    - Define APIs and integration points
    - Design unified data model
-   - Identify systems to merge vs. rebuild
 
-4. **Execution** (Month 4-24)
+2. **Foundation Build** (Month 2-6)
 
-   - Build API layer for communication
+   - Build API layer for inter-system communication
    - Implement shared authentication (SSO)
-   - Migrate and consolidate data
-   - Modernize critical systems first
-   - Deprecate legacy systems
+   - Create unified user management
+   - Set up CI/CD pipelines
+   - Establish testing framework
 
-5. **Handover & Training** (Month 23-24)
-   - Knowledge transfer to internal IT team
+3. **System Consolidation** (Month 6-15)
+
+   - Consolidate FINANCAS + STOCK systems
+   - Consolidate PROJECTOS + PROJECTOS-BM
+   - Merge HR systems (SALARIOS + ATTENDANCE)
+   - Migrate and consolidate data
+   - Modernize critical modules
+   - Deprecate legacy systems incrementally
+
+4. **Integration & Handover** (Month 15-18)
+   - Final integration testing
    - User training
    - Documentation
-   - Support period (3-6 months)
+   - Performance optimization
+   - Handover to internal team
 
 **Pros**:
 
-- ✅ Faster delivery (specialized team)
-- ✅ Fresh perspective and best practices
+- ✅ Fastest delivery (18 months)
+- ✅ Specialized expertise
 - ✅ Less burden on internal team
-- ✅ Fixed timeline and deliverables
+- ✅ Predictable timeline
 
 **Cons**:
 
 - ❌ Higher cost
-- ❌ Knowledge dependency on vendor
-- ❌ Potential misalignment with business needs
-- ❌ Handover challenges
+- ❌ Knowledge dependency on external team
+- ❌ Requires effective project management
 
 **Best For**: Companies wanting fast results with less internal disruption
 
@@ -399,56 +404,59 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 **Approach**: Use internal IT team to consolidate and modernize systems
 
+**Timeline**: **24-30 months** (with at least 4 senior developers)
+
+**Prerequisites**:
+
+- **Minimum**: 4 senior developers in IT department
+- Team can dedicate 80%+ time to modernization
+- Strong technical leadership
+
 **Proceedings**:
 
-1. **Team Preparation** (Month 1)
+1. **Team Preparation & Architecture** (Month 1-3)
 
    - Assess current IT team skills
-   - Provide Laravel/API/modern architecture training
+   - Provide training (Laravel/API/modern architecture)
    - Define roles (lead dev, backend, frontend, DBA)
-   - Allocate 100% time (no other projects)
-
-2. **Architecture Design** (Month 1-2)
-
-   - Design API layer and microservices architecture
-   - Plan shared authentication system
+   - Design API layer and shared services
    - Create unified data model
-   - Define consolidation roadmap
 
-3. **Incremental Development** (Month 3-36)
+2. **Foundation Build** (Month 3-9)
 
-   - **Phase 1** (Month 3-9): Build API layer + SSO
-   - **Phase 2** (Month 10-18): Consolidate FINANCAS + STOCK
-   - **Phase 3** (Month 19-27): Consolidate HR systems
-   - **Phase 4** (Month 28-36): Deprecate legacy systems
+   - Build API layer for inter-system communication
+   - Implement shared authentication (SSO)
+   - Create unified user management
+   - Set up testing framework
+   - Establish CI/CD pipelines
 
-4. **Testing & Deployment** (Ongoing)
+3. **System Consolidation** (Month 9-24)
 
-   - Continuous testing throughout
-   - Staged rollouts per module
-   - User acceptance testing
-   - Parallel run with legacy systems
+   - **Phase A** (Month 9-15): Consolidate FINANCAS + STOCK
+   - **Phase B** (Month 15-21): Merge HR systems
+   - **Phase C** (Month 21-24): Consolidate PROJECTOS systems
+   - Migrate data incrementally
 
-5. **Support & Iteration** (Month 36+)
-   - Bug fixes and improvements
-   - User feedback integration
-   - Performance optimization
+4. **Integration & Stabilization** (Month 24-30)
+   - Final integration testing
+   - User training and documentation
+   - Performance tuning
+   - Support and iteration
 
 **Pros**:
 
-- ✅ Lower cost (salaries already paid)
+- ✅ Lower cost (internal salaries)
 - ✅ Better business knowledge
 - ✅ Knowledge stays in-house
-- ✅ Full control over process
+- ✅ Full control
 
 **Cons**:
 
-- ❌ Slower delivery (learning curve)
+- ❌ Longer timeline (learning curve)
 - ❌ May lack advanced expertise
-- ❌ Internal team still handles BAU (business as usual)
-- ❌ Risk of incomplete modernization
+- ❌ Team balances BAU + modernization
 
-**Best For**: Companies with strong IT team and longer timeline tolerance
+**Best For**: Companies with strong IT team (4+ senior devs) and budget constraints
 
 **For costs**: See `cost-analysis/` folder
 
@@ -456,69 +464,81 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Strategy 3: Build New System From Scratch (External Team)
 
-**Approach**: Contract external team to build entirely new modern system
+**Approach**: Contract external team to build entirely new modern system **per module**
 
-**Proceedings**:
+**Timeline**: **3-6 months per module** (modular development)
 
-1. **Requirements Gathering** (Month 1-2)
+**Total Timeline**: 18-36 months (depending on module priority)
 
-   - Document all business requirements
+**Modules Identified**:
+
+| Module | Name                             | Timeline | Priority |
+| ------ | -------------------------------- | -------- | -------- |
+| 1      | Stock and Procurement Management | 6 months | HIGH     |
+| 2      | Human Resources Management       | 4 months | HIGH     |
+| 3      | Finance Management               | 6 months | CRITICAL |
+| 4      | Projects Management              | 5 months | MEDIUM   |
+| 5      | Company Properties Management    | 3 months | LOW      |
+| 6      | Transportation Management        | 5 months | MEDIUM   |
+
+**Proceedings (Per Module)**:
+
+1. **Requirements & Design** (Week 1-4)
+
+   - Document module business requirements
    - Map current workflows
-   - Define new system scope
-   - Vendor selection process
-
-2. **System Design** (Month 3-4)
-
-   - Vendor proposes modern architecture
-   - Database design from scratch
+   - Design modern architecture
+   - Database schema design
    - UI/UX mockups
    - API specifications
-   - Review and approval
 
-3. **Development** (Month 5-18)
+2. **Development** (Week 5-20 depending on complexity)
 
-   - Build new system incrementally
-   - Modern tech stack (Laravel 10+, Vue.js/React, PostgreSQL/MySQL)
-   - API-first architecture
-   - Microservices where appropriate
-   - Regular demos and feedback
+   - Build with modern tech stack:
+     - Laravel 10+
+     - Vue.js/React frontend
+     - API-first architecture
+     - MySQL/PostgreSQL
+   - Regular demos
+   - Continuous testing
 
-4. **Data Migration** (Month 16-20)
+3. **Data Migration** (Week 13-16 or 21-24)
 
-   - Extract data from legacy systems
+   - Extract from legacy
    - Transform to new schema
-   - Load into new system
-   - Validation and testing
+   - Load and validate
 
-5. **Parallel Run & Cutover** (Month 20-24)
-
-   - Run new and old systems in parallel
+4. **Deployment** (Final 2-4 weeks)
+   - Deploy to production
    - User training
-   - Gradual migration of users
-   - Final cutover
-   - Decommission legacy systems
+   - Cutover
+   - Support
 
-6. **Support** (Month 24-30)
-   - Vendor provides support period
-   - Bug fixes
-   - Performance tuning
-   - Knowledge transfer
+**Recommended Module Order**:
+
+1. **Finance Management** (6m) - Most critical
+2. **Stock and Procurement** (6m) - Largest
+3. **Projects Management** (5m)
+4. **Human Resources** (4m)
+5. **Transportation** (5m)
+6. **Company Properties** (3m)
 
 **Pros**:
 
-- ✅ Clean slate, modern architecture
-- ✅ No legacy technical debt
-- ✅ Optimized for current needs
-- ✅ Latest technologies and patterns
+- ✅ Clean slate, no technical debt
+- ✅ Modern architecture from day 1
+- ✅ Modular delivery (value per module)
+- ✅ Can pause between modules
+- ✅ Latest technologies
 
 **Cons**:
 
-- ❌ Highest cost option
-- ❌ Longest timeline (24-30 months)
+- ❌ Highest cost
 - ❌ Risk of losing business knowledge
-- ❌ Users must learn entirely new system
+- ❌ Users learn new system
+- ❌ Data migration complexity
 
-**Best For**: Companies ready for complete transformation and significant investment
+**Best For**: Companies ready for complete transformation with modular rollout
 
 **For costs**: See `cost-analysis/` folder
 
@@ -526,53 +546,70 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Strategy 4: Build New System From Scratch (Internal IT Department)
 
-**Approach**: Internal team builds new system from ground up
+**Approach**: Internal team builds new system from ground up **per module**
 
-**Proceedings**:
+**Timeline**: **6-12 months per module** (with at least 4 senior developers)
 
-1. **Team Upskilling** (Month 1-3)
+**Total Timeline**: 36-72 months (depending on priority)
 
-   - Modern Laravel training (10+)
-   - API design and microservices
-   - Frontend frameworks (Vue.js/React)
-   - DevOps and CI/CD
-   - Cloud deployment (AWS/Azure)
+**Prerequisites**:
 
-2. **Requirements & Design** (Month 3-6)
+- **Minimum**: 4 senior developers
+- Team 100% dedicated (no BAU)
+- Strong technical leadership
+- Modern tech stack training
 
-   - Internal requirements workshops
-   - System architecture design
+**Modules Identified**:
+
+| Module | Name                             | Timeline  | Complexity |
+| ------ | -------------------------------- | --------- | ---------- |
+| 1      | Stock and Procurement Management | 12 months | HIGH       |
+| 2      | Human Resources Management       | 8 months  | MEDIUM     |
+| 3      | Finance Management               | 12 months | HIGH       |
+| 4      | Projects Management              | 10 months | MEDIUM     |
+| 5      | Company Properties Management    | 6 months  | LOW        |
+| 6      | Transportation Management        | 10 months | MEDIUM     |
+
+**Proceedings (Per Module)**:
+
+1. **Upskilling & Requirements** (Month 1-2)
+
+   - Training (Laravel 10+, Vue.js/React)
+   - Requirements workshops
+   - Architecture design
    - Database schema design
-   - UI/UX design (internal or contractor)
-   - Technology stack selection
+   - UI/UX design
 
-3. **MVP Development** (Month 6-12)
+2. **Development** (Month 3-10 for complex, 3-8 for medium, 3-5 for simple)
 
-   - Build core features first
-   - Start with most critical module (e.g., FINANCAS)
-   - Iterative development
-   - Regular user feedback
+   - Build module from scratch
+   - Modern tech stack
+   - API-first architecture
    - Continuous testing
+   - Regular demos
 
-4. **Feature Expansion** (Month 12-30)
+3. **Data Migration** (Month 9-10 or 11)
 
-   - Add remaining modules incrementally
-   - Integrate with legacy systems via APIs
-   - Gradual feature parity
-   - User adoption campaigns
+   - Extract from legacy
+   - Transform to new schema
+   - Load and validate
+   - Testing
 
-5. **Migration & Cutover** (Month 30-36)
-
-   - Data migration from legacy
+4. **Deployment & Support** (Month 11-12)
+   - Production deployment
    - User training
    - Parallel operation
-   - Final cutover
-   - Legacy decommission
-
-6. **Continuous Improvement** (Month 36+)
-   - Ongoing enhancements
+   - Cutover
    - Bug fixes
-   - New features based on feedback
+
+**Recommended Module Order**:
+
+1. **Finance Management** (12m) - Most critical, highest value
+2. **Stock and Procurement** (12m) - Largest, complex
+3. **Projects Management** (10m)
+4. **Human Resources** (8m)
+5. **Transportation** (10m)
+6. **Company Properties** (6m)
 
 **Pros**:
 
@@ -580,15 +617,16 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 - ✅ Complete knowledge retention
 - ✅ Perfect business alignment
 - ✅ Team skill development
+- ✅ Modular delivery
 
 **Cons**:
 
-- ❌ Longest timeline (36-48 months)
+- ❌ Longest timeline (6-12 months per module)
 - ❌ May lack advanced expertise
-- ❌ High risk of scope creep
-- ❌ Internal team stretched thin
+- ❌ Risk of scope creep
+- ❌ Requires discipline
 
-**Best For**: Companies with patient timeline, strong technical leadership, and commitment to team development
+**Best For**: Companies with patient timeline (36-72 months total), strong leadership, commitment to team development
 
 **For costs**: See `cost-analysis/` folder
 
@@ -598,14 +636,17 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 | Aspect                  | Strategy 1: Consolidate (External) | Strategy 2: Consolidate (Internal) | Strategy 3: Rebuild (External) | Strategy 4: Rebuild (Internal) |
 | ----------------------- | ---------------------------------- | ---------------------------------- | ------------------------------ | ------------------------------ |
-| **Approach**            | Modernize existing                 | Modernize existing                 | New system                     | New system                     |
-| **Team**                | External vendor                    | Internal IT                        | External vendor                | Internal IT                    |
-| **Timeline**            | 18-24 months                       | 24-36 months                       | 24-30 months                   | 36-48 months                   |
+| **Approach**            | Modernize existing                 | Modernize existing                 | New system (modular)           | New system (modular)           |
+| **Team**                | External vendor                    | Internal IT (4+ seniors)           | External vendor                | Internal IT (4+ seniors)       |
+| **Timeline**            | **Up to 18 months**                | **24-30 months**                   | **3-6m per module**            | **6-12m per module**           |
+| **Total Time**          | 18 months                          | 24-30 months                       | 18-36 months (6 modules)       | 36-72 months (6 modules)       |
+| **Delivery**            | Consolidated system                | Consolidated system                | Module-by-module               | Module-by-module               |
 | **Risk**                | Medium                             | Medium-High                        | Medium                         | High                           |
 | **Technical Debt**      | Reduced                            | Reduced                            | None (clean slate)             | None (clean slate)             |
-| **Business Continuity** | High                               | High                               | Medium (parallel run)          | Medium (parallel run)          |
+| **Business Continuity** | High                               | High                               | High (modular)                 | High (modular)                 |
 | **Knowledge Retention** | Low                                | High                               | Low                            | High                           |
 | **Team Disruption**     | Low                                | High                               | Low                            | Very High                      |
+| **Prerequisites**       | Budget for external                | 4+ senior devs                     | Budget for external            | 4+ senior devs, training       |
 | **Best For**            | Fast results                       | Budget-conscious                   | Complete transformation        | Long-term investment           |
 
 **For detailed cost comparison**: See [`cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
@@ -618,33 +659,36 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 **Choose Strategy 1 (Consolidate - External)** if:
 
-- ⏰ Need results within 18-24 months
+- ⏰ Need results within **18 months**
 - 💰 Have budget for external team
-- 👥 Internal team is busy with BAU
-- 🎯 Want proven expertise
+- 👥 Internal team busy with BAU
+- 🎯 Want proven expertise and fast delivery
 
 **Choose Strategy 2 (Consolidate - Internal)** if:
 
 - 💰 Budget constraints (limited funds)
 - 🧠 Want to retain all knowledge internally
-- 👥 Have capable IT team
-- ⏰ Can accept 24-36 month timeline
+- 👥 Have **4+ senior developers** available
+- ⏰ Can accept **24-30 month** timeline
 
 **Choose Strategy 3 (Rebuild - External)** if:
 
 - 🔄 Want complete transformation
 - 💰 Have significant budget
-- 🎯 Legacy systems too broken to fix
-- ⏰ Can accept 24-30 month timeline
+- 🎯 Want **modular delivery** (**3-6 months per module**)
+- 📦 Prefer clean slate, no legacy debt
+- ⏰ Total: **18-36 months** (depending on modules)
 
 **Choose Strategy 4 (Rebuild - Internal)** if:
 
 - 🧠 Committed to team development
-- ⏰ Very patient (36-48 months acceptable)
-- 👥 Strong technical leadership in place
+- ⏰ Very patient (**36-72 months** total, **6-12m per module**)
+- 👥 Have **4+ senior developers** dedicated 100%
 - 💪 Want complete control and ownership
+- 📚 Want team to learn modern architecture
 
 ---
+
 ## Ecosystem Architecture Discovery
 
 ### Current State (Discovered)
