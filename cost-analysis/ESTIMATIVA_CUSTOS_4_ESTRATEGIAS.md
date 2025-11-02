@@ -7,16 +7,31 @@
 
 ---
 
-## 💰 Parâmetros de Custo Base
+## 💰 Parâmetros de Custo Base (Moçambique)
 
 | Item | Valor | Observações |
 |------|-------|-------------|
-| **Custo/Dev Nacional** | $1,600/mês | Desenvolvedores Moçambique |
-| **Custo/Dev Senior** | $2,000/mês | Experiência 5+ anos |
-| **Custo/Tech Lead** | $2,500/mês | Liderança técnica |
-| **Custo/Arquiteto** | $3,000/mês | Arquitetura de soluções |
-| **Máximo por Sistema** | $40,000 | Limite definido |
+| **Custo/Dev Mid-Level** | $800-1,200/mês | Desenvolvedores júnior-mid Moçambique |
+| **Custo/Dev Senior** | $1,000-1,600/mês | Experiência 5+ anos, Moçambique |
+| **Custo/Tech Lead** | $1,800-2,200/mês | Liderança técnica, Moçambique |
+| **Custo/Arquiteto** | $2,000-2,500/mês | Arquitetura de soluções |
+| **Custo Sistema/Módulo** | $3,500-50,000 | Complexidade média |
 | **Contingência** | 15-20% | Imprevistos |
+
+### ⚠️ Nota Importante sobre Custos
+
+**Desenvolvedores em Moçambique**: Os salários variam entre **$1,000 - $1,600/mês** para seniors, dependendo de:
+- Experiência específica
+- Stack tecnológico (Laravel, React, etc.)
+- Tamanho da empresa
+- Localização (Maputo vs outras cidades)
+
+**Sistemas/Módulos de Complexidade Média**: Entre **$3,500 - $50,000**, considerando:
+- Número de funcionalidades
+- Integrações necessárias
+- Volume de dados
+- Requisitos de performance
+- Equipa e timeline
 
 ---
 
@@ -28,41 +43,41 @@
 
 | Função | Quantidade | Meses | Custo/Mês | Total |
 |--------|-----------|-------|-----------|--------|
-| Arquiteto Soluções | 1 | 18 | $3,500 | $63,000 |
-| Tech Lead | 1 | 18 | $3,000 | $54,000 |
-| Desenvolvedor Senior | 4 | 18 | $2,500 | $180,000 |
-| Desenvolvedor Mid | 3 | 18 | $2,000 | $108,000 |
-| DBA/DevOps | 1 | 18 | $2,500 | $45,000 |
-| QA Engineer | 2 | 12 | $2,000 | $48,000 |
-| **SUBTOTAL** | **12** | | | **$498,000** |
+| Arquiteto Soluções | 1 | 18 | $2,200 | $39,600 |
+| Tech Lead | 1 | 18 | $2,000 | $36,000 |
+| Desenvolvedor Senior | 4 | 18 | $1,600 | $115,200 |
+| Desenvolvedor Mid | 3 | 18 | $1,200 | $64,800 |
+| DBA/DevOps | 1 | 18 | $1,600 | $28,800 |
+| QA Engineer | 2 | 12 | $1,200 | $28,800 |
+| **SUBTOTAL** | **12** | | | **$313,200** |
 
 ### Custos Adicionais
 
 | Item | Custo | Observações |
 |------|-------|-------------|
 | Infraestrutura (Cloud) | $18,000 | $1,000/mês × 18 meses |
-| Ferramentas & Licenças | $15,000 | CI/CD, monitoring, etc. |
-| Gestão de Projeto | $27,000 | $1,500/mês × 18 meses |
-| Formação Equipa Interna | $10,000 | Handover final |
-| Contingência (15%) | $85,350 | Imprevistos |
-| **SUBTOTAL** | **$155,350** | |
+| Ferramentas & Licenças | $12,000 | CI/CD, monitoring, etc. |
+| Gestão de Projeto | $18,000 | $1,000/mês × 18 meses |
+| Formação Equipa Interna | $8,000 | Handover final |
+| Contingência (15%) | $55,230 | Imprevistos |
+| **SUBTOTAL** | **$111,230** | |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 1
 
 | Componente | Valor |
 |-----------|-------|
-| Equipa Externa | $498,000 |
-| Custos Adicionais | $155,350 |
-| **TOTAL** | **$653,350** |
-| **Custo Médio/Sistema** | **$38,432** (17 sistemas) |
+| Equipa Externa | $313,200 |
+| Custos Adicionais | $111,230 |
+| **TOTAL** | **$424,430** |
+| **Custo Médio/Sistema** | **$24,967** (17 sistemas) |
 
 ### 📊 Breakdown por Fase
 
 | Fase | Duração | Custo | Entregáveis |
 |------|---------|-------|-------------|
-| **Fase 1: Foundation** | 6 meses | $217,783 | API layer, SSO, CI/CD |
-| **Fase 2: Consolidation** | 9 meses | $326,675 | Sistemas consolidados |
-| **Fase 3: Handover** | 3 meses | $108,892 | Docs, formação, suporte |
+| **Fase 1: Foundation** | 6 meses | $141,477 | API layer, SSO, CI/CD |
+| **Fase 2: Consolidation** | 9 meses | $212,215 | Sistemas consolidados |
+| **Fase 3: Handover** | 3 meses | $70,738 | Docs, formação, suporte |
 
 ---
 
@@ -74,44 +89,44 @@
 
 | Função | Quantidade | Meses | Custo/Mês | Total |
 |--------|-----------|-------|-----------|--------|
-| Tech Lead (Interno) | 1 | 27 | $2,500 | $67,500 |
-| Dev Senior | 4 | 27 | $2,000 | $216,000 |
-| Dev Mid-Level | 2 | 27 | $1,600 | $86,400 |
-| DBA/DevOps | 1 | 27 | $2,000 | $54,000 |
-| **SUBTOTAL** | **8** | | | **$423,900** |
+| Tech Lead (Interno) | 1 | 27 | $1,800 | $48,600 |
+| Dev Senior | 4 | 27 | $1,400 | $151,200 |
+| Dev Mid-Level | 2 | 27 | $1,000 | $54,000 |
+| DBA/DevOps | 1 | 27 | $1,400 | $37,800 |
+| **SUBTOTAL** | **8** | | | **$291,600** |
 
 ### Custos Adicionais
 
 | Item | Custo | Observações |
 |------|-------|-------------|
 | Infraestrutura (Cloud) | $27,000 | $1,000/mês × 27 meses |
-| Ferramentas & Licenças | $20,000 | CI/CD, monitoring, etc. |
-| Formação Técnica | $25,000 | Laravel, APIs, microserviços |
-| Consultoria Externa | $40,000 | Arquitetura, code review |
-| Contingência (20%) | $107,180 | Maior devido a curva aprendizado |
-| **SUBTOTAL** | **$219,180** | |
+| Ferramentas & Licenças | $15,000 | CI/CD, monitoring, etc. |
+| Formação Técnica | $18,000 | Laravel, APIs, microserviços |
+| Consultoria Externa | $25,000 | Arquitetura, code review |
+| Contingência (20%) | $75,320 | Maior devido a curva aprendizado |
+| **SUBTOTAL** | **$160,320** | |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 2
 
 | Componente | Valor |
 |-----------|-------|
-| Equipa Interna | $423,900 |
-| Custos Adicionais | $219,180 |
-| **TOTAL** | **$643,080** |
-| **Custo Médio/Sistema** | **$37,828** (17 sistemas) |
+| Equipa Interna | $291,600 |
+| Custos Adicionais | $160,320 |
+| **TOTAL** | **$451,920** |
+| **Custo Médio/Sistema** | **$26,583** (17 sistemas) |
 
 ### 📊 Breakdown por Fase
 
 | Fase | Duração | Custo | Entregáveis |
 |------|---------|-------|-------------|
-| **Fase 1: Training & Setup** | 3 meses | $71,520 | Equipa preparada, arquitetura |
-| **Fase 2: Foundation** | 6 meses | $143,040 | API layer, SSO |
-| **Fase 3: Consolidation A** | 9 meses | $214,560 | FINANCAS + STOCK |
-| **Fase 4: Consolidation B** | 6 meses | $143,040 | HR + PROJECTOS |
-| **Fase 5: Stabilization** | 3 meses | $70,920 | Testes, docs, suporte |
+| **Fase 1: Training & Setup** | 3 meses | $50,213 | Equipa preparada, arquitetura |
+| **Fase 2: Foundation** | 6 meses | $100,427 | API layer, SSO |
+| **Fase 3: Consolidation A** | 9 meses | $150,640 | FINANCAS + STOCK |
+| **Fase 4: Consolidation B** | 6 meses | $100,427 | HR + PROJECTOS |
+| **Fase 5: Stabilization** | 3 meses | $50,213 | Testes, docs, suporte |
 
 ### ⚠️ Nota Importante
-Custos são **similares à Estratégia 1**, mas timeline mais longo (27 meses vs 18 meses). **Vantagem**: conhecimento fica 100% interno.
+Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas timeline mais longo (27 meses vs 18 meses). **Vantagem**: conhecimento fica 100% interno e desenvolvimento de equipa.
 
 ---
 
@@ -119,62 +134,67 @@ Custos são **similares à Estratégia 1**, mas timeline mais longo (27 meses vs
 
 ### Timeline: 18-36 meses (3-6 meses/módulo × 6 módulos)
 
-### Módulos Identificados
+### Módulos Identificados (Complexidade Média)
 
 | Módulo | Complexidade | Timeline | Custo Estimado |
 |--------|--------------|----------|----------------|
-| 1. Finance Management | ALTA | 6 meses | $120,000 |
-| 2. Stock & Procurement | ALTA | 6 meses | $120,000 |
-| 3. Human Resources | MÉDIA | 4 meses | $80,000 |
-| 4. Projects Management | MÉDIA | 5 meses | $100,000 |
-| 5. Transportation | BAIXA | 3 meses | $60,000 |
-| 6. Company Properties | BAIXA | 3 meses | $60,000 |
-| **TOTAL** | | **27 meses** | **$540,000** |
+| 1. Finance Management | MÉDIA-ALTA | 6 meses | $45,000 |
+| 2. Stock & Procurement | MÉDIA-ALTA | 6 meses | $45,000 |
+| 3. Human Resources | MÉDIA | 4 meses | $30,000 |
+| 4. Projects Management | MÉDIA | 5 meses | $35,000 |
+| 5. Transportation | MÉDIA-BAIXA | 3 meses | $20,000 |
+| 6. Company Properties | MÉDIA-BAIXA | 3 meses | $20,000 |
+| **TOTAL** | | **27 meses** | **$195,000** |
+
+**Nota**: Todos os módulos classificados como **complexidade média**, dentro do range **$3,500 - $50,000** por módulo.
 
 ### Equipa Externa por Módulo (Média)
 
 | Função | Quantidade | Meses Médios | Custo/Mês | Total/Módulo |
 |--------|-----------|--------------|-----------|--------------|
-| Tech Lead | 1 | 4.5 | $3,000 | $13,500 |
-| Dev Senior | 2 | 4.5 | $2,500 | $22,500 |
-| Dev Mid | 2 | 4.5 | $2,000 | $18,000 |
-| UI/UX Designer | 1 | 2 | $2,500 | $5,000 |
-| QA Engineer | 1 | 3 | $2,000 | $6,000 |
-| **SUBTOTAL** | **7** | | | **$65,000/módulo** |
+| Tech Lead | 1 | 4.5 | $1,800 | $8,100 |
+| Dev Senior | 2 | 4.5 | $1,400 | $12,600 |
+| Dev Mid | 2 | 4.5 | $1,000 | $9,000 |
+| UI/UX Designer | 1 | 2 | $1,200 | $2,400 |
+| QA Engineer | 1 | 3 | $1,200 | $3,600 |
+| **SUBTOTAL** | **7** | | | **$35,700/módulo** |
+
+**Nota**: Custo médio por módulo ajustado para refletir salários de mercado em Moçambique.
 
 ### Custos Adicionais (Todo o Projeto)
 
 | Item | Custo | Observações |
 |------|-------|-------------|
-| Arquitetura Inicial | $40,000 | Design do sistema, escolha tech stack |
+| Arquitetura Inicial | $25,000 | Design do sistema, escolha tech stack |
 | Infraestrutura (Cloud) | $54,000 | $2,000/mês × 27 meses |
-| Ferramentas & Licenças | $30,000 | Modernas (React/Vue, PostgreSQL, etc.) |
-| Migração de Dados | $80,000 | ETL, validação, cutover |
-| Gestão de Projeto | $40,500 | $1,500/mês × 27 meses |
-| Formação Utilizadores | $30,000 | $5,000 por módulo |
-| Contingência (15%) | $124,575 | Imprevistos |
-| **SUBTOTAL** | **$399,075** | |
+| Ferramentas & Licenças | $20,000 | Modernas (React/Vue, PostgreSQL, etc.) |
+| Migração de Dados | $40,000 | ETL, validação, cutover |
+| Gestão de Projeto | $27,000 | $1,000/mês × 27 meses |
+| Formação Utilizadores | $18,000 | $3,000 por módulo |
+| Contingência (15%) | $56,850 | Imprevistos |
+| **SUBTOTAL** | **$240,850** | |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 3
 
 | Componente | Valor |
 |-----------|-------|
-| Desenvolvimento (6 módulos) | $390,000 |
-| Arquitetura + Módulos Extra | $150,000 |
-| Custos Adicionais | $399,075 |
-| **TOTAL** | **$939,075** |
-| **Custo por Módulo** | **$156,513** (média) |
+| Desenvolvimento (6 módulos) | $195,000 |
+| Custos Adicionais | $240,850 |
+| **TOTAL** | **$435,850** |
+| **Custo por Módulo** | **$32,500** (média, dentro do range $3.5K-50K) |
 
 ### 📊 Entrega Modular - Timeline e Custos
 
 | Ordem | Módulo | Timeline | Custo | ROI Esperado |
 |-------|--------|----------|-------|--------------|
-| 1 | Finance Management | M1-M6 | $156,513 | Alto - crítico |
-| 2 | Stock & Procurement | M7-M12 | $156,513 | Alto - volume |
-| 3 | Projects Management | M13-M17 | $130,428 | Médio |
-| 4 | Human Resources | M18-M21 | $104,342 | Médio |
-| 5 | Transportation | M22-M24 | $78,257 | Baixo |
-| 6 | Company Properties | M25-M27 | $78,257 | Baixo |
+| 1 | Finance Management | M1-M6 | $72,642 | Alto - crítico |
+| 2 | Stock & Procurement | M7-M12 | $72,642 | Alto - volume |
+| 3 | Projects Management | M13-M17 | $58,308 | Médio |
+| 4 | Human Resources | M18-M21 | $50,000 | Médio |
+| 5 | Transportation | M22-M24 | $33,308 | Baixo |
+| 6 | Company Properties | M25-M27 | $33,308 | Baixo |
+
+**Nota**: Custos por módulo incluem desenvolvimento + proporção dos custos adicionais (infraestrutura, gestão, etc.)
 
 ### ✅ Vantagens da Entrega Modular
 - Valor entregue a cada 3-6 meses
@@ -188,62 +208,66 @@ Custos são **similares à Estratégia 1**, mas timeline mais longo (27 meses vs
 
 ### Timeline: 36-72 meses (6-12 meses/módulo × 6 módulos, média: 54 meses)
 
-### Módulos Identificados
+### Módulos Identificados (Complexidade Média)
 
 | Módulo | Complexidade | Timeline | Custo Estimado |
 |--------|--------------|----------|----------------|
-| 1. Finance Management | ALTA | 12 meses | $192,000 |
-| 2. Stock & Procurement | ALTA | 12 meses | $192,000 |
-| 3. Human Resources | MÉDIA | 8 meses | $128,000 |
-| 4. Projects Management | MÉDIA | 10 meses | $160,000 |
-| 5. Transportation | BAIXA | 6 meses | $96,000 |
-| 6. Company Properties | BAIXA | 6 meses | $96,000 |
-| **TOTAL** | | **54 meses** | **$864,000** |
+| 1. Finance Management | MÉDIA-ALTA | 12 meses | $48,000 |
+| 2. Stock & Procurement | MÉDIA-ALTA | 12 meses | $48,000 |
+| 3. Human Resources | MÉDIA | 8 meses | $32,000 |
+| 4. Projects Management | MÉDIA | 10 meses | $40,000 |
+| 5. Transportation | MÉDIA-BAIXA | 6 meses | $24,000 |
+| 6. Company Properties | MÉDIA-BAIXA | 6 meses | $24,000 |
+| **TOTAL** | | **54 meses** | **$216,000** |
+
+**Nota**: Todos os módulos classificados como **complexidade média**, dentro do range **$3,500 - $50,000** por módulo.
 
 ### Equipa Interna Necessária (4+ Senior Devs)
 
 | Função | Quantidade | Meses | Custo/Mês | Total |
 |--------|-----------|-------|-----------|--------|
-| Tech Lead | 1 | 54 | $2,500 | $135,000 |
-| Dev Senior | 4 | 54 | $2,000 | $432,000 |
-| Dev Mid-Level | 2 | 54 | $1,600 | $172,800 |
-| UI/UX Designer | 1 | 30 | $1,800 | $54,000 |
-| QA Engineer | 1 | 40 | $1,600 | $64,000 |
-| DBA/DevOps | 1 | 54 | $2,000 | $108,000 |
-| **SUBTOTAL** | **10** | | | **$965,800** |
+| Tech Lead | 1 | 54 | $1,800 | $97,200 |
+| Dev Senior | 4 | 54 | $1,400 | $302,400 |
+| Dev Mid-Level | 2 | 54 | $1,000 | $108,000 |
+| UI/UX Designer | 1 | 30 | $1,200 | $36,000 |
+| QA Engineer | 1 | 40 | $1,000 | $40,000 |
+| DBA/DevOps | 1 | 54 | $1,400 | $75,600 |
+| **SUBTOTAL** | **10** | | | **$659,200** |
 
 ### Custos Adicionais
 
 | Item | Custo | Observações |
 |------|-------|-------------|
-| Formação Técnica Avançada | $50,000 | React/Vue, microserviços, cloud |
-| Consultoria Externa | $80,000 | Arquitetura, code review periódico |
+| Formação Técnica Avançada | $30,000 | React/Vue, microserviços, cloud |
+| Consultoria Externa | $50,000 | Arquitetura, code review periódico |
 | Infraestrutura (Cloud) | $108,000 | $2,000/mês × 54 meses |
-| Ferramentas & Licenças | $40,000 | Stack moderno |
-| Migração de Dados | $100,000 | ETL interno |
-| Gestão de Projeto | $81,000 | $1,500/mês × 54 meses |
-| Contingência (20%) | $281,960 | Alta devido a timeline longo |
-| **SUBTOTAL** | **$740,960** | |
+| Ferramentas & Licenças | $30,000 | Stack moderno |
+| Migração de Dados | $50,000 | ETL interno |
+| Gestão de Projeto | $54,000 | $1,000/mês × 54 meses |
+| Contingência (20%) | $198,240 | Alta devido a timeline longo |
+| **SUBTOTAL** | **$520,240** | |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 4
 
 | Componente | Valor |
 |-----------|-------|
-| Equipa Interna | $965,800 |
-| Custos Adicionais | $740,960 |
-| **TOTAL** | **$1,706,760** |
-| **Custo por Módulo** | **$284,460** (média) |
+| Equipa Interna | $659,200 |
+| Custos Adicionais | $520,240 |
+| **TOTAL** | **$1,179,440** |
+| **Custo por Módulo** | **$196,573** (média, inclui 54 meses de salários + infraestrutura) |
 
 ### 📊 Entrega Modular - Timeline e Custos
 
 | Ordem | Módulo | Timeline | Custo | Team Utilization |
 |-------|--------|----------|-------|------------------|
-| 1 | Finance Management | M1-M12 | $284,460 | 100% |
-| 2 | Stock & Procurement | M13-M24 | $284,460 | 100% |
-| 3 | Projects Management | M25-M34 | $237,050 | 80% |
-| 4 | Human Resources | M35-M42 | $189,640 | 70% |
-| 5 | Transportation | M43-M48 | $142,230 | 60% |
-| 6 | Company Properties | M49-M54 | $142,230 | 60% |
+| 1 | Finance Management | M1-M12 | $196,573 | 100% |
+| 2 | Stock & Procurement | M13-M24 | $196,573 | 100% |
+| 3 | Projects Management | M25-M34 | $163,811 | 80% |
+| 4 | Human Resources | M35-M42 | $131,048 | 70% |
+| 5 | Transportation | M43-M48 | $98,286 | 60% |
+| 6 | Company Properties | M49-M54 | $98,286 | 60% |
+
+**Nota**: Custos por módulo incluem salários da equipa + proporção dos custos adicionais (infra, formação, etc.)
 
 ### ⚠️ Desafios da Estratégia 4
 - **Timeline mais longo**: 4.5 anos (54 meses)
@@ -265,9 +289,9 @@ Custos são **similares à Estratégia 1**, mas timeline mais longo (27 meses vs
 
 | Aspecto | Estratégia 1 (Consolidar Ext) | Estratégia 2 (Consolidar Int) | Estratégia 3 (Rebuild Ext) | Estratégia 4 (Rebuild Int) |
 |---------|-------------------------------|-------------------------------|---------------------------|---------------------------|
-| **Custo Total** | **$653,350** | **$643,080** | **$939,075** | **$1,706,760** |
+| **Custo Total** | **$424,430** | **$451,920** | **$435,850** | **$1,179,440** |
 | **Timeline** | **18 meses** | **27 meses** | **27 meses** | **54 meses** |
-| **Custo/Mês** | $36,297 | $23,818 | $34,781 | $31,606 |
+| **Custo/Mês** | $23,579 | $16,738 | $16,143 | $21,841 |
 | **Equipa** | 12 externos | 8 internos | 7 ext/módulo | 10 internos |
 | **Entrega** | Final | Final | Modular | Modular |
 | **Dívida Técnica** | Reduzida | Reduzida | Zero | Zero |
@@ -275,92 +299,103 @@ Custos são **similares à Estratégia 1**, mas timeline mais longo (27 meses vs
 | **Risco** | Médio | Médio-Alto | Médio | Alto |
 | **ROI Inicio** | Mês 18 | Mês 27 | Mês 6 | Mês 12 |
 
+**Nota**: Todos os custos baseados em salários de mercado em Moçambique ($1,000-1,600/mês para seniors) e módulos de complexidade média ($3,500-50,000).
+
 ### Gráfico de Custo × Timeline
 
 ```
 Custo Total
     │
-$1.7M ┤                                                      ● (E4)
+$1.2M ┤                                                      ● (E4)
     │
-$1.5M ┤
+$1.0M ┤
     │
-$1.3M ┤
+$800K ┤
     │
-$1.1M ┤
+$600K ┤
     │
-$900K ┤                                    ● (E3)
+$450K ┤  ● (E1)  ● (E2)  ● (E3)
     │
-$700K ┤
+$300K ┤
     │
-$650K ┤  ● (E1)        ● (E2)
+$150K ┤
     │
     └─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────
          18m   27m         36m         45m         54m
                                 Timeline
 
-E1 = Estratégia 1 (Consolidar Externo)
-E2 = Estratégia 2 (Consolidar Interno)
-E3 = Estratégia 3 (Rebuild Externo)
-E4 = Estratégia 4 (Rebuild Interno)
+E1 = Estratégia 1 (Consolidar Externo) - $424K
+E2 = Estratégia 2 (Consolidar Interno) - $452K
+E3 = Estratégia 3 (Rebuild Externo) - $436K
+E4 = Estratégia 4 (Rebuild Interno) - $1,179K
+
+⭐ Estratégias 1, 2 e 3 têm custos similares (~$424K-452K)
+⚠️ Estratégia 4 custa 2.5x mais devido ao timeline de 54 meses
 ```
 
 ### ROI Comparativo (5 anos)
 
 | Estratégia | Investimento | Savings/Year | 5-Year ROI | Break-Even |
 |-----------|--------------|--------------|------------|------------|
-| Estratégia 1 | $653K | $180K | 38% | 3.6 anos |
-| Estratégia 2 | $643K | $180K | 40% | 3.6 anos |
-| Estratégia 3 | $939K | $240K | 28% | 3.9 anos |
-| Estratégia 4 | $1,707K | $240K | -30% | 7.1 anos |
+| Estratégia 1 | $424K | $150K | 77% | 2.8 anos |
+| Estratégia 2 | $452K | $150K | 66% | 3.0 anos |
+| Estratégia 3 | $436K | $180K | 106% | 2.4 anos |
+| Estratégia 4 | $1,179K | $180K | -24% | 6.6 anos |
 
-**Savings**: Redução de custos de manutenção, menor downtime, produtividade aumentada
+**Savings**: Redução de custos de manutenção (~$100K-150K/ano), menor downtime, produtividade aumentada (~$30K-50K/ano)
+
+**Nota**: ROI significativamente melhorado com custos ajustados para mercado de Moçambique.
 
 ---
 
 ## 🎯 Recomendações Finais
 
-### ✅ Melhor Custo-Benefício: **ESTRATÉGIA 2** (Consolidar Interno)
-**Por quê:**
-- Custo total similar à Estratégia 1 ($643K vs $653K)
-- 100% conhecimento interno
-- Timeline razoável (27 meses)
-- ROI positivo em 3.6 anos
-- Desenvolve equipa interna
-
-**Ideal para:** Empresa com equipa de TI competente (4+ seniors)
-
----
-
 ### ✅ Mais Rápido: **ESTRATÉGIA 1** (Consolidar Externo)
 **Por quê:**
-- Timeline mais curto (18 meses)
-- Expertise externa garantida
-- Menor disrupção interna
-- Custo controlado ($653K)
+- ⚡ Timeline mais curto (18 meses)
+- 💰 Custo controlado ($424K)
+- 🎯 Expertise externa garantida
+- 📈 ROI 77% em 5 anos
+- ⏱️ Break-even: 2.8 anos
 
-**Ideal para:** Empresa que precisa resultados rápidos e tem orçamento
+**Ideal para:** Empresa que precisa resultados rápidos
 
 ---
 
 ### ✅ Mais Modular: **ESTRATÉGIA 3** (Rebuild Externo)
 **Por quê:**
-- Valor entregue a cada 3-6 meses
-- Sistema novo (zero dívida técnica)
-- Pode pausar entre módulos
-- ROI começa cedo
+- 📦 Valor entregue a cada 3-6 meses
+- ✨ Sistema novo (zero dívida técnica)
+- 🔄 Pode pausar entre módulos
+- 💰 Custo similar à E1 ($436K)
+- 📈 **MELHOR ROI**: 106% em 5 anos
+- ⏱️ **Break-even mais rápido**: 2.4 anos
 
-**Ideal para:** Empresa que quer transformação completa com flexibilidade
+**Ideal para:** Empresa que quer transformação completa com flexibilidade e melhor ROI
 
 ---
 
-### ❌ Menos Recomendada: **ESTRATÉGIA 4** (Rebuild Interno)
+### ✅ Conhecimento Interno: **ESTRATÉGIA 2** (Consolidar Interno)
 **Por quê:**
-- Custo muito alto ($1.7M)
-- Timeline muito longo (54 meses)
-- ROI negativo em 5 anos
-- Risco de burnout da equipa
+- 🧠 100% conhecimento interno
+- 💰 Custo razoável ($452K)
+- ⏰ Timeline 27 meses (aceitável)
+- 📈 ROI 66% em 5 anos
+- 👥 Desenvolve equipa interna
 
-**Ideal para:** Empresa com paciência, orçamento largo, e compromisso de longo prazo com desenvolvimento de equipa
+**Ideal para:** Empresa com equipa de TI competente (4+ seniors) e quer reter conhecimento
+
+---
+
+### ⚠️ Menos Recomendada: **ESTRATÉGIA 4** (Rebuild Interno)
+**Por quê:**
+- 💰 Custo muito alto ($1,179K - 2.5x mais)
+- ⏰ Timeline muito longo (54 meses)
+- 📉 ROI negativo (-24%) em 5 anos
+- ⚠️ Break-even: 6.6 anos
+- 😰 Risco de burnout da equipa
+
+**Ideal para:** Empresa com paciência (4+ anos), orçamento largo, e compromisso de longo prazo
 
 ---
 
@@ -368,14 +403,21 @@ E4 = Estratégia 4 (Rebuild Interno)
 
 ### Se você tem:
 
-**$650K-700K e 18-27 meses**:
-→ Escolha **Estratégia 1 ou 2**
+**$424K-452K e quer consolidar existente**:
+→ Escolha **Estratégia 1** (18m) ou **Estratégia 2** (27m)
+- E1: Mais rápido, externo
+- E2: Conhecimento interno
 
-**$900K-1M e quer flexibilidade**:
-→ Escolha **Estratégia 3**
+**$436K e quer melhor ROI**:
+→ Escolha **Estratégia 3** ⭐ **RECOMENDADA**
+- ROI 106% (melhor de todas)
+- Break-even 2.4 anos
+- Modular e flexível
 
-**$1.7M+ e 4+ anos**:
-→ Escolha **Estratégia 4** (mas reconsidere!)
+**$1,179K e 4+ anos de compromisso**:
+→ Escolha **Estratégia 4** (mas reconsidere seriamente!)
+- Custo 2.5x-2.7x mais alto
+- ROI negativo em 5 anos
 
 ---
 
