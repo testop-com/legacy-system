@@ -70,7 +70,7 @@
               <span class="nav-subtitle">Sistema de Gestão Empresarial</span>
             </div>
           </div>
-          <ul class="nav-menu">
+          <ul class="nav-menu" id="navMenu">
             <li><a href="index.html" class="nav-link">Início</a></li>
             <li>
               <a href="index.html#database" class="nav-link"
@@ -86,9 +86,17 @@
               <a href="index.html#contact" class="nav-link">📞 Contacto</a>
             </li>
           </ul>
+          <button class="nav-toggle" id="navToggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
     </nav>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay"></div>
 
     <div class="container" style="margin-top: 100px">
       <a href="index.html#code" class="back-link">← Voltar ao Portal</a>
