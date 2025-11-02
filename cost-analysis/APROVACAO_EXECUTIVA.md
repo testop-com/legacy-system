@@ -21,7 +21,7 @@
 │  └────────────────────────────────────────────┘  │
 │                                                  │
 │  Salários Moçambique: $1,000-1,600/mês (senior) │
-│  Módulos (média): $3,500-50,000 ✅               │
+│  Módulos (média): $35,000-50,000 ✅               │
 │                                                  │
 └──────────────────────────────────────────────────┘
 ```
@@ -30,7 +30,15 @@
 
 ---
 
-## ✅ O QUE SERÁ FEITO
+## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 1
+(Consolidar, com Equipa Externa)
+## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 2
+(Consolidar, com Equipa Interna)
+## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 3
+(Reconstruir , com Equipa Externa)
+## ✅ O QUE SERÁ FEITO: CASO OPTAR-SE PELA ESTRATÁGIA 4
+(Reconstruir, com Equipa Interna)
+
 
 ### Fase 0: Estabilização - $12,600 (3 meses)
 
@@ -44,7 +52,8 @@
 - ✅ Auditoria de segurança
 - ✅ Testes básicos
 
-**Benefício**: TODOS os 3 sistemas protegidos!
+**Benefício**: TODOS os sistemas activos protegidos!
+
 
 ---
 
