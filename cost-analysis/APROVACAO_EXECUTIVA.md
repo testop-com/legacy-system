@@ -59,11 +59,11 @@
 
 #### Mês 6-15: Consolidation ($162,000)
 
-- ✅ Consolidar FINANCAS + STOCK (sistemas principais)
-- ✅ Merge sistemas HR (SALARIOS + ATTENDANCE)
-- ✅ Consolidar PROJECTOS + PROJECTOS-BM
+- ✅ Consolidar todos os sistemas ativos identificados
+- ✅ Unificação de módulos duplicados
 - ✅ Migração e consolidação de dados
-- ✅ Modernização de módulos críticos
+- ✅ Modernização de arquitetura
+- ✅ Integração entre sistemas
 
 #### Mês 15-18: Handover ($54,000)
 
@@ -101,16 +101,22 @@
 
 #### Mês 9-18: Consolidation A ($151,000)
 
-- ✅ Consolidar FINANCAS + STOCK
+- ✅ Consolidar sistemas críticos de alta prioridade
+- ✅ Migração e unificação de dados
+- ✅ Modernização de módulos principais
 
 #### Mês 18-24: Consolidation B ($100,000)
 
-- ✅ Merge HR systems
-- ✅ Consolidar PROJECTOS
+- ✅ Consolidar sistemas secundários
+- ✅ Integração final entre módulos
+- ✅ Otimização e testes
 
 #### Mês 24-27: Estabilização (-$16,000)
 
-- ✅ Testes finais, documentação (ajuste para total $385K)
+- ✅ Testes finais de integração
+- ✅ Documentação completa
+- ✅ Formação de utilizadores
+- ✅ Handover (ajuste para total $385K)
 
 **✅ Vantagens**: 🧠 Conhecimento interno  
 **👍 Ideal para**: 4+ seniors, reter conhecimento
