@@ -122,12 +122,14 @@
 
 **6 Módulos** (todos complexidade MÉDIA: $35K-50K):
 
-1. **Finance** (M1-M6): $50K dev + $36K overhead = $86,308
-2. **Stock** (M7-M12): $50K dev + $36K overhead = $86,308
-3. **Projects** (M13-M17): $45K dev + $33K overhead = $77,642
-4. **HR** (M18-M21): $40K dev + $29K overhead = $68,975
-5. **Transport** (M22-M24): $35K dev + $25K overhead = $60,308
-6. **Properties** (M25-M27): $35K dev + $25K overhead = $60,308
+1. **Finance** (M1-M6): $50K dev + $36K overhead\* = $86,308
+2. **Stock** (M7-M12): $50K dev + $36K overhead\* = $86,308
+3. **Projects** (M13-M17): $45K dev + $33K overhead\* = $77,642
+4. **HR** (M18-M21): $40K dev + $29K overhead\* = $68,975
+5. **Transport** (M22-M24): $35K dev + $25K overhead\* = $60,308
+6. **Properties** (M25-M27): $35K dev + $25K overhead\* = $60,308
+
+**\*Overhead** = Infraestrutura (cloud) + Ferramentas + Gestão + Migração de dados + Formação + Contingência (15%)
 
 **✅ Vantagens**: 📦 Modular | Sistema novo  
 **👍 Ideal para**: Transformação com flexibilidade
@@ -168,7 +170,45 @@
 
 ---
 
-### Fase 0: Estabilização - $12,600 (3 meses)
+## 💡 O Que É "Overhead" nos Custos?
+
+**Overhead** = Custos adicionais necessários **além dos salários dos desenvolvedores**
+
+### Exemplo Prático (Módulo Finance - Estratégia 3):
+```
+Desenvolvimento (desenvolvedores):  $50,000
++ Overhead (custos de suporte):     $36,308
+─────────────────────────────────────────────
+= Custo Total do Módulo:            $86,308
+```
+
+### O Que Está Incluído no Overhead:
+
+| Componente | O Que É | Exemplos | Custo |
+|------------|---------|----------|-------|
+| **Infraestrutura** | Servidores e cloud | AWS, Azure, DigitalOcean | $1K-2K/mês |
+| **Ferramentas** | Dev tools, monitoring | GitHub, Jira, Sentry | Variável |
+| **Gestão** | Project Manager | Coordenação, planning | $1K/mês |
+| **Migração Dados** | Mover dados legacy | ETL, validação | Por projecto |
+| **Formação** | Treinar utilizadores | Manuais, sessões | $3K/módulo |
+| **Contingência** | Buffer imprevistos | Bugs, mudanças | 15-20% |
+
+### Por Quê É Necessário?
+
+- ❌ **Sem infraestrutura** → Sistema não funciona em produção
+- ❌ **Sem ferramentas** → Qualidade baixa, bugs
+- ❌ **Sem gestão** → Projecto desorganizado, atrasos
+- ❌ **Sem migração** → Dados legacy perdidos
+- ❌ **Sem formação** → Utilizadores não sabem usar
+- ❌ **Sem contingência** → Imprevistos param projecto
+
+**Conclusão**: Overhead é essencial para o sucesso do projecto!
+
+---
+
+## ⚠️ AÇÕES IMEDIATAS (Antes de Qualquer Estratégia)
+
+### Fase 0: Preparação & Estabilização - 3-4 semanas
 
 **Equipa**: 2 developers ($1,400/mês cada) + 1 DBA ($1,400/mês)
 

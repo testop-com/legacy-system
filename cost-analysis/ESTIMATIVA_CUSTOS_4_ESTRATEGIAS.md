@@ -48,6 +48,56 @@
 - Range considerado para simplificação e consistência
 - Permite flexibilidade baseada em scope específico de cada módulo
 
+### 📌 O Que É "Overhead" nos Custos?
+
+**Overhead** = Custos adicionais além dos salários dos desenvolvedores
+
+**Exemplo prático** (Módulo Finance - Estratégia 3):
+```
+Custo de Desenvolvimento:    $50,000  ← Desenvolvedores programando
++ Overhead (custos de suporte): $36,308  ← Ver abaixo
+─────────────────────────────────────
+= Custo Total do Módulo:     $86,308
+```
+
+**O que está incluído no Overhead:**
+
+| Item | Descrição | Custo/Projeto |
+|------|-----------|---------------|
+| **1. Infraestrutura (Cloud)** | Servidores, BD, storage, backups | $54,000-108,000 |
+| | • AWS/Azure/DigitalOcean | |
+| | • MySQL/PostgreSQL managed | |
+| | • CDN e load balancers | |
+| **2. Ferramentas & Licenças** | Dev tools, monitoring, CI/CD | $12,000-35,000 |
+| | • GitHub Actions / GitLab CI | |
+| | • Sentry / New Relic (monitoring) | |
+| | • Jira / Trello (project mgmt) | |
+| **3. Gestão de Projeto** | PM, coordenação, reporting | $18,000-54,000 |
+| | • Project Manager ($1K/mês) | |
+| | • Scrum Master (se aplicável) | |
+| **4. Migração de Dados** | ETL, validação, testes | $40,000-100,000 |
+| | • Extract from legacy systems | |
+| | • Transform data schemas | |
+| | • Load and validate | |
+| **5. Formação Utilizadores** | Training, docs, suporte | $8,000-30,000 |
+| | • User manuals | |
+| | • Training sessions | |
+| | • Onboarding materials | |
+| **6. Contingência (15-20%)** | Buffer para imprevistos | 15-20% do total |
+| | • Bugs inesperados | |
+| | • Mudanças de scope | |
+| | • Atrasos técnicos | |
+
+**Total Overhead**: Varia por estratégia ($111K a $549K dependendo de timeline e complexidade)
+
+**Por quê é necessário?**
+- ✅ Sem infraestrutura → Nada funciona em produção
+- ✅ Sem ferramentas → Qualidade e produtividade baixas
+- ✅ Sem gestão → Projecto desorganizado e atrasado
+- ✅ Sem migração → Dados legacy perdidos
+- ✅ Sem formação → Utilizadores não sabem usar o sistema
+- ✅ Sem contingência → Qualquer imprevisto paralisa projecto
+
 ---
 
 ## 🎯 Estratégia 1: Consolidar Sistemas (Equipa Externa)
