@@ -159,14 +159,15 @@
 
 ## 📋 COMPARAÇÃO RÁPIDA
 
-| #   | Estratégia       | Custo   | Timeline | ROI  | Status          |
-| --- | ---------------- | ------- | -------- | ---- | --------------- |
-| 1   | Consolidar (Ext) | $424K   | 18m      | 77%  | ⭐ RÁPIDA       |
-| 2   | Consolidar (Int) | $452K   | 27m      | 66%  | ⭐ CONHECIMENTO |
-| 3   | Rebuild (Ext)    | $518K   | 27m      | 74%  | ⭐ MODULAR      |
-| 4   | Rebuild (Int)    | $1,495K | 54m      | -40% | ❌ NÃO          |
+| #   | Estratégia       | Custo   | Timeline | ROI     | Status                    |
+| --- | ---------------- | ------- | -------- | ------- | ------------------------- |
+| 1   | Consolidar (Ext) | $424K   | 18m      | 77%     | ⚡ RÁPIDA                 |
+| 2   | Consolidar (Int) | $452K   | 27m      | 66%     | 🧠 CONHECIMENTO           |
+| 3   | Rebuild (Ext)    | $354K   | 27m      | 154% 🎯 | ⭐⭐⭐ MELHOR (barata+ROI) |
+| 4   | Rebuild (Int)    | $1,160K | 54m      | -22%    | ❌ NÃO                    |
 
-**→ Recomendação**: Escolha Estratégia 1, 2 ou 3 (todas viáveis)
+**→ Recomendação #1**: ⭐ **Estratégia 3** (mais barata, melhor ROI, modular)  
+**→ Alternativas**: Estratégia 1 (se precisa 18m) ou 2 (se quer conhecimento interno)
 
 ---
 
