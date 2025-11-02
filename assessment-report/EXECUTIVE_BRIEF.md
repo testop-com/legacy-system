@@ -5,7 +5,26 @@
 **Date**: October 17, 2025  
 **Re**: Critical Discovery - Complete IT Ecosystem Assessment
 
+------
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
 ---
+
 
 ## 🔴 CRITICAL FINDINGS
 
@@ -19,8 +38,7 @@ Your IT infrastructure consists of a complex ecosystem:
 | **Number of Databases**  | **10** (some shared) |
 | **Database Tables**      | **539**              |
 | **Total Database Size**  | **~180 MB**          |
-| **Estimated Investment** | **$1.0M-1.5M**       |
-| **Timeline**             | **36-48 months**     |
+| | **Timeline**             | **36-48 months**     |
 | **Assessment Complete**  | **12%** (2 of ~17)   |
 
 ### What This Means
@@ -76,7 +94,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 
 ### Risk #3: Budget Underestimation
 
-**Realistic Budget**: **$1.0M-1.5M** (for complete ecosystem of ~17 systems, 10 databases)
 
 **Gap**: $585K-845K (185% increase)
 
@@ -99,7 +116,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 
 ### ✅ START Phase 0: Complete Discovery
 
-**Investment**: $50,000 - $75,000  
 **Timeline**: 3 months  
 **Team**: 1-2 analysts + 1 architect
 
@@ -130,7 +146,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 - Keep/enhance Projectos
 - Replace utility systems with commercial tools
 
-**Investment**: $900K-1.33M  
 **Timeline**: 30-36 months  
 **Result**: Modern, integrated ecosystem
 
@@ -143,7 +158,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 - Focus on top 3: Financas, Stock, Salarios
 - Deprecate or replace others with commercial tools
 
-**Investment**: $600K-900K  
 **Timeline**: 24 months  
 **Trade-off**: Lose some functionality
 
@@ -151,7 +165,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 
 **NOT RECOMMENDED**
 
-**Cost**: $200K-300K/year in maintenance  
 **Result**: Technical debt compounds, systems fail  
 **Risk**: Business disruption inevitable
 
@@ -161,7 +174,6 @@ You are operating **approximately 17 application systems using 10 databases**. S
 
 ### Phase 0 Approval Needed
 
-**Budget Request**: $50,000 - $75,000  
 **Timeline**: 3 months (November 2025 - January 2026)  
 **Decision Maker**: Executive Leadership  
 **Urgency**: **IMMEDIATE**
@@ -264,25 +276,7 @@ You are operating **approximately 17 application systems using 10 databases**. S
 | **+ Option B**   | $50K-75K | $550K-825K      | **$600K-900K** | 27 months    |
 | **Status Quo**   | -        | $200K-300K/year | Ongoing        | Forever      |
 
-### ROI Analysis
-
-**Option A** (Full Consolidation):
-
-- **Investment**: $1.0M-1.5M
-- **Savings**: $150K-200K/year (reduced maintenance, efficiency)
-- **ROI**: 5-7 years
-- **Benefit**: Modern, integrated platform
-
-**Option B** (Strategic Focus):
-
-- **Investment**: $600K-900K
-- **Savings**: $100K-150K/year
-- **ROI**: 5-6 years
-- **Benefit**: Critical systems modernized
-
----
-
-## Summary
+### Summary
 
 ### Current Situation
 

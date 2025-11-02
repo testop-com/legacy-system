@@ -22,6 +22,26 @@
 
 ---
 
+---
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
+---
+
 ## Executive Summary (2 Systems Only)
 
 This assessment evaluates **two of approximately 17 systems** in the Grupo Testop ecosystem. These two systems manage different aspects of their business operations, but represent only **12% of the complete IT infrastructure**.
@@ -133,7 +153,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 - **Shared**: 1 DevOps + 1 Architect
 - **Total**: 5-7 people peak
 
-**Budget**: $315,000 - $485,000
 
 **Benefits**:
 
@@ -172,7 +191,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 - Security hardening
 - Basic testing setup
 
-**Budget**: $45K-75K  
 **Team**: 3-4 people
 
 ### Phase 2: Enhancement (Months 4-9)
@@ -191,7 +209,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 - Performance tuning
 - Testing coverage
 
-**Budget**: $120K-180K  
 **Team**: 5-6 people
 
 ### Phase 3: Integration & Innovation (Months 10-18)
@@ -213,7 +230,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 - Shared master data
 - Cross-system reporting
 
-**Budget**: $150K-230K  
 **Team**: 6-7 people
 
 ---
@@ -222,9 +238,9 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 
 | Phase     | Duration      | Budget         | Deliverables                  |
 | --------- | ------------- | -------------- | ----------------------------- |
-| Phase 1   | 3 months      | $45K-75K       | Critical fixes both systems   |
-| Phase 2   | 6 months      | $120K-180K     | APIs, testing, optimization   |
-| Phase 3   | 9 months      | $150K-230K     | Integration, mobile, advanced |
+| Phase 1   | 3 months      | See cost-analysis/| Critical fixes both systems   |
+| Phase 2   | 6 months      | See cost-analysis/| APIs, testing, optimization   |
+| Phase 3   | 9 months      | See cost-analysis/| Integration, mobile, advanced |
 | **TOTAL** | **18 months** | **$315K-485K** | **Modernized ecosystem**      |
 
 ---
@@ -320,7 +336,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 ### Option A: Conservative Sequential Approach
 
 **Timeline**: 24 months  
-**Budget**: $315K-485K  
 **Risk**: Low  
 **Team Size**: 3-4 peak
 
@@ -335,7 +350,6 @@ This assessment evaluates **two of approximately 17 systems** in the Grupo Testo
 ### Option B: Aggressive Parallel Approach (RECOMMENDED)
 
 **Timeline**: 18 months  
-**Budget**: $315K-485K  
 **Risk**: Medium (managed)  
 **Team Size**: 5-7 peak
 
@@ -408,7 +422,7 @@ Grupo Testop operates **two distinct but complementary systems**:
 
 ### Investment Justification
 
-**Total Investment**: $315K-485K over 18 months
+**Timeline**: Details in cost-analysis/ folder
 
 **Expected Returns**:
 

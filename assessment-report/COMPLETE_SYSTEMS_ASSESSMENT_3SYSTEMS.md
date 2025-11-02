@@ -8,14 +8,24 @@
 
 ---
 
-## 💰 Cost Structure Note
 
-**All cost estimates** in this assessment are presented as:
+---
 
-- **International Cost** (Global Market - USA/Europe): $80-150/hour
-- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+## 💰 Cost Information
 
-These are **enhancement costs for existing working systems**, not building from scratch.
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
 
 ---
 
@@ -38,8 +48,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 | **Total Tables**               | 161 (125 + 36)                                |
 | **Lines of Code**              | ~65,000+ (PHP + Blade)                        |
 | **Overall Rating**             | ⭐⭐⭐ (3.3/5)                                |
-| **Investment (International)** | $370,000-520,000 (3 systems)                  |
-| **Investment (National - MZ)** | $185,000-260,000 ⭐ (3 systems)               |
 | **Timeline**                   | 24-36 months                                  |
 
 ---
@@ -64,7 +72,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 | **Users**           | 200+                 | ~50                 | ~30                 |
 | **Companies**       | 10+                  | 1 main              | 1 main              |
 | **Technical Debt**  | 🔴 HIGH              | 🟡 MEDIUM           | 🟡 MEDIUM           |
-| **Investment**      | $180K-280K           | $95K-145K           | $95K-145K           |
 | **Priority**        | 🔴 CRITICAL          | 🟡 MEDIUM           | 🟡 MEDIUM           |
 | **Dependencies**    | Standalone           | Shares DB           | Shares DB           |
 
@@ -146,8 +153,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🔴 **HIGH PRIORITY** - Modernize urgently
 
-**Investment (International)**: $180,000 - $280,000  
-**Investment (National - MZ)**: $90,000 - $140,000 ⭐  
 **Timeline**: 12-18 months  
 **Risk**: HIGH (business-critical, high complexity)
 
@@ -184,8 +189,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🟡 **MEDIUM PRIORITY** - Stabilize and maintain
 
-**Investment (International)**: $95,000 - $145,000  
-**Investment (National - MZ)**: $48,000 - $73,000 ⭐  
 **Timeline**: 6-12 months  
 **Risk**: MEDIUM (well-structured, smaller scope)
 
@@ -223,8 +226,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Recommendation**: 🟡 **MEDIUM PRIORITY** - Consider consolidation with PROJECTOS
 
-**Investment (International)**: $95,000 - $145,000 (standalone) OR $80,000-120,000 (consolidated)  
-**Investment (National - MZ)**: $48,000 - $73,000 ⭐ (standalone) OR $40,000-60,000 ⭐ (consolidated)  
 **Timeline**: 6-12 months  
 **Risk**: MEDIUM (nearly identical to PROJECTOS)
 
@@ -263,7 +264,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Fix Priority**: 🔴 **P0 - IMMEDIATE**  
 **Effort**: 5-7 days (all systems)  
-**Cost**: $8,000 - $12,000
 
 **Impact of Fix**:
 
@@ -290,7 +290,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Fix Priority**: 🔴 **P0 - IMMEDIATE**  
 **Effort**: 1 day  
-**Cost**: $2,000 - $3,000
 
 **Recommended Solution**:
 
@@ -325,7 +324,6 @@ This comprehensive assessment covers **3 core application systems** of the Grupo
 
 **Fix Priority**: 🟠 **P1 - HIGH**  
 **Effort**: 6-8 weeks (all systems)  
-**Cost**: $35,000 - $55,000
 
 **Target Coverage**:
 
@@ -357,7 +355,6 @@ Database: 100% shared (same database)
 
 **Fix Priority**: 🟡 **P2 - MEDIUM** (Strategic)  
 **Effort**: 3-4 months  
-**Cost**: $80,000 - $120,000
 
 **Recommended Solution**: **CONSOLIDATE** into single system
 
@@ -426,8 +423,6 @@ if ($project->type === 'world_bank') {
 
 #### Option B: Recommended Approach (Phased Modernization)
 
-**Investment (International)**: $370,000-520,000 over 3 years  
-**Investment (National - MZ)**: $185,000-260,000 ⭐ over 3 years
 
 **Returns** (based on national cost):
 
@@ -440,7 +435,6 @@ if ($project->type === 'world_bank') {
 **5-Year Value**: $600K-800K
 
 **Break-Even**: 24-30 months  
-**ROI**: 160-220%
 
 ---
 
@@ -449,7 +443,6 @@ if ($project->type === 'world_bank') {
 ### Phase 0: Critical Stabilization (ALL 3 Systems)
 
 **Duration**: 3 months  
-**Investment**: $45,000 - $65,000  
 **Team**: 2 developers + 1 DBA
 
 **Tasks**:
@@ -477,7 +470,6 @@ if ($project->type === 'world_bank') {
 ### Phase 1: FINANCAS Priority (Months 4-12)
 
 **Duration**: 9 months  
-**Investment**: $180,000 - $280,000  
 **Focus**: Highest complexity, highest business impact
 
 **Key Tasks**:
@@ -496,7 +488,6 @@ if ($project->type === 'world_bank') {
 ### Phase 2: PROJECTOS Consolidation (Months 10-18)
 
 **Duration**: 9 months  
-**Investment**: $150,000 - $220,000  
 **Focus**: Merge PROJECTOS + PROJECTOS-BM
 
 **Key Tasks**:
@@ -520,7 +511,6 @@ if ($project->type === 'world_bank') {
 ### Phase 3: Cloud & Advanced Features (Months 18-36)
 
 **Duration**: 18 months  
-**Investment**: $120,000 - $200,000  
 **Focus**: Modern platform, scalability
 
 **Key Tasks**:
@@ -620,8 +610,6 @@ if ($project->type === 'world_bank') {
 - Technical debt
 
 **When**: Start immediately after Phase 0  
-**Investment**: $180K-280K  
-**ROI**: HIGH (prevent business disruption)
 
 ---
 
@@ -635,8 +623,6 @@ if ($project->type === 'world_bank') {
 - Better long-term solution
 
 **When**: Months 10-18  
-**Investment**: $150K-220K (consolidated)  
-**ROI**: MEDIUM-HIGH (long-term savings)
 
 ---
 
@@ -650,8 +636,6 @@ if ($project->type === 'world_bank') {
 - Competitive advantage
 
 **When**: Months 18-36  
-**Investment**: $120K-200K  
-**ROI**: MEDIUM (strategic positioning)
 
 ---
 
@@ -693,7 +677,6 @@ if ($project->type === 'world_bank') {
 - Enables future work
 - Relatively cheap
 
-**Investment**: $13,000 - $20,000  
 **Benefit**: Prevents $100K-500K data loss event
 
 ---
@@ -720,7 +703,6 @@ if ($project->type === 'world_bank') {
 - Single source of truth
 
 **Timeline**: 6-9 months  
-**Investment**: $80,000 - $120,000  
 **Savings**: $20K/year ongoing
 
 ---
@@ -793,7 +775,6 @@ Week 10-12: Security
 - ✅ 20% test coverage
 - ✅ Security baseline
 
-**Investment**: $45,000 - $65,000  
 **Team**: 2 developers + 1 DBA + 1 security specialist
 
 ---
@@ -1030,8 +1011,6 @@ Tel: (+258) 848938851
 - Industry standard: 70%+ coverage
 - Donor audits may require it
 
-**Investment**: $35K-55K  
-**ROI**: Prevents bugs, enables safe refactoring
 
 ---
 

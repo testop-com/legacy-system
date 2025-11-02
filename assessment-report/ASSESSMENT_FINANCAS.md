@@ -10,14 +10,44 @@
 
 ---
 
-## 💰 Cost Structure Note
 
-**All cost estimates** in this assessment are presented as:
+---
 
-- **International Cost** (Global Market - USA/Europe): $80-150/hour
-- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+## 💰 Cost Information
 
-These are **enhancement costs for the existing working system**, not building from scratch.
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- ✅ Architecture
+- ✅ Code quality
+- ✅ Security (OWASP)
+- ✅ Performance
+- ✅ Recommendations
+
+---
+
+---
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
 
 ---
 
@@ -1033,7 +1063,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 40 hours  
 **Impact**: Critical - prevents data corruption  
-**Cost**: Low (DBA time)
 
 #### 1.2 Backup Strategy
 
@@ -1044,7 +1073,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 20 hours  
 **Impact**: Critical - business continuity  
-**Cost**: Storage + automation tools
 
 #### 1.3 Security Hardening
 
@@ -1055,7 +1083,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 40 hours  
 **Impact**: Critical - protect data  
-**Cost**: SSL certificate + time
 
 ### Priority 2: High-Impact Improvements (1-3 Months)
 
@@ -1068,7 +1095,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 120 hours  
 **Impact**: High - user experience  
-**Cost**: Medium (Redis server)
 
 #### 2.2 Code Quality
 
@@ -1079,7 +1105,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 160 hours  
 **Impact**: High - maintainability  
-**Cost**: Developer time
 
 #### 2.3 Testing Framework
 
@@ -1090,7 +1115,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 200 hours  
 **Impact**: High - reliability  
-**Cost**: CI/CD service subscription
 
 ### Priority 3: Strategic Improvements (3-6 Months)
 
@@ -1103,7 +1127,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 240 hours  
 **Impact**: High - extensibility  
-**Cost**: Medium
 
 #### 3.2 Frontend Modernization
 
@@ -1114,7 +1137,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 320 hours  
 **Impact**: Medium - UX  
-**Cost**: Low
 
 #### 3.3 Microservices Extraction
 
@@ -1125,7 +1147,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 480 hours  
 **Impact**: Medium - scalability  
-**Cost**: High (infrastructure)
 
 ### Priority 4: Long-term Vision (6-12 Months)
 
@@ -1138,7 +1159,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 800 hours  
 **Impact**: High - future-proofing  
-**Cost**: High
 
 #### 4.2 Mobile Application
 
@@ -1149,7 +1169,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 960 hours  
 **Impact**: High - field operations  
-**Cost**: High
 
 #### 4.3 Advanced Analytics
 
@@ -1160,7 +1179,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 **Effort**: 640 hours  
 **Impact**: Medium - insights  
-**Cost**: High
 
 ---
 
@@ -1179,8 +1197,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 5. ✅ Code quality tools
 6. ✅ Basic testing coverage
 
-**Budget (International)**: $30,000 - $50,000  
-**Budget (National - MZ)**: $15,000 - $25,000 ⭐  
 **Team**: 2 developers + 1 DBA  
 **Risk**: Low
 
@@ -1197,7 +1213,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 5. ✅ CI/CD pipeline
 6. ✅ Monitoring and alerting
 
-**Budget**: $50,000 - $80,000  
 **Team**: 3 developers + 1 DevOps  
 **Risk**: Medium
 
@@ -1214,7 +1229,6 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 5. ✅ Complete Laravel upgrade
 6. ✅ Performance at scale
 
-**Budget**: $100,000 - $150,000  
 **Team**: 4 developers + 1 architect + 1 DevOps  
 **Risk**: High
 
@@ -1222,9 +1236,9 @@ CREATE INDEX idx_abastecimento_projecto ON abastecimento(projecto);
 
 | Phase     | Duration      | Budget                                    | Team Size    | Risk Level  |
 | --------- | ------------- | ----------------------------------------- | ------------ | ----------- |
-| Phase 1   | 3 months      | $30K-50K (Intl) / $15K-25K (MZ) ⭐        | 3 people     | Low         |
-| Phase 2   | 3 months      | $50K-80K (Intl) / $25K-40K (MZ) ⭐        | 4 people     | Medium      |
-| Phase 3   | 6 months      | $100K-150K (Intl) / $50K-75K (MZ) ⭐      | 6 people     | High        |
+| Phase 1   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐        | 3 people     | Low         |
+| Phase 2   | 3 months      | See cost-analysis/ / See cost-analysis/ ⭐        | 4 people     | Medium      |
+| Phase 3   | 6 months      | See cost-analysis/ / See cost-analysis/ ⭐      | 6 people     | High        |
 | **Total** | **12 months** | **$180K-280K (Intl) / $90K-140K (MZ)** ⭐ | **Variable** | **Managed** |
 
 ---
@@ -1458,11 +1472,8 @@ This comprehensive assessment covered:
 
 **Strategic Recommendation**: **Option A - Gradual Modernization**
 
-- **Budget (International)**: $180,000-280,000 over 12 months
-- **Budget (National - MZ)**: $90,000-140,000 ⭐ over 12 months
-- **Risk**: Managed through phased approach
-- **ROI**: 3-5 years
-- **Confidence**: High
+- - - **Risk**: Managed through phased approach
+- - **Confidence**: High
 
 ### Next Actions
 

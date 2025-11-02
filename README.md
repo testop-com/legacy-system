@@ -130,10 +130,10 @@ legacy-system/
 
 1. 🛑 **PAUSE** any commitments based on initial assessments
 2. 📋 **READ** [COMPLETE_ECOSYSTEM_ANALYSIS.md](assessment-report/COMPLETE_ECOSYSTEM_ANALYSIS.md) immediately
-3. 📊 **APPROVE** Phase 0: Complete Discovery ($50K-75K, 3 months)
+3. 📊 **REVIEW** cost analysis in [`cost-analysis/`](cost-analysis/) folder
 4. ⏸️ **WAIT** for full assessment before major decisions
 
-**Revised Investment Range**: $900K - $1.33M (vs. initial $315K-485K)
+**For Investment Information**: See [`cost-analysis/APROVACAO_EXECUTIVA.md`](cost-analysis/APROVACAO_EXECUTIVA.md)
 
 ---
 
@@ -240,9 +240,9 @@ Comprehensive multi-company ERP system managing:
 ### Assessment Rating: ⭐⭐⭐ (3/5)
 
 **Status**: Functional but needs significant modernization  
-**Investment (International)**: $180,000-280,000 over 12 months  
-**Investment (Nacional - MZ)**: $90,000-140,000 ⭐ over 12 months  
-**Priority**: HIGH (business-critical)
+**Priority**: HIGH (business-critical)  
+**Timeline**: 12 months  
+**Cost Info**: See [`cost-analysis/`](cost-analysis/) folder
 
 **Critical Issues**:
 
@@ -323,9 +323,9 @@ Specialized inventory and project management system for:
 ### Assessment Rating: ⭐⭐⭐⭐ (4/5)
 
 **Status**: Well-structured, modern foundation  
-**Investment (International)**: $95,000-145,000 over 9 months  
-**Investment (National - MZ)**: $48,000-73,000 ⭐ over 9 months  
-**Priority**: MEDIUM (can serve as architectural model)
+**Priority**: MEDIUM (can serve as architectural model)  
+**Timeline**: 9 months  
+**Cost Info**: See [`cost-analysis/`](cost-analysis/) folder
 
 **Critical Issues**:
 
@@ -341,19 +341,18 @@ Specialized inventory and project management system for:
 
 ### Side-by-Side Analysis
 
-| Aspect                    | FINANCAS            | PROJECTOS           |
-| ------------------------- | ------------------- | ------------------- |
-| **Database Complexity**   | 125 tables          | 36 tables           |
-| **Database Size**         | 62.5 MB             | ~5-10 MB            |
-| **Application Size**      | 550+ views          | 147 views           |
-| **Laravel Version**       | 5.x-8.x (older)     | 8.x/9.x (newer)     |
-| **Code Organization**     | ⭐⭐ (2/5)          | ⭐⭐⭐⭐ (4/5)      |
-| **Domain Scope**          | Broad (all finance) | Focused (inventory) |
-| **Maintainability**       | Difficult           | Good                |
-| **Overall Rating**        | ⭐⭐⭐ (3/5)        | ⭐⭐⭐⭐ (4/5)      |
-| **Modernization (Intl)**  | $180K-280K          | $95K-145K           |
-| **Modernization (MZ)** ⭐ | $90K-140K           | $48K-73K            |
-| **Timeline**              | 12 months           | 9 months            |
+| Aspect                  | FINANCAS            | PROJECTOS           |
+| ----------------------- | ------------------- | ------------------- |
+| **Database Complexity** | 125 tables          | 36 tables           |
+| **Database Size**       | 62.5 MB             | ~5-10 MB            |
+| **Application Size**    | 550+ views          | 147 views           |
+| **Laravel Version**     | 5.x-8.x (older)     | 8.x/9.x (newer)     |
+| **Code Organization**   | ⭐⭐ (2/5)          | ⭐⭐⭐⭐ (4/5)      |
+| **Domain Scope**        | Broad (all finance) | Focused (inventory) |
+| **Maintainability**     | Difficult           | Good                |
+| **Overall Rating**      | ⭐⭐⭐ (3/5)        | ⭐⭐⭐⭐ (4/5)      |
+| **Timeline**            | 12 months           | 9 months            |
+| **Cost Info**           | cost-analysis/      | cost-analysis/      |
 
 ### Key Insight
 
@@ -451,7 +450,7 @@ The following entities exist in both systems and should be unified:
 
 🛑 **FIRST: Complete Discovery Phase**
 
-**Phase 0: Complete Assessment** (3 months, $50K-75K)
+**Phase 0: Complete Assessment** (3 months)
 
 - Assess all ~17 systems and 10 databases
 - Map which systems share which databases
@@ -459,12 +458,13 @@ The following entities exist in both systems and should be unified:
 - Identify consolidation opportunities
 - Create realistic modernization plan considering shared databases
 
-**Budget**: $50K-75K  
+**Duration**: 3 months  
+**Cost Info**: See [`cost-analysis/`](cost-analysis/) folder  
 **Outcome**: Informed decision-making
 
 **THEN: Choose Strategy**
 
-**Option A: Strategic Consolidation** ($900K-1.33M, 30-36 months)
+**Option A: Strategic Consolidation** (30-36 months)
 
 - Merge Stock systems into unified platform
 - Merge HR systems (Salarios + Attendance)
@@ -472,12 +472,13 @@ The following entities exist in both systems and should be unified:
 - Keep Projectos
 - Replace utility systems with commercial tools
 
-**Option B: Strategic Focus** ($600K-900K, 24 months)
+**Option B: Strategic Focus** (24 months)
 
 - Focus on top 3 critical systems only
 - Deprecate/replace others
 
-**Decision Point**: After Phase 0 completion
+**Decision Point**: After Phase 0 completion  
+**Cost Info**: See [`cost-analysis/`](cost-analysis/) folder
 
 ---
 
@@ -493,12 +494,11 @@ The following entities exist in both systems and should be unified:
 
 - Executive summary of both systems
 - Critical issues and risks
-- Budget and ROI projections ($315K-485K, 18 months)
 - Strategic recommendations
 - Decision points
 
-**Key Question**: Should we invest $315K-485K in modernization?  
-**Assessment Recommendation**: ✅ YES - Parallel modernization
+**For Budget Information**: See [`cost-analysis/APROVACAO_EXECUTIVA.md`](cost-analysis/APROVACAO_EXECUTIVA.md)  
+**Assessment Recommendation**: ✅ YES - System enhancement recommended
 
 ---
 
@@ -861,7 +861,7 @@ These systems and documentation are proprietary to **Grupo Testop** and its affi
   - Analyzed 161 database tables total
   - Documented 697+ application views
   - Provided integration strategy
-  - Total investment analysis: $315K-485K over 18 months
+  - Cost analysis available in cost-analysis/ folder
   - All files organized in assessment-report/ folder
 - **2025-10-16**: Initial database export and analysis
   - FINANCAS: 62.5 MB, 332,445 lines, 125 tables

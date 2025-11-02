@@ -18,10 +18,10 @@
 - Ecosystem: ~17 systems, 10 databases (some shared by multiple systems)
 - Assessed: Only 2 of ~17 systems (12% complete), 2 of 10 databases (20% complete)
 - Missing: ~15 systems, 8 databases including the LARGEST (STOCK: 94.70 MB)
-- Budget impact: $1.0M-1.5M needed
 - Complexity: Systems sharing databases makes separation difficult
 
-**Action Required**: Approve Phase 0 complete discovery before proceeding
+**Action Required**: Review complete ecosystem analysis  
+**For Budget Information**: See [`../cost-analysis/`](../cost-analysis/) folder
 
 ---
 
@@ -34,9 +34,9 @@
 - Discovery of ~17 systems using 10 databases
 - Multiple systems share databases (complexity)
 - 539 total tables across ~180 MB
-- Revised budget: $1.0M-1.5M
 - Phase 0 discovery plan
 - **CRITICAL for decision-making**
+- **For costs**: See [`../cost-analysis/`](../cost-analysis/)
 
 ### 📊 Initial Assessments (Incomplete - Only 12% of Ecosystem)
 
@@ -62,13 +62,13 @@
 
 **[ASSESSMENT_FINANCAS.md](ASSESSMENT_FINANCAS.md)** (1,497 lines)
 
-- Complete technical assessment
+- Complete technical assessment (TECHNICAL ONLY)
 - 125 database tables documented
 - 10 critical issues identified
 - 3-phase modernization roadmap
-- Budget (Nacional - MZ): $90K-140K ⭐ over 12 months
-- Budget (International): $180K-280K over 12 months
+- Timeline: 12 months
 - **Best for**: Technical teams working on Financas
+- **For costs**: See [`../cost-analysis/`](../cost-analysis/)
 
 **[PROJECT_SUMMARY_FINANCAS.md](PROJECT_SUMMARY_FINANCAS.md)** (449 lines)
 
@@ -81,12 +81,13 @@
 
 **[ASSESSMENT_PROJECTOS.md](ASSESSMENT_PROJECTOS.md)** (862 lines)
 
-- Complete technical assessment
+- Complete technical assessment (TECHNICAL ONLY)
 - 36 database tables documented
 - 6 critical issues identified
 - 3-phase modernization roadmap
-- Budget: $95K-145K over 9 months
+- Timeline: 9 months
 - **Best for**: Technical teams working on Projectos
+- **For costs**: See [`../cost-analysis/`](../cost-analysis/)
 
 ---
 
@@ -97,11 +98,12 @@
 **Time Investment**: 20-30 minutes
 
 1. Read: **OVERALL_ASSESSMENT.md** (Executive Summary section)
-2. Review: Budget tables and ROI projections
-3. Decision: Approve/reject Phase 1 budget
+2. Review: **[`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)** for budget/ROI
+3. Decision: Approve/reject modernization plan
 
-**Key Question**: Should we invest $315K-485K over 18 months?  
-**Recommendation**: YES - Parallel modernization
+**Key Question**: Should we modernize?  
+**Recommendation**: YES - Parallel modernization  
+**For Costs**: See [`../cost-analysis/`](../cost-analysis/) folder
 
 ### For CTO / IT Director
 
@@ -212,7 +214,7 @@
 
 ### Combined Recommendation
 
-✅ **Parallel Modernization: 18 months, $315K-485K**
+✅ **Parallel Modernization: 18-24 months**
 
 **Benefits**:
 
@@ -220,7 +222,9 @@
 - Coordinated architecture
 - Faster time to value
 - Built-in integration
-- ROI in 3-4 years
+- Strong ROI potential
+
+**For Budget Details**: See [`../cost-analysis/`](../cost-analysis/) folder
 
 ---
 

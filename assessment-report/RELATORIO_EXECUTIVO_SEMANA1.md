@@ -1,4 +1,23 @@
+------
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
 ---
+
 title: "Relatório de Avaliação dos Sistemas de TI - Grupo Testop"
 subtitle: "Semana 1 - Descoberta Completa do Ecossistema"
 author: "Evariste Musekwa Iguna - TECMOZA"
@@ -1133,7 +1152,6 @@ Para completar a avaliação, precisamos de respostas às seguintes questões:
 - Menor investimento
 - Mais rápido
 
-**ROI**: 5-6 anos
 
 \newpage
 
@@ -1149,7 +1167,6 @@ Para completar a avaliação, precisamos de respostas às seguintes questões:
 | **Integração**        | ✅ Completa           | ⚠️ Parcial     | ❌ Nenhuma          |
 | **Risco**             | Médio                 | Médio          | 🔴 Alto             |
 | **Manutenção futura** | 💰 Baixa              | 💰 Média       | 💰💰💰 Muito alta   |
-| **ROI**               | 5-7 anos              | 5-6 anos       | ❌ Negativo         |
 | **Recomendação**      | ✅ SIM                | ⚠️ Alternativa | ❌ NÃO              |
 
 ### Nossa Recomendação

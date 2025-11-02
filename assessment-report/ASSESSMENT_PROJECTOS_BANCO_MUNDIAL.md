@@ -9,26 +9,24 @@
 
 ---
 
-## ⚠️ IMPORTANT NOTE ON COST ESTIMATES
 
-**All cost estimates in this assessment refer to ENHANCEMENT/IMPROVEMENT of the EXISTING working system**, not building from scratch.
+---
 
-**Context**:
+## 💰 Cost Information
 
-- ✅ System is ALREADY functional and in production
-- ✅ Core features ALREADY implemented
-- ✅ Users ALREADY trained
-- ✅ Business ALREADY depends on it
+**This is a technical assessment document.**
 
-**Costs are for**:
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
 
-- Hardening (add database constraints, backups)
-- Modernization (upgrade frameworks, refactoring)
-- Quality improvements (testing, documentation)
-- Performance optimization
-- Security enhancements
-
-**NOT for**: Complete system rebuild (would cost 3-5x more)
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
 
 ---
 
@@ -931,7 +929,6 @@ projects (
 
 | Requirement                       | Implementation              | Status         |
 | --------------------------------- | --------------------------- | -------------- |
-| **Budget tracking**               | Stock projections           | ✅             |
 | **Procurement documentation**     | Guias system                | ✅             |
 | **Beneficiary tracking**          | Baixadas                    | ✅             |
 | **Geographic targeting**          | Province/city fields        | ✅             |
@@ -1087,7 +1084,7 @@ reporting-service (analytics)
 
 ## 8. Modernization Roadmap
 
-### Phase 1: Stabilization (2-3 months, $35K-55K)
+### Phase 1: Stabilization (2-3 months)
 
 **Goals**: Fix critical issues, maintain operations
 
@@ -1100,14 +1097,12 @@ reporting-service (analytics)
 5. ✅ Security audit and fixes
 6. ✅ Extract service layer for critical logic
 
-**Investment**: $18,000 - $28,000 _(Enhancement of existing working system)_  
 **Team**: 1 senior dev + 1 DBA  
 **Risk**: Low  
-**ROI**: High (prevent data loss, improve stability)
 
 ---
 
-### Phase 2: Enhancement (4-6 months, $60K-90K)
+### Phase 2: Enhancement (4-6 months)
 
 **Goals**: Improve features, user experience
 
@@ -1121,10 +1116,8 @@ reporting-service (analytics)
 6. ✅ Add 2FA authentication
 7. ✅ Increase test coverage to 70%
 
-**Investment**: $30,000 - $45,000 _(Enhancement of existing working system)_  
 **Team**: 2 developers + 1 UI/UX  
 **Risk**: Medium  
-**ROI**: High (better efficiency, happier users)
 
 ---
 
@@ -1142,10 +1135,8 @@ reporting-service (analytics)
 6. ✅ Integration with ERP (FINANCAS)
 7. ✅ Automated donor reporting
 
-**Investment**: $60,000 - $90,000 _(Enhancement of existing working system)_  
 **Team**: 3-4 developers + DevOps + PM  
 **Risk**: Medium-High  
-**ROI**: High (competitive advantage, scalability)
 
 ---
 
@@ -1226,8 +1217,6 @@ ALTER TABLE usuario_projecto ADD CONSTRAINT fk_up_user
 - Donor audit compliance
 
 **Effort**: 2-3 days  
-**Cost**: $1,500 - $2,500 _(Enhancement of existing system)_  
-**ROI**: 🔴 **CRITICAL** - Prevents data corruption
 
 ---
 
@@ -1249,8 +1238,6 @@ ALTER TABLE usuario_projecto ADD CONSTRAINT fk_up_user
 - Disaster recovery
 
 **Effort**: 1 day  
-**Cost**: $1,000 - $1,500 _(Setup for existing system)_  
-**ROI**: 🔴 **CRITICAL** - Insurance against disaster
 
 ---
 
@@ -1274,8 +1261,6 @@ CREATE INDEX idx_site_removido ON site(removido);
 - Reports timeout
 
 **Effort**: 1 day  
-**Cost**: $750 - $1,250 _(Add to existing database)_  
-**ROI**: 5-10x query performance improvement
 
 ---
 
@@ -1304,8 +1289,6 @@ test('stock_projectado_calculations')
 - Bug introduction likely
 
 **Effort**: 3-4 weeks  
-**Cost**: $8,000 - $13,000 _(Test existing system)_  
-**ROI**: Prevents bugs, enables safe refactoring
 
 ---
 
@@ -1329,8 +1312,6 @@ test('stock_projectado_calculations')
 - Save 30% maintenance costs
 
 **Effort**: 2 weeks (study)  
-**Cost**: $4,000 - $6,000 _(Study to consolidate existing systems)_  
-**ROI**: Potential $10K/year savings
 
 ---
 
@@ -1484,7 +1465,6 @@ if ($user->can('approve_requisition')) {
 
 **Total Investment**: $108,000 - $163,000 (3 phases over 24 months) _(Enhancement of existing system)_
 
-**ROI**:
 
 - Prevent data loss: $25K+ (avoided crisis)
 - Efficiency gains: 20-30% faster operations
@@ -1662,7 +1642,6 @@ php artisan test
 | **Views**           | 537              | 145                | 143                |
 | **Database**        | Own (125 tables) | Shared (36 tables) | Shared (36 tables) |
 | **Complexity**      | Very High        | Medium             | Medium             |
-| **Modernization**   | $180K-280K       | $95K-145K          | $95K-145K          |
 | **Priority**        | HIGH             | MEDIUM             | MEDIUM             |
 
 **Analysis**:
@@ -1938,7 +1917,6 @@ CREATE TABLE site (
 
 **Fix Priority**: 🔴 **P0 - CRITICAL**  
 **Effort**: 2-3 days  
-**Cost**: $1,500 - $2,500 _(Add to existing database)_
 
 ---
 
@@ -1966,7 +1944,6 @@ CREATE INDEX idx_users_email ON users(email);
 
 **Fix Priority**: 🟠 **P1 - HIGH**  
 **Effort**: 1 day  
-**Cost**: $750 - $1,250 _(Add to existing database)_
 
 ---
 

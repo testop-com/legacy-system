@@ -10,14 +10,24 @@
 
 ---
 
-## 💰 Cost Structure Note
 
-**All cost estimates** in this assessment are presented as:
+---
 
-- **International Cost** (Global Market - USA/Europe): $80-150/hour
-- **National Cost (Mozambique)**: $40-75/hour = **50% of international**
+## 💰 Cost Information
 
-These are **enhancement costs for the existing working system**, not building from scratch.
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
 
 ---
 
@@ -471,7 +481,6 @@ Tracks customer electrical connections with detailed information:
 
 **Effort**: 8 hours  
 **Impact**: Critical - accurate documentation  
-**Cost**: Low
 
 #### 1.2 Database Integrity
 
@@ -498,7 +507,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 24 hours  
 **Impact**: Critical - prevents data corruption  
-**Cost**: Low (DBA time)
 
 #### 1.3 Clean Up Duplicate Files
 
@@ -508,7 +516,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 8 hours  
 **Impact**: High - reduces confusion  
-**Cost**: Low
 
 ### Priority 2: High-Impact Improvements (1-3 Months)
 
@@ -520,7 +527,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 80 hours  
 **Impact**: High - reliability  
-**Cost**: Medium
 
 #### 2.2 API Development
 
@@ -531,7 +537,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 120 hours  
 **Impact**: High - enables mobile/integrations  
-**Cost**: Medium
 
 #### 2.3 Performance Optimization
 
@@ -542,7 +547,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 60 hours  
 **Impact**: High - user experience  
-**Cost**: Medium
 
 ### Priority 3: Strategic Improvements (3-6 Months)
 
@@ -555,7 +559,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 320 hours  
 **Impact**: High - field productivity  
-**Cost**: High
 
 #### 3.2 Integration with Financas
 
@@ -565,7 +568,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 200 hours  
 **Impact**: High - data consistency  
-**Cost**: High
 
 #### 3.3 Advanced Features
 
@@ -576,7 +578,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 **Effort**: 160 hours  
 **Impact**: Medium - operational efficiency  
-**Cost**: Medium
 
 ---
 
@@ -595,7 +596,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 5. ✅ Basic testing coverage
 6. ✅ Documentation updates
 
-**Budget**: $15,000 - $25,000  
 **Team**: 1 developer + 0.5 DBA  
 **Risk**: Low
 
@@ -611,7 +611,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 4. ✅ Security hardening
 5. ✅ CI/CD pipeline
 
-**Budget**: $30,000 - $45,000  
 **Team**: 2 developers + 0.5 DevOps  
 **Risk**: Medium
 
@@ -627,7 +626,6 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 4. ✅ Advanced reporting
 5. ✅ Real-time notifications
 
-**Budget**: $50,000 - $75,000  
 **Team**: 2-3 developers + 1 mobile developer  
 **Risk**: Medium
 
@@ -635,9 +633,9 @@ CREATE INDEX idx_requisicao_projecto ON requisicao_armazems(projecto_id);
 
 | Phase     | Duration     | Budget                                  | Team Size    | Risk Level  |
 | --------- | ------------ | --------------------------------------- | ------------ | ----------- |
-| Phase 1   | 2 months     | $15K-25K                                | 1.5 people   | Low         |
-| Phase 2   | 3 months     | $30K-45K (Intl) / $15K-23K (MZ) ⭐      | 2.5 people   | Medium      |
-| Phase 3   | 4 months     | $50K-75K (Intl) / $25K-38K (MZ) ⭐      | 3-4 people   | Medium      |
+| Phase 1   | 2 months     | See cost-analysis/| 1.5 people   | Low         |
+| Phase 2   | 3 months     | See cost-analysis/ / See cost-analysis/ ⭐      | 2.5 people   | Medium      |
+| Phase 3   | 4 months     | See cost-analysis/ / See cost-analysis/ ⭐      | 3-4 people   | Medium      |
 | **TOTAL** | **9 months** | **$95K-145K (Intl) / $48K-73K (MZ)** ⭐ | **Variable** | **Managed** |
 
 ---

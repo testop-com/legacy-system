@@ -7,7 +7,26 @@
 **Organization**: TECMOZA  
 **Status**: ✅ **COMPLETE**
 
+------
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
 ---
+
 
 ## Quick Overview
 
@@ -59,7 +78,6 @@ Grupo Testop operates **two monolithic legacy systems**:
 ✅ **RECOMMENDED: Parallel Modernization + Integration**
 
 **Timeline**: 18 months  
-**Budget**: $315,000 - $485,000  
 **Approach**: Modernize both systems simultaneously with planned integration
 
 ### Why This Approach?
@@ -228,7 +246,6 @@ Month 10-18: Phase 3 - Integration & Innovation
 
 **Answer**: **✅ YES - Parallel Modernization Recommended**
 
-**Investment**: $315K-485K over 18 months  
 **Return**: 3-4 years to ROI positive  
 **Risk**: Medium (well-managed)  
 **Alternative**: Do nothing = growing technical debt + business risk

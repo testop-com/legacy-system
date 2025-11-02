@@ -5,18 +5,26 @@
 **Organization**: TECMOZA  
 **Status**: ✅ **Complete Discovery**
 
+------
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
 ---
 
-## 💰 Cost Structure Note
-
-**All cost estimates** in this document are presented as:
-
-- **International Cost** (Global Market): Based on USA/Europe rates ($80-150/hour)
-- **National Cost (Mozambique)**: Based on local qualified labor ($40-75/hour) = **50% of international**
-
-These are **enhancement costs for existing systems**, not building from scratch.
-
----
 
 ## Critical Discovery
 
@@ -58,9 +66,7 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 - **Users**: 200+
 - **Status**: ✅ **Fully Assessed**
 - **Rating**: ⭐⭐⭐ (3/5)
-- **Investment (International)**: $180,000-280,000
-- **Investment (National - MZ)**: $90,000-140,000 ⭐
-
+- - 
 **2. STOCK** (grupotestop_stock) 🔴 **LARGEST SYSTEM**
 
 - **Size**: 94.70 MB, 89 tables
@@ -74,9 +80,7 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 - **Purpose**: Electrical projects & materials
 - **Status**: ✅ **Fully Assessed**
 - **Rating**: ⭐⭐⭐⭐ (4/5)
-- **Investment (International)**: $95,000-145,000
-- **Investment (National - MZ)**: $48,000-73,000 ⭐
-
+- - 
 **4. BANCO MUNDIAL STOCK** (grupotestop_banco_mundial_stock)
 
 - **Size**: 15.11 MB, 60 tables
@@ -501,7 +505,7 @@ Tickets
 - Budget (International): $100,000-150,000
 - Budget (National - MZ): $50,000-75,000 ⭐
 
-**Total Investment**:
+**Timeline**: Details in cost-analysis/ folder
 
 - International: $1,000,000-1,500,000 (36-48 months)
 - National (MZ): $500,000-750,000 ⭐ (36-48 months)
@@ -518,8 +522,6 @@ Tickets
 
 - 7 smaller systems
 
-**Budget (International)**: $600,000-900,000 (24 months)  
-**Budget (National - MZ)**: $300,000-450,000 ⭐ (24 months)  
 **Risk**: Medium  
 **Trade-off**: Lose some functionality
 
@@ -590,8 +592,6 @@ Tickets
 4. ✅ Consolidation opportunities identified
 5. ✅ Revised budget and timeline
 
-**Budget (International)**: $50,000 - $75,000  
-**Budget (National - MZ)**: $25,000 - $38,000 ⭐  
 **Team**: 1-2 analysts + 1 architect  
 **Outcome**: Informed decision-making
 
@@ -718,7 +718,6 @@ The IT landscape is **significantly more complex** than initially identified. We
 **Current**: Only 2 of ~17 systems fully assessed (12%), 2 of 10 databases (20%)  
 **Required**: Complete assessment of all systems and database sharing patterns  
 **Timeline**: 8-12 weeks (longer due to shared database complexity)  
-**Cost**: $50K-75K
 
 ### Strategic Recommendation
 

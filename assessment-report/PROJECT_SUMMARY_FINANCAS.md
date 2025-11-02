@@ -6,7 +6,26 @@
 **Duration**: 1 day  
 **Deliverables**: 3 comprehensive documents
 
+------
+
+## 💰 Cost Information
+
+**This is a technical assessment document.**
+
+For cost estimates, budgets, and ROI analysis, please refer to:
+- **Folder**: [`../cost-analysis/`](../cost-analysis/)
+- **Executive Summary**: [`../cost-analysis/APROVACAO_EXECUTIVA.md`](../cost-analysis/APROVACAO_EXECUTIVA.md)
+- **Detailed Costs**: [`../cost-analysis/RESUMO_CUSTOS_FINAIS.md`](../cost-analysis/RESUMO_CUSTOS_FINAIS.md)
+
+This document focuses solely on **technical analysis**:
+- Architecture
+- Code quality
+- Security (OWASP)
+- Performance
+- Recommendations
+
 ---
+
 
 ## Project Overview
 
@@ -157,26 +176,23 @@ Quick reference document summarizing:
 
 #### Phase 1: Stabilization (Months 1-3)
 
-- **Budget**: $30,000 - $50,000
-- **Team**: 2 developers + 1 DBA
+- - **Team**: 2 developers + 1 DBA
 - **Risk**: Low
 - **Focus**: Critical fixes (constraints, indexes, backups, security)
 
 #### Phase 2: Enhancement (Months 4-6)
 
-- **Budget**: $50,000 - $80,000
-- **Team**: 3 developers + 1 DevOps
+- - **Team**: 3 developers + 1 DevOps
 - **Risk**: Medium
 - **Focus**: Testing, API, optimization, CI/CD
 
 #### Phase 3: Transformation (Months 7-12)
 
-- **Budget**: $100,000 - $150,000
-- **Team**: 4 developers + 1 architect + 1 DevOps
+- - **Team**: 4 developers + 1 architect + 1 DevOps
 - **Risk**: High (but managed)
 - **Focus**: Microservices, mobile app, analytics
 
-**Total Investment**: $180,000 - $280,000 over 12 months  
+**Timeline**: Details in cost-analysis/ folder
 **Expected ROI**: 3-5 years  
 **Confidence Level**: High
 
@@ -329,25 +345,16 @@ Track these KPIs throughout modernization:
 
 ---
 
-## Budget Summary
-
 ### Phase-by-Phase Investment
 
 | Phase                   | Duration      | Budget Range      | ROI Timeframe              |
 | ----------------------- | ------------- | ----------------- | -------------------------- |
-| Phase 1: Stabilization  | 3 months      | $30K - $50K       | Immediate (risk reduction) |
-| Phase 2: Enhancement    | 3 months      | $50K - $80K       | 6-12 months (efficiency)   |
-| Phase 3: Transformation | 6 months      | $100K - $150K     | 12-24 months (growth)      |
+| Phase 1: Stabilization  | 3 months      | See cost-analysis/- See cost-analysis/| Immediate (risk reduction) |
+| Phase 2: Enhancement    | 3 months      | See cost-analysis/- See cost-analysis/| 6-12 months (efficiency)   |
+| Phase 3: Transformation | 6 months      | See cost-analysis/- See cost-analysis/| 12-24 months (growth)      |
 | **TOTAL**               | **12 months** | **$180K - $280K** | **3-5 years**              |
 
-### Cost Breakdown by Category
-
-- **Personnel**: 60-70% (developers, DBA, DevOps, architect)
-- **Infrastructure**: 15-20% (servers, Redis, monitoring tools)
-- **Tools & Services**: 10-15% (CI/CD, testing, security tools)
-- **Training**: 5-10% (team skill development)
-
-### Expected Benefits
+#### Expected Benefits
 
 **Year 1 Benefits**:
 
@@ -383,8 +390,7 @@ Track these KPIs throughout modernization:
 **Justification**:
 
 1. **Proven Approach**: Minimizes risk through incremental changes
-2. **Budget Friendly** (Nacional - MZ): $90K-140K ⭐ spread over 12 months vs. $200K-300K rewrite (International: $180K-280K vs. $400K-600K)
-3. **Business Continuity**: No disruption to ongoing operations
+2. 3. **Business Continuity**: No disruption to ongoing operations
 4. **Value Delivery**: Continuous improvements every phase
 5. **Team Growth**: Skills development through hands-on work
 6. **Flexibility**: Can adjust based on results after each phase
