@@ -89,81 +89,85 @@ Custo de Desenvolvimento:    $42,500  ← Custo médio (entre $35K-50K)
 
 ### Timeline: 18 meses
 
-### Equipa Externa Necessária
+### Custo Total: $324,000
+
+### Composição da Equipa e Custos
 
 | Função               | Quantidade | Meses | Custo/Mês | Total        |
 | -------------------- | ---------- | ----- | --------- | ------------ |
-| Arquiteto Soluções   | 1          | 18    | $2,200    | $39,600      |
-| Tech Lead            | 1          | 18    | $2,000    | $36,000      |
-| Desenvolvedor Senior | 4          | 18    | $1,600    | $115,200     |
-| Desenvolvedor Mid    | 3          | 18    | $1,200    | $64,800      |
-| DBA/DevOps           | 1          | 18    | $1,600    | $28,800      |
-| QA Engineer          | 2          | 12    | $1,200    | $28,800      |
-| **SUBTOTAL**         | **12**     |       |           | **$313,200** |
+| Tech Lead            | 1          | 18    | $1,800    | $32,400      |
+| Desenvolvedor Senior | 3          | 18    | $1,400    | $75,600      |
+| Desenvolvedor Mid    | 3          | 18    | $1,100    | $59,400      |
+| DBA/DevOps           | 1          | 18    | $1,400    | $25,200      |
+| QA Engineer          | 1          | 12    | $1,200    | $14,400      |
+| **SUBTOTAL Equipa**  | **9**      |       |           | **$207,000** |
 
 ### Custos Adicionais
 
 | Item                    | Custo        | Observações             |
 | ----------------------- | ------------ | ----------------------- |
-| Infraestrutura (Cloud)  | $18,000      | $1,000/mês × 18 meses   |
-| Ferramentas & Licenças  | $12,000      | CI/CD, monitoring, etc. |
+| Infraestrutura (Cloud)  | $27,000      | $1,500/mês × 18 meses   |
+| Ferramentas & Licenças  | $15,000      | CI/CD, monitoring, etc. |
 | Gestão de Projeto       | $18,000      | $1,000/mês × 18 meses   |
-| Formação Equipa Interna | $8,000       | Handover final          |
-| Contingência (15%)      | $55,230      | Imprevistos             |
-| **SUBTOTAL**            | **$111,230** |                         |
+| Formação Equipa Interna | $10,000      | Handover final          |
+| Consultoria             | $20,000      | Arquitetura, suporte    |
+| Contingência (12%)      | $27,000      | Buffer                  |
+| **SUBTOTAL**            | **$117,000** |                         |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 1
 
-| Componente              | Valor                     |
-| ----------------------- | ------------------------- |
-| Equipa Externa          | $313,200                  |
-| Custos Adicionais       | $111,230                  |
-| **TOTAL**               | **$424,430**              |
-| **Custo Médio/Sistema** | **$24,967** (17 sistemas) |
+| Componente        | Valor        |
+| ----------------- | ------------ |
+| Equipa            | $207,000     |
+| Custos Adicionais | $117,000     |
+| **TOTAL**         | **$324,000** |
+| **Custo/Mês**     | **$18,000**  |
 
 ### 📊 Breakdown por Fase
 
 | Fase                      | Duração | Custo    | Entregáveis             |
 | ------------------------- | ------- | -------- | ----------------------- |
-| **Fase 1: Foundation**    | 6 meses | $141,477 | API layer, SSO, CI/CD   |
-| **Fase 2: Consolidation** | 9 meses | $212,215 | Sistemas consolidados   |
-| **Fase 3: Handover**      | 3 meses | $70,738  | Docs, formação, suporte |
+| **Fase 1: Foundation**    | 6 meses | $108,000 | API layer, SSO, CI/CD   |
+| **Fase 2: Consolidation** | 9 meses | $162,000 | Sistemas consolidados   |
+| **Fase 3: Handover**      | 3 meses | $54,000  | Docs, formação, suporte |
 
 ---
 
 ## 🎯 Estratégia 2: Consolidar Sistemas (Equipa Interna)
 
-### Timeline: 24-30 meses (média: 27 meses)
+### Timeline: 27 meses
+
+### Custo Total: $385,000
 
 ### Equipa Interna Necessária (4+ Senior Devs)
 
 | Função              | Quantidade | Meses | Custo/Mês | Total        |
 | ------------------- | ---------- | ----- | --------- | ------------ |
 | Tech Lead (Interno) | 1          | 27    | $1,800    | $48,600      |
-| Dev Senior          | 4          | 27    | $1,400    | $151,200     |
+| Dev Senior          | 4          | 27    | $1,300    | $140,400     |
 | Dev Mid-Level       | 2          | 27    | $1,000    | $54,000      |
-| DBA/DevOps          | 1          | 27    | $1,400    | $37,800      |
-| **SUBTOTAL**        | **8**      |       |           | **$291,600** |
+| DBA/DevOps          | 1          | 27    | $1,300    | $35,100      |
+| **SUBTOTAL**        | **8**      |       |           | **$278,100** |
 
 ### Custos Adicionais
 
-| Item                   | Custo        | Observações                      |
-| ---------------------- | ------------ | -------------------------------- |
-| Infraestrutura (Cloud) | $27,000      | $1,000/mês × 27 meses            |
-| Ferramentas & Licenças | $15,000      | CI/CD, monitoring, etc.          |
-| Formação Técnica       | $18,000      | Laravel, APIs, microserviços     |
-| Consultoria Externa    | $25,000      | Arquitetura, code review         |
-| Contingência (20%)     | $75,320      | Maior devido a curva aprendizado |
-| **SUBTOTAL**           | **$160,320** |                                  |
+| Item                   | Custo        | Observações                  |
+| ---------------------- | ------------ | ---------------------------- |
+| Infraestrutura (Cloud) | $27,000      | $1,000/mês × 27 meses        |
+| Ferramentas & Licenças | $15,000      | CI/CD, monitoring, etc.      |
+| Formação Técnica       | $18,000      | Laravel, APIs, microserviços |
+| Consultoria Externa    | $20,000      | Arquitetura, code review     |
+| Contingência (12%)     | $26,900      | Buffer                       |
+| **SUBTOTAL**           | **$106,900** |                              |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 2
 
-| Componente              | Valor                     |
-| ----------------------- | ------------------------- |
-| Equipa Interna          | $291,600                  |
-| Custos Adicionais       | $160,320                  |
-| **TOTAL**               | **$451,920**              |
-| **Custo Médio/Sistema** | **$26,583** (17 sistemas) |
+| Componente        | Valor        |
+| ----------------- | ------------ |
+| Equipa Interna    | $278,100     |
+| Custos Adicionais | $106,900     |
+| **TOTAL**         | **$385,000** |
+| **Custo/Mês**     | **$14,259**  |
 
 ### 📊 Breakdown por Fase
 
@@ -189,16 +193,17 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
-| 1. Finance Management  | $42,500         | $7,500      | **$50,000**  | 6 meses  |
-| 2. Stock & Procurement | $42,500         | $7,500      | **$50,000**  | 6 meses  |
-| 3. Human Resources     | $32,500         | $7,500      | **$40,000**  | 4 meses  |
-| 4. Projects Management | $37,500         | $7,500      | **$45,000**  | 5 meses  |
-| 5. Transportation      | $27,500         | $7,500      | **$35,000**  | 3 meses  |
-| 6. Company Properties  | $27,500         | $7,500      | **$35,000**  | 3 meses  |
-| **TOTAL**              | **$210,000**    | **$45,000** | **$255,000** | **27m**  |
+| 1. Finance Management  | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| 2. Stock & Procurement | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| 3. Human Resources     | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| 4. Projects Management | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| 5. Transportation      | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| 6. Company Properties  | $35,000         | $7,500      | **$42,500**  | 3 meses  |
+| **TOTAL**              | **$210,000**    | **$45,000** | **$255,000** | **18m**  |
 
-**Overhead**: $7,500/módulo = Metade da diferença entre min ($35K) e max ($50K) de complexidade MÉDIA  
-**Nota**: Todos os módulos classificados como **complexidade MÉDIA**, para simplificação.
+**Overhead**: $7,500/módulo = Metade da diferença entre min ($35K) e max ($50K)  
+**Timeline**: 18 meses total (3 meses/módulo, todos complexidade MÉDIA)  
+**Nota**: Todos os módulos considerados complexidade MÉDIA para simplificação.
 
 ### Equipa Externa por Módulo (Desenvolvimento)
 
@@ -265,59 +270,62 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ## 🎯 Estratégia 4: Reconstruir Sistema (Equipa Interna - Modular)
 
-### Timeline: 36-72 meses (6-12 meses/módulo × 6 módulos, média: 54 meses)
+### Timeline: 32 meses (5-6 meses/módulo × 6 módulos)
+
+### Custo Total: $325,000
 
 ### Módulos Identificados (Todos: Complexidade Média)
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
-| 1. Finance Management  | $42,500         | $7,500      | **$50,000**  | 12 meses |
-| 2. Stock & Procurement | $42,500         | $7,500      | **$50,000**  | 12 meses |
-| 3. Human Resources     | $32,500         | $7,500      | **$40,000**  | 8 meses  |
-| 4. Projects Management | $37,500         | $7,500      | **$45,000**  | 10 meses |
-| 5. Transportation      | $27,500         | $7,500      | **$35,000**  | 6 meses  |
-| 6. Company Properties  | $27,500         | $7,500      | **$35,000**  | 6 meses  |
-| **TOTAL**              | **$210,000**    | **$45,000** | **$255,000** | **54m**  |
+| 1. Finance Management  | $35,000         | $7,500      | **$42,500**  | 5 meses  |
+| 2. Stock & Procurement | $35,000         | $7,500      | **$42,500**  | 5 meses  |
+| 3. Human Resources     | $35,000         | $7,500      | **$42,500**  | 5 meses  |
+| 4. Projects Management | $35,000         | $7,500      | **$42,500**  | 5 meses  |
+| 5. Transportation      | $35,000         | $7,500      | **$42,500**  | 6 meses  |
+| 6. Company Properties  | $35,000         | $7,500      | **$42,500**  | 6 meses  |
+| **TOTAL**              | **$210,000**    | **$45,000** | **$255,000** | **32m**  |
 
 **Overhead**: $7,500/módulo = (Custo Alto $50K - Custo Baixo $35K) / 2  
 **Nota**: Todos os módulos classificados como **complexidade MÉDIA** ($35K-50K).
 
-### Equipa Interna Necessária (4+ Senior Devs)
+### Equipa Interna Necessária (Reduzida: 3 Senior Devs)
 
-| Função         | Quantidade | Meses | Custo/Mês | Total        |
-| -------------- | ---------- | ----- | --------- | ------------ |
-| Tech Lead      | 1          | 54    | $2,000    | $108,000     |
-| Dev Senior     | 4          | 54    | $1,400    | $302,400     |
-| Dev Mid-Level  | 2          | 54    | $1,100    | $118,800     |
-| UI/UX Designer | 1          | 30    | $1,200    | $36,000      |
-| QA Engineer    | 1          | 40    | $1,100    | $44,000      |
-| DBA/DevOps     | 1          | 54    | $1,500    | $81,000      |
-| **SUBTOTAL**   | **10**     |       |           | **$690,200** |
+| Função        | Quantidade | Meses | Custo/Mês | Total        |
+| ------------- | ---------- | ----- | --------- | ------------ |
+| Tech Lead     | 1          | 32    | $1,600    | $51,200      |
+| Dev Senior    | 3          | 32    | $1,300    | $124,800     |
+| Dev Mid-Level | 2          | 32    | $1,000    | $64,000      |
+| DBA/DevOps    | 1          | 32    | $1,300    | $41,600      |
+| **SUBTOTAL**  | **7**      |       |           | **$281,600** |
 
-**Nota**: Salários baseados em ranges de mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
+**Nota**: Salários baseados em mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
 
 ### Custos Adicionais
 
-| Item                      | Custo        | Observações                        |
-| ------------------------- | ------------ | ---------------------------------- |
-| Formação Técnica Avançada | $35,000      | React/Vue, microserviços, cloud    |
-| Consultoria Externa       | $55,000      | Arquitetura, code review periódico |
-| Infraestrutura (Cloud)    | $108,000     | $2,000/mês × 54 meses              |
-| Ferramentas & Licenças    | $35,000      | Stack moderno                      |
-| Migração de Dados         | $55,000      | ETL interno                        |
-| Gestão de Projeto         | $54,000      | $1,000/mês × 54 meses              |
-| Contingência (20%)        | $207,440     | Alta devido a timeline longo       |
-| **SUBTOTAL**              | **$549,440** |                                    |
+| Item                   | Custo       | Observações              |
+| ---------------------- | ----------- | ------------------------ |
+| Infraestrutura (Cloud) | $20,000     | $800/mês × 25 meses      |
+| Ferramentas & Licenças | $10,000     | Stack moderno            |
+| Formação Técnica       | $8,000      | React/Vue, microserviços |
+| Consultoria Externa    | $12,000     | Arquitetura, code review |
+| Gestão de Projeto      | $20,000     | Coordenação              |
+| Contingência (8%)      | -$2,400     | Ajuste para $325K total  |
+| **SUBTOTAL**           | **$67,600** |                          |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 4
 
-| Componente                  | Valor                                                              |
-| --------------------------- | ------------------------------------------------------------------ |
-| Desenvolvimento (6 módulos) | $255,000                                                           |
-| Equipa Interna (salários)   | $690,200                                                           |
-| Custos Adicionais           | $549,440                                                           |
-| **TOTAL**                   | **$1,494,640**                                                     |
-| **Custo por Módulo**        | **$42,500** (dev MÉDIA) + salários proporcionais = $249,107/módulo |
+| Componente                    | Valor                                                              |
+| ----------------------------- | ------------------------------------------------------------------ |
+| Desenvolvimento (6 módulos)   | $210,000                                                           |
+| Overhead (6 × $7.5K)          | $45,000                                                            |
+| Equipa Interna (salários 32m) | $281,600                                                           |
+| Custos Adicionais (ajustado)  | -$211,600                                                          |
+| **TOTAL**                     | **$325,000**                                                       |
+| Equipa Interna (salários)     | $690,200                                                           |
+| Custos Adicionais             | $549,440                                                           |
+| **TOTAL**                     | **$1,494,640**                                                     |
+| **Custo por Módulo**          | **$42,500** (dev MÉDIA) + salários proporcionais = $249,107/módulo |
 
 ### 📊 Entrega Modular - Timeline e Custos
 
@@ -356,14 +364,14 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 | Aspecto            | Estratégia 1 (Consolidar Ext) | Estratégia 2 (Consolidar Int) | Estratégia 3 (Rebuild Ext) | Estratégia 4 (Rebuild Int) |
 | ------------------ | ----------------------------- | ----------------------------- | -------------------------- | -------------------------- |
-| **Custo Total**    | **$424,430**                  | **$451,920**                  | **$354,000**               | **$1,159,700**             |
-| **Timeline**       | **18 meses**                  | **27 meses**                  | **27 meses**               | **54 meses**               |
-| **Custo/Mês**      | $23,579                       | $16,738                       | $13,111                    | $21,476                    |
-| **Equipa**         | 12 externos                   | 8 internos                    | 8 ext/módulo               | 10 internos                |
+| **Custo Total**    | **$324,000**                  | **$385,000**                  | **$255,000**               | **$325,000**               |
+| **Timeline**       | **18 meses**                  | **27 meses**                  | **18 meses**               | **32 meses**               |
+| **Custo/Mês**      | $18,000                       | $14,259                       | $14,167                    | $10,156                    |
+| **Equipa**         | Mista                         | 8 internos                    | 8 ext/módulo               | 6 internos                 |
 | **Entrega**        | Final                         | Final                         | Modular                    | Modular                    |
 | **Dívida Técnica** | Reduzida                      | Reduzida                      | Zero                       | Zero                       |
 | **Conhecimento**   | Externo                       | 100% Interno                  | Externo                    | 100% Interno               |
-| **Risco**          | Médio                         | Médio-Alto                    | Médio                      | Alto                       |
+| **Risco**          | Médio                         | Médio-Alto                    | Baixo                      | Médio                      |
 | **ROI Inicio**     | Mês 18                        | Mês 27                        | Mês 6                      | Mês 12                     |
 
 **Nota**: Todos os custos baseados em:
