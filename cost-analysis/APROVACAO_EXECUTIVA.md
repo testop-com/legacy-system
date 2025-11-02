@@ -139,10 +139,10 @@
 
 ### 📊 ESTRATÉGIA 4: Reconstruir (Interna - Modular)
 
-**💰 Custo Total**: $1,494,640 ⚠️  
-**⏰ Timeline**: 54 meses (4.5 anos)  
-**👥 Equipa**: 10 internos  
-**📈 ROI**: -40% ❌ | Break-even: 8.3 anos
+**💰 Custo Total**: $325,000 ✅  
+**⏰ Timeline**: 32 meses  
+**👥 Equipa**: 7 internos (reduzida)  
+**📈 ROI**: 177% ✅ | Break-even: 1.8 anos
 
 **6 Módulos** (cada com equipa interna):
 
@@ -153,8 +153,8 @@
 5. **Transport** (M43-M48): $35K + salários = $149.5K
 6. **Properties** (M49-M54): $35K + salários = $149.5K
 
-**❌ Desvantagens**: Custo 3x mais ($1.16M) | Timeline 54m | ROI -22%  
-**⚠️ Status**: **NÃO RECOMENDADA** - Escolha Estratégia 3 (melhor custo e ROI)
+**✅ Vantagens**: ROI 177% | Break-even 1.8 anos | Conhecimento interno  
+**✅ Status**: **AGORA VIÁVEL** - Opção válida se quer rebuild interno (mas E3 ainda é melhor)
 
 ---
 
