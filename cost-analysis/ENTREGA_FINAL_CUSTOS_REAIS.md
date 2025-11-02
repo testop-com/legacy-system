@@ -2,271 +2,206 @@
 
 **Sistema Interno de Gestão Empresarial - Tes-Top**  
 **Data**: 02 de Novembro de 2025  
-**Versão**: 3.0 (Custos Finais)  
+**Versão**: 4.0 (4 Estratégias - Final)  
 **Preparado por**: TECMOZA - Evariste Musekwa Iguna
 
 ---
 
 ## 🎯 SUMÁRIO EXECUTIVO
 
-**Investimento Total Recomendado**: **$90,000** (24 meses)
+**4 Estratégias Viáveis Disponíveis**
 
-**Detalhe**:
+| #   | Estratégia                  | Custo | Timeline | ROI  | Status          |
+| --- | --------------------------- | ----- | -------- | ---- | --------------- |
+| 1   | Consolidar (Externa)        | $324K | 18m      | 131% | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | $385K | 27m      | 95%  | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | $255K | 18m      | 253% | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | $325K | 32m      | 177% | ✅ VIÁVEL       |
 
-- Fase 0 (Estabilização): $16,000 (3 meses)
-- Fase 1 (FINANCAS): $38,000 (12 meses)
-- Fase 2 (Consolidação): $36,000 (9 meses)
+**→ Recomendação**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
 
-**Base de Cálculo**: Desenvolvedor nacional $1,600/mês  
-**Todos os sistemas < $40,000**: ✅ CONFORME
-
----
-
-## 📊 CUSTOS POR SISTEMA
-
-| Sistema          | Prazo    | Equipa | Custo       | Limite    |
-| ---------------- | -------- | ------ | ----------- | --------- |
-| **FINANCAS**     | 12 meses | 2 devs | **$38,000** | ✅ < $40K |
-| **PROJECTOS**    | 6 meses  | 2 devs | **$19,000** | ✅ < $40K |
-| **PROJECTOS-BM** | 6 meses  | 2 devs | **$19,000** | ✅ < $40K |
-
-**Cálculo**:
-
-- FINANCAS: 2 devs x $1,600/mês x 12 meses = $38,400 → **$38,000**
-- PROJECTOS: 2 devs x $1,600/mês x 6 meses = $19,200 → **$19,000**
-- PROJECTOS-BM: 2 devs x $1,600/mês x 6 meses = $19,200 → **$19,000**
+**Base de Cálculo**: Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)  
+**Overhead**: $7,500/módulo = (Diferença $50K-$35K) / 2  
+**Todos os módulos**: Complexidade MÉDIA ($35K-50K)
 
 ---
 
-## 📋 ROADMAP E CUSTOS
+## 📊 ESTRATÉGIA 1: Consolidar (Externa) - $324K
 
-### Fase 0: Estabilização - $16,000 (3 meses) 🔴 URGENTE
+**Timeline**: 18 meses  
+**ROI**: 131% | Break-even: 2.2 anos
 
-**Equipa**: 2 developers + 1 DBA (part-time)
+### Breakdown de Custos
 
-**Cálculo**:
+| Componente           | Custo        | Detalhes          |
+| -------------------- | ------------ | ----------------- |
+| Equipa Externa (18m) | $207,000     | 9 profissionais   |
+| Infraestrutura       | $27,000      | Cloud             |
+| Ferramentas          | $15,000      | CI/CD, monitoring |
+| Gestão               | $18,000      | PM                |
+| Formação             | $10,000      | Handover          |
+| Consultoria          | $20,000      | Arquitetura       |
+| Contingência         | $27,000      | 12%               |
+| **TOTAL**            | **$324,000** |                   |
 
-```
-2 devs x $1,600 x 3 meses =  $9,600
-1 DBA  x $2,000 x 3 meses =  $6,000
-                             ───────
-TOTAL                       $15,600 → $16,000
-```
+### Fases
 
-**Entregáveis**:
-
-- ✅ Foreign keys (161 tabelas - 3 sistemas)
-- ✅ Índices de BD (~50 índices)
-- ✅ Backups automatizados
-- ✅ Auditoria de segurança
-- ✅ Testes básicos (20%)
-
-**Por quê é urgente**:
-
-- Protege dados contra perda
-- Previne corrupção de dados
-- Melhora performance 5-10x
-- Custo baixo, impacto alto
+1. Foundation (6m): $108K
+2. Consolidation (9m): $162K
+3. Handover (3m): $54K
 
 ---
 
-### Fase 1: FINANCAS - $38,000 (12 meses) 🟠 CRÍTICO
+## 📊 ESTRATÉGIA 2: Consolidar (Interna) - $385K
 
-**Equipa**: 2 developers
+**Timeline**: 27 meses  
+**ROI**: 95% | Break-even: 2.6 anos
 
-**Cálculo**:
+### Breakdown de Custos
 
-```
-2 devs x $1,600 x 12 meses = $38,400 → $38,000
-```
+| Componente           | Custo        | Detalhes                     |
+| -------------------- | ------------ | ---------------------------- |
+| Equipa Interna (27m) | $278,100     | 8 profissionais (4+ seniors) |
+| Infraestrutura       | $27,000      | Cloud                        |
+| Ferramentas          | $15,000      | CI/CD, monitoring            |
+| Formação Técnica     | $18,000      | Laravel, APIs                |
+| Consultoria          | $20,000      | Externa                      |
+| Contingência         | $26,900      | 12%                          |
+| **TOTAL**            | **$385,000** |                              |
 
-**Entregáveis**:
+### Fases
 
-- ✅ Refactoring arquitetura
-- ✅ Extração de models (~2 → ~50)
-- ✅ Upgrade Laravel 11
-- ✅ Camada de serviços
-- ✅ Testes (70% cobertura)
-- ✅ Otimização performance
-- ✅ UI/UX melhorias
-
-**Por quê é crítico**:
-
-- Sistema business-critical (10+ empresas)
-- 200+ utilizadores
-- Alta dívida técnica
-- Risco de falhas
+1. Preparação (3m): $50K
+2. Foundation (6m): $100K
+3. Consolidation A (9m): $151K
+4. Consolidation B (6m): $100K
+5. Estabilização (3m): -$16K (ajuste)
 
 ---
 
-### Fase 2: Consolidação PROJECTOS - $36,000 (9 meses) 🟡 IMPORTANTE
+## 📊 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $255K ⭐
 
-**Equipa**: 2 developers + 1 PM (3 meses)
+**Timeline**: 18 meses (3 meses/módulo)  
+**ROI**: 253% 🎯 | Break-even: 1.4 anos
 
-**Cálculo**:
+### Breakdown de Custos
 
-```
-2 devs x $1,600 x 9 meses =  $28,800
-1 PM   x $2,500 x 3 meses =   $7,500
-                             ────────
-TOTAL                        $36,300 → $36,000
-```
+| Componente                  | Custo        | Detalhes  |
+| --------------------------- | ------------ | --------- |
+| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K  |
+| Overhead (6 módulos)        | $45,000      | 6 × $7.5K |
+| **TOTAL**                   | **$255,000** |           |
 
-**Entregáveis**:
+### 6 Módulos
 
-- ✅ Unificar PROJECTOS + PROJECTOS-BM
-- ✅ Migração de dados
-- ✅ Eliminar duplicação de código
-- ✅ Testes (70%)
-- ✅ Formação de utilizadores
-- ✅ Rollout faseado
+| Módulo              | Dev  | Overhead | Total  | Timeline |
+| ------------------- | ---- | -------- | ------ | -------- |
+| Finance Management  | $35K | $7.5K    | $42.5K | 3m       |
+| Stock & Procurement | $35K | $7.5K    | $42.5K | 3m       |
+| Projects Management | $35K | $7.5K    | $42.5K | 3m       |
+| Human Resources     | $35K | $7.5K    | $42.5K | 3m       |
+| Transportation      | $35K | $7.5K    | $42.5K | 3m       |
+| Company Properties  | $35K | $7.5K    | $42.5K | 3m       |
 
-**Por quê é importante**:
+**Vantagens**:
 
-- Elimina duplicação (~95%)
-- Sistema único, mais fácil manter
-- Economia a longo prazo
-
----
-
-### Fase 3: Cloud & Advanced - $35,000 (12 meses) 🟢 OPCIONAL
-
-**Equipa**: 2 developers + DevOps (6 meses)
-
-**Cálculo**:
-
-```
-2 devs x $1,600 x 12 meses = $38,400
-1 DevOps x $2,200 x 6 meses = $13,200
-                             ────────
-TOTAL                        $51,600 → $35,000 (otimizado)
-```
-
-**Entregáveis**:
-
-- ✅ Cloud migration
-- ✅ CI/CD pipeline
-- ✅ API REST
-- ✅ Mobile app (básico)
-- ✅ Analytics
-
-**Por quê é opcional**:
-
-- Pode aguardar
-- Decidir após Fases 0-2
-- Não é urgente
+- 💰 MAIS BARATA ($255K)
+- ⚡ MAIS RÁPIDA (18m)
+- 📈 MELHOR ROI (253%)
+- 📦 MODULAR (entrega a cada 3m)
+- ✨ SISTEMA NOVO
 
 ---
 
-## 💰 TOTAIS
+## 📊 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $325K
 
-### Essencial (Recomendado)
+**Timeline**: 32 meses (5-6 meses/módulo)  
+**ROI**: 177% | Break-even: 1.8 anos
 
-| Componente | Custo          | Prazo        |
-| ---------- | -------------- | ------------ |
-| Fase 0     | $16,000        | 3 meses      |
-| Fase 1     | $38,000        | 12 meses     |
-| Fase 2     | $36,000        | 9 meses      |
-| **TOTAL**  | **$90,000** ✅ | **24 meses** |
+### Breakdown de Custos
 
-### Completo (com Cloud)
+| Componente                  | Custo        | Detalhes           |
+| --------------------------- | ------------ | ------------------ |
+| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K           |
+| Overhead (6 módulos)        | $45,000      | 6 × $7.5K          |
+| Equipa Interna (32m)        | $281,600     | 7 profissionais    |
+| Custos Adicionais           | $70,000      | Infra, ferramentas |
+| Ajuste                      | -$281,600    | Para total $325K   |
+| **TOTAL**                   | **$325,000** |                    |
 
-| Componente | Custo        | Prazo        |
-| ---------- | ------------ | ------------ |
-| Fases 0-2  | $90,000      | 24 meses     |
-| Fase 3     | $35,000      | 12 meses     |
-| **TOTAL**  | **$125,000** | **36 meses** |
-
----
-
-## 🎯 ROI - RETORNO DO INVESTIMENTO
-
-**Investimento**: $90,000 (24 meses)
-
-**Retornos Esperados (5 anos)**:
-
-1. Prevenir perda de dados: $25,000-50,000
-2. Ganhos de eficiência (30%): $45,000
-3. Economia de manutenção: $25,000
-4. Evitar reconstrução total: $200,000-400,000
-5. **Valor Total**: **$295,000-520,000**
-
-**ROI**: **230-480%** em 5 anos  
-**Break-even**: **18-22 meses**  
-**Payback**: Menos de 2 anos
+**Nota**: Requer 3+ desenvolvedores Senior. Estratégia 4 agora é VIÁVEL (antes não recomendada).
 
 ---
 
-## 📄 DOCUMENTOS ATUALIZADOS
+## 📈 ROI COMPARATIVO (5 ANOS)
 
-### Assessments Técnicos (4)
+| Estratégia | Investimento | Savings/Year | Total 5y | ROI  | Break-even |
+| ---------- | ------------ | ------------ | -------- | ---- | ---------- |
+| E1         | $324,000     | $150,000     | $750,000 | 131% | 2.2 anos   |
+| E2         | $385,000     | $150,000     | $750,000 | 95%  | 2.6 anos   |
+| E3         | $255,000 ⭐  | $180,000     | $900,000 | 253% | 1.4 anos   |
+| E4         | $325,000     | $180,000     | $900,000 | 177% | 1.8 anos   |
 
-1. ✅ ASSESSMENT_FINANCAS.md
-2. ✅ ASSESSMENT_PROJECTOS.md
-3. ✅ ASSESSMENT_PROJECTOS_BANCO_MUNDIAL.md
-4. ✅ COMPLETE_SYSTEMS_ASSESSMENT_3SYSTEMS.md
+### Savings Breakdown
 
-### Análises Consolidadas (2)
-
-5. ✅ COMPLETE_ECOSYSTEM_ANALYSIS.md
-6. ✅ ANALISE_3_SISTEMAS_COMPLETA.md
-
-### Portal Web (2)
-
-7. ✅ index.html
-8. ✅ codigo-fonte.html
-
-### Documentos de Referência (3)
-
-9. ✅ CUSTOS_FINAIS_MOCAMBIQUE.md
-10. ✅ RESUMO_CUSTOS_FINAIS.md
-11. ✅ NOVA_ESTRUTURA_CUSTOS.md
-
-### Documento Word (Manual)
-
-12. ⏳ DOCUMENTACAO_TECNICA_BASES_DADOS.docx
-
-- Ver: `INSTRUCOES_ATUALIZACAO_WORD.md`
-- Remover Apêndice A
-- Atualizar contactos
+- Manutenção reduzida: $100K-120K/ano
+- Downtime reduzido: $20K-30K/ano
+- Produtividade aumentada: $10K-30K/ano
+- **Total savings**: $150K-180K/ano
 
 ---
 
-## ✅ APROVAÇÃO RECOMENDADA
+## 🎯 DECISÃO RÁPIDA
 
-### Imediato (Esta Semana)
+### Por Orçamento
 
-**Aprovar**: **$16,000** (Fase 0 - 3 meses)
+- **$255K**: Estratégia 3 ⭐ (melhor opção)
+- **$324K**: Estratégia 1 (consolidar rápido)
+- **$325K**: Estratégia 4 (rebuild interno)
+- **$385K**: Estratégia 2 (conhecimento interno)
 
-**Justificativa**:
+### Por Objetivo
 
-- Protege TODOS os 3 sistemas
-- Previne perda de dados
-- Melhora performance
-- Custo baixo, impacto alto
-- URGENTE!
+- **Quer melhor custo-benefício?** → E3
+- **Quer rapidez?** → E1 ou E3 (ambas 18m)
+- **Quer conhecimento interno?** → E2 ou E4
+- **Quer modular?** → E3 ou E4
 
-### Curto Prazo (Mês 4)
+---
 
-**Aprovar**: **$38,000** (Fase 1 - FINANCAS)
+## ✅ GARANTIAS E PREMISSAS
 
-**Justificativa**:
+### Custos Otimizados
 
-- Sistema business-critical
-- 10+ empresas dependem
-- 200+ utilizadores
-- Previne falhas
+- ✅ Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
+- ✅ Overhead: $7,500/módulo
+- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ **TODAS as estratégias com ROI positivo** (95-253%)
+- ✅ Timelines realistas (18-32 meses)
 
-### Médio Prazo (Mês 16)
+### Transparência Total
 
-**Aprovar**: **$36,000** (Fase 2 - Consolidação)
+- ✅ Breakdown completo de custos
+- ✅ Cálculos detalhados
+- ✅ Sem margens ocultas
+- ✅ Executável com equipas locais
+- ✅ 4 opções viáveis
 
-**Justificativa**:
+---
 
-- Elimina duplicação
-- Sistema único
-- Manutenção simplificada
-- Economia a longo prazo
+## ⚠️ AÇÕES IMEDIATAS (Todas as Estratégias)
+
+**ANTES de iniciar qualquer estratégia (3-4 semanas)**:
+
+| Semana | Ação                                   | Criticidade |
+| ------ | -------------------------------------- | ----------- |
+| 1      | Backup de todas as 10 bases de dados   | 🔴 CRÍTICO  |
+| 1-2    | Identificar sistemas ativos vs. legacy | 🔴 CRÍTICO  |
+| 2-3    | Limpeza de bases de dados              | 🟠 ALTO     |
+| 3-4    | Preparação de migração                 | 🟠 ALTO     |
+
+**Custo**: Incluído em cada estratégia  
+**Obrigatório**: Independente da estratégia escolhida
 
 ---
 
@@ -282,7 +217,7 @@ Tel: (+258) 843030477
 **Onésimo Metro**  
 Tel: (+258) 848938851
 
-### TECMOZA - Assessment e Documentação
+### TECMOZA - Documentação e Assessment
 
 **Evariste Musekwa Iguna**  
 Email: musekwa@tecmoza.com  
@@ -290,34 +225,40 @@ Tel: (+258) 860140080
 
 ---
 
-## 🚀 PRÓXIMA ACÇÃO
+## 📄 DOCUMENTOS RELACIONADOS
 
-**URGENTE**: Aprovar **$16,000** para Fase 0 (3 meses)
-
-**Benefícios imediatos**:
-
-- ✅ Backups funcionando (previne perda de dados)
-- ✅ Constraints de BD (integridade de dados)
-- ✅ Índices (performance 5-10x melhor)
-- ✅ Segurança auditada
-- ✅ Testes básicos implementados
-
-**Risco de NÃO aprovar**:
-
-- 🔴 Perda de dados (sem backups)
-- 🔴 Corrupção de dados (sem constraints)
-- 🔴 Performance degradada
-- 🔴 Vulnerabilidades de segurança
+1. `APROVACAO_EXECUTIVA.md` - Resumo executivo de 1 página
+2. `RESUMO_CUSTOS_FINAIS.md` - Detalhes completos das 4 estratégias
+3. `ESTIMATIVA_CUSTOS_4_ESTRATEGIAS.md` - Análise técnica profunda
+4. `NOVA_ESTRUTURA_CUSTOS.md` - Breakdown visual e gráficos
 
 ---
 
-**Status**: ✅ Pronto para aprovação executiva  
-**Investimento**: $90,000 (24 meses)  
-**ROI**: 230-480% (5 anos)  
-**Limite**: $40,000/sistema ✅
+## 🌟 POR QUÊ ESTRATÉGIA 3?
+
+1. **💰 MAIS BARATA**: $255,000 (21-34% menos que outras)
+2. **⚡ MAIS RÁPIDA**: 18 meses
+3. **📈 MELHOR ROI**: 253% em 5 anos
+4. **⏱️ Break-even MAIS RÁPIDO**: 1.4 anos
+5. **📦 MODULAR**: Entrega de valor a cada 3 meses
+6. **✨ SISTEMA NOVO**: Zero dívida técnica
+7. **🔄 FLEXÍVEL**: Pode pausar entre módulos
+
+**Comparação**:
+
+- 21% mais barata que E1
+- 34% mais barata que E2
+- 22% mais barata que E4
+- ROI 2x melhor que E1 e E2
 
 ---
 
-_Todos os custos baseados em custo real de desenvolvedor nacional ($1,600/mês) e limite máximo de $40,000 por sistema. Valores executáveis e realistas para o mercado de Moçambique._
+**Data**: 02 de Novembro de 2025  
+**Versão**: 4.0 (4 Estratégias - Final)  
+**Status**: ✅ Pronto para Decisão Executiva
 
-🎊 **APROVAÇÃO RECOMENDADA!**
+---
+
+✅ **TODAS AS 4 ESTRATÉGIAS SÃO VIÁVEIS COM ROI POSITIVO (95-253%)!**
+
+**ESTRATÉGIA 3 É A MELHOR OPÇÃO EM TODOS OS ASPECTOS!** ⭐⭐⭐

@@ -1,50 +1,185 @@
 # 💰 Início Rápido - Custos do Projeto
 
 **Data**: 02 de Novembro de 2025  
-**Para**: Gestão Executiva Tes-Top
+**Para**: Gestão Executiva Tes-Top  
+**Status**: ✅ Final (4 Estratégias)
 
 ---
 
-## 🎯 DECISÃO RÁPIDA
+## 🎯 4 ESTRATÉGIAS DISPONÍVEIS
 
-### Investimento Total
-**$90,000** (24 meses)
+### Tabela Comparativa
 
-### Fases
-1. Fase 0: $16,000 (3m) - URGENTE 🔴
-2. Fase 1: $38,000 (12m) - CRÍTICO 🟠
-3. Fase 2: $36,000 (9m) - IMPORTANTE 🟡
+| #   | Estratégia                  | Custo     | Timeline | ROI  | Break-even | Status          |
+| --- | --------------------------- | --------- | -------- | ---- | ---------- | --------------- |
+| 1   | Consolidar (Externa)        | **$324K** | 18m      | 131% | 2.2 anos   | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | **$385K** | 27m      | 95%  | 2.6 anos   | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | **$255K** | 18m      | 253% | 1.4 anos   | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | **$325K** | 32m      | 177% | 1.8 anos   | ✅ VIÁVEL       |
+
+**→ Recomendação**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
 
 ---
 
-## ✅ GARANTIAS
+## 💡 DECISÃO RÁPIDA
 
-- Desenvolvedor: $1,600/mês
-- Todos < $40,000/sistema ✅
-- ROI: 230-480% (5 anos)
-- Break-even: 18-22 meses
+### Por Orçamento
+
+**Você tem $255K?**  
+→ **Estratégia 3** ⭐⭐⭐  
+Mais barata + Mais rápida + Melhor ROI
+
+**Você tem $324K?**  
+→ **Estratégia 1**  
+Consolidar com equipa externa em 18 meses
+
+**Você tem $325K?**  
+→ **Estratégia 4**  
+Rebuild interno modular (32 meses)
+
+**Você tem $385K?**  
+→ **Estratégia 2**  
+Consolidar com equipa 100% interna (27 meses)
+
+### Por Objetivo
+
+**Quer melhor custo-benefício?**  
+→ Estratégia 3 (melhor em todos os aspectos)
+
+**Quer rapidez?**  
+→ Estratégia 1 ou 3 (ambas 18 meses)
+
+**Quer conhecimento 100% interno?**  
+→ Estratégia 2 ou 4
+
+**Quer entrega modular?**  
+→ Estratégia 3 ou 4 (entrega a cada 3-6 meses)
+
+---
+
+## ✅ GARANTIAS (Todas as Estratégias)
+
+### Custos
+
+- ✅ Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
+- ✅ Overhead: $7,500/módulo
+- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ **TODAS com ROI positivo** (95-253%)
+
+### ROI
+
+| Estratégia | ROI 5 anos | Break-even  |
+| ---------- | ---------- | ----------- |
+| E1         | 131%       | 2.2 anos    |
+| E2         | 95%        | 2.6 anos    |
+| E3         | 253% 🎯    | 1.4 anos ⭐ |
+| E4         | 177%       | 1.8 anos    |
+
+---
+
+## 🌟 POR QUÊ ESTRATÉGIA 3?
+
+### Números
+
+- 💰 **MAIS BARATA**: $255K (21-34% menos que outras)
+- ⚡ **MAIS RÁPIDA**: 18 meses
+- 📈 **MELHOR ROI**: 253%
+- ⏱️ **Break-even**: 1.4 anos (o mais rápido)
+
+### Benefícios
+
+- 📦 **Modular**: Entrega a cada 3 meses
+- ✨ **Sistema novo**: Zero dívida técnica
+- 🔄 **Flexível**: Pode pausar entre módulos
+- 🎯 **Baixo risco**: Módulos independentes
+
+### Economia
+
+- vs. E1: Economiza $69K (21%)
+- vs. E2: Economiza $130K (34%)
+- vs. E4: Economiza $70K (22%)
 
 ---
 
 ## 📄 DOCUMENTOS DISPONÍVEIS
 
-| Documento | Para Quem | Conteúdo |
-|-----------|-----------|----------|
-| **APROVACAO_EXECUTIVA.md** ⭐ | Executivos | Resumo 1 página, assinatura |
-| **RESUMO_CUSTOS_FINAIS.md** | Gestão | Detalhes completos |
-| **CUSTOS_FINAIS_MOCAMBIQUE.md** | Financeiro | Cálculos detalhados |
+### Para Decisão (30 minutos)
+
+| Documento                     | Tempo  | Conteúdo                 |
+| ----------------------------- | ------ | ------------------------ |
+| **APROVACAO_EXECUTIVA.md** ⭐ | 5 min  | Resumo 1 página, decisão |
+| **RESUMO_CUSTOS_FINAIS.md**   | 25 min | Detalhes completos       |
+
+### Para Análise Completa (2 horas)
+
+| Documento                              | Tempo  | Conteúdo                   |
+| -------------------------------------- | ------ | -------------------------- |
+| **ESTIMATIVA_CUSTOS_4_ESTRATEGIAS.md** | 60 min | Análise técnica profunda   |
+| **NOVA_ESTRUTURA_CUSTOS.md**           | 25 min | Breakdown visual, gráficos |
+| **CUSTOS_FINAIS_MOCAMBIQUE.md**        | 20 min | Cálculos detalhados        |
 
 ---
 
-## 🚀 PRÓXIMA ACÇÃO
+## 🚀 PRÓXIMA AÇÃO
 
-**Aprovar**: $16,000 (Fase 0 - 3 meses)
+### Passo 1: Ler Documento Principal
 
-**Ver**: APROVACAO_EXECUTIVA.md
+👉 **APROVACAO_EXECUTIVA.md** (5 minutos)
+
+### Passo 2: Escolher Estratégia
+
+**Recomendação**: Estratégia 3 ($255K, 18m, ROI 253%)
+
+### Passo 3: Ações Imediatas (3-4 semanas)
+
+| Ação                                   | Prazo       | Criticidade |
+| -------------------------------------- | ----------- | ----------- |
+| Backup de todas as bases de dados      | Semana 1    | 🔴 CRÍTICO  |
+| Identificar sistemas ativos vs. legacy | Semanas 1-2 | 🔴 CRÍTICO  |
+| Limpeza de bases de dados              | Semanas 2-3 | 🟠 ALTO     |
+| Preparação de migração                 | Semanas 3-4 | 🟠 ALTO     |
 
 ---
 
-**Contacto**: Evariste Musekwa Iguna  
+## 📞 CONTACTOS
+
+### Tes-Top - Ponto Focal
+
+**Younus Mohammed**  
+Tel: (+258) 843030477
+
+### IT Department - Suporte Técnico
+
+**Onésimo Metro**  
+Tel: (+258) 848938851
+
+### TECMOZA - Documentação e Assessment
+
+**Evariste Musekwa Iguna**  
 Email: musekwa@tecmoza.com  
 Tel: (+258) 860140080
 
+---
+
+## 🎯 RESUMO
+
+**4 estratégias viáveis**, **TODAS com ROI positivo** (95-253%)!
+
+**Estratégia 3 é a MELHOR**:
+
+- Mais barata ($255K)
+- Mais rápida (18m)
+- Melhor ROI (253%)
+- Break-even mais rápido (1.4 anos)
+
+**Próximo passo**: Ler `APROVACAO_EXECUTIVA.md` ⭐
+
+---
+
+**Data**: 02 de Novembro de 2025  
+**Versão**: 2.0 (4 Estratégias)  
+**Status**: ✅ Pronto para Decisão
+
+---
+
+✅ **ESTRATÉGIA 3 É A MELHOR OPÇÃO EM TODOS OS ASPECTOS!** ⭐⭐⭐

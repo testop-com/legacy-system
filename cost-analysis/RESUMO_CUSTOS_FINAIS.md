@@ -10,20 +10,20 @@
 
 ### Salários Base
 
-| Função | Salário/Mês | Observações |
-|--------|-------------|-------------|
-| **Desenvolvedor** | $1,000-1,600 | Mercado Moçambique |
-| **DBA** | $1,200-1,700 | Administrador BD |
-| **Tech Lead** | $1,800-2,200 | Liderança técnica |
-| **Arquiteto** | $2,000-2,500 | Arquitetura soluções |
+| Função            | Salário/Mês  | Observações          |
+| ----------------- | ------------ | -------------------- |
+| **Desenvolvedor** | $1,000-1,600 | Mercado Moçambique   |
+| **DBA**           | $1,200-1,700 | Administrador BD     |
+| **Tech Lead**     | $1,800-2,200 | Liderança técnica    |
+| **Arquiteto**     | $2,000-2,500 | Arquitetura soluções |
 
 ### Complexidade de Módulos/Sistemas
 
-| Complexidade | Custo | Overhead | Total |
-|--------------|-------|----------|-------|
-| **Baixa** | < $35,000 | - | < $35,000 |
-| **Média** ⭐ | $35,000-50,000 | $7,500 | $42,500-57,500 |
-| **Alta** | > $50,000 | Variável | > $50,000 |
+| Complexidade | Custo          | Overhead | Total          |
+| ------------ | -------------- | -------- | -------------- |
+| **Baixa**    | < $35,000      | -        | < $35,000      |
+| **Média** ⭐ | $35,000-50,000 | $7,500   | $42,500-57,500 |
+| **Alta**     | > $50,000      | Variável | > $50,000      |
 
 **Overhead**: $7,500/módulo = (Max $50K - Min $35K) / 2
 
@@ -35,12 +35,12 @@
 
 ### 📋 Tabela Comparativa Completa
 
-| # | Estratégia | Custo | Timeline | ROI 5y | Break-even | Equipa | Status |
-|---|-----------|-------|----------|--------|------------|--------|--------|
-| 1 | Consolidar (Externa) | **$324K** | 18m | 131% | 2.2 anos | 9 ext | ⚡ RÁPIDA |
-| 2 | Consolidar (Interna) | **$385K** | 27m | 95% | 2.6 anos | 8 int | 🧠 CONHECIMENTO |
-| 3 | Rebuild (Externa - Modular) | **$255K** | 18m | 253% 🎯 | 1.4 anos | 8 ext/mod | ⭐⭐⭐ **MELHOR** |
-| 4 | Rebuild (Interna - Modular) | **$325K** | 32m | 177% | 1.8 anos | 7 int | ✅ VIÁVEL |
+| #   | Estratégia                  | Custo     | Timeline | ROI 5y  | Break-even | Equipa    | Status            |
+| --- | --------------------------- | --------- | -------- | ------- | ---------- | --------- | ----------------- |
+| 1   | Consolidar (Externa)        | **$324K** | 18m      | 131%    | 2.2 anos   | 9 ext     | ⚡ RÁPIDA         |
+| 2   | Consolidar (Interna)        | **$385K** | 27m      | 95%     | 2.6 anos   | 8 int     | 🧠 CONHECIMENTO   |
+| 3   | Rebuild (Externa - Modular) | **$255K** | 18m      | 253% 🎯 | 1.4 anos   | 8 ext/mod | ⭐⭐⭐ **MELHOR** |
+| 4   | Rebuild (Interna - Modular) | **$325K** | 32m      | 177%    | 1.8 anos   | 7 int     | ✅ VIÁVEL         |
 
 **→ Recomendação #1**: ⭐ **Estratégia 3** (mais barata, mais rápida, melhor ROI, modular)
 
@@ -54,24 +54,24 @@
 
 ### Composição dos Custos
 
-| Componente | Custo | Detalhes |
-|-----------|-------|----------|
-| Equipa (18m) | $207,000 | Tech Lead + 3 Seniors + 3 Mids + DBA + QA |
-| Infraestrutura | $27,000 | Cloud ($1.5K/mês × 18m) |
-| Ferramentas & Licenças | $15,000 | CI/CD, monitoring |
-| Gestão de Projeto | $18,000 | PM ($1K/mês × 18m) |
-| Formação | $10,000 | Handover equipa interna |
-| Consultoria | $20,000 | Arquitetura, suporte |
-| Contingência (12%) | $27,000 | Buffer |
-| **TOTAL** | **$324,000** | |
+| Componente             | Custo        | Detalhes                                  |
+| ---------------------- | ------------ | ----------------------------------------- |
+| Equipa (18m)           | $207,000     | Tech Lead + 3 Seniors + 3 Mids + DBA + QA |
+| Infraestrutura         | $27,000      | Cloud ($1.5K/mês × 18m)                   |
+| Ferramentas & Licenças | $15,000      | CI/CD, monitoring                         |
+| Gestão de Projeto      | $18,000      | PM ($1K/mês × 18m)                        |
+| Formação               | $10,000      | Handover equipa interna                   |
+| Consultoria            | $20,000      | Arquitetura, suporte                      |
+| Contingência (12%)     | $27,000      | Buffer                                    |
+| **TOTAL**              | **$324,000** |                                           |
 
 ### Fases
 
-| Fase | Duração | Custo | Entregáveis |
-|------|---------|-------|-------------|
-| Foundation | 6m | $108K | API layer, SSO, CI/CD |
-| Consolidation | 9m | $162K | Sistemas consolidados |
-| Handover | 3m | $54K | Docs, formação |
+| Fase          | Duração | Custo | Entregáveis           |
+| ------------- | ------- | ----- | --------------------- |
+| Foundation    | 6m      | $108K | API layer, SSO, CI/CD |
+| Consolidation | 9m      | $162K | Sistemas consolidados |
+| Handover      | 3m      | $54K  | Docs, formação        |
 
 **Vantagens**: ⚡ Mais rápida (18m) | Expertise externa  
 **ROI**: 131% em 5 anos | Break-even: 2.2 anos
@@ -86,27 +86,27 @@
 
 ### Composição dos Custos
 
-| Componente | Custo | Detalhes |
-|-----------|-------|----------|
-| Equipa Interna (27m) | $278,100 | Tech Lead + 4 Seniors + 2 Mids + DBA |
-| Infraestrutura | $27,000 | Cloud ($1K/mês × 27m) |
-| Ferramentas & Licenças | $15,000 | CI/CD, monitoring |
-| Formação Técnica | $18,000 | Laravel, APIs, microserviços |
-| Consultoria Externa | $20,000 | Arquitetura, code review |
-| Contingência (12%) | $26,900 | Buffer |
-| **TOTAL** | **$385,000** | |
+| Componente             | Custo        | Detalhes                             |
+| ---------------------- | ------------ | ------------------------------------ |
+| Equipa Interna (27m)   | $278,100     | Tech Lead + 4 Seniors + 2 Mids + DBA |
+| Infraestrutura         | $27,000      | Cloud ($1K/mês × 27m)                |
+| Ferramentas & Licenças | $15,000      | CI/CD, monitoring                    |
+| Formação Técnica       | $18,000      | Laravel, APIs, microserviços         |
+| Consultoria Externa    | $20,000      | Arquitetura, code review             |
+| Contingência (12%)     | $26,900      | Buffer                               |
+| **TOTAL**              | **$385,000** |                                      |
 
 ### Fases
 
-| Fase | Duração | Custo | Entregáveis |
-|------|---------|-------|-------------|
-| Preparação & Training | 3m | $50K | Equipa preparada |
-| Foundation | 6m | $100K | API, SSO |
-| Consolidation A | 9m | $151K | FINANCAS + STOCK |
-| Consolidation B | 6m | $100K | HR + PROJECTOS |
-| Estabilização | 3m | -$16K* | Testes, docs |
+| Fase                  | Duração | Custo   | Entregáveis      |
+| --------------------- | ------- | ------- | ---------------- |
+| Preparação & Training | 3m      | $50K    | Equipa preparada |
+| Foundation            | 6m      | $100K   | API, SSO         |
+| Consolidation A       | 9m      | $151K   | FINANCAS + STOCK |
+| Consolidation B       | 6m      | $100K   | HR + PROJECTOS   |
+| Estabilização         | 3m      | -$16K\* | Testes, docs     |
 
-*Ajuste para total $385K
+\*Ajuste para total $385K
 
 **Vantagens**: 🧠 100% conhecimento interno | Desenvolve equipa  
 **ROI**: 95% em 5 anos | Break-even: 2.6 anos
@@ -121,26 +121,27 @@
 
 ### Composição dos Custos
 
-| Componente | Custo | Detalhes |
-|-----------|-------|----------|
-| Desenvolvimento (6 módulos) | $210,000 | 6 × $35K |
-| Overhead (6 módulos) | $45,000 | 6 × $7.5K |
-| **TOTAL** | **$255,000** | |
+| Componente                  | Custo        | Detalhes  |
+| --------------------------- | ------------ | --------- |
+| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K  |
+| Overhead (6 módulos)        | $45,000      | 6 × $7.5K |
+| **TOTAL**                   | **$255,000** |           |
 
 ### 6 Módulos (todos complexidade MÉDIA)
 
-| Módulo | Dev | Overhead | Total | Timeline |
-|--------|-----|----------|-------|----------|
-| 1. Finance Management | $35K | $7.5K | $42.5K | 3m |
-| 2. Stock & Procurement | $35K | $7.5K | $42.5K | 3m |
-| 3. Projects Management | $35K | $7.5K | $42.5K | 3m |
-| 4. Human Resources | $35K | $7.5K | $42.5K | 3m |
-| 5. Transportation | $35K | $7.5K | $42.5K | 3m |
-| 6. Company Properties | $35K | $7.5K | $42.5K | 3m |
+| Módulo                 | Dev  | Overhead | Total  | Timeline |
+| ---------------------- | ---- | -------- | ------ | -------- |
+| 1. Finance Management  | $35K | $7.5K    | $42.5K | 3m       |
+| 2. Stock & Procurement | $35K | $7.5K    | $42.5K | 3m       |
+| 3. Projects Management | $35K | $7.5K    | $42.5K | 3m       |
+| 4. Human Resources     | $35K | $7.5K    | $42.5K | 3m       |
+| 5. Transportation      | $35K | $7.5K    | $42.5K | 3m       |
+| 6. Company Properties  | $35K | $7.5K    | $42.5K | 3m       |
 
 **Equipa por módulo**: Tech Lead + 2 Seniors + 2 Mids + DBA + UI/UX + QA
 
-**Vantagens**: 
+**Vantagens**:
+
 - 💰 MAIS BARATA ($255K)
 - ⚡ MAIS RÁPIDA (18m)
 - 📈 MELHOR ROI (253%)
@@ -159,27 +160,28 @@
 
 ### Composição dos Custos
 
-| Componente | Custo | Detalhes |
-|-----------|-------|----------|
-| Desenvolvimento (6 módulos) | $210,000 | 6 × $35K |
-| Overhead (6 módulos) | $45,000 | 6 × $7.5K |
-| Equipa Interna (32m) | $281,600 | Tech Lead + 3 Seniors + 2 Mids + DBA |
-| Custos Adicionais | $70,000 | Infraestrutura, ferramentas, formação |
-| Ajuste | -$281,600 | Para total $325K |
-| **TOTAL** | **$325,000** | |
+| Componente                  | Custo        | Detalhes                              |
+| --------------------------- | ------------ | ------------------------------------- |
+| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K                              |
+| Overhead (6 módulos)        | $45,000      | 6 × $7.5K                             |
+| Equipa Interna (32m)        | $281,600     | Tech Lead + 3 Seniors + 2 Mids + DBA  |
+| Custos Adicionais           | $70,000      | Infraestrutura, ferramentas, formação |
+| Ajuste                      | -$281,600    | Para total $325K                      |
+| **TOTAL**                   | **$325,000** |                                       |
 
 ### 6 Módulos
 
-| Módulo | Timeline | Custo (estimado) |
-|--------|----------|------------------|
-| 1. Finance Management | 5m | ~$54K |
-| 2. Stock & Procurement | 5m | ~$54K |
-| 3. Projects Management | 5m | ~$54K |
-| 4. Human Resources | 5m | ~$54K |
-| 5. Transportation | 6m | ~$54K |
-| 6. Company Properties | 6m | ~$54K |
+| Módulo                 | Timeline | Custo (estimado) |
+| ---------------------- | -------- | ---------------- |
+| 1. Finance Management  | 5m       | ~$54K            |
+| 2. Stock & Procurement | 5m       | ~$54K            |
+| 3. Projects Management | 5m       | ~$54K            |
+| 4. Human Resources     | 5m       | ~$54K            |
+| 5. Transportation      | 6m       | ~$54K            |
+| 6. Company Properties  | 6m       | ~$54K            |
 
-**Vantagens**: 
+**Vantagens**:
+
 - 🧠 100% conhecimento interno
 - 📦 Modular
 - ✅ ROI positivo (177%)
@@ -194,12 +196,12 @@
 
 ### Resumo Financeiro
 
-| Estratégia | Investimento | Savings/Year | Total 5y | ROI | Break-even |
-|-----------|--------------|--------------|----------|-----|------------|
-| E1 | $324,000 | $150,000 | $750,000 | 131% | 2.2 anos |
-| E2 | $385,000 | $150,000 | $750,000 | 95% | 2.6 anos |
-| E3 | $255,000 ⭐ | $180,000 | $900,000 | 253% 🎯 | 1.4 anos |
-| E4 | $325,000 | $180,000 | $900,000 | 177% | 1.8 anos |
+| Estratégia | Investimento | Savings/Year | Total 5y | ROI     | Break-even |
+| ---------- | ------------ | ------------ | -------- | ------- | ---------- |
+| E1         | $324,000     | $150,000     | $750,000 | 131%    | 2.2 anos   |
+| E2         | $385,000     | $150,000     | $750,000 | 95%     | 2.6 anos   |
+| E3         | $255,000 ⭐  | $180,000     | $900,000 | 253% 🎯 | 1.4 anos   |
+| E4         | $325,000     | $180,000     | $900,000 | 177%    | 1.8 anos   |
 
 ### Savings Breakdown (por ano)
 
@@ -250,12 +252,12 @@
 
 **ANTES de qualquer estratégia, executar (3-4 semanas)**:
 
-| Semana | Ação | Criticidade |
-|--------|------|-------------|
-| 1 | Backup TODAS as 10 bases de dados | 🔴 CRÍTICO |
-| 1-2 | Identificar sistemas ativos vs. legacy | 🔴 CRÍTICO |
-| 2-3 | Limpeza de bases de dados | 🟠 ALTO |
-| 3-4 | Preparação de migração | 🟠 ALTO |
+| Semana | Ação                                   | Criticidade |
+| ------ | -------------------------------------- | ----------- |
+| 1      | Backup TODAS as 10 bases de dados      | 🔴 CRÍTICO  |
+| 1-2    | Identificar sistemas ativos vs. legacy | 🔴 CRÍTICO  |
+| 2-3    | Limpeza de bases de dados              | 🟠 ALTO     |
+| 3-4    | Preparação de migração                 | 🟠 ALTO     |
 
 **Custo**: Incluído em cada estratégia  
 **Obrigatório**: Independente da estratégia escolhida
@@ -352,6 +354,7 @@ Seguir o plano da estratégia escolhida
 7. **🔄 FLEXÍVEL**: Pode pausar entre módulos
 
 **Comparação com outras**:
+
 - 21% mais barata que E1
 - 34% mais barata que E2
 - ROI 2x melhor que E1 e E2
