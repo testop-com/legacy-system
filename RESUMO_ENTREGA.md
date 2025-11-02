@@ -75,6 +75,24 @@ Todos os documentos foram gerados com sucesso e estão prontos para uso.
 
 ---
 
+## 🌍 INFORMAÇÃO SOBRE IDIOMAS
+
+**Separação por Tipo de Documentação:**
+
+- 📘 **Documentação de Bases de Dados**: **Português**
+
+  - Este documento (RESUMO_ENTREGA.md)
+  - LEIA-ME_DOCUMENTACAO.md
+  - DOCUMENTACAO_TECNICA_BASES_DADOS.docx
+  - Todos os PDFs de esquemas
+
+- 📗 **Assessment Reports (Análise de Código-Fonte)**: **Inglês**
+  - Para facilitar colaboração com desenvolvedores internacionais
+  - Disponíveis na pasta `assessment-report/`
+  - Ver portal web para acesso completo
+
+---
+
 ## 📋 CONTEÚDO DA DOCUMENTAÇÃO
 
 ### Documento Word Principal (`DOCUMENTACAO_TECNICA_BASES_DADOS.docx`)
@@ -379,5 +397,6 @@ Esta documentação foi:
 **FIM DO RESUMO DE ENTREGA**
 
 _Documentação preparada por TECMOZA para Grupo Testop_  
-_Data: 01 de Novembro de 2025_  
-_Versão: 1.0_
+_Data Original: 01 de Novembro de 2025_  
+_Última Atualização: 02 de Novembro de 2025_  
+_Versão: 1.1_

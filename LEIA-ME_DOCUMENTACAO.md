@@ -10,7 +10,14 @@
 
 ## 📋 RESUMO
 
-Esta documentação fornece uma análise técnica completa e detalhada de todas as bases de dados do ecossistema Grupo Testop. A documentação está em **Português** conforme solicitado e inclui:
+Esta documentação fornece uma análise técnica completa e detalhada de todas as bases de dados do ecossistema Grupo Testop.
+
+**🌍 Idiomas:**
+
+- 📘 **Documentação de Bases de Dados**: Português (este documento)
+- 📗 **Assessment Reports (Código-Fonte)**: Inglês (para colaboração internacional)
+
+A documentação inclui:
 
 - **11 bases de dados analisadas**
 - **539 tabelas documentadas**
@@ -372,9 +379,10 @@ Tel: (+258) 860140080
 
 ## 📅 CONTROLO DE VERSÕES
 
-| Versão | Data       | Descrição                     | Autor   |
-| ------ | ---------- | ----------------------------- | ------- |
-| 1.0    | 01/11/2025 | Documentação inicial completa | TECMOZA |
+| Versão | Data       | Descrição                              | Autor   |
+| ------ | ---------- | -------------------------------------- | ------- |
+| 1.0    | 01/11/2025 | Documentação inicial completa          | TECMOZA |
+| 1.1    | 02/11/2025 | Atualização de contactos e informações | TECMOZA |
 
 ---
 
@@ -402,4 +410,5 @@ Esta documentação e todas as bases de dados são propriedade do **Grupo Testop
 
 **FIM DO DOCUMENTO**
 
-_Gerado automaticamente em 01 de Novembro de 2025 por TECMOZA_
+_Gerado em 01 de Novembro de 2025 por TECMOZA_  
+_Atualizado em 02 de Novembro de 2025_
