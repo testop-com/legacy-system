@@ -5,10 +5,20 @@
 // Mobile menu toggle
 const navToggle = document.getElementById('navToggle');
 const navMenu = document.getElementById('navMenu');
+const mobileOverlay = document.getElementById('mobileOverlay');
 
-if (navToggle) {
+if (navToggle && navMenu) {
     navToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
+        const isActive = navMenu.classList.toggle('active');
+        navToggle.classList.toggle('active');
+        
+        // Toggle overlay
+        if (mobileOverlay) {
+            mobileOverlay.classList.toggle('active');
+        }
+        
+        // Prevent body scroll when menu is open
+        document.body.classList.toggle('menu-open', isActive);
     });
 }
 
@@ -16,8 +26,23 @@ if (navToggle) {
 document.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
         navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+        if (mobileOverlay) {
+            mobileOverlay.classList.remove('active');
+        }
+        document.body.classList.remove('menu-open');
     });
 });
+
+// Close menu when clicking overlay
+if (mobileOverlay) {
+    mobileOverlay.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+        mobileOverlay.classList.remove('active');
+        document.body.classList.remove('menu-open');
+    });
+}
 
 // Smooth scrolling for anchor links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -168,4 +193,5 @@ window.addEventListener('load', () => {
     // Set initial active section
     updateActiveSection();
 });
+
 

@@ -128,20 +128,34 @@ header[id],
 .nav-toggle {
   display: none;
   flex-direction: column;
-  gap: 4px;
+  gap: 5px;
   background: none;
   border: none;
   cursor: pointer;
   padding: 0.5rem;
+  z-index: 1001;
 }
 
 .nav-toggle span {
   display: block;
-  width: 25px;
+  width: 28px;
   height: 3px;
   background: var(--primary-color);
-  border-radius: 2px;
-  transition: var(--transition);
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+/* Hamburger animation */
+.nav-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(7px, 7px);
+}
+
+.nav-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.nav-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 /* ===================================
@@ -985,31 +999,68 @@ section {
 /* ===================================
    Responsive Design
    =================================== */
+
+/* Mobile Navigation Overlay */
+.mobile-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-overlay.active {
+  display: block;
+  opacity: 1;
+}
+
 @media (max-width: 992px) {
   .nav-menu {
     display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
     background: white;
     flex-direction: column;
     gap: 0;
-    padding: 1rem 0;
-    box-shadow: var(--shadow);
+    padding: 80px 0 1rem 0;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease;
+    z-index: 1000;
+    overflow-y: auto;
   }
 
   .nav-menu.active {
     display: flex;
+    right: 0;
   }
 
   .nav-link {
     padding: 1rem 1.5rem;
     border-radius: 0;
+    border-bottom: 1px solid var(--border-color);
+    width: 100%;
+    text-align: left;
+  }
+
+  .nav-link:hover {
+    background: var(--bg-color);
   }
 
   .nav-toggle {
     display: flex;
+  }
+
+  /* Prevent body scroll when menu is open */
+  body.menu-open {
+    overflow: hidden;
   }
 
   .systems-grid,
@@ -1020,11 +1071,42 @@ section {
 
 @media (max-width: 768px) {
   body {
-    padding-top: 70px;
+    padding-top: 80px;
+  }
+
+  section[id],
+  header[id],
+  .section-divider[id] {
+    scroll-margin-top: 80px;
+  }
+
+  .navbar {
+    padding: 0.5rem 0;
+  }
+
+  .nav-content {
+    padding: 0.5rem 0;
+  }
+
+  .nav-logo {
+    gap: 0.5rem;
+  }
+
+  .nav-logo img {
+    height: 32px !important;
   }
 
   .nav-logo h2 {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
+  }
+
+  .nav-subtitle {
+    font-size: 0.7rem;
+  }
+
+  .nav-menu {
+    width: 100%;
+    max-width: 320px;
   }
 
   .hero h2 {
