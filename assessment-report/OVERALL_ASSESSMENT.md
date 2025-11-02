@@ -509,11 +509,6 @@ Organization: TECMOZA
 Younus Mohammed  
 Tel: (+258) 843030477
 
-**IT Department - Technical Support**  
-  
-Tel: 
-
----
 
 **Document End**
 

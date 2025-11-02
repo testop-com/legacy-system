@@ -59,12 +59,6 @@ Younus Mohammed
 Tel: (+258) 843030477
 ```
 
-**Suporte Técnico - IT**
-```
-
-Tel: 
-```
-
 **Documentação - TECMOZA**
 ```
 Evariste Musekwa Iguna

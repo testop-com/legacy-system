@@ -27,10 +27,6 @@ Estes contactos **não fazem mais parte da empresa** e foram completamente remov
 - Tel: (+258) 843030477
 - Função: Contacto principal da empresa
 
-**2.  - Suporte Técnico**
-- Tel: 
-- Função: Departamento de Informática
-
 **3. Evariste Musekwa Iguna - Documentação**
 - Email: musekwa@tecmoza.com
 - Tel: (+258) 860140080

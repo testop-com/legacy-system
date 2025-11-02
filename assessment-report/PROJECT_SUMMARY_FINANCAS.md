@@ -417,10 +417,6 @@ Project: Grupo Testop Finanças Legacy System Analysis
 Younus Mohammed  
 Tel: (+258) 843030477
 
-**IT Department - Technical Support**  
-  
-Tel: 
-
 **Company Contact**
 
 - Email: rh@testop.co.mz

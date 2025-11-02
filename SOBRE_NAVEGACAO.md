@@ -354,11 +354,6 @@ A página principal (`index.html`) agora possui uma **barra de navegação fixa*
 Younus Mohammed  
 📱 Tel: (+258) 843030477
 
-### Suporte Técnico (Depto. Informática)
-
-**Tes-Top**  
-  
-📱 Tel: 
 
 ### Documentação Técnica
 

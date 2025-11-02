@@ -1393,16 +1393,6 @@ Telefone: [A fornecer]
 **Tes-Top (Ponto Focal)**  
 Younus Mohammed  
 Tel: (+258) 843030477
-
-**Departamento de Informática - Suporte Técnico**  
-  
-Tel: 
-
-**Para Questões de Negócio**:
-
-Grupo Testop
-
-- Email: rh@testop.co.mz
 - Telefone: +258 21328056
 - Morada: AV. KARL MARX, Nº1877 R/C-MAPUTO, Moçambique
 

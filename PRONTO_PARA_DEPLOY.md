@@ -283,7 +283,6 @@ Funciona em desktop, tablet e smartphone.
 
 📞 Contactos:
 • Tes-Top: Younus Mohammed - (+258) 843030477
-• Suporte Técnico:  - 
 • Documentação: Evariste Musekwa - (+258) 860140080
 
 Atenciosamente,

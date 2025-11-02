@@ -272,7 +272,6 @@ This document focuses solely on **technical analysis**:
 1. Remover Appendix A (informação técnica desatualizada)
 2. Atualizar contactos:
    - Younus Mohammed (+258) 843030477
-   -  
    - Evariste Musekwa Iguna (+258) 860140080
 
 **Ver**: `INSTRUCOES_ATUALIZACAO_WORD.md` para detalhes
