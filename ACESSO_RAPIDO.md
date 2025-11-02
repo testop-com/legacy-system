@@ -52,10 +52,6 @@ Evariste Musekwa
 Younus Mohammed  
 (+258) 843030477
 
-### 🔧 Suporte Técnico (Depto. Informática)
-
-Onésimo Metro  
-(+258) 848938851
 
 ---
 

@@ -960,8 +960,8 @@ Tel: (+258) 843030477
 
 **IT Technical Support**:
 
-Onésimo Metro  
-Tel: (+258) 848938851
+  
+Tel: 
 
 **Note**: Schedule meeting to discuss these findings
 

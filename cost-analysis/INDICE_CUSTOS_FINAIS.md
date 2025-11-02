@@ -221,11 +221,6 @@ Para documentação técnica (sem custos):
 **Younus Mohammed**  
 Tel: (+258) 843030477
 
-### IT Department - Suporte Técnico
-
-**Onésimo Metro**  
-Tel: (+258) 848938851
-
 ### TECMOZA - Documentação e Assessment
 
 **Evariste Musekwa Iguna**  

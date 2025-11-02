@@ -698,10 +698,6 @@ Para PROJECTOS-BANCO-MUNDIAL:
 **Younus Mohammed**  
 Tel: (+258) 843030477
 
-### Suporte Técnico (Depto. Informática)
-
-**Onésimo Metro**  
-Tel: (+258) 848938851
 
 ### Documentação (TECMOZA)
 

@@ -206,10 +206,6 @@
 
 - Younus Mohammed: (+258) 843030477
 
-**IT Department - Suporte Técnico**:
-
-- Onésimo Metro: (+258) 848938851
-
 **TECMOZA - Assessment**:
 
 - Evariste Musekwa Iguna: musekwa@tecmoza.com, (+258) 860140080

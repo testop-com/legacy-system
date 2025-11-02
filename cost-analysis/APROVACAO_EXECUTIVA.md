@@ -312,10 +312,6 @@ Desenvolvimento (dev médio):        $42,500
 Younus Mohammed  
 Tel: (+258) 843030477
 
-**IT Department**  
-Onésimo Metro  
-Tel: (+258) 848938851
-
 **TECMOZA - Assessment**  
 Evariste Musekwa Iguna  
 musekwa@tecmoza.com | (+258) 860140080

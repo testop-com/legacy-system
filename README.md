@@ -197,8 +197,8 @@ Younus Mohammed
 📱 (+258) 843030477
 
 ### Suporte Técnico TI
-Onésimo Metro  
-📱 (+258) 848938851
+  
+📱 
 
 ---
 

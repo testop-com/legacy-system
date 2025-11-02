@@ -175,9 +175,6 @@ Todas as atualizações solicitadas foram implementadas com sucesso. O projeto e
 ✅ **Younus Mohammed** - Ponto Focal Tes-Top  
    Tel: (+258) 843030477
 
-✅ **Onésimo Metro** - Suporte Técnico IT  
-   Tel: (+258) 848938851
-
 ✅ **Evariste Musekwa Iguna** - Documentação TECMOZA  
    Email: musekwa@tecmoza.com  
    Tel: (+258) 860140080
@@ -312,7 +309,7 @@ legacy-system/
 
 **Ações**:
 - Remover Apêndice A
-- Atualizar contactos (Younus, Onésimo)
+- Atualizar contactos (Younus)
 - Remover contactos antigos (it.nunes, it.paporo)
 
 **Guias disponíveis**:

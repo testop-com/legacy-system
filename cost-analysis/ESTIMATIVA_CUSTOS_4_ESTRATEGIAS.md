@@ -581,8 +581,7 @@ Younus Mohammed
 📱 (+258) 843030477
 
 **IT Support**:  
-Onésimo Metro  
-📱 (+258) 848938851
+📱 
 
 ---
 

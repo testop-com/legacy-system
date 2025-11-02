@@ -294,8 +294,7 @@ Tel: (+258) 843030477
 
 ### IT Department - Suporte Técnico
 
-**Onésimo Metro**  
-Tel: (+258) 848938851
+Tel: 
 
 ### TECMOZA - Documentação e Assessment
 

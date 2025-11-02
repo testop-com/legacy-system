@@ -216,7 +216,7 @@ Custos baseados em desenvolvedores nacionais ($1,600/mês), máximo $40K por sis
 - Younus Mohammed: (+258) 843030477
 
 **Suporte Técnico TI**:
-- Onésimo Metro: (+258) 848938851
+- : 
 
 **TECMOZA (Avaliação)**:
 - Evariste Musekwa Iguna: musekwa@tecmoza.com | (+258) 860140080
@@ -325,8 +325,8 @@ Younus Mohammed
 
 ### Suporte Técnico TI
 **Tes-Top - Departamento de Informática**  
-Onésimo Metro  
-📱 (+258) 848938851
+  
+📱 
 
 ---
 

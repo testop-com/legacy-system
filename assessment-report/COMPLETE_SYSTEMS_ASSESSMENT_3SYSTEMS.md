@@ -522,8 +522,8 @@ Younus Mohammed
 Tel: (+258) 843030477
 
 **IT Department - Technical Support**  
-Onésimo Metro  
-Tel: (+258) 848938851
+  
+Tel: 
 
 ---
 
@@ -797,7 +797,7 @@ This comprehensive assessment analyzed **3 critical systems** (18% of the ~17-sy
 **Contact**: musekwa@tecmoza.com | (+258) 860140080
 
 **Tes-Top Point of Contact**: Younus Mohammed - (+258) 843030477  
-**IT Technical Support**: Onésimo Metro - (+258) 848938851
+**IT Technical Support**:  - 
 
 ---
 
