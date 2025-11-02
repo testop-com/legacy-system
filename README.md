@@ -877,15 +877,17 @@ These systems and documentation are proprietary to **Grupo Testop** and its affi
 O portal possui **barra de navegação fixa** com 2 secções principais:
 
 #### 📊 Base de Dados
+
 - 11 Bases de dados documentadas
 - 539 Tabelas analisadas
 - Esquemas PDF com defeitos identificados
 - Downloads: Word (63 KB), JSON (1.09 MB), PDFs (553 KB)
 
 #### 💻 Código-Fonte
+
 - 17 Sistemas do ecossistema
-- 2 Sistemas completamente avaliados (FINANCAS, PROJECTOS)
-- 6 Relatórios de avaliação disponíveis
+- 3 Sistemas completamente avaliados (FINANCAS, PROJECTOS, PROJECTOS-BANCO-MUNDIAL)
+- 10 Relatórios de avaliação disponíveis
 - Estatísticas e stack tecnológico
 
 ### ✨ Funcionalidades
