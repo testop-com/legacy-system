@@ -175,6 +175,7 @@
 **Overhead** = Custos adicionais necessários **além dos salários dos desenvolvedores**
 
 ### Exemplo Prático (Módulo Finance - Estratégia 3):
+
 ```
 Desenvolvimento (desenvolvedores):  $50,000
 + Overhead (custos de suporte):     $36,308
@@ -184,14 +185,14 @@ Desenvolvimento (desenvolvedores):  $50,000
 
 ### O Que Está Incluído no Overhead:
 
-| Componente | O Que É | Exemplos | Custo |
-|------------|---------|----------|-------|
-| **Infraestrutura** | Servidores e cloud | AWS, Azure, DigitalOcean | $1K-2K/mês |
-| **Ferramentas** | Dev tools, monitoring | GitHub, Jira, Sentry | Variável |
-| **Gestão** | Project Manager | Coordenação, planning | $1K/mês |
-| **Migração Dados** | Mover dados legacy | ETL, validação | Por projecto |
-| **Formação** | Treinar utilizadores | Manuais, sessões | $3K/módulo |
-| **Contingência** | Buffer imprevistos | Bugs, mudanças | 15-20% |
+| Componente         | O Que É               | Exemplos                 | Custo        |
+| ------------------ | --------------------- | ------------------------ | ------------ |
+| **Infraestrutura** | Servidores e cloud    | AWS, Azure, DigitalOcean | $1K-2K/mês   |
+| **Ferramentas**    | Dev tools, monitoring | GitHub, Jira, Sentry     | Variável     |
+| **Gestão**         | Project Manager       | Coordenação, planning    | $1K/mês      |
+| **Migração Dados** | Mover dados legacy    | ETL, validação           | Por projecto |
+| **Formação**       | Treinar utilizadores  | Manuais, sessões         | $3K/módulo   |
+| **Contingência**   | Buffer imprevistos    | Bugs, mudanças           | 15-20%       |
 
 ### Por Quê É Necessário?
 
