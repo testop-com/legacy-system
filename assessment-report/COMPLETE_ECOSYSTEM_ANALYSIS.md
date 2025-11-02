@@ -185,15 +185,6 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 4. **Higher Risk**: Each system has independent failure points
 5. **Massive Investment Needed**: $1.0M-1.5M for complete ecosystem
 
-### Revised Assessment
-
-**Realistic Estimate** (~17 systems, 10 databases):
-
-- International: $1.0M-1.5M (36-48 months)
-- National (MZ): $500K-750K ⭐ (36-48 months)
-
----
-
 ## System Overlap Analysis
 
 ### Likely Duplicated Functionality
@@ -268,34 +259,23 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 - Merge: Financas + Stock + Banco Mundial Stock
 - Result: Single business management platform
-- Investment (International): $500,000-750,000 (18-24 months)
-- Investment (National - MZ): $250,000-375,000 ⭐ (18-24 months)
 
 **Platform 2: HR Suite**
 
 - Merge: Salarios + Attendance
 - Result: Unified HR/Payroll system
-- Investment (International): $150,000-250,000 (12 months)
-- Investment (National - MZ): $75,000-125,000 ⭐ (12 months)
 
 **Platform 3: Project Management**
 
 - Merge: Projectos + Baixadas
 - Result: Unified project & installation system
-- Investment (International): $120,000-180,000 (9 months)
-- Investment (National - MZ): $60,000-90,000 ⭐ (9 months)
 
 **Platform 4: Support Systems**
 
 - Merge: Helpdesk + Ticket + Meeting
 - Alternative: Buy commercial tools (Zendesk, Jira, Google Calendar)
-- Investment (International): $50,000-100,000 or $20K/year licensing
-- Investment (National - MZ): $25,000-50,000 ⭐ or $20K/year licensing
 
 **Total Consolidation**:
-
-- International: $820,000-1,280,000 (24-30 months)
-- National (MZ): $410,000-640,000 ⭐ (24-30 months)
 
 ### Option B: Strategic Abandonment
 
@@ -309,15 +289,11 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 - Critical systems only (Financas, Stock, Salarios)
 - Let others naturally phase out
-- International: $600,000-900,000
-- National (MZ): $300,000-450,000 ⭐
 
 ### Option C: Status Quo + Minimal Fixes
 
 **Do NOT Recommend**: Technical debt will compound
 
-**Cost (International)**: $200,000-300,000/year for band-aids  
-**Cost (National - MZ)**: $100,000-150,000/year for band-aids  
 **Result**: Problems persist and worsen  
 **Risk**: System failures inevitable
 
@@ -327,11 +303,8 @@ Complete analysis reveals **Grupo Testop operates a complex ecosystem of approxi
 
 ### Complete Modernization (All Systems)
 
-| Approach                      | Timeline     | **International** | **National (MZ)** ⭐ | Result             |
-| ----------------------------- | ------------ | ----------------- | -------------------- | ------------------ |
-| **Option A: Consolidation**   | 24-30 months | $820K-1.28M       | **$410K-640K**       | 4 modern platforms |
-| **Option B: Strategic Focus** | 18-24 months | $600K-900K        | **$300K-450K**       | 3 critical systems |
-| **Option C: Status Quo**      | Ongoing      | $200K-300K/year   | **$100K-150K/year**  | Maintenance hell   |
+| Approach | Timeline | **International** | **National (MZ)** ⭐ | Result |
+| -------- | -------- | ----------------- | -------------------- | ------ |
 
 ---
 
@@ -510,29 +483,22 @@ Tickets
 - Complete assessment of all 10 systems
 - Identify consolidation opportunities
 - Data migration planning
-- Budget (International): $50,000-75,000
-- Budget (National - MZ): $25,000-38,000 ⭐
 
 **Phase 2: Tier 1 Consolidation (18 months)**
 
 - Merge: Financas + Stock + Banco Mundial → Unified ERP
 - Merge: Salarios + Attendance → HR Platform
 - Keep: Projectos (already good)
-- Budget (International): $750,000-1,100,000
-- Budget (National - MZ): $375,000-550,000 ⭐
 
 **Phase 3: Tier 2 Optimization (12 months)**
 
 - Evaluate: Baixadas (merge with Projectos or deprecate)
 - Replace: Helpdesk, Meeting, Ticket with commercial tools
 - Archive: Archives → cloud storage
-- Budget (International): $100,000-150,000
-- Budget (National - MZ): $50,000-75,000 ⭐
 
 **Timeline**: Details in cost-analysis/ folder
 
 - International: $1,000,000-1,500,000 (36-48 months)
-- National (MZ): $500,000-750,000 ⭐ (36-48 months)
 
 #### Scenario 3: Strategic Focus (Alternative)
 
@@ -625,10 +591,7 @@ Tickets
 
 - **Option A**: Full Consolidation
   - International: $1.0M-1.5M (36-48 months)
-  - National (MZ): $500K-750K ⭐ (36-48 months)
 - **Option B**: Strategic Focus
-  - International: $600K-900K (24 months)
-  - National (MZ): $300K-450K ⭐ (24 months)
 - **Option C**: Status Quo (NOT recommended)
 
 ### Phase 1-3: Execute Chosen Strategy
@@ -698,14 +661,10 @@ The IT landscape is **significantly more complex** than initially identified. We
 **Realistic Budget** (~17 systems, 10 databases):
 
 - **International**: $1,000,000-1,500,000
-- **National (MZ)**: $500,000-750,000 ⭐
 
 **RECOMMENDATION**:
 
 ✅ **Invest in Phase 0 (Complete Discovery)** first
-
-- International: $50,000-75,000
-- National (MZ): $25,000-38,000 ⭐
 
 **DO NOT proceed** with full modernization until we:
 
@@ -762,7 +721,7 @@ These findings provide valuable context for approaching the remaining 14 systems
 
 **DO proceed** with:
 
-1. ✅ Phase 0: Complete Discovery ($50K-75K, 3 months)
+1. ✅ Phase 0: Complete Discovery (3 months)
 2. ⏸️ Phase 1-3: Wait for complete information
 
 ### Revised Timeline
