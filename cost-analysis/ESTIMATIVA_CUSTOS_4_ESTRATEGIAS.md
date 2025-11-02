@@ -395,7 +395,7 @@ $255K ┤                            ● (E3) ⭐ MAIS BARATA
 $200K ┤
     │
     └─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────
-         18m   27m   32m         
+         18m   27m   32m
                     Timeline
 
 E1 = Estratégia 1 (Consolidar Externo) - $324K (18m)
@@ -502,28 +502,43 @@ E4 = Estratégia 4 (Rebuild Interno) - $325K (32m) ✅ AGORA VIÁVEL
 
 ### Se você tem:
 
-**$354K e quer o melhor custo-benefício**:
+**$255K e quer o MELHOR**:
 → Escolha **Estratégia 3** ⭐⭐⭐ **RECOMENDAÇÃO #1**
 
-- 💰 **MAIS BARATA**: $354K
-- 📈 **MELHOR ROI**: 154%
-- ⏱️ **Break-even**: 2.0 anos (mais rápido!)
-- 📦 Modular (3-6m/módulo)
+- 💰 **MAIS BARATA**: $255K
+- 📈 **MELHOR ROI**: 253%
+- ⏱️ **Break-even**: 1.4 anos (MAIS RÁPIDO!)
+- ⚡ **MAIS RÁPIDA**: 18 meses
+- 📦 Modular (3m/módulo)
 - ✨ Sistema novo
-- 🎯 Overhead: $7,500/módulo
 
-**$424K-452K e quer consolidar existente**:
-→ Escolha **Estratégia 1** (18m) ou **Estratégia 2** (27m)
+**$324K e quer consolidar em 18 meses**:
+→ Escolha **Estratégia 1**
 
-- E1: ⚡ Mais rápido, ROI 77%
-- E2: 🧠 Conhecimento interno, ROI 66%
+- ⚡ Rápida (18m, empate com E3)
+- 🔧 Consolida sistemas existentes
+- ROI 131%, break-even 2.2 anos
 
-**$1,160K e 4.5 anos de compromisso**:
-→ Escolha **Estratégia 4** (⚠️ NÃO recomendada)
+**$385K e quer conhecimento 100% interno**:
+→ Escolha **Estratégia 2** (27m)
 
-- Custo 3x mais que E3
-- ROI -22% (negativo)
-- Break-even 6.4 anos
+- 🧠 Conhecimento interno
+- ROI 95%, break-even 2.6 anos
+
+**$325K e quer rebuild interno modular**:
+→ Escolha **Estratégia 4** ✅ **AGORA VIÁVEL**
+
+- 🧠 Conhecimento interno
+- ROI 177%, break-even 1.8 anos
+- Timeline: 32 meses
+
+---
+
+## 🎯 Conclusão
+
+**TODAS as 4 estratégias agora são VIÁVEIS** com ROI positivo (95-253%)!
+
+**Estratégia 3 é claramente a MELHOR**: Mais barata + Melhor ROI + Mais rápida + Modular
 
 ---
 
