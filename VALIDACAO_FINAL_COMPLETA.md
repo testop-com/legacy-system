@@ -183,14 +183,6 @@
 - Tel: (+258) 843030477
 - **Aparece em:** 22 arquivos
 
-### ✅ Suporte Técnico (Depto. Informática)
-
-- Nome: 
-- Tel: 
-- **Aparece em:** 22 arquivos
-- **Aparece em:** 22 arquivos
-
----
 
 ## 📦 ESTRUTURA FINAL DO REPOSITÓRIO
 
@@ -290,7 +282,6 @@ legacy-system/
 ### Contactos
 
 - [x] Evariste: (+258) 860140080
-- [x] Onésimo: 
 - [x] Atualizados em 22 arquivos
 - [x] Visíveis em todas páginas
 

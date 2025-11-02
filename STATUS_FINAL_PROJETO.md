@@ -139,8 +139,7 @@ https://testop-com.github.io/legacy-system/
 **Tarefas**:
 1. Remover Apêndice A (Informações Técnicas)
 2. Atualizar contactos:
-   - Remover: it.nunes@q99.co.mz, it.paporo@testop.co.mz
-   - Adicionar: Younus, Onésimo, Evariste
+   - Adicionar: Younus, Evariste
 
 **Instruções**: Ver `INSTRUCOES_ATUALIZACAO_WORD.md`
 
