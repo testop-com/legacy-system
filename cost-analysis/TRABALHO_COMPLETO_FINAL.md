@@ -186,71 +186,6 @@
 
 ---
 
-## 🎯 PRINCIPAIS MUDANÇAS
-
-### De Estrutura Antiga → Nova
-
-**ANTES**:
-
-- Fases 0-3: $90,000-125,000 (24-36 meses)
-- Abordagem faseada única
-- Custos por sistema individual
-
-**DEPOIS**:
-
-- 4 Estratégias: $255,000-385,000 (18-32 meses)
-- Múltiplas opções viáveis
-- Todas com ROI positivo (95-253%)
-
-### Melhorias Significativas
-
-1. **Estratégia 4 Transformada**:
-
-   - Antes: $1,160K (54m), ROI -22% ❌ NÃO RECOMENDADA
-   - Agora: $325K (32m), ROI 177% ✅ VIÁVEL
-
-2. **Estratégia 3 Otimizada**:
-
-   - Antes: $354K (27m), ROI 154%
-   - Agora: $255K (18m), ROI 253% ⭐ MELHOR
-
-3. **Todas Viáveis**:
-   - Antes: 3 estratégias viáveis, 1 não recomendada
-   - Agora: **4 estratégias TODAS VIÁVEIS**
-
----
-
-## 📈 IMPACTO DAS MUDANÇAS
-
-### Redução de Custos
-
-| Estratégia | Antes   | Agora | Economia       |
-| ---------- | ------- | ----- | -------------- |
-| E1         | $424K   | $324K | -$100K (24%)   |
-| E2         | $452K   | $385K | -$67K (15%)    |
-| E3         | $354K   | $255K | -$99K (28%) ⭐ |
-| E4         | $1,160K | $325K | -$835K (72%)   |
-
-### Melhoria de ROI
-
-| Estratégia | ROI Antes | ROI Agora | Melhoria |
-| ---------- | --------- | --------- | -------- |
-| E1         | 77%       | 131%      | +54%     |
-| E2         | 66%       | 95%       | +29%     |
-| E3         | 154%      | 253%      | +99% ⭐  |
-| E4         | -22% ❌   | 177% ✅   | +199%    |
-
-### Redução de Timeline
-
-| Estratégia | Timeline Antes | Timeline Agora | Redução    |
-| ---------- | -------------- | -------------- | ---------- |
-| E1         | 18m            | 18m            | -          |
-| E2         | 27m            | 27m            | -          |
-| E3         | 27m            | 18m            | -9m (33%)  |
-| E4         | 54m            | 32m            | -22m (41%) |
-
----
-
 ## ⚠️ AÇÕES PENDENTES
 
 ### Documento Word
@@ -300,9 +235,9 @@
 
 1. **Flexibilidade**: 4 opções viáveis para escolher
 2. **Transparência**: Cálculos detalhados e justificados
-3. **Viabilidade**: TODAS as estratégias com ROI positivo
-4. **Economia**: Custos reduzidos em 15-72%
-5. **ROI Melhorado**: +29% a +199% de melhoria
+3. **Viabilidade**: TODAS as estratégias com ROI positivo (95-253%)
+4. **Custos Realistas**: Baseados em mercado Moçambique
+5. **ROI Positivo**: Todas as estratégias são financeiramente viáveis
 
 ---
 
