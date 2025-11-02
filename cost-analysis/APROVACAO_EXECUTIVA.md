@@ -122,12 +122,12 @@
 
 **6 Módulos** (todos complexidade MÉDIA: $35K-50K):
 
-1. **Finance** (M1-M6): $50K dev + $36K overhead\* = $86,308
-2. **Stock** (M7-M12): $50K dev + $36K overhead\* = $86,308
-3. **Projects** (M13-M17): $45K dev + $33K overhead\* = $77,642
-4. **HR** (M18-M21): $40K dev + $29K overhead\* = $68,975
-5. **Transport** (M22-M24): $35K dev + $25K overhead\* = $60,308
-6. **Properties** (M25-M27): $35K dev + $25K overhead\* = $60,308
+1. **Finance** (M1-M6): $42.5K dev + $7.5K overhead + $16.5K gerais = $66.5K
+2. **Stock** (M7-M12): $42.5K dev + $7.5K overhead + $16.5K gerais = $66.5K
+3. **Projects** (M13-M17): $37.5K dev + $7.5K overhead + $16.5K gerais = $61.5K
+4. **HR** (M18-M21): $32.5K dev + $7.5K overhead + $16.5K gerais = $56.5K
+5. **Transport** (M22-M24): $27.5K dev + $7.5K overhead + $16.5K gerais = $51.5K
+6. **Properties** (M25-M27): $27.5K dev + $7.5K overhead + $16.5K gerais = $51.5K
 
 **\*Overhead** = $7,500/módulo (metade da diferença $50K-$35K)  
 **\*Gerais** = Infraestrutura, ferramentas, gestão, migração, formação, contingência (rateados)
