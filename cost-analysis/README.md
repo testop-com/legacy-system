@@ -8,8 +8,11 @@
 
 ## 📌 INÍCIO RÁPIDO
 
+### 🎨 Visualização Interativa (HTML)
+👉 **Ver primeiro**: [`estrategias.html`](estrategias.html) - Cards visuais coloridos com contraste otimizado
+
 ### Para Aprovação Executiva (1 página)
-👉 **Ler primeiro**: [`APROVACAO_EXECUTIVA.md`](APROVACAO_EXECUTIVA.md)
+📋 **Documento formal**: [`APROVACAO_EXECUTIVA.md`](APROVACAO_EXECUTIVA.md)
 
 ### Para Detalhes Completos (com breakdown)
 📊 **Ler depois**: [`RESUMO_CUSTOS_FINAIS.md`](RESUMO_CUSTOS_FINAIS.md)
