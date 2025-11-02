@@ -98,13 +98,13 @@
 
 ### Fases
 
-| Fase                  | Duração | Custo   | Entregáveis      |
-| --------------------- | ------- | ------- | ---------------- |
-| Preparação & Training | 3m      | $50K    | Equipa preparada |
-| Foundation            | 6m      | $100K   | API, SSO         |
-| Consolidation A       | 9m      | $151K   | FINANCAS + STOCK |
-| Consolidation B       | 6m      | $100K   | HR + PROJECTOS   |
-| Estabilização         | 3m      | -$16K\* | Testes, docs     |
+| Fase                  | Duração | Custo   | Entregáveis                      |
+| --------------------- | ------- | ------- | -------------------------------- |
+| Preparação & Training | 3m      | $50K    | Equipa preparada                 |
+| Foundation            | 6m      | $100K   | API, SSO                         |
+| Consolidation A       | 9m      | $151K   | Sistemas críticos (prioridade)   |
+| Consolidation B       | 6m      | $100K   | Sistemas secundários, integração |
+| Estabilização         | 3m      | -$16K\* | Testes, docs                     |
 
 \*Ajuste para total $385K
 

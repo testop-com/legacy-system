@@ -171,13 +171,13 @@ Custo de Desenvolvimento:    $42,500  ← Custo médio (entre $35K-50K)
 
 ### 📊 Breakdown por Fase
 
-| Fase                         | Duração | Custo    | Entregáveis                   |
-| ---------------------------- | ------- | -------- | ----------------------------- |
-| **Fase 1: Training & Setup** | 3 meses | $50,213  | Equipa preparada, arquitetura |
-| **Fase 2: Foundation**       | 6 meses | $100,427 | API layer, SSO                |
-| **Fase 3: Consolidation A**  | 9 meses | $150,640 | FINANCAS + STOCK              |
-| **Fase 4: Consolidation B**  | 6 meses | $100,427 | HR + PROJECTOS                |
-| **Fase 5: Stabilization**    | 3 meses | $50,213  | Testes, docs, suporte         |
+| Fase                         | Duração | Custo    | Entregáveis                            |
+| ---------------------------- | ------- | -------- | -------------------------------------- |
+| **Fase 1: Training & Setup** | 3 meses | $50,213  | Equipa preparada, arquitetura          |
+| **Fase 2: Foundation**       | 6 meses | $100,427 | API layer, SSO                         |
+| **Fase 3: Consolidation A**  | 9 meses | $150,640 | Sistemas críticos (alta prioridade)    |
+| **Fase 4: Consolidation B**  | 6 meses | $100,427 | Sistemas secundários, integração final |
+| **Fase 5: Stabilization**    | 3 meses | $50,213  | Testes, docs, suporte                  |
 
 ### ⚠️ Nota Importante
 
