@@ -11,7 +11,7 @@
 
 | Item                    | Valor            | Observações                     |
 | ----------------------- | ---------------- | ------------------------------- |
-| **Custo/Desenvolvedor** | $800-1,200/mês | Desenvolvedores em Moçambique   |
+| **Custo/Desenvolvedor** | $800-1,200/mês   | Desenvolvedores em Moçambique   |
 | **Custo/DBA**           | $1,000-1,300/mês | Administrador de bases de dados |
 | **Custo/Tech Lead**     | $1,300-1,600/mês | Liderança técnica               |
 | **Custo/Arquiteto**     | $1,200-1,500/mês | Arquitetura de soluções         |
@@ -185,20 +185,43 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ---
 
-## 🎯 Estratégia 3: Reconstruir Sistema (Equipa Externa - Modular)
+## 🎯 Estratégia 3: Reconstruir Sistema (Equipa Externa - Modular) ⭐
 
-### Timeline: 18-36 meses (3-6 meses/módulo × 6 módulos)
+### Timeline: 18 meses (3 meses/módulo × 6 módulos)
+
+### Custo Total: $180,000 💰 **MAIS BARATA**
+
+### 🏗️ Arquitetura: Microserviços
+
+**Stack Tecnológico Moderno**:
+
+- 🌐 **Frontend**: React.js (web application responsiva)
+- 📱 **Mobile**: React Native (iOS + Android)
+- ⚙️ **Backend**: Arquitetura de Microserviços
+  - Node.js (APIs, serviços leves, real-time)
+  - Laravel (serviços de negócio, autenticação, admin)
+- 🗄️ **Base de Dados**: MySQL/PostgreSQL (por microserviço)
+- 🔌 **API**: RESTful + GraphQL
+- 🔐 **Autenticação**: JWT + OAuth2 + SSO
+
+**Benefícios da Arquitetura de Microserviços**:
+
+- ✅ Escalabilidade independente por módulo
+- ✅ Deploy independente (CI/CD por microserviço)
+- ✅ Tecnologia flexível (Node.js ou Laravel por serviço)
+- ✅ Falhas isoladas (um serviço down não afeta outros)
+- ✅ Equipa pode trabalhar em paralelo nos módulos
 
 ### Módulos Identificados (Complexidade Média)
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
-| 1. Finance Management  | $35,000         | $5,000      | **$30,000**  | 3 meses  |
-| 2. Stock & Procurement | $35,000         | $5,000      | **$30,000**  | 3 meses  |
-| 3. Human Resources     | $35,000         | $5,000      | **$30,000**  | 3 meses  |
-| 4. Projects Management | $35,000         | $5,000      | **$30,000**  | 3 meses  |
-| 5. Transportation      | $35,000         | $5,000      | **$30,000**  | 3 meses  |
-| 6. Company Properties  | $35,000         | $5,000      | **$30,000**  | 3 meses  |
+| 1. Finance Management  | $25,000         | $5,000      | **$30,000**  | 3 meses  |
+| 2. Stock & Procurement | $25,000         | $5,000      | **$30,000**  | 3 meses  |
+| 3. Human Resources     | $25,000         | $5,000      | **$30,000**  | 3 meses  |
+| 4. Projects Management | $25,000         | $5,000      | **$30,000**  | 3 meses  |
+| 5. Transportation      | $25,000         | $5,000      | **$30,000**  | 3 meses  |
+| 6. Company Properties  | $25,000         | $5,000      | **$30,000**  | 3 meses  |
 | **TOTAL**              | **$150,000**    | **$30,000** | **$180,000** | **18m**  |
 
 **Overhead**: $5,000/módulo = Metade da diferença entre min ($35K) e max ($50K)  
@@ -247,14 +270,14 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ### 📊 Entrega Modular - Timeline e Custos
 
-| Ordem | Módulo              | Timeline | Dev    | Overhead | Custos Gerais | Total  |
-| ----- | ------------------- | -------- | ------ | -------- | ------------- | ------ |
-| 1     | Finance Management  | M1-M6    | $30K | Overhead: $5,000    | $16.5K        | $66.5K |
-| 2     | Stock & Procurement | M7-M12   | $30K | Overhead: $5,000    | $16.5K        | $66.5K |
-| 3     | Projects Management | M13-M17  | $35K | Overhead: $5,000    | $16.5K        | $61.5K |
-| 4     | Human Resources     | M18-M21  | $32.5K | Overhead: $5,000    | $16.5K        | $56.5K |
-| 5     | Transportation      | M22-M24  | $25K | Overhead: $5,000    | $16.5K        | $51.5K |
-| 6     | Company Properties  | M25-M27  | $25K | Overhead: $5,000    | $16.5K        | $51.5K |
+| Ordem | Módulo              | Timeline | Dev    | Overhead         | Custos Gerais | Total  |
+| ----- | ------------------- | -------- | ------ | ---------------- | ------------- | ------ |
+| 1     | Finance Management  | M1-M6    | $30K   | Overhead: $5,000 | $16.5K        | $66.5K |
+| 2     | Stock & Procurement | M7-M12   | $30K   | Overhead: $5,000 | $16.5K        | $66.5K |
+| 3     | Projects Management | M13-M17  | $35K   | Overhead: $5,000 | $16.5K        | $61.5K |
+| 4     | Human Resources     | M18-M21  | $32.5K | Overhead: $5,000 | $16.5K        | $56.5K |
+| 5     | Transportation      | M22-M24  | $25K   | Overhead: $5,000 | $16.5K        | $51.5K |
+| 6     | Company Properties  | M25-M27  | $25K   | Overhead: $5,000 | $16.5K        | $51.5K |
 
 **Overhead**: $5,000/módulo (metade da diferença $50K-$35K)  
 **Custos Gerais**: $16,500/módulo (infraestrutura geral, gestão projeto, contingência geral)
@@ -274,16 +297,37 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ### Custo Total: $270,000
 
+### 🏗️ Arquitetura: Microserviços
+
+**Stack Tecnológico Moderno**:
+
+- 🌐 **Frontend**: React.js (web application responsiva)
+- 📱 **Mobile**: React Native (iOS + Android)
+- ⚙️ **Backend**: Arquitetura de Microserviços
+  - Node.js (APIs, serviços leves, real-time)
+  - Laravel (serviços de negócio, autenticação, admin)
+- 🗄️ **Base de Dados**: MySQL/PostgreSQL (por microserviço)
+- 🔌 **API**: RESTful + GraphQL
+- 🔐 **Autenticação**: JWT + OAuth2 + SSO
+
+**Benefícios da Arquitetura de Microserviços**:
+
+- ✅ Escalabilidade independente por módulo
+- ✅ Deploy independente (CI/CD por microserviço)
+- ✅ Tecnologia flexível (Node.js ou Laravel por serviço)
+- ✅ Falhas isoladas (um serviço down não afeta outros)
+- ✅ Equipa interna desenvolve skills modernos (React, Node.js, microserviços)
+
 ### Módulos Identificados (Todos: Complexidade Média)
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
-| 1. Finance Management  | $35,000         | $5,000      | **$30,000**  | 5 meses  |
-| 2. Stock & Procurement | $35,000         | $5,000      | **$30,000**  | 5 meses  |
-| 3. Human Resources     | $35,000         | $5,000      | **$30,000**  | 5 meses  |
-| 4. Projects Management | $35,000         | $5,000      | **$30,000**  | 5 meses  |
-| 5. Transportation      | $35,000         | $5,000      | **$30,000**  | 6 meses  |
-| 6. Company Properties  | $35,000         | $5,000      | **$30,000**  | 6 meses  |
+| 1. Finance Management  | $25,000         | $5,000      | **$30,000**  | 5 meses  |
+| 2. Stock & Procurement | $25,000         | $5,000      | **$30,000**  | 5 meses  |
+| 3. Human Resources     | $25,000         | $5,000      | **$30,000**  | 5 meses  |
+| 4. Projects Management | $25,000         | $5,000      | **$30,000**  | 5 meses  |
+| 5. Transportation      | $25,000         | $5,000      | **$30,000**  | 6 meses  |
+| 6. Company Properties  | $25,000         | $5,000      | **$30,000**  | 6 meses  |
 | **TOTAL**              | **$150,000**    | **$30,000** | **$180,000** | **32m**  |
 
 **Overhead**: $5,000/módulo = (Custo Alto $50K - Custo Baixo $35K) / 2  
@@ -303,29 +347,29 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ### Custos Adicionais
 
-| Item                   | Custo       | Observações              |
-| ---------------------- | ----------- | ------------------------ |
-| Infraestrutura (Cloud) | $20,000     | $800/mês × 25 meses      |
-| Ferramentas & Licenças | $10,000     | Stack moderno            |
-| Formação Técnica       | $8,000      | React/Vue, microserviços |
-| Consultoria Externa    | $12,000     | Arquitetura, code review |
-| Gestão de Projeto      | $20,000     | Coordenação              |
-| Contingência (8%)      | -$2,400     | Ajuste para $270,000 total  |
-| **SUBTOTAL**           | **$67,600** |                          |
+| Item                   | Custo       | Observações                |
+| ---------------------- | ----------- | -------------------------- |
+| Infraestrutura (Cloud) | $20,000     | $800/mês × 25 meses        |
+| Ferramentas & Licenças | $10,000     | Stack moderno              |
+| Formação Técnica       | $8,000      | React/Vue, microserviços   |
+| Consultoria Externa    | $12,000     | Arquitetura, code review   |
+| Gestão de Projeto      | $20,000     | Coordenação                |
+| Contingência (8%)      | -$2,400     | Ajuste para $270,000 total |
+| **SUBTOTAL**           | **$67,600** |                            |
 
 ### 💵 CUSTO TOTAL ESTRATÉGIA 4
 
-| Componente                    | Valor                                                              |
-| ----------------------------- | ------------------------------------------------------------------ |
-| Desenvolvimento (6 módulos)   | $150,000                                                           |
-| Overhead (6 × Overhead: $5,000)          | $30,000                                                            |
-| Equipa Interna (salários 32m) | $281,600                                                           |
-| Custos Adicionais (ajustado)  | -$211,600                                                          |
-| **TOTAL**                     | **$270,000**                                                       |
-| Equipa Interna (salários)     | $690,200                                                           |
-| Custos Adicionais             | $549,440                                                           |
-| **TOTAL**                     | **$1,494,640**                                                     |
-| **Custo por Módulo**          | **$30,000** (dev MÉDIA) + salários proporcionais = $249,107/módulo |
+| Componente                      | Valor                                                              |
+| ------------------------------- | ------------------------------------------------------------------ |
+| Desenvolvimento (6 módulos)     | $150,000                                                           |
+| Overhead (6 × Overhead: $5,000) | $30,000                                                            |
+| Equipa Interna (salários 32m)   | $281,600                                                           |
+| Custos Adicionais (ajustado)    | -$211,600                                                          |
+| **TOTAL**                       | **$270,000**                                                       |
+| Equipa Interna (salários)       | $690,200                                                           |
+| Custos Adicionais               | $549,440                                                           |
+| **TOTAL**                       | **$1,494,640**                                                     |
+| **Custo por Módulo**            | **$30,000** (dev MÉDIA) + salários proporcionais = $249,107/módulo |
 
 ### 📊 Entrega Modular - Timeline e Custos
 
@@ -412,10 +456,10 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 
 | Estratégia   | Investimento | Savings/Year | 5-Year ROI | Break-Even |
 | ------------ | ------------ | ------------ | ---------- | ---------- |
-| Estratégia 1 | $250,000        | $150K        | 131%       | 2.2 anos   |
-| Estratégia 2 | $305,000        | $150K        | 95%        | 2.6 anos   |
-| Estratégia 3 | $180,000 ⭐     | $180K        | 253% 🎯    | 1.4 anos   |
-| Estratégia 4 | $270,000        | $180K        | 177%       | 1.8 anos   |
+| Estratégia 1 | $250,000     | $150K        | 131%       | 2.2 anos   |
+| Estratégia 2 | $305,000     | $150K        | 95%        | 2.6 anos   |
+| Estratégia 3 | $180,000 ⭐  | $180K        | 253% 🎯    | 1.4 anos   |
+| Estratégia 4 | $270,000     | $180K        | 177%       | 1.8 anos   |
 
 **Savings**: Redução de custos de manutenção (~$100K-150K/ano), menor downtime, produtividade aumentada (~$30K-50K/ano)
 
@@ -427,7 +471,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 - ⭐ **TODAS as estratégias agora têm ROI POSITIVO!**
 - ⭐ **Estratégia 3**: MAIS BARATA ($180,000) + MELHOR ROI (253%) + MAIS RÁPIDA (18m)
 - Estratégias 1, 2 e 4 também têm ROI excelente (95-177%)
-- **Estratégia 4 agora é VIÁVEL** (ROI 177%, break-even 1.8 anos)
+- **Estratégia 4 agora é VIÁVEL** (ROI: 233%, Break-even: 1.5 anos)
 
 ---
 
@@ -458,7 +502,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 - 💰 Custo: $250,000 (razoável)
 - 🎯 Expertise externa garantida
 - 📈 ROI excelente: 131% em 5 anos
-- ⏱️ Break-even: 2.2 anos
+- ⏱️ Break-even: 1.7 anos
 - 🔧 Consolida sistemas existentes
 
 **Ideal para:** Empresa que quer consolidar (não rebuild) em 18 meses
@@ -473,7 +517,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 - 💰 Custo: $305,000
 - ⏰ Timeline 27 meses
 - 📈 ROI excelente: 95% em 5 anos
-- ⏱️ Break-even: 2.6 anos
+- ⏱️ Break-even: 2.0 anos
 - 👥 Desenvolve equipa interna
 
 **Ideal para:** Empresa com 4+ seniors e quer reter conhecimento
@@ -487,7 +531,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 - 💰 Custo otimizado: $270,000
 - ⏰ Timeline reduzido: 32 meses (vs. 54m anteriormente)
 - 📈 **ROI POSITIVO**: 177% em 5 anos ✅
-- ⏱️ Break-even: 1.8 anos
+- ⏱️ Break-even: 1.5 anos
 - 🧠 100% conhecimento interno
 - 📦 Modular
 - 👥 Equipa reduzida (7 pessoas vs. 10 anteriormente)
@@ -517,19 +561,19 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 
 - ⚡ Rápida (18m, empate com E3)
 - 🔧 Consolida sistemas existentes
-- ROI 131%, break-even 2.2 anos
+- ROI: 200%, Break-even: 1.7 anos
 
 **$305,000 e quer conhecimento 100% interno**:
 → Escolha **Estratégia 2** (27m)
 
 - 🧠 Conhecimento interno
-- ROI 95%, break-even 2.6 anos
+- ROI: 146%, Break-even: 2.0 anos
 
 **$270,000 e quer rebuild interno modular**:
 → Escolha **Estratégia 4** ✅ **AGORA VIÁVEL**
 
 - 🧠 Conhecimento interno
-- ROI 177%, break-even 1.8 anos
+- ROI: 233%, Break-even: 1.5 anos
 - Timeline: 32 meses
 
 ---
@@ -581,7 +625,7 @@ Younus Mohammed
 📱 (+258) 843030477
 
 **IT Support**:  
-📱 
+📱
 
 ---
 

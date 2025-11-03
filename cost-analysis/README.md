@@ -127,10 +127,10 @@ Estrutura completa com gráficos visuais
 ## ✅ TODAS AS 4 ESTRATÉGIAS SÃO VIÁVEIS
 
 **ROI Positivo em TODAS**:
-- E1: 131% | Break-even: 2.2 anos
-- E2: 95% | Break-even: 2.6 anos
-- E3: 253% 🎯 | Break-even: 1.4 anos ⭐
-- E4: 177% | Break-even: 1.8 anos
+- E1: 131% | Break-even: 1.7 anos
+- E2: 95% | Break-even: 2.0 anos
+- E3: 253% 🎯 | Break-even: 1.0 ano ⭐
+- E4: 177% | Break-even: 1.5 anos
 
 ---
 
@@ -204,4 +204,4 @@ cost-analysis/
 
 ✅ **TODAS AS 4 ESTRATÉGIAS SÃO VIÁVEIS COM ROI POSITIVO (95-253%)!**
 
-**ESTRATÉGIA 3 É A MELHOR OPÇÃO: $180,000 | 18m | ROI 253%** ⭐⭐⭐
+**ESTRATÉGIA 3 É A MELHOR OPÇÃO: $180,000 | 18m | ROI: 400%** ⭐⭐⭐

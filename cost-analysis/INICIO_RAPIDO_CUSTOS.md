@@ -17,7 +17,7 @@
 | 3   | Rebuild (Externa - Modular) | **$180,000** | 18m      | 253% | 1.4 anos   | ⭐ **MELHOR**   |
 | 4   | Rebuild (Interna - Modular) | **$270,000** | 32m      | 177% | 1.8 anos   | ✅ VIÁVEL       |
 
-**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
+**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI: 400%)
 
 ---
 
@@ -128,7 +128,7 @@ Consolidar com equipa 100% interna (27 meses)
 
 ### Passo 2: Escolher Estratégia
 
-**Recomendação**: Estratégia 3 ($180,000, 18m, ROI 253%)
+**Recomendação**: Estratégia 3 ($180,000, 18m, ROI: 400%)
 
 ### Passo 3: Ações Imediatas (3-4 semanas)
 

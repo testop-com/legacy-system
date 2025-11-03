@@ -248,10 +248,10 @@ ROI
 
 ### Todas as Estratégias São Viáveis
 
-- ✅ **E1**: ROI 131% | Break-even 2.2 anos
-- ✅ **E2**: ROI 95% | Break-even 2.6 anos
-- ✅ **E3**: ROI 253% | Break-even 1.4 anos ⭐
-- ✅ **E4**: ROI 177% | Break-even 1.8 anos
+- ✅ **E1**: ROI: 200% | Break-even: 1.7 anos
+- ✅ **E2**: ROI: 146% | Break-even: 2.0 anos
+- ✅ **E3**: ROI: 400% | Break-even: 1.0 ano ⭐
+- ✅ **E4**: ROI: 233% | Break-even: 1.5 anos
 
 ### Custos Realistas
 
@@ -300,7 +300,7 @@ ROI
 
 ### 1. Escolher Estratégia
 
-**Recomendação**: Estratégia 3 ($180,000, 18m, ROI 253%)
+**Recomendação**: Estratégia 3 ($180,000, 18m, ROI: 400%)
 
 ### 2. Ações Imediatas (3-4 semanas)
 

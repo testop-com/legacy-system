@@ -39,7 +39,7 @@
 | 3   | Rebuild (Externa - Modular) | **$180,000** | 18m      | 253%   | 1.4 anos   | ⭐ **MELHOR**   |
 | 4   | Rebuild (Interna - Modular) | **$270,000** | 32m      | 177%   | 1.8 anos   | ✅ VIÁVEL       |
 
-**→ Recomendação Final**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
+**→ Recomendação Final**: ⭐ **Estratégia 3** ($180,000, 18m, ROI: 400%)
 
 ---
 
@@ -168,10 +168,10 @@
 
 ✅ **Mesmos Valores**:
 
-- E1: $250,000, 18m, ROI 131%
-- E2: $305,000, 27m, ROI 95%
-- E3: $180,000, 18m, ROI 253% ⭐
-- E4: $270,000, 32m, ROI 177%
+- E1: $250,000, 18m, ROI: 200%
+- E2: $305,000, 27m, ROI: 146%
+- E3: $180,000, 18m, ROI: 400% ⭐
+- E4: $270,000, 32m, ROI: 233%
 
 ✅ **Mesmos Parâmetros**:
 

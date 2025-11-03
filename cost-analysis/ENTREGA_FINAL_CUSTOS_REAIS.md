@@ -18,7 +18,7 @@
 | 3   | Rebuild (Externa - Modular) | $180,000 | 18m      | 253% | ⭐ **MELHOR**   |
 | 4   | Rebuild (Interna - Modular) | $270,000 | 32m      | 177% | ✅ VIÁVEL       |
 
-**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
+**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI: 400%)
 
 **Base de Cálculo**: Salários mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)  
 **Overhead**: $5,000/módulo = ($35K-$25K)/2 / 2  
@@ -29,7 +29,7 @@
 ## 📊 ESTRATÉGIA 1: Consolidar (Externa) - $250,000
 
 **Timeline**: 18 meses  
-**ROI**: 131% | Break-even: 2.2 anos
+**ROI**: 131% | Break-even: 1.7 anos
 
 ### Breakdown de Custos
 
@@ -55,7 +55,7 @@
 ## 📊 ESTRATÉGIA 2: Consolidar (Interna) - $305,000
 
 **Timeline**: 27 meses  
-**ROI**: 95% | Break-even: 2.6 anos
+**ROI**: 95% | Break-even: 2.0 anos
 
 ### Breakdown de Custos
 
@@ -82,7 +82,7 @@
 ## 📊 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $180,000 ⭐
 
 **Timeline**: 18 meses (3 meses/módulo)  
-**ROI**: 253% 🎯 | Break-even: 1.4 anos
+**ROI**: 253% 🎯 | Break-even: 1.0 ano
 
 ### Breakdown de Custos
 
@@ -116,7 +116,7 @@
 ## 📊 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $270,000
 
 **Timeline**: 32 meses (5-6 meses/módulo)  
-**ROI**: 177% | Break-even: 1.8 anos
+**ROI**: 177% | Break-even: 1.5 anos
 
 ### Breakdown de Custos
 

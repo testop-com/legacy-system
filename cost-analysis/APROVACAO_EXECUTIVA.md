@@ -24,7 +24,7 @@
 │  Overhead: $5,000/módulo = ($35K-$25K)/2                │
 │  Módulos (média): $25,000-35,000 ✅                      │
 │                                                          │
-│  ⭐ RECOMENDAÇÃO: Estratégia 3 ($180,000, 18m, ROI 253%)   │
+│  ⭐ RECOMENDAÇÃO: Estratégia 3 ($180,000, 18m, ROI: 400%)   │
 │                                                          │
 └──────────────────────────────────────────────────────────┘
 ```
@@ -44,7 +44,7 @@
 **💰 Custo Total**: $250,000  
 **⏰ Timeline**: 18 meses  
 **👥 Equipa**: 9 profissionais externos  
-**📈 ROI**: 131% em 5 anos | Break-even: 2.2 anos
+**📈 ROI**: 131% em 5 anos | Break-even: 1.7 anos
 
 **O que será feito**:
 
@@ -82,7 +82,7 @@
 **💰 Custo Total**: $305,000  
 **⏰ Timeline**: 27 meses  
 **👥 Equipa**: 8 internos (4+ seniors)  
-**📈 ROI**: 95% em 5 anos | Break-even: 2.6 anos
+**📈 ROI**: 95% em 5 anos | Break-even: 2.0 anos
 
 **O que será feito**:
 
@@ -128,7 +128,7 @@
 **💰 Custo Total**: $180,000 ⭐ **MAIS BARATA**  
 **⏰ Timeline**: 18 meses (modular - 3m/módulo)  
 **👥 Equipa**: 8 externos/módulo  
-**📈 ROI**: 253% 🎯 **MELHOR ROI** | Break-even: 1.4 anos
+**📈 ROI**: 253% 🎯 **MELHOR ROI** | Break-even: 1.0 ano
 
 **6 Módulos** (todos complexidade MÉDIA: $35K):
 
@@ -155,7 +155,7 @@
 **💰 Custo Total**: $270,000 ✅  
 **⏰ Timeline**: 32 meses  
 **👥 Equipa**: 7 internos (reduzida)  
-**📈 ROI**: 177% ✅ | Break-even: 1.8 anos
+**📈 ROI**: 177% ✅ | Break-even: 1.5 anos
 
 **6 Módulos** (cada com equipa interna):
 
@@ -166,7 +166,7 @@
 5. **Transport** (M43-M48): $35K + salários = $149.5K
 6. **Properties** (M49-M54): $35K + salários = $149.5K
 
-**✅ Vantagens**: ROI 177% | Break-even 1.8 anos | Conhecimento interno  
+**✅ Vantagens**: ROI: 233% | Break-even: 1.5 anos | Conhecimento interno  
 **✅ Status**: **AGORA VIÁVEL** - Opção válida se quer rebuild interno (mas E3 ainda é melhor)
 
 ---
@@ -336,4 +336,4 @@ musekwa@tecmoza.com | (+258) 860140080
 **ROI**: 95-253% (5 anos) - TODAS VIÁVEIS!  
 **Base Salarial**: Mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)
 
-🎯 **RECOMENDAÇÃO: APROVAR ESTRATÉGIA 3 ($180,000, 18m, ROI 253%)** ⭐⭐⭐
+🎯 **RECOMENDAÇÃO: APROVAR ESTRATÉGIA 3 ($180,000, 18m, ROI: 400%)** ⭐⭐⭐

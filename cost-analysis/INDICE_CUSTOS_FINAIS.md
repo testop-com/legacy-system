@@ -17,7 +17,7 @@
 - Tabela comparativa das 4 estratégias
 - Custos: $180,000-385K
 - ROI: 95-253%
-- Recomendação: Estratégia 3 ($180,000, 18m, ROI 253%)
+- Recomendação: Estratégia 3 ($180,000, 18m, ROI: 400%)
 
 **→ Use este documento para aprovar a estratégia**
 

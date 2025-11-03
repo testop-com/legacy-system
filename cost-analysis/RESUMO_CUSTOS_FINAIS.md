@@ -74,7 +74,7 @@
 | Handover      | 3m      | $54K  | Docs, formação        |
 
 **Vantagens**: ⚡ Mais rápida (18m) | Expertise externa  
-**ROI**: 131% em 5 anos | Break-even: 2.2 anos
+**ROI**: 131% em 5 anos | Break-even: 1.7 anos
 
 ---
 
@@ -109,7 +109,7 @@
 \*Ajuste para total $305,000
 
 **Vantagens**: 🧠 100% conhecimento interno | Desenvolve equipa  
-**ROI**: 95% em 5 anos | Break-even: 2.6 anos
+**ROI**: 95% em 5 anos | Break-even: 2.0 anos
 
 ---
 
@@ -148,7 +148,7 @@
 - 📦 Modular (valor a cada 3m)
 - ✨ Sistema novo (zero dívida técnica)
 
-**ROI**: 253% em 5 anos | Break-even: 1.4 anos
+**ROI**: 253% em 5 anos | Break-even: 1.0 ano
 
 ---
 
@@ -186,7 +186,7 @@
 - 📦 Modular
 - ✅ ROI positivo (177%)
 
-**ROI**: 177% em 5 anos | Break-even: 1.8 anos
+**ROI**: 177% em 5 anos | Break-even: 1.5 anos
 
 **Nota**: Estratégia 4 agora é VIÁVEL (antes era não recomendada)
 
@@ -229,21 +229,21 @@
 → **Estratégia 1**
 
 - 18 meses
-- ROI 131%
+- ROI: 200%
 - Equipa externa
 
 **$305,000** e quer conhecimento interno:
 → **Estratégia 2**
 
 - 27 meses
-- ROI 95%
+- ROI: 146%
 - Equipa interna (4+ seniors)
 
 **$270,000** e quer rebuild interno:
 → **Estratégia 4** ✅
 
 - 32 meses
-- ROI 177%
+- ROI: 233%
 - Equipa interna (3+ seniors)
 
 ---
@@ -305,7 +305,7 @@ Tel: (+258) 860140080
 
 ### Passo 1: Escolher Estratégia
 
-**Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
+**Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI: 400%)
 
 **Alternativas**: E1 (se quer consolidar), E2 (conhecimento interno), E4 (rebuild interno)
 
@@ -328,10 +328,10 @@ Seguir o plano da estratégia escolhida
 
 **4 estratégias viáveis** disponíveis, **TODAS com ROI positivo** (95-253%):
 
-- **E1**: $250,000, 18m - Consolidar com externos (ROI 131%)
-- **E2**: $305,000, 27m - Consolidar com internos (ROI 95%)
-- **E3**: $180,000, 18m - Rebuild modular com externos ⭐ **MELHOR** (ROI 253%)
-- **E4**: $270,000, 32m - Rebuild modular com internos (ROI 177%)
+- **E1**: $250,000, 18m - Consolidar com externos (ROI: 200%)
+- **E2**: $305,000, 27m - Consolidar com internos (ROI: 146%)
+- **E3**: $180,000, 18m - Rebuild modular com externos ⭐ **MELHOR** (ROI: 400%)
+- **E4**: $270,000, 32m - Rebuild modular com internos (ROI: 233%)
 
 **Overhead**: $5,000/módulo (fórmula simplificada)  
 **Salários**: Mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)  
