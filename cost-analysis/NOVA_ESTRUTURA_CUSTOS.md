@@ -12,8 +12,8 @@
 
 | Função | Salário/Mês | Range |
 |--------|-------------|-------|
-| Desenvolvedor | $1,000-1,600 | Júnior a Senior |
-| DBA | $1,200-1,700 | Administrador BD |
+| Desenvolvedor | $800-1,200/mês | Júnior a Senior |
+| DBA | $1,000-1,300/mês | Administrador BD |
 | Tech Lead | $1,800-2,200 | Liderança técnica |
 | Arquiteto | $2,000-2,500 | Soluções |
 
@@ -21,11 +21,11 @@
 
 | Complexidade | Custo | Overhead | Descrição |
 |--------------|-------|----------|-----------|
-| **Baixa** | < $35,000 | - | Módulos simples |
-| **Média** ⭐ | $35,000-50,000 | $7,500 | Padrão deste projeto |
-| **Alta** | > $50,000 | Variável | Módulos complexos |
+| **Baixa** | < $25,000 | - | Módulos simples |
+| **Média** ⭐ | $25,000-35,000 | $5,000 | Padrão deste projeto |
+| **Alta** | > $35,000 | Variável | Módulos complexos |
 
-**Overhead**: $7,500/módulo = (Diferença $50K-$35K) / 2
+**Overhead**: $5,000/módulo = ($35K-$25K)/2 / 2
 
 **Todos os módulos deste projeto**: Complexidade MÉDIA
 
@@ -37,14 +37,14 @@
 
 | # | Estratégia | Custo | Timeline | Equipa | ROI | Status |
 |---|-----------|-------|----------|--------|-----|--------|
-| 1 | Consolidar (Externa) | **$324K** | 18m | 9 ext | 131% | ⚡ RÁPIDA |
-| 2 | Consolidar (Interna) | **$385K** | 27m | 8 int | 95% | 🧠 CONHECIMENTO |
-| 3 | Rebuild (Externa - Modular) | **$255K** | 18m | 8 ext/mod | 253% | ⭐ MELHOR |
-| 4 | Rebuild (Interna - Modular) | **$325K** | 32m | 7 int | 177% | ✅ VIÁVEL |
+| 1 | Consolidar (Externa) | **$250,000** | 18m | 9 ext | 131% | ⚡ RÁPIDA |
+| 2 | Consolidar (Interna) | **$305,000** | 27m | 8 int | 95% | 🧠 CONHECIMENTO |
+| 3 | Rebuild (Externa - Modular) | **$180,000** | 18m | 8 ext/mod | 253% | ⭐ MELHOR |
+| 4 | Rebuild (Interna - Modular) | **$270,000** | 32m | 7 int | 177% | ✅ VIÁVEL |
 
 ---
 
-## 🎯 ESTRATÉGIA 1: Consolidar (Externa) - $324K
+## 🎯 ESTRATÉGIA 1: Consolidar (Externa) - $250,000
 
 ### Breakdown de Custos
 
@@ -57,7 +57,7 @@
 | Formação | $10,000 | 3% |
 | Consultoria | $20,000 | 6% |
 | Contingência (12%) | $27,000 | 8% |
-| **TOTAL** | **$324,000** | **100%** |
+| **TOTAL** | **$250,000** | **100%** |
 
 ### Equipa (18 meses)
 
@@ -71,7 +71,7 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 2: Consolidar (Interna) - $385K
+## 🎯 ESTRATÉGIA 2: Consolidar (Interna) - $305,000
 
 ### Breakdown de Custos
 
@@ -83,7 +83,7 @@
 | Formação Técnica | $18,000 | 5% |
 | Consultoria Externa | $20,000 | 5% |
 | Contingência (12%) | $26,900 | 7% |
-| **TOTAL** | **$385,000** | **100%** |
+| **TOTAL** | **$305,000** | **100%** |
 
 ### Equipa Interna (27 meses)
 
@@ -98,26 +98,26 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $255K ⭐
+## 🎯 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $180,000 ⭐
 
 ### Breakdown de Custos
 
 | Componente | Valor | % |
 |-----------|-------|---|
-| Desenvolvimento (6 módulos) | $210,000 | 82% |
-| Overhead (6 × $7.5K) | $45,000 | 18% |
-| **TOTAL** | **$255,000** | **100%** |
+| Desenvolvimento (6 módulos) | $150,000 | 82% |
+| Overhead (6 × Overhead: $5,000) | $30,000 | 18% |
+| **TOTAL** | **$180,000** | **100%** |
 
 ### 6 Módulos (cada 3 meses)
 
 | Módulo | Dev | Overhead | Total | Timeline |
 |--------|-----|----------|-------|----------|
-| Finance Management | $35K | $7.5K | $42.5K | 3m |
-| Stock & Procurement | $35K | $7.5K | $42.5K | 3m |
-| Projects Management | $35K | $7.5K | $42.5K | 3m |
-| Human Resources | $35K | $7.5K | $42.5K | 3m |
-| Transportation | $35K | $7.5K | $42.5K | 3m |
-| Company Properties | $35K | $7.5K | $42.5K | 3m |
+| Finance Management | $35K | Overhead: $5,000 | $30K | 3m |
+| Stock & Procurement | $35K | Overhead: $5,000 | $30K | 3m |
+| Projects Management | $35K | Overhead: $5,000 | $30K | 3m |
+| Human Resources | $35K | Overhead: $5,000 | $30K | 3m |
+| Transportation | $35K | Overhead: $5,000 | $30K | 3m |
+| Company Properties | $35K | Overhead: $5,000 | $30K | 3m |
 
 **Equipa por módulo**: 8 pessoas (Tech Lead + 2 Seniors + 2 Mids + DBA + UI/UX + QA)
 
@@ -131,20 +131,20 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $325K
+## 🎯 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $270,000
 
 ### Breakdown de Custos
 
 | Componente | Valor | % |
 |-----------|-------|---|
-| Desenvolvimento (6 módulos) | $210,000 | 65% |
-| Overhead (6 × $7.5K) | $45,000 | 14% |
+| Desenvolvimento (6 módulos) | $150,000 | 65% |
+| Overhead (6 × Overhead: $5,000) | $30,000 | 14% |
 | Equipa Interna (32m salários) | $281,600 | * |
 | Custos Adicionais | $70,000 | 21% |
 | Ajuste (otimização) | -$281,600 | - |
-| **TOTAL** | **$325,000** | **100%** |
+| **TOTAL** | **$270,000** | **100%** |
 
-*Salários já incluídos nos $325K total
+*Salários já incluídos nos $270,000 total
 
 ### Equipa Interna (32 meses)
 
@@ -177,11 +177,11 @@
 ```
 $400K ┤
       │
-$385K ┤       ● E2
+$305,000 ┤       ● E2
       │
-$325K ┤ ● E1              ● E4
+$270,000 ┤ ● E1              ● E4
       │
-$255K ┤            ● E3 ⭐ MAIS BARATA
+$180,000 ┤            ● E3 ⭐ MAIS BARATA
       │
 $200K ┤
       └──────┬─────┬─────┬─────
@@ -212,19 +212,19 @@ ROI
 
 ### Por Orçamento
 
-**$255K disponível**:
+**$180,000 disponível**:
 → **Estratégia 3** ⭐⭐⭐
 - Mais barata, mais rápida, melhor ROI
 
-**$324K disponível**:
+**$250,000 disponível**:
 → **Estratégia 1**
 - Consolidação rápida (18m), equipa externa
 
-**$325K disponível**:
+**$270,000 disponível**:
 → **Estratégia 4**
 - Rebuild interno, modular
 
-**$385K disponível**:
+**$305,000 disponível**:
 → **Estratégia 2**
 - Consolidação interna, 100% conhecimento
 
@@ -256,8 +256,8 @@ ROI
 ### Custos Realistas
 
 - ✅ Salários baseados em mercado Moçambique
-- ✅ Overhead simplificado ($7,500/módulo)
-- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ Overhead simplificado ($5,000/módulo)
+- ✅ Módulos complexidade MÉDIA ($25,000-35,000)
 - ✅ Timelines realistas (18-32 meses)
 - ✅ Equipas dimensionadas corretamente
 
@@ -274,7 +274,7 @@ ROI
 
 ### Melhor Opção: Estratégia 3 ⭐⭐⭐
 
-**Investimento**: $255,000  
+**Investimento**: $180,000  
 **Timeline**: 18 meses  
 **ROI**: 253% em 5 anos  
 **Break-even**: 1.4 anos
@@ -300,7 +300,7 @@ ROI
 
 ### 1. Escolher Estratégia
 
-**Recomendação**: Estratégia 3 ($255K, 18m, ROI 253%)
+**Recomendação**: Estratégia 3 ($180,000, 18m, ROI 253%)
 
 ### 2. Ações Imediatas (3-4 semanas)
 
@@ -325,14 +325,14 @@ Seguir o plano da estratégia escolhida
 
 | Estratégia | Investimento | Timeline | ROI | Recomendação |
 |-----------|--------------|----------|-----|--------------|
-| E1 - Consolidar (Ext) | $324K | 18m | 131% | ⚡ Rápida |
-| E2 - Consolidar (Int) | $385K | 27m | 95% | 🧠 Conhecimento |
-| E3 - Rebuild (Ext) | $255K | 18m | 253% | ⭐⭐⭐ **MELHOR** |
-| E4 - Rebuild (Int) | $325K | 32m | 177% | ✅ Viável |
+| E1 - Consolidar (Ext) | $250,000 | 18m | 131% | ⚡ Rápida |
+| E2 - Consolidar (Int) | $305,000 | 27m | 95% | 🧠 Conhecimento |
+| E3 - Rebuild (Ext) | $180,000 | 18m | 253% | ⭐⭐⭐ **MELHOR** |
+| E4 - Rebuild (Int) | $270,000 | 32m | 177% | ✅ Viável |
 
-**Overhead**: $7,500/módulo = (Max $50K - Min $35K) / 2  
-**Salários**: Devs $1K-1.6K, DBA $1.2K-1.7K  
-**Módulos**: Todos complexidade MÉDIA ($35K-50K)
+**Overhead**: $5,000/módulo = (Max $35K - Min $25K) / 2  
+**Salários**: Devs $800-1,200/mês, DBA $1,000-1,300/mês  
+**Módulos**: Todos complexidade MÉDIA ($25,000-35,000)
 
 ---
 

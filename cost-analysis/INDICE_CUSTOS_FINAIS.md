@@ -15,9 +15,9 @@
 **Conteúdo**:
 
 - Tabela comparativa das 4 estratégias
-- Custos: $255K-385K
+- Custos: $180,000-385K
 - ROI: 95-253%
-- Recomendação: Estratégia 3 ($255K, 18m, ROI 253%)
+- Recomendação: Estratégia 3 ($180,000, 18m, ROI 253%)
 
 **→ Use este documento para aprovar a estratégia**
 
@@ -166,10 +166,10 @@
 
 | #   | Estratégia                  | Custo | Timeline | ROI  | Status          |
 | --- | --------------------------- | ----- | -------- | ---- | --------------- |
-| 1   | Consolidar (Externa)        | $324K | 18m      | 131% | ⚡ RÁPIDA       |
-| 2   | Consolidar (Interna)        | $385K | 27m      | 95%  | 🧠 CONHECIMENTO |
-| 3   | Rebuild (Externa - Modular) | $255K | 18m      | 253% | ⭐ **MELHOR**   |
-| 4   | Rebuild (Interna - Modular) | $325K | 32m      | 177% | ✅ VIÁVEL       |
+| 1   | Consolidar (Externa)        | $250,000 | 18m      | 131% | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | $305,000 | 27m      | 95%  | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | $180,000 | 18m      | 253% | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | $270,000 | 32m      | 177% | ✅ VIÁVEL       |
 
 **→ Recomendação**: ⭐ **Estratégia 3** (mais barata, mais rápida, melhor ROI)
 
@@ -179,10 +179,10 @@
 
 **Se você tem**:
 
-- **$255K**: Escolha Estratégia 3 ⭐ (melhor em tudo)
-- **$324K**: Escolha Estratégia 1 (consolidar rápido)
-- **$325K**: Escolha Estratégia 4 (rebuild interno)
-- **$385K**: Escolha Estratégia 2 (conhecimento interno)
+- **$180,000**: Escolha Estratégia 3 ⭐ (melhor em tudo)
+- **$250,000**: Escolha Estratégia 1 (consolidar rápido)
+- **$270,000**: Escolha Estratégia 4 (rebuild interno)
+- **$305,000**: Escolha Estratégia 2 (conhecimento interno)
 
 **Se você quer**:
 

@@ -20,10 +20,10 @@
 
 1. ✅ Eliminar custos internacionais
 2. ✅ Usar apenas custos nacionais (Moçambique)
-3. ✅ Base: Desenvolvedor $1,000-1,600/mês
+3. ✅ Base: Desenvolvedor $800-1,200/mês
 4. ✅ Criar 4 estratégias de modernização
 5. ✅ Calcular ROI de cada estratégia
-6. ✅ Overhead: $7,500/módulo
+6. ✅ Overhead: $5,000/módulo
 7. ✅ Atualizar TODO o projeto
 
 ---
@@ -34,12 +34,12 @@
 
 | #   | Estratégia                  | Custo     | Timeline | ROI 5y | Break-even | Status          |
 | --- | --------------------------- | --------- | -------- | ------ | ---------- | --------------- |
-| 1   | Consolidar (Externa)        | **$324K** | 18m      | 131%   | 2.2 anos   | ⚡ RÁPIDA       |
-| 2   | Consolidar (Interna)        | **$385K** | 27m      | 95%    | 2.6 anos   | 🧠 CONHECIMENTO |
-| 3   | Rebuild (Externa - Modular) | **$255K** | 18m      | 253%   | 1.4 anos   | ⭐ **MELHOR**   |
-| 4   | Rebuild (Interna - Modular) | **$325K** | 32m      | 177%   | 1.8 anos   | ✅ VIÁVEL       |
+| 1   | Consolidar (Externa)        | **$250,000** | 18m      | 131%   | 2.2 anos   | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | **$305,000** | 27m      | 95%    | 2.6 anos   | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | **$180,000** | 18m      | 253%   | 1.4 anos   | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | **$270,000** | 32m      | 177%   | 1.8 anos   | ✅ VIÁVEL       |
 
-**→ Recomendação Final**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
+**→ Recomendação Final**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
 
 ---
 
@@ -47,20 +47,20 @@
 
 ### Salários (Mercado Moçambique)
 
-- Desenvolvedor: $1,000-1,600/mês
-- DBA: $1,200-1,700/mês
-- Tech Lead: $1,800-2,200/mês
-- Arquiteto: $2,000-2,500/mês
+- Desenvolvedor: $800-1,200/mês
+- DBA: $1,000-1,300/mês
+- Tech Lead: $1,300-1,600/mês
+- Arquiteto: $1,200-1,500/mês
 
 ### Complexidade de Módulos
 
-- Baixa: < $35,000
-- **Média**: $35,000-50,000 (todos os módulos deste projeto)
-- Alta: > $50,000
+- Baixa: < $25,000
+- **Média**: $25,000-35,000 (todos os módulos deste projeto)
+- Alta: > $35,000
 
 ### Overhead
 
-- **Fórmula**: (Max $50K - Min $35K) / 2 = $7,500/módulo
+- **Fórmula**: (Max $35K - Min $25K) / 2 = $5,000/módulo
 - Aplicado em E3 e E4 (estratégias modulares)
 
 ---
@@ -168,16 +168,16 @@
 
 ✅ **Mesmos Valores**:
 
-- E1: $324K, 18m, ROI 131%
-- E2: $385K, 27m, ROI 95%
-- E3: $255K, 18m, ROI 253% ⭐
-- E4: $325K, 32m, ROI 177%
+- E1: $250,000, 18m, ROI 131%
+- E2: $305,000, 27m, ROI 95%
+- E3: $180,000, 18m, ROI 253% ⭐
+- E4: $270,000, 32m, ROI 177%
 
 ✅ **Mesmos Parâmetros**:
 
-- Salários: Devs $1K-1.6K, DBA $1.2K-1.7K
-- Overhead: $7,500/módulo
-- Complexidade: MÉDIA ($35K-50K)
+- Salários: Devs $800-1,200/mês, DBA $1,000-1,300/mês
+- Overhead: $5,000/módulo
+- Complexidade: MÉDIA ($25,000-35,000)
 
 ✅ **Mesma Recomendação**:
 
@@ -262,7 +262,7 @@
 
 | Aspecto        | E3       | Melhor Alternativa | Vantagem |
 | -------------- | -------- | ------------------ | -------- |
-| **Custo**      | $255K    | $324K (E1)         | -21%     |
+| **Custo**      | $180,000    | $250,000 (E1)         | -21%     |
 | **Timeline**   | 18m      | 18m (E1)           | Empate   |
 | **ROI**        | 253%     | 177% (E4)          | +76%     |
 | **Break-even** | 1.4 anos | 1.8 anos (E4)      | -22%     |

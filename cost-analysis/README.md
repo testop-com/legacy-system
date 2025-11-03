@@ -28,10 +28,10 @@
 
 | # | Estratégia | Custo | Timeline | ROI | Status |
 |---|-----------|-------|----------|-----|--------|
-| 1 | Consolidar (Externa) | **$324K** | 18m | 131% | ⚡ RÁPIDA |
-| 2 | Consolidar (Interna) | **$385K** | 27m | 95% | 🧠 CONHECIMENTO |
-| 3 | Rebuild (Externa - Modular) | **$255K** | 18m | 253% | ⭐ **MELHOR** |
-| 4 | Rebuild (Interna - Modular) | **$325K** | 32m | 177% | ✅ VIÁVEL |
+| 1 | Consolidar (Externa) | **$250,000** | 18m | 131% | ⚡ RÁPIDA |
+| 2 | Consolidar (Interna) | **$305,000** | 27m | 95% | 🧠 CONHECIMENTO |
+| 3 | Rebuild (Externa - Modular) | **$180,000** | 18m | 253% | ⭐ **MELHOR** |
+| 4 | Rebuild (Interna - Modular) | **$270,000** | 32m | 177% | ✅ VIÁVEL |
 
 **→ Recomendação**: ⭐ **Estratégia 3** (mais barata, mais rápida, melhor ROI)
 
@@ -39,7 +39,7 @@
 
 ## 🎯 ESTRATÉGIA 3: RECOMENDADA ⭐
 
-**Investimento**: $255,000  
+**Investimento**: $180,000  
 **Timeline**: 18 meses (3 meses/módulo)  
 **ROI**: 253% em 5 anos  
 **Break-even**: 1.4 anos
@@ -58,17 +58,17 @@
 
 ### Salários (Mercado Moçambique)
 
-- **Desenvolvedor**: $1,000-1,600/mês
-- **DBA**: $1,200-1,700/mês
-- **Tech Lead**: $1,800-2,200/mês
+- **Desenvolvedor**: $800-1,200/mês
+- **DBA**: $1,000-1,300/mês
+- **Tech Lead**: $1,300-1,600/mês
 
 ### Complexidade de Módulos
 
-- **Baixa**: < $35,000
-- **Média** ⭐: $35,000-50,000 (todos os módulos deste projeto)
-- **Alta**: > $50,000
+- **Baixa**: < $25,000
+- **Média** ⭐: $25,000-35,000 (todos os módulos deste projeto)
+- **Alta**: > $35,000
 
-**Overhead**: $7,500/módulo = (Max $50K - Min $35K) / 2
+**Overhead**: $5,000/módulo = (Max $35K - Min $25K) / 2
 
 ---
 
@@ -138,10 +138,10 @@ Estrutura completa com gráficos visuais
 
 **Se você tem**:
 
-- **$255K**: Escolha **Estratégia 3** ⭐ (melhor em tudo)
-- **$324K**: Escolha **Estratégia 1** (consolidar rápido)
-- **$325K**: Escolha **Estratégia 4** (rebuild interno)
-- **$385K**: Escolha **Estratégia 2** (conhecimento 100% interno)
+- **$180,000**: Escolha **Estratégia 3** ⭐ (melhor em tudo)
+- **$250,000**: Escolha **Estratégia 1** (consolidar rápido)
+- **$270,000**: Escolha **Estratégia 4** (rebuild interno)
+- **$305,000**: Escolha **Estratégia 2** (conhecimento 100% interno)
 
 ---
 
@@ -204,4 +204,4 @@ cost-analysis/
 
 ✅ **TODAS AS 4 ESTRATÉGIAS SÃO VIÁVEIS COM ROI POSITIVO (95-253%)!**
 
-**ESTRATÉGIA 3 É A MELHOR OPÇÃO: $255K | 18m | ROI 253%** ⭐⭐⭐
+**ESTRATÉGIA 3 É A MELHOR OPÇÃO: $180,000 | 18m | ROI 253%** ⭐⭐⭐

@@ -12,12 +12,12 @@
 
 | #   | Estratégia                  | Custo     | Timeline | ROI  | Break-even | Status          |
 | --- | --------------------------- | --------- | -------- | ---- | ---------- | --------------- |
-| 1   | Consolidar (Externa)        | **$324K** | 18m      | 131% | 2.2 anos   | ⚡ RÁPIDA       |
-| 2   | Consolidar (Interna)        | **$385K** | 27m      | 95%  | 2.6 anos   | 🧠 CONHECIMENTO |
-| 3   | Rebuild (Externa - Modular) | **$255K** | 18m      | 253% | 1.4 anos   | ⭐ **MELHOR**   |
-| 4   | Rebuild (Interna - Modular) | **$325K** | 32m      | 177% | 1.8 anos   | ✅ VIÁVEL       |
+| 1   | Consolidar (Externa)        | **$250,000** | 18m      | 131% | 2.2 anos   | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | **$305,000** | 27m      | 95%  | 2.6 anos   | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | **$180,000** | 18m      | 253% | 1.4 anos   | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | **$270,000** | 32m      | 177% | 1.8 anos   | ✅ VIÁVEL       |
 
-**→ Recomendação**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
+**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
 
 ---
 
@@ -25,19 +25,19 @@
 
 ### Por Orçamento
 
-**Você tem $255K?**  
+**Você tem $180,000?**  
 → **Estratégia 3** ⭐⭐⭐  
 Mais barata + Mais rápida + Melhor ROI
 
-**Você tem $324K?**  
+**Você tem $250,000?**  
 → **Estratégia 1**  
 Consolidar com equipa externa em 18 meses
 
-**Você tem $325K?**  
+**Você tem $270,000?**  
 → **Estratégia 4**  
 Rebuild interno modular (32 meses)
 
-**Você tem $385K?**  
+**Você tem $305,000?**  
 → **Estratégia 2**  
 Consolidar com equipa 100% interna (27 meses)
 
@@ -61,9 +61,9 @@ Consolidar com equipa 100% interna (27 meses)
 
 ### Custos
 
-- ✅ Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
-- ✅ Overhead: $7,500/módulo
-- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ Salários mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)
+- ✅ Overhead: $5,000/módulo
+- ✅ Módulos complexidade MÉDIA ($25,000-35,000)
 - ✅ **TODAS com ROI positivo** (95-253%)
 
 ### ROI
@@ -81,7 +81,7 @@ Consolidar com equipa 100% interna (27 meses)
 
 ### Números
 
-- 💰 **MAIS BARATA**: $255K (21-34% menos que outras)
+- 💰 **MAIS BARATA**: $180,000 (21-34% menos que outras)
 - ⚡ **MAIS RÁPIDA**: 18 meses
 - 📈 **MELHOR ROI**: 253%
 - ⏱️ **Break-even**: 1.4 anos (o mais rápido)
@@ -128,7 +128,7 @@ Consolidar com equipa 100% interna (27 meses)
 
 ### Passo 2: Escolher Estratégia
 
-**Recomendação**: Estratégia 3 ($255K, 18m, ROI 253%)
+**Recomendação**: Estratégia 3 ($180,000, 18m, ROI 253%)
 
 ### Passo 3: Ações Imediatas (3-4 semanas)
 
@@ -162,7 +162,7 @@ Tel: (+258) 860140080
 
 **Estratégia 3 é a MELHOR**:
 
-- Mais barata ($255K)
+- Mais barata ($180,000)
 - Mais rápida (18m)
 - Melhor ROI (253%)
 - Break-even mais rápido (1.4 anos)

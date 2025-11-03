@@ -13,20 +13,20 @@
 
 | #   | Estratégia                  | Custo | Timeline | ROI  | Status          |
 | --- | --------------------------- | ----- | -------- | ---- | --------------- |
-| 1   | Consolidar (Externa)        | $324K | 18m      | 131% | ⚡ RÁPIDA       |
-| 2   | Consolidar (Interna)        | $385K | 27m      | 95%  | 🧠 CONHECIMENTO |
-| 3   | Rebuild (Externa - Modular) | $255K | 18m      | 253% | ⭐ **MELHOR**   |
-| 4   | Rebuild (Interna - Modular) | $325K | 32m      | 177% | ✅ VIÁVEL       |
+| 1   | Consolidar (Externa)        | $250,000 | 18m      | 131% | ⚡ RÁPIDA       |
+| 2   | Consolidar (Interna)        | $305,000 | 27m      | 95%  | 🧠 CONHECIMENTO |
+| 3   | Rebuild (Externa - Modular) | $180,000 | 18m      | 253% | ⭐ **MELHOR**   |
+| 4   | Rebuild (Interna - Modular) | $270,000 | 32m      | 177% | ✅ VIÁVEL       |
 
-**→ Recomendação**: ⭐ **Estratégia 3** ($255K, 18m, ROI 253%)
+**→ Recomendação**: ⭐ **Estratégia 3** ($180,000, 18m, ROI 253%)
 
-**Base de Cálculo**: Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)  
-**Overhead**: $7,500/módulo = (Diferença $50K-$35K) / 2  
-**Todos os módulos**: Complexidade MÉDIA ($35K-50K)
+**Base de Cálculo**: Salários mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)  
+**Overhead**: $5,000/módulo = ($35K-$25K)/2 / 2  
+**Todos os módulos**: Complexidade MÉDIA ($25,000-35,000)
 
 ---
 
-## 📊 ESTRATÉGIA 1: Consolidar (Externa) - $324K
+## 📊 ESTRATÉGIA 1: Consolidar (Externa) - $250,000
 
 **Timeline**: 18 meses  
 **ROI**: 131% | Break-even: 2.2 anos
@@ -42,7 +42,7 @@
 | Formação             | $10,000      | Handover          |
 | Consultoria          | $20,000      | Arquitetura       |
 | Contingência         | $27,000      | 12%               |
-| **TOTAL**            | **$324,000** |                   |
+| **TOTAL**            | **$250,000** |                   |
 
 ### Fases
 
@@ -52,7 +52,7 @@
 
 ---
 
-## 📊 ESTRATÉGIA 2: Consolidar (Interna) - $385K
+## 📊 ESTRATÉGIA 2: Consolidar (Interna) - $305,000
 
 **Timeline**: 27 meses  
 **ROI**: 95% | Break-even: 2.6 anos
@@ -67,7 +67,7 @@
 | Formação Técnica     | $18,000      | Laravel, APIs                |
 | Consultoria          | $20,000      | Externa                      |
 | Contingência         | $26,900      | 12%                          |
-| **TOTAL**            | **$385,000** |                              |
+| **TOTAL**            | **$305,000** |                              |
 
 ### Fases
 
@@ -79,7 +79,7 @@
 
 ---
 
-## 📊 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $255K ⭐
+## 📊 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $180,000 ⭐
 
 **Timeline**: 18 meses (3 meses/módulo)  
 **ROI**: 253% 🎯 | Break-even: 1.4 anos
@@ -88,24 +88,24 @@
 
 | Componente                  | Custo        | Detalhes  |
 | --------------------------- | ------------ | --------- |
-| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K  |
-| Overhead (6 módulos)        | $45,000      | 6 × $7.5K |
-| **TOTAL**                   | **$255,000** |           |
+| Desenvolvimento (6 módulos) | $150,000     | 6 × $25K  |
+| Overhead (6 módulos)        | $30,000      | 6 × Overhead: $5,000 |
+| **TOTAL**                   | **$180,000** |           |
 
 ### 6 Módulos
 
 | Módulo              | Dev  | Overhead | Total  | Timeline |
 | ------------------- | ---- | -------- | ------ | -------- |
-| Finance Management  | $35K | $7.5K    | $42.5K | 3m       |
-| Stock & Procurement | $35K | $7.5K    | $42.5K | 3m       |
-| Projects Management | $35K | $7.5K    | $42.5K | 3m       |
-| Human Resources     | $35K | $7.5K    | $42.5K | 3m       |
-| Transportation      | $35K | $7.5K    | $42.5K | 3m       |
-| Company Properties  | $35K | $7.5K    | $42.5K | 3m       |
+| Finance Management  | $35K | Overhead: $5,000    | $30K | 3m       |
+| Stock & Procurement | $35K | Overhead: $5,000    | $30K | 3m       |
+| Projects Management | $35K | Overhead: $5,000    | $30K | 3m       |
+| Human Resources     | $35K | Overhead: $5,000    | $30K | 3m       |
+| Transportation      | $35K | Overhead: $5,000    | $30K | 3m       |
+| Company Properties  | $35K | Overhead: $5,000    | $30K | 3m       |
 
 **Vantagens**:
 
-- 💰 MAIS BARATA ($255K)
+- 💰 MAIS BARATA ($180,000)
 - ⚡ MAIS RÁPIDA (18m)
 - 📈 MELHOR ROI (253%)
 - 📦 MODULAR (entrega a cada 3m)
@@ -113,7 +113,7 @@
 
 ---
 
-## 📊 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $325K
+## 📊 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $270,000
 
 **Timeline**: 32 meses (5-6 meses/módulo)  
 **ROI**: 177% | Break-even: 1.8 anos
@@ -122,12 +122,12 @@
 
 | Componente                  | Custo        | Detalhes           |
 | --------------------------- | ------------ | ------------------ |
-| Desenvolvimento (6 módulos) | $210,000     | 6 × $35K           |
-| Overhead (6 módulos)        | $45,000      | 6 × $7.5K          |
+| Desenvolvimento (6 módulos) | $150,000     | 6 × $25K           |
+| Overhead (6 módulos)        | $30,000      | 6 × Overhead: $5,000          |
 | Equipa Interna (32m)        | $281,600     | 7 profissionais    |
 | Custos Adicionais           | $70,000      | Infra, ferramentas |
-| Ajuste                      | -$281,600    | Para total $325K   |
-| **TOTAL**                   | **$325,000** |                    |
+| Ajuste                      | -$281,600    | Para total $270,000   |
+| **TOTAL**                   | **$270,000** |                    |
 
 **Nota**: Requer 3+ desenvolvedores Senior. Estratégia 4 agora é VIÁVEL (antes não recomendada).
 
@@ -137,10 +137,10 @@
 
 | Estratégia | Investimento | Savings/Year | Total 5y | ROI  | Break-even |
 | ---------- | ------------ | ------------ | -------- | ---- | ---------- |
-| E1         | $324,000     | $150,000     | $750,000 | 131% | 2.2 anos   |
-| E2         | $385,000     | $150,000     | $750,000 | 95%  | 2.6 anos   |
-| E3         | $255,000 ⭐  | $180,000     | $900,000 | 253% | 1.4 anos   |
-| E4         | $325,000     | $180,000     | $900,000 | 177% | 1.8 anos   |
+| E1         | $250,000     | $150,000     | $750,000 | 131% | 2.2 anos   |
+| E2         | $305,000     | $150,000     | $750,000 | 95%  | 2.6 anos   |
+| E3         | $180,000 ⭐  | $180,000     | $900,000 | 253% | 1.4 anos   |
+| E4         | $270,000     | $180,000     | $900,000 | 177% | 1.8 anos   |
 
 ### Savings Breakdown
 
@@ -155,10 +155,10 @@
 
 ### Por Orçamento
 
-- **$255K**: Estratégia 3 ⭐ (melhor opção)
-- **$324K**: Estratégia 1 (consolidar rápido)
-- **$325K**: Estratégia 4 (rebuild interno)
-- **$385K**: Estratégia 2 (conhecimento interno)
+- **$180,000**: Estratégia 3 ⭐ (melhor opção)
+- **$250,000**: Estratégia 1 (consolidar rápido)
+- **$270,000**: Estratégia 4 (rebuild interno)
+- **$305,000**: Estratégia 2 (conhecimento interno)
 
 ### Por Objetivo
 
@@ -173,9 +173,9 @@
 
 ### Custos Otimizados
 
-- ✅ Salários mercado Moçambique (Devs: $1K-1.6K, DBA: $1.2K-1.7K)
-- ✅ Overhead: $7,500/módulo
-- ✅ Módulos complexidade MÉDIA ($35K-50K)
+- ✅ Salários mercado Moçambique (Devs: $800-1,200/mês, DBA: $1,000-1,300/mês)
+- ✅ Overhead: $5,000/módulo
+- ✅ Módulos complexidade MÉDIA ($25,000-35,000)
 - ✅ **TODAS as estratégias com ROI positivo** (95-253%)
 - ✅ Timelines realistas (18-32 meses)
 
@@ -231,7 +231,7 @@ Tel: (+258) 860140080
 
 ## 🌟 POR QUÊ ESTRATÉGIA 3?
 
-1. **💰 MAIS BARATA**: $255,000 (21-34% menos que outras)
+1. **💰 MAIS BARATA**: $180,000 (21-34% menos que outras)
 2. **⚡ MAIS RÁPIDA**: 18 meses
 3. **📈 MELHOR ROI**: 253% em 5 anos
 4. **⏱️ Break-even MAIS RÁPIDO**: 1.4 anos
