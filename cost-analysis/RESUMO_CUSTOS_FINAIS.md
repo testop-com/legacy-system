@@ -46,7 +46,7 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 1: Consolidar (Externa) - $250,000
+## 🎯 Estratégia 1: Consolidar/Modernizar Sistemas Existentes (Externa)) - $250,000
 
 **Timeline**: 18 meses  
 **Equipa**: 9 profissionais externos  
@@ -78,7 +78,7 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 2: Consolidar (Interna) - $305,000
+## 🎯 Estratégia 2: Consolidar/Modernizar Sistemas Existentes (Interna)) - $305,000
 
 **Timeline**: 27 meses  
 **Equipa**: 8 profissionais internos (requer 4+ seniors)  
@@ -113,7 +113,7 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 3: Rebuild (Externa - Modular) - $180,000 ⭐
+## 🎯 Estratégia 3: Rebuild Externa - PLATAFORMA NOVA COMPLETA (6 módulos)) - $180,000 ⭐
 
 **Timeline**: 18 meses (3 meses/módulo)  
 **Equipa**: 8 externos por módulo  
@@ -152,7 +152,7 @@
 
 ---
 
-## 🎯 ESTRATÉGIA 4: Rebuild (Interna - Modular) - $270,000
+## 🎯 Estratégia 4: Rebuild Interna - PLATAFORMA NOVA COMPLETA (6 módulos)) - $270,000
 
 **Timeline**: 32 meses (5-6 meses/módulo)  
 **Equipa**: 7 profissionais internos  

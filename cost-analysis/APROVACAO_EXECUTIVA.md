@@ -13,8 +13,8 @@
 ```
 ┌──────────────────────────────────────────────────────────┐
 │                                                          │
-│  ESTRATÉGIA 1: Consolidar (Externa)  │  $250,000 │  18m    │
-│  ESTRATÉGIA 2: Consolidar (Interna)  │  $305,000 │  27m    │
+│  Estratégia 1: Consolidar/Modernizar Sistemas Existentes (Externa))  │  $250,000 │  18m    │
+│  Estratégia 2: Consolidar/Modernizar Sistemas Existentes (Interna))  │  $305,000 │  27m    │
 │  ESTRATÉGIA 3: Rebuild (Externa) ⭐  │  $180,000 │  18m    │
 │  ESTRATÉGIA 4: Rebuild (Interna)     │  $270,000 │  32m    │
 │                                                          │
@@ -39,7 +39,7 @@
 
 ---
 
-### 📊 ESTRATÉGIA 1: Consolidar Existente (Equipa Externa)
+### 📊 Estratégia 1: Consolidar/Modernizar Sistemas Existentes (Externa))
 
 **💰 Custo Total**: $250,000  
 **⏰ Timeline**: 18 meses  
@@ -77,7 +77,7 @@
 
 ---
 
-### 📊 ESTRATÉGIA 2: Consolidar Existente (Equipa Interna)
+### 📊 Estratégia 2: Consolidar/Modernizar Sistemas Existentes (Interna))
 
 **💰 Custo Total**: $305,000  
 **⏰ Timeline**: 27 meses  

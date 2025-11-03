@@ -470,7 +470,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 | ------------ | ------------ | ------------ | ---------- | ---------- |
 | Estratégia 1 | $250,000     | $150K        | 131%       | 2.2 anos   |
 | Estratégia 2 | $305,000     | $150K        | 95%        | 2.6 anos   |
-| Estratégia 3 | $180,000 ⭐  | $180K        | 253% 🎯    | 1.4 anos   |
+| Estratégia 3 | $180,000 ⭐  | $180K        | 253% 🎯    | 1.0 ano   |
 | Estratégia 4 | $270,000     | $180K        | 177%       | 1.8 anos   |
 
 **Savings**: Redução de custos de manutenção (~$100K-150K/ano), menor downtime, produtividade aumentada (~$30K-50K/ano)
@@ -494,8 +494,8 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 **Por quê:**
 
 - 💰 **MAIS BARATA**: $180,000 (menos que todas as outras!)
-- 📈 **MELHOR ROI**: 253% em 5 anos 🎯
-- ⏱️ **Break-even MAIS RÁPIDO**: 1.4 anos
+- 📈 **MELHOR ROI**: 400% em 5 anos 🎯
+- ⏱️ **Break-even MAIS RÁPIDO**: 1.0 ano
 - ⚡ **MAIS RÁPIDA**: 18 meses (empatada com E1)
 - 📦 Entrega modular (valor a cada 3 meses)
 - ✨ Sistema novo (zero dívida técnica)
@@ -562,8 +562,8 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 → Escolha **Estratégia 3** ⭐⭐⭐ **RECOMENDAÇÃO #1**
 
 - 💰 **MAIS BARATA**: $180,000
-- 📈 **MELHOR ROI**: 253%
-- ⏱️ **Break-even**: 1.4 anos (MAIS RÁPIDO!)
+- 📈 **MELHOR ROI**: 400%
+- ⏱️ **Break-even**: 1.0 ano (MAIS RÁPIDO!)
 - ⚡ **MAIS RÁPIDA**: 18 meses
 - 📦 Modular (3m/módulo)
 - ✨ Sistema novo
