@@ -187,7 +187,7 @@ Este documento dá a visão geral completa e os próximos passos.
 
 👉 **[Análise de Custos](cost-analysis/APROVACAO_EXECUTIVA.md)**
 
-Custos baseados em desenvolvedores nacionais ($1,600/mês), máximo $40K por sistema.
+Custos baseados em desenvolvedores nacionais ($1,200/mês), máximo $35K por sistema.
 
 ### "Quais sistemas foram avaliados?"
 

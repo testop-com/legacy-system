@@ -235,7 +235,7 @@ Tel: (+258) 860140080
 
 ---
 
-_Projeto completamente reorganizado com separação clara entre documentação técnica (para desenvolvedores) e análise de custos (para gestão). Todos os valores baseados em custo real de desenvolvedor nacional ($1,600/mês) e limite máximo de $40,000 por sistema._
+_Projeto completamente reorganizado com separação clara entre documentação técnica (para desenvolvedores) e análise de custos (para gestão). Todos os valores baseados em custo real de desenvolvedor nacional ($1,200/mês) e limite máximo de $40,000 por sistema._
 
 🎉 **PRONTO PARA APROVAÇÃO, GIT COMMIT E DEPLOY!**
 
