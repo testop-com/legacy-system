@@ -11,12 +11,12 @@ if (navToggle && navMenu) {
     navToggle.addEventListener('click', () => {
         const isActive = navMenu.classList.toggle('active');
         navToggle.classList.toggle('active');
-        
+
         // Toggle overlay
         if (mobileOverlay) {
             mobileOverlay.classList.toggle('active');
         }
-        
+
         // Prevent body scroll when menu is open
         document.body.classList.toggle('menu-open', isActive);
     });

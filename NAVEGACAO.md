@@ -215,8 +215,6 @@ Custos baseados em desenvolvedores nacionais ($1,600/mês), máximo $40K por sis
 **Ponto Focal Tes-Top**:
 - Younus Mohammed: (+258) 843030477
 
-**Suporte Técnico TI**:
-- : 
 
 **TECMOZA (Avaliação)**:
 - Evariste Musekwa Iguna: musekwa@tecmoza.com | (+258) 860140080

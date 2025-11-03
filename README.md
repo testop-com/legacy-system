@@ -196,9 +196,6 @@ Evariste Musekwa Iguna
 Younus Mohammed  
 📱 (+258) 843030477
 
-### Suporte Técnico TI
-  
-📱 
 
 ---
 

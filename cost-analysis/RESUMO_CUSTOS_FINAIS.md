@@ -292,9 +292,6 @@
 **Younus Mohammed**  
 Tel: (+258) 843030477
 
-### IT Department - Suporte Técnico
-
-Tel: 
 
 ### TECMOZA - Documentação e Assessment
 

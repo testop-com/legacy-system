@@ -293,7 +293,7 @@ A página principal (`index.html`) agora possui uma **barra de navegação fixa*
 1. Use menu para navegar entre secções
 2. Reveja prioridades (código de cores)
 3. Baixe relatórios relevantes
-4. Contacte suporte técnico se necessário
+4. Contacte Ponto de Contacto se necessário
 
 ---
 

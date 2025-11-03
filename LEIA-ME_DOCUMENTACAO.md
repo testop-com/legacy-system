@@ -366,7 +366,6 @@ Tel: (+258) 860140080
 
 **Tes-Top**  
 **Ponto Focal:** Younus Mohammed - Tel: (+258) 843030477  
-**Suporte Técnico (Depto. Informática):**  - Tel: 
 
 ### Documentação
 

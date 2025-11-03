@@ -437,7 +437,6 @@ _Sem contar SQL databases (~180 MB)_
 ### Durante Implementação
 
 - **Tes-Top (Ponto Focal):** Younus Mohammed | (+258) 843030477
-- **Suporte Técnico:**  | 
 - **Documentação (TECMOZA):** Evariste Musekwa | (+258) 860140080
 
 ### Após Deploy

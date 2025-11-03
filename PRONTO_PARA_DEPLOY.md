@@ -207,11 +207,7 @@ testop-com/legacy-system/
 
 **Younus Mohammed**  
 📱 Tel: (+258) 843030477
-
-### Tes-Top (Suporte Técnico - Depto. Informática)
-
-****  
-📱 Tel: 
+ 
 
 ### TECMOZA (Documentação)
 

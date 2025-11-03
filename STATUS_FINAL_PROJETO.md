@@ -179,10 +179,6 @@ git push origin main
 **Younus Mohammed** (Tes-Top - Ponto Focal)  
 Tel: (+258) 843030477
 
-### Para Implementação Técnica
-**** (IT Department - Suporte Técnico)  
-Tel: 
-
 ### Para Questões sobre Assessment
 **Evariste Musekwa Iguna** (TECMOZA - Documentação)  
 Email: musekwa@tecmoza.com  

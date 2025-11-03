@@ -284,9 +284,6 @@ Evariste Musekwa Iguna
 Younus Mohammed  
 📱 Tel: (+258) 843030477
 
-**Suporte Técnico - Departamento de Informática:**  
-  
-📱 Tel: 
 
 **Documentação - TECMOZA:**  
 Evariste Musekwa Iguna  
