@@ -85,7 +85,9 @@ Custo de Desenvolvimento:    $30,000  ← Custo médio (entre $25,000-35,000)
 
 ---
 
-## 🎯 Estratégia 1: Consolidar Sistemas (Equipa Externa)
+## 🎯 Estratégia 1: Consolidar Sistemas Existentes (Equipa Externa)
+
+**ÂMBITO**: Modernização dos sistemas atualmente funcionais (mas antiquados), corrigindo problemas críticos de BD e código-fonte. **NÃO** reconstrói do zero.
 
 ### Timeline: 18 meses
 
@@ -133,7 +135,9 @@ Custo de Desenvolvimento:    $30,000  ← Custo médio (entre $25,000-35,000)
 
 ---
 
-## 🎯 Estratégia 2: Consolidar Sistemas (Equipa Interna)
+## 🎯 Estratégia 2: Consolidar Sistemas Existentes (Equipa Interna)
+
+**ÂMBITO**: Modernização dos sistemas atualmente funcionais (mas antiquados), corrigindo problemas críticos de BD e código-fonte. **NÃO** reconstrói do zero.
 
 ### Timeline: 27 meses
 
@@ -185,11 +189,13 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ---
 
-## 🎯 Estratégia 3: Reconstruir Sistema (Equipa Externa - Modular) ⭐
+## 🎯 Estratégia 3: Reconstruir Sistema NOVO COMPLETO (Equipa Externa - Modular) ⭐
+
+**ÂMBITO**: Construção de uma **PLATAFORMA NOVA COMPLETA** (Sistema Interno de Gestão) com **6 MÓDULOS** que cobrem toda a gestão empresarial. Sistema do zero, não apenas modernização.
 
 ### Timeline: 18 meses (3 meses/módulo × 6 módulos)
 
-### Custo Total: $180,000 💰 **MAIS BARATA**
+### Custo Total: $180,000 💰 **MAIS BARATA** (para 6 módulos completos)
 
 ### 🏗️ Arquitetura: Microserviços
 
@@ -212,7 +218,9 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 - ✅ Falhas isoladas (um serviço down não afeta outros)
 - ✅ Equipa pode trabalhar em paralelo nos módulos
 
-### Módulos Identificados (Complexidade Média)
+### 📦 6 Módulos da NOVA PLATAFORMA (Complexidade Média)
+
+**Importante**: Estes 6 módulos constituem um **SISTEMA COMPLETO NOVO** de gestão empresarial, não apenas modernização dos sistemas atuais.
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
@@ -291,11 +299,13 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 
 ---
 
-## 🎯 Estratégia 4: Reconstruir Sistema (Equipa Interna - Modular)
+## 🎯 Estratégia 4: Reconstruir Sistema NOVO COMPLETO (Equipa Interna - Modular)
+
+**ÂMBITO**: Construção de uma **PLATAFORMA NOVA COMPLETA** (Sistema Interno de Gestão) com **6 MÓDULOS** que cobrem toda a gestão empresarial. Sistema do zero, não apenas modernização.
 
 ### Timeline: 32 meses (5-6 meses/módulo × 6 módulos)
 
-### Custo Total: $270,000
+### Custo Total: $270,000 (para 6 módulos completos)
 
 ### 🏗️ Arquitetura: Microserviços
 
@@ -318,7 +328,9 @@ Custos são **ligeiramente superiores à Estratégia 1** ($452K vs $424K), mas t
 - ✅ Falhas isoladas (um serviço down não afeta outros)
 - ✅ Equipa interna desenvolve skills modernos (React, Node.js, microserviços)
 
-### Módulos Identificados (Todos: Complexidade Média)
+### 📦 6 Módulos da NOVA PLATAFORMA (Todos: Complexidade Média)
+
+**Importante**: Estes 6 módulos constituem um **SISTEMA COMPLETO NOVO** de gestão empresarial, não apenas modernização dos sistemas atuais.
 
 | Módulo                 | Desenvolvimento | Overhead    | Custo Total  | Timeline |
 | ---------------------- | --------------- | ----------- | ------------ | -------- |
@@ -556,23 +568,28 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 - 📦 Modular (3m/módulo)
 - ✨ Sistema novo
 
-**$250,000 e quer consolidar em 18 meses**:
+**$250,000 e quer modernizar sistemas existentes em 18 meses**:
 → Escolha **Estratégia 1**
 
 - ⚡ Rápida (18m, empate com E3)
-- 🔧 Consolida sistemas existentes
+- 🔧 **Moderniza** sistemas existentes funcionais (não reconstrói)
+- Corrige problemas críticos de BD e código
 - ROI: 200%, Break-even: 1.7 anos
 
-**$305,000 e quer conhecimento 100% interno**:
+**$305,000 e quer conhecimento 100% interno (modernização)**:
 → Escolha **Estratégia 2** (27m)
 
 - 🧠 Conhecimento interno
+- 🔧 **Moderniza** sistemas existentes funcionais (não reconstrói)
+- Corrige problemas críticos de BD e código
 - ROI: 146%, Break-even: 2.0 anos
 
-**$270,000 e quer rebuild interno modular**:
+**$270,000 e quer sistema NOVO COMPLETO (interno)**:
 → Escolha **Estratégia 4** ✅ **AGORA VIÁVEL**
 
-- 🧠 Conhecimento interno
+- 📦 **SISTEMA NOVO COMPLETO**: 6 módulos (plataforma completa)
+- 🧠 Conhecimento 100% interno
+- 🏗️ Microserviços modernos
 - ROI: 233%, Break-even: 1.5 anos
 - Timeline: 32 meses
 
