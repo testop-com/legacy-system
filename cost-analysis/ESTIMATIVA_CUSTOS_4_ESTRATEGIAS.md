@@ -470,7 +470,7 @@ E4 = Estratégia 4 (Rebuild Interno) - $270,000 (32m) ✅ AGORA VIÁVEL
 | ------------ | ------------ | ------------ | ---------- | ---------- |
 | Estratégia 1 | $250,000     | $150K        | 131%       | 2.2 anos   |
 | Estratégia 2 | $305,000     | $150K        | 95%        | 2.6 anos   |
-| Estratégia 3 | $180,000 ⭐  | $180K        | 253% 🎯    | 1.0 ano   |
+| Estratégia 3 | $180,000 ⭐  | $180K        | 253% 🎯    | 1.0 ano    |
 | Estratégia 4 | $270,000     | $180K        | 177%       | 1.8 anos   |
 
 **Savings**: Redução de custos de manutenção (~$100K-150K/ano), menor downtime, produtividade aumentada (~$30K-50K/ano)
